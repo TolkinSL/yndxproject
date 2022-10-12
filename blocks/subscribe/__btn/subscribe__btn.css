@@ -1,0 +1,38 @@
+.subscribe__btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 18px 52px;
+  margin-top: 80px;
+  margin-right: 128px;
+  max-width: 152px;
+  height: 56px;
+  background: #528CBE;
+  border-radius: 56px;
+  flex: none;
+  border: 0;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1023px) {
+  .subscribe__btn {
+    margin: 0 0 52px 0;
+    padding: 18px 181px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .subscribe__btn {
+    padding: 18px 163.5px;
+  }
+}
+
+.subscribe__btn:hover {
+  cursor: pointer;
+}

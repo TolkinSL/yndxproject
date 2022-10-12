@@ -1,0 +1,24 @@
+.subscribe {
+  display: flex;
+  max-width: 1280px;
+  background: #F8F8F8;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+}
+
+
+@media screen and (max-width: 1279px) {
+  .subscribe {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .subscribe {
+    max-width: 768px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+

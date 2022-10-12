@@ -1,0 +1,25 @@
+.subscribe__title {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 35px;
+  color: #000000;
+  max-width: 485px;
+  padding-bottom: 16px;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .subscribe__title {
+    max-width: 400px;
+    line-height: 40px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .subscribe__title {
+    max-width: 355px;
+  }
+}
