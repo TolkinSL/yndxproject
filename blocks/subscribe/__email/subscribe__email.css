@@ -1,0 +1,41 @@
+.subscribe__email {
+  max-width: 328px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #999999;
+  padding: 18px 22px 18px 62px;
+  margin-top: 80px;
+  margin-left: 28px;
+  margin-right: 16px;
+  border: 0;
+  border-radius: 56px;
+  background-image: url(../../../images/letter.svg);
+  background-repeat: no-repeat;
+  background-position: left 32px center;
+}
+
+@media screen and (max-width: 1279px) {
+  .subscribe__email {
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .subscribe__email {
+    padding: 18px 22px 18px 190px;
+    margin: 0 0 16px 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .subscribe__email {
+    padding: 18px 22px 18px 155px;
+  }
+}
+
+.subscribe__email:focus{
+  background-image:none;
+}
