@@ -1,29 +1,82 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Фонд Друзья</title>
   <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="./style.css">
   <script src="./pages/index.js" defer></script>
 </head>
-
-<body class="body">
-  <div class="page">
+ <body class="page">
     <header class="header">
+      <div class="header__burger-menue">
+        <span class="header__burger-line"></span>
+    </div>
+      <img class="logo" src="./images/logo.svg" alt="логотип">
+      <div class="header__menue-сontainer">
+        <button class="header__buttons header__button-close" type="button"><img class="header__close-icon" src="./images/close_dialogue icon.svg" alt="х"></button>
+        <nav class="header__menue">
+            <a class="header__link" href="#">Фонд</a>
+            <a class="header__link" href="#">Программы</a>
+            <a class="header__link" href="#">Для НКО</a>
+            <a class="header__link" href="#">Для бизнеса</a>
+            <a class="header__link" href="#">Блог</a>
+            <a class="header__link" href="#">Партнеры</a>
+            <a class="header__link" href="#">Контакты</a>
+        </nav>
+        <div class="social">
+          <a class="social__link" href="#"><img class="social__icon" src="./images/vk.svg" alt="vk"></a>
+          <a class="social__link" href="#"><img class="social__icon" src="./images/telegram.svg" alt="telegram"></a>
+        </div>
+        <ul class="lang-box">
+          <li class="lang-box__link">
+            <a class="lang-box__lang-link lang-box__lang-link_active" href="#">Ру</a>
+          </li>
+          <li class="lang-box__link">
+            <a class="lang-box__lang-link" href="#">En</a>
+          </li>
+        </ul>
+    </div>
+      <button class="header__button" type="button">Помочь фонду</button>
+    <!---2 экран бургерного меню--->
+    <nav class="header__fund-about">
+      <button class="header__buttons header__button-arrow" type="button"><img class="header__arrow" src="./images/Arrow_left.svg" alt="arrow"></button>
+      <h2 class="header__sublinks-title"><a class="header__sublink-item" href="#">О фонде "Друзья"</a></h2>
+        <div class="header__sublinks">
+          <a class="header__sublink-sub" href="#">История фонда,</a>
+          <a class="header__sublink-sub" href="#">Миссия</a>
+        </div>
 
+        <h2 class="header__sublinks-title"><a class="header__sublink-item" href="#">Структура фонда</a></h2>
+        <div class="header__sublinks">
+          <a class="header__sublink-sub" href="#">Экспертный совет,</a>
+          <a class="header__sublink-sub" href="#">Попечительский совет,</a>
+          <a class="header__sublink-sub" href="#">Правление,</a>
+          <a class="header__sublink-sub" href="#">Команда</a></li>
+        </div>
+        <h2 class="header__sublinks-title"><a class="header__sublink-item" href="#">Документы</a></h2>
+        <div class="header__sublinks">
+          <a class="header__sublink-sub" href="#">Оферта,</a></li>
+          <a class="header__sublink-sub" href="#">Реквизиты,</a></li>
+          <a class="header__sublink-sub" href="#">Устав,</a></li>
+          <a class="header__sublink-sub" href="#">Договор пожертвования</a></li>
+        </div>
+        <h2 class="header__sublinks-title"><a class="header__sublink-item" href="#">Отчеты</a></h2>
+        <div class="header__sublinks">
+          <a class="header__sublink-sub" href="#">Аудит,</a>
+          <a class="header__sublink-sub" href="#">Годовой отчёт</a>
+        </div>
+       <h2 class="header__sublinks"><a class="header__sublink-item" href="#">FAQ</a></h2>
+       <div class="header__sublinks">
+        <a class="header__sublink-sub" href="#">Ответы на часто задаваемые вопросы</a>
+       </div>
+       <h2 class="header__sublinks"><a class="header__sublink-item" href="#">СМИ о нас</a></h2>
+       <div class="header__sublinks">
+        <a class="header__sublink-sub" href="#">Что пишут о нас в сети интернет</a>
+       </div>
+      </nav>
     </header>
-
-    <main class="content">
-
-    </main>
-
-    <footer class="footer">
-
-    </footer>
-
-  </div>
 </body>
 
 </html>
