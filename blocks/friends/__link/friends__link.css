@@ -1,0 +1,41 @@
+.friends__link {
+  max-width: 1280px;
+  margin: 0 auto;
+  min-height: 626px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  align-items: center;
+  position: relative;
+  object-fit: friends;
+  width: 100%;
+
+  background-size: friends;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../../../images/image\ 132.jpg);
+  /* background-image: url(../../../../images/image\ 132.jpg); */
+}
+
+
+
+@media (max-width: 1279px) {
+  .friends__link {
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .friends__link {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 767px) {
+  .friends__link {
+    min-height: 200px;
+  }
+}

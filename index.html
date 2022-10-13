@@ -7,6 +7,7 @@
   <title>Фонд Друзья</title>
   <link rel="stylesheet" href="./pages/index.css">
   <script src="./pages/index.js" defer></script>
+  <script src="./vendor/slider/slider.js" defer></script>
 </head>
 
 <body class="body">
@@ -16,25 +17,98 @@
     </header>
 
     <main class="content">
-<!--      Ars-->
-        <section class="subscribe">
-          <div class="subscribe__wrapper">
-            <p class="subscribe__title">Подпишитесь на&nbsp;новостную рассылку/вебинары</p>
-            <p class="subscribe__subtitle">и получайте первыми наши новости и приглашения на семинары/вебинары</p>
+      <div class="slider" data-slider>
+        <div class="slider__container">
+          <div class="slider__items">
+            <div class="slider__item" style="background: red">
+              <section class="friends">
+                <!-- <div class="friends__link"> -->
+                <h2 class="friends__title">Мы помогаем другим, чтобы они помогали другим»</h2>
+
+                <p class="friends__subtitle">Фонд «Друзья» — это фонд для тех, кто хочет приносить пользу другим людям
+                  ничего за
+                  это не беря.</p>
+                <a target="_blank" href="#"><button class="friends__program-button" type="button">Наши
+                    программы</button></a>
+                <!-- <a class="friends__program-button" target="_blank" href="#">Наши программы</a> -->
+                <!-- <button class="friends__program-button" type="button">Наши программы</button> -->
+                <!-- </div> -->
+              </section>
+            </div>
+            <div class="slider__item" style="background: orange">
+              <section class="friends">
+                <!-- <div class="friends__link"> -->
+                <h2 class="friends__title">Мы помогаем другим, чтобы они помогали другим»</h2>
+
+                <p class="friends__subtitle">Фонд «Друзья» — это фонд для тех, кто хочет приносить пользу другим людям
+                  ничего за
+                  это не беря.</p>
+                <a target="_blank" href="#"><button class="friends__program-button" type="button">Наши
+                    программы</button></a>
+                <!-- <a class="friends__program-button" target="_blank" href="#">Наши программы</a> -->
+                <!-- <button class="friends__program-button" type="button">Наши программы</button> -->
+                <!-- </div> -->
+              </section>
+            </div>
+            <div class="slider__item" style="background: yellow">
+              <!-- Content 3-->
+            </div>
+            <div class="slider__item" style="background: green">
+              <!-- Content 4 -->
+            </div>
+            <div class="slider__item" style="background: blue">
+              <!-- Content 5 -->
+            </div>
+            <div class="slider__item" style="background: indigo">
+              <!-- Content 6 -->
+            </div>
+            <div class="slider__item" style="background: violet">
+              <!-- Content 7 -->
+            </div>
           </div>
-          <label>
-            <input type="email" class="subscribe__email">
-          </label>
-          <button type="submit" class="subscribe__btn">Подписаться</button>
-        </section>
-<!--      Ars-->
-<!--      Ars      -->
+        </div>
+
+        <button class="slider__control" data-slide="prev">
+          <span class="sr-only">Go Left</span>
+        </button>
+        <button class="slider__control" data-slide="next">
+          <span class="sr-only">Go Right</span>
+        </button>
+
+        <ol class="slider__indicators">
+          <li class="slider__indicator" data-slide-to="0"></li>
+          <li class="slider__indicator" data-slide-to="1"></li>
+          <li class="slider__indicator" data-slide-to="2"></li>
+          <li class="slider__indicator" data-slide-to="3"></li>
+          <li class="slider__indicator" data-slide-to="4"></li>
+          <li class="slider__indicator" data-slide-to="5"></li>
+          <li class="slider__indicator" data-slide-to="6"></li>
+        </ol>
+      </div>
+
+
+
+
+
+      <!--      Ars-->
+      <section class="subscribe">
+        <div class="subscribe__wrapper">
+          <p class="subscribe__title">Подпишитесь на&nbsp;новостную рассылку/вебинары</p>
+          <p class="subscribe__subtitle">и получайте первыми наши новости и приглашения на семинары/вебинары</p>
+        </div>
+        <label>
+          <input type="email" class="subscribe__email">
+        </label>
+        <button type="submit" class="subscribe__btn">Подписаться</button>
+      </section>
+      <!--      Ars-->
+      <!--      Ars      -->
       <section class="contacts">
         <h2 class="contacts__title">Остались вопросы? Пишите&nbsp;и&nbsp;звоните нам</h2>
         <a href="#" class="contacts__info">friends@friends-foundation.com</a>
         <a href="#" class="contacts__info">+7 977 277-07-17</a>
       </section>
-<!--      Ars-->
+      <!--      Ars-->
     </main>
 
     <footer class="footer">

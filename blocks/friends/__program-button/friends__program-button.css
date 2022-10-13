@@ -1,0 +1,20 @@
+.friends__program-button {
+
+  margin-top: 56px;
+  margin-left: 123px;
+  width: 231px;
+  height: 56px;
+
+  /* Black / 100 */
+
+  background: #FFFFFF;
+  border-radius: 48px;
+  border: none;
+
+}
+
+
+.friends__program-button:hover {
+  cursor: pointer;
+  opacity: .6;
+}
