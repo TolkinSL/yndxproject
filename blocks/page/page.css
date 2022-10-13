@@ -1,0 +1,13 @@
+.page {
+  max-width: 1280px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*
+* {
+  box-shadow: 0 0 2px red;
+}   */

@@ -3,7 +3,8 @@
 @import url(../vendor/slider/slider.css);
 @import url(../vendor/slider/styles.css);
 
-
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__defaults/page__defaults.css);
 @import url(../blocks/subscribe/subscribe.css);
 @import url(../blocks/subscribe/__wrapper/subscribe__wrapper.css);
 @import url(../blocks/subscribe/__title/subscribe__title.css);
