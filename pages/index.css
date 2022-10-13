@@ -17,8 +17,8 @@
 @import url(../blocks/contacts/__info/contacts__info.css);
 
 
-@import url(../blocks/friends/friends.css);
-@import url(../blocks/friends/__link/friends__link.css);
-@import url(../blocks/friends/__program-button/friends__program-button.css);
-@import url(../blocks/friends/__subtitle/friends__subtitle.css);
-@import url(../blocks/friends/__title/friends__title.css);
+@import url(../blocks/foundation/foundation.css);
+@import url(../blocks/foundation/__link/foundation__link.css);
+@import url(../blocks/foundation/__program-button/foundation__program-button.css);
+@import url(../blocks/foundation/__subtitle/foundation__subtitle.css);
+@import url(../blocks/foundation/__title/foundation__title.css);

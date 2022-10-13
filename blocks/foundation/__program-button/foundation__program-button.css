@@ -1,0 +1,48 @@
+.foundation__program-button {
+
+  margin-top: 56px;
+  margin-left: 123px;
+  width: 231px;
+  height: 56px;
+
+  /* Black / 100 */
+
+  background: #FFFFFF;
+  border-radius: 48px;
+  border: none;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+
+  /* Black / 10 */
+
+  color: #000000;
+
+}
+
+@media screen and (max-width: 1023px) {
+  .foundation__program {
+
+    padding-left: 88px;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .foundation__program-button {
+    margin-top: 32px;
+    margin-left: 24px;
+
+
+  }
+}
+
+
+.foundation__program-button:hover {
+  cursor: pointer;
+  opacity: .6;
+}

@@ -1,4 +1,4 @@
-.friends__link {
+.foundation__link {
   max-width: 1280px;
   margin: 0 auto;
   min-height: 626px;
@@ -9,10 +9,10 @@
 
   align-items: center;
   position: relative;
-  object-fit: friends;
+  object-fit: foundation;
   width: 100%;
 
-  background-size: friends;
+  background-size: foundation;
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center;
@@ -23,19 +23,19 @@
 
 
 @media (max-width: 1279px) {
-  .friends__link {
+  .foundation__link {
     min-height: 640px;
   }
 }
 
 @media (max-width: 1023px) {
-  .friends__link {
+  .foundation__link {
     min-height: 480px;
   }
 }
 
 @media (max-width: 767px) {
-  .friends__link {
+  .foundation__link {
     min-height: 200px;
   }
 }
