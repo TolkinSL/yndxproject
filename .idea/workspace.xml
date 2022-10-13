@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba253b45-8b59-41db-8738-cd10a284504b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/alfabank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bosco.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cadilac.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/hightEconomicSchool.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/hotelIndigo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mastercard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/programs_img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/programs_img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/programs_img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/roscongress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slider/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slider/slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +21,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Валера/Desktop/repos/yndxproject&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Валера/Desktop/repos/yndxproject",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Валера\Desktop\repos\yndxproject\vendor\slider" />
@@ -58,7 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665600342288</updated>
       <workItem from="1665600365039" duration="63000" />
-      <workItem from="1665660785588" duration="7412000" />
+      <workItem from="1665660785588" duration="7857000" />
     </task>
     <servers />
   </component>
