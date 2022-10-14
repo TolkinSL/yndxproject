@@ -1,0 +1,16 @@
+.digits__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 96px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+@media screen and (max-width: 868px) {
+  .digits__title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 78px;
+  }
+}

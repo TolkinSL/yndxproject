@@ -1,2 +1,10 @@
 @import url('../vendor/normalize.css');
-@import url(../vendor/fonts/font.css);
+@import url('../vendor/fonts/font.css');
+
+@import url('../blocks/digits/digits.css');
+@import url('../blocks/digits/__frame/digits__frame.css');
+@import url('../blocks/digits/__list/digits__list.css');
+@import url('../blocks/digits/__paragraph/digits__paragraph.css');
+@import url('../blocks/digits/__span-accent/digits__span-accent.css');
+@import url('../blocks/digits/__title/digits__title.css');
+@import url('../');
