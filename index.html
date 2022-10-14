@@ -15,10 +15,10 @@
     </div>
       <img class="logo" src="./images/logo.svg" alt="логотип">
       <div class="header__menue-сontainer">
-        <button class="header__buttons header__button-close" type="button"><img class="header__close-icon" src="./images/close_dialogue icon.svg" alt="х"></button>
-        <nav class="header__menue">
-            <a class="header__link" href="#">Фонд</a>
-            <a class="header__link" href="#">Программы</a>
+          <nav class="header__menue">
+            <button class="header__button-close" type="button"><img class="header__close-icon" src="./images/close_dialogue_icon.svg" alt="х"></button>
+            <a id="fund" class="header__link" href="#">Фонд</a>
+            <a id="programs" class="header__link" href="#">Программы</a>
             <a class="header__link" href="#">Для НКО</a>
             <a class="header__link" href="#">Для бизнеса</a>
             <a class="header__link" href="#">Блог</a>
@@ -39,9 +39,11 @@
         </ul>
     </div>
       <button class="header__button" type="button">Помочь фонду</button>
-    <!---2 экран бургерного меню--->
+
+    <!--                                        2 burger screen                        -->
+
     <nav class="header__fund-about">
-      <button class="header__buttons header__button-arrow" type="button"><img class="header__arrow" src="./images/Arrow_left.svg" alt="arrow"></button>
+      <button id="buttonAbout" class="header__button-arrow" type="button"><img class="header__arrow" src="./images/Arrow_left.svg" alt="arrow"></button>
       <h2 class="header__sublinks-title"><a class="header__sublink-item" href="#">О фонде "Друзья"</a></h2>
         <div class="header__sublinks">
           <a class="header__sublink-sub" href="#">История фонда,</a>
@@ -53,14 +55,14 @@
           <a class="header__sublink-sub" href="#">Экспертный совет,</a>
           <a class="header__sublink-sub" href="#">Попечительский совет,</a>
           <a class="header__sublink-sub" href="#">Правление,</a>
-          <a class="header__sublink-sub" href="#">Команда</a></li>
+          <a class="header__sublink-sub" href="#">Команда</a>
         </div>
         <h2 class="header__sublinks-title"><a class="header__sublink-item" href="#">Документы</a></h2>
         <div class="header__sublinks">
-          <a class="header__sublink-sub" href="#">Оферта,</a></li>
-          <a class="header__sublink-sub" href="#">Реквизиты,</a></li>
-          <a class="header__sublink-sub" href="#">Устав,</a></li>
-          <a class="header__sublink-sub" href="#">Договор пожертвования</a></li>
+          <a class="header__sublink-sub" href="#">Оферта,</a>
+          <a class="header__sublink-sub" href="#">Реквизиты,</a>
+          <a class="header__sublink-sub" href="#">Устав,</a>
+          <a class="header__sublink-sub" href="#">Договор пожертвования</a>
         </div>
         <h2 class="header__sublinks-title"><a class="header__sublink-item" href="#">Отчеты</a></h2>
         <div class="header__sublinks">
@@ -76,6 +78,63 @@
         <a class="header__sublink-sub" href="#">Что пишут о нас в сети интернет</a>
        </div>
       </nav>
+
+      <!--                          3 burger screen                                         -->
+      <div class="header__programs">
+        <button id="buttonPrograms" class="header__button-arrow" type="button"><img class="header__arrow" src="./images/Arrow_left.svg" alt="arrow"></button>
+        <div class="programs__item programs__item_procharity header__programs_positioning">
+          <div class="programs__item-inner programs__item-inner_padding">
+            <div class="programs__item-content">
+              <div class="programs__logo-box">
+                <img src="./images/procharitylogo.svg" alt="Лого procharity">
+                Программа
+              </div>
+              <h3 class="programs__item-title">
+                ProCharity
+              </h3>
+              <p class="programs__item-text">
+                Скорая интеллектуальная помощь<br> для благотворительных фондов
+              </p>
+              <a class="programs__about-link" href="#">О программе</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="programs__item programs__item_school programs__item_align_right header__programs_positioning">
+          <div class="programs__item-inner programs__item-inner_align_end">
+            <div class="programs__item-content">
+              <div class="programs__logo-box">
+                <img src="./images/moscowlogo.svg" alt="Лого Московской переподготовки НКО ">
+                Программа
+              </div>
+              <h3 class="programs__item-title">
+                Московская школа профессиональной филантропии
+              </h3>
+              <p class="programs__item-text">
+                Повышение квалификации и профессионализма сотрудников НКО
+              </p>
+              <a class="programs__about-link" href="#">О программе</a>
+            </div>
+          </div>
+        </div>
+        <div class="programs__item programs__item_team header__programs_positioning">
+          <div class="programs__item-inner">
+            <div class="programs__item-content">
+              <div class="programs__logo-box">
+                <img src="./images/professionallogo.svg" alt="">
+                Программа
+              </div>
+              <h3 class="programs__item-title">
+                Команда профессионалов
+              </h3>
+              <p class="programs__item-text">
+                Стратегическое развитие и менторская поддержка социальных проектов и НКО
+              </p>
+              <a class="programs__about-link" href="#">О программе</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 </body>
 
