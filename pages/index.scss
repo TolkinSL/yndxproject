@@ -1,0 +1,154 @@
+@import url("../vendor/normalize.css");
+@import url(../vendor/fonts/font.css);
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+$border: 1px solid red;
+
+.help {
+  margin: 0 auto;
+  max-width: 1032px;
+  font-family: "Inter", "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  &__title {
+    margin: 0 auto 80px auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 58px;
+    text-align: center;
+
+    &-span {
+      font-family: "Playfair Display";
+      font-style: italic;
+      font-weight: 400;
+    }
+  }
+
+  &__section {
+    max-width: 950px;
+    margin-bottom: 72px;
+    gap: 57px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    &:nth-of-type(2) {
+      max-width: 1032px;
+      gap: 112px;
+
+      .help__section__text__subtitle {
+        margin: 0 auto 16px auto;
+      }
+    }
+
+    &__text {
+      max-width: 472px;
+
+      &__title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+        margin: 0 auto 16px auto;
+      }
+
+      &__subtitle {
+        font-size: 16px;
+        line-height: 26px;
+        margin: 0 auto 32px auto;
+      }
+
+      &__button {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0;
+        width: 287px;
+        height: 56px;
+        border: none;
+        background: #f8f8f8;
+        display: flex;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+
+        &:hover {
+          background: #f1f5f9;
+        }
+
+        &__arrow {
+          max-width: 12px;
+          max-height: 12px;
+        }
+      }
+
+      &__link {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 150%;
+        color: #54a8b6;
+        text-decoration: none;
+      }
+    }
+
+    &__image {
+      max-width: 416px;
+      max-height: 315px;
+      object-fit: cover;
+    }
+  }
+
+  &__social {
+    align-self: start;
+    margin-left: 88px;
+
+    &__title {
+      margin: 0 auto 21px auto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 150%;
+    }
+
+    &__logo {
+      max-width: 40px;
+      max-height: 40px;
+      object-fit: contain;
+      cursor: pointer;
+    }
+
+    &__icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 96px;
+      gap: 21px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .help__title {
+    max-width: 375px;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0 auto 40px auto;
+  }
+  .help__section {
+    max-width: 375px;
+    &__image {
+      max-width: 327px;
+    }
+    &__text {
+      max-width: 327px;
+    }
+  }
+  .help__social {
+    margin: 0 auto 0 24px;
+  }
+}
