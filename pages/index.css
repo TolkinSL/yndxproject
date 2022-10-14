@@ -16,12 +16,13 @@
 @import url(../blocks/contacts/__title/contacts__title.css);
 @import url(../blocks/contacts/__info/contacts__info.css);
 
-
 @import url(../blocks/foundation/foundation.css);
 @import url(../blocks/foundation/__link/foundation__link.css);
 @import url(../blocks/foundation/__program-button/foundation__program-button.css);
 @import url(../blocks/foundation/__subtitle/foundation__subtitle.css);
+@import url(../blocks/foundation/__subtitle/__subtitle_span/foundation__subtitle_span.css);
 @import url(../blocks/foundation/__title/foundation__title.css);
+@import url(../blocks/foundation/__title/__title_span/foundation__title_span.css);
 
 @import url(../blocks/useful/useful.css);
 @import url(../blocks/useful/__title/useful__title.css);
@@ -33,3 +34,9 @@
 @import url(../blocks/useful/__element-image/useful__element-image.css);
 @import url(../blocks/useful/__element-image/_shifted/useful__element-image_shifted.css);
 
+
+
+
+*{
+  box-shadow: 0 0 2px red;
+}

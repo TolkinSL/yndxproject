@@ -3,11 +3,6 @@
   margin: 0;
 }
 
-
-/* * {
-  box-shadow: 0 0 10px black;
-} */
-
 /* show only to screen readers */
 .sr-only {
   position: absolute;
@@ -22,5 +17,17 @@
 }
 
 .slider__item {
+  height: 700px;
+}
+
+.slider__item_foundation {
   height: 626px;
+}
+
+
+
+@media screen and (max-width: 567px) {
+  .slider__item_foundation {
+    min-height: 486px;
+  }
 }

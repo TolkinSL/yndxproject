@@ -1,5 +1,17 @@
 .slider {
   position: relative;
+  /* max-height: 486px; */
+}
+
+.slider__foundation{
+  max-height: 626px;
+}
+
+
+ @media screen and (max-width: 567px) {
+  .slider__foundation{
+    max-height: 486px;
+  }
 }
 
 .slider__container {
@@ -90,6 +102,14 @@
   margin-bottom: 30px;
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 767px) {
+  .slider__indicator_foundation{
+    margin-bottom: 15px;
+  }
+}
+
 
 .slider__indicator_active {
   width: 29px;
