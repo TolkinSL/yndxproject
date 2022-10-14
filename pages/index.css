@@ -1,5 +1,15 @@
 @import url('../vendor/normalize.css');
-@import url(../vendor/fonts/font.css);
+
+@import url('../vendor/fonts/font.css');
+
+@import url('../blocks/digits/digits.css');
+@import url('../blocks/digits/__frame/digits__frame.css');
+@import url('../blocks/digits/__list/digits__list.css');
+@import url('../blocks/digits/__paragraph/digits__paragraph.css');
+@import url('../blocks/digits/__span-accent/digits__span-accent.css');
+@import url('../blocks/digits/__title/digits__title.css');
+@import url('../');
+
 @import url(../vendor/slider/slider.css);
 @import url(../vendor/slider/styles.css);
 
@@ -40,3 +50,4 @@
 *{
   box-shadow: 0 0 2px red;
 }
+
