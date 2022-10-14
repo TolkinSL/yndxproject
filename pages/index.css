@@ -1,5 +1,8 @@
 @import url('../vendor/normalize.css');
 
+@import url(../vendor/slider/slider.css);
+@import url(../styleValera.css);
+
 @import url('../vendor/fonts/font.css');
 
 @import url('../blocks/digits/digits.css');
@@ -44,10 +47,4 @@
 @import url(../blocks/useful/__element-image/useful__element-image.css);
 @import url(../blocks/useful/__element-image/_shifted/useful__element-image_shifted.css);
 
-
-
-
-*{
-  box-shadow: 0 0 2px red;
-}
 
