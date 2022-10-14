@@ -10,22 +10,27 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
-  /* text-align: center; */
   color: #FFFFFF;
-  /* z-index: 1; */
-
 }
 
 @media screen and (max-width: 1023px) {
   .foundation__subtitle {
 
     padding-left: 88px;
+    font-size: 18px;
+    line-height: 26px;
   }
 }
 
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 569px) {
   .foundation__subtitle {
-    /* padding-top: 42px; */
+    padding-left: 24px;
+  }
+}
+
+
+@media screen and (max-width: 376px) {
+  .foundation__subtitle {
     padding-left: 24px;
     font-size: 18px;
     line-height: 26px;

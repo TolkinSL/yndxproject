@@ -104,7 +104,7 @@
 }
 
 
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 767px) {
   .slider__indicator_foundation{
     margin-bottom: 15px;
   }
