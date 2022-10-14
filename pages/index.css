@@ -33,3 +33,10 @@
 @import url(../blocks/useful/__element-link/useful__element-link.css);
 @import url(../blocks/useful/__element-image/useful__element-image.css);
 @import url(../blocks/useful/__element-image/_shifted/useful__element-image_shifted.css);
+
+
+
+
+*{
+  box-shadow: 0 0 2px red;
+}
