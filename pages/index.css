@@ -1,7 +1,7 @@
 @import url('../vendor/normalize.css');
 
 @import url(../vendor/slider/slider.css);
-@import url(../styleValera.css);
+@import url(./styleValera.css);
 
 @import url('../vendor/fonts/font.css');
 
