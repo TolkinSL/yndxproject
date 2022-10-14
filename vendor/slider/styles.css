@@ -3,11 +3,6 @@
   margin: 0;
 }
 
-
-/* * {
-  box-shadow: 0 0 10px black;
-} */
-
 /* show only to screen readers */
 .sr-only {
   position: absolute;
