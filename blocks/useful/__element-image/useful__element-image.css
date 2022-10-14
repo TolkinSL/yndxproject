@@ -1,0 +1,10 @@
+.useful__element-image {
+  margin: 0 13px 0 0;
+  z-index: 0;
+}
+
+@media screen and (max-width: 550px) {
+  .useful__element-image {
+    margin: 0 10px -75px -200px;
+  }
+}

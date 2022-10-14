@@ -1,0 +1,19 @@
+.digits__paragraph {
+  margin: 0;
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 868px) {
+  .digits__paragraph {
+    max-width: 326px;
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

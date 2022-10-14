@@ -352,8 +352,6 @@ class Slider {
     const containerWidth = this._containerEl.getBoundingClientRect().width;
     this._itemsCount = Math.round(containerWidth / this._itemWidth);
 
-    console.log({ baseEl: this._itemEls[0], itemWidth: this._itemWidth, containerWidth, itemsCount: this._itemsCount });
-
     this._itemEls.forEach((el, index) => {
       el.dataset.index = index;
       el.dataset.order = index;
