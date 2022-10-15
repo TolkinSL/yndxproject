@@ -1,26 +1,64 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Место</title>
-  <link rel="stylesheet" href="./pages/index.css">
-  <script src="./index.js" defer></script>
-</head>
-<body class="body">
-  <div class="page">
-    <header class="header">
-
-    </header>
-
-    <main class="content">
-
-    </main>
-
-    <footer class="footer">
-
-    </footer>
-
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Место</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body class="body">
+    <div class="page">
+      <header class="header"></header>
+      <main class="content">
+        <section class="questions">
+          <h2 class="questions__title">Связаться с нами</h2>
+          <p class="questions__subtitle">
+            Если у вас есть вопросы или предложения, напишите нам. Мы ответим в
+            течение дня
+          </p>
+          <form class="questions__form">
+            <div class="questions__form__wrapper">
+              <input
+                type="text"
+                class="questions__input__text"
+                required
+                placeholder="Имя"
+              />
+              <input
+                type="email"
+                class="questions__input__text"
+                required
+                placeholder="E-mail"
+              />
+            </div>
+            <textarea
+              name="questions__input__message"
+              id=""
+              cols="30"
+              rows="10"
+              class="questions__input__message"
+              placeholder="Сообщение"
+            ></textarea>
+            <label class="questions__input__checkbox-label"
+              ><input
+                type="checkbox"
+                class="questions__input__checkbox"
+                required
+              /><span
+                >Я согласен c
+                <a href="/#" class="questions__input__checkbox__link"
+                  >пользовательским соглашением</a
+                ></span
+              ></label
+            >
+            <button type="submit" class="questions__input__button">
+              Отправить
+            </button>
+          </form>
+        </section>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+  </body>
 </html>
