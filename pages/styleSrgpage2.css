@@ -132,3 +132,117 @@
     margin: 0 auto 0 24px;
   }
 }/*# sourceMappingURL=index.css.map */
+
+.questions {
+  max-width: 680px;
+  max-height: 552px;
+  margin: 0 auto;
+}
+.questions__form {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.questions__form__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.questions__input__text {
+  border: none;
+  background: #f8f8f8;
+  max-width: 294px;
+  width: 100%;
+  border-radius: 56px;
+  height: 56px;
+  padding-left: 32px;
+}
+.questions__input__message {
+  padding-top: 18px;
+  padding-left: 32px;
+  max-width: 646px;
+  width: 100%;
+  border: none;
+  background: #f8f8f8;
+  border-radius: 56px;
+  height: 143px;
+}
+.questions__input__checkbox {
+  border: 1px solid #000000;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+.questions__input__checkbox__link {
+  text-decoration: none;
+  color: rgb(113, 187, 202);
+}
+.questions__input__checkbox-label {
+  align-self: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.questions__input__button {
+  width: 100%;
+  text-align: center;
+  height: 56px;
+  background: #f8f8f8;
+  margin-top: 14px;
+  border-radius: 56px;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+.questions__title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 130%;
+  text-align: center;
+  margin: 0 auto 8px auto;
+}
+.questions__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: center;
+  margin: 0 auto 48px auto;
+}
+
+@media screen and (max-width: 767px) {
+  .questions {
+    max-width: 375px;
+  }
+  .questions__title {
+    font-size: 30px;
+    line-height: 130%;
+    text-align: center;
+  }
+  .questions__subtitle {
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #202d3d;
+  }
+  .questions__form {
+    gap: 16px;
+  }
+  .questions__form__wrapper {
+    gap: 16px;
+  }
+  .questions .questions__input__message {
+    max-width: 327px;
+  }
+  .questions .questions__input__checkbox {
+    align-self: start;
+  }
+  .questions .questions__input__checkbox-label {
+    align-self: center;
+    max-width: 334px;
+  }
+}/*# sourceMappingURL=index.css.map */
