@@ -1,0 +1,10 @@
+.useful__element-title {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 130%;
+  color: #000000;
+  margin: 0 0 16px 0;
+  z-index: 1;
+}

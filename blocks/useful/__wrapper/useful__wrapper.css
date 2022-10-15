@@ -1,0 +1,11 @@
+.useful__wrapper {
+  width: 303px;
+  flex-direction: column;
+  margin: 44px 0 66px 44px;
+}
+
+@media screen and (max-width: 550px){
+  .useful__wrapper {
+    margin: 32px 41px 78px 24px;
+  }
+}

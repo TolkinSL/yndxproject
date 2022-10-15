@@ -1,119 +1,52 @@
-@import url(/vendor/fonts/font.css);
-@import url(/vendor/normalize.css);
-.page {
-  font-family: "Inter", "Arial", sans-serif;
-}
+@import url('../vendor/normalize.css');
 
-.questions {
-  max-width: 680px;
-  max-height: 552px;
-  margin: 0 auto;
-}
-.questions__form {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
-}
-.questions__form__wrapper {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.questions__input__text {
-  border: none;
-  background: #f8f8f8;
-  max-width: 294px;
-  width: 100%;
-  border-radius: 56px;
-  height: 56px;
-  padding-left: 32px;
-}
-.questions__input__message {
-  padding-top: 18px;
-  padding-left: 32px;
-  max-width: 646px;
-  width: 100%;
-  border: none;
-  background: #f8f8f8;
-  border-radius: 56px;
-  height: 143px;
-}
-.questions__input__checkbox {
-  border: 1px solid #000000;
-  width: 20px;
-  height: 20px;
-  border-radius: 4px;
-  margin-right: 12px;
-}
-.questions__input__checkbox__link {
-  text-decoration: none;
-  color: rgb(113, 187, 202);
-}
-.questions__input__checkbox-label {
-  align-self: start;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.questions__input__button {
-  width: 100%;
-  text-align: center;
-  height: 56px;
-  background: #f8f8f8;
-  margin-top: 14px;
-  border-radius: 56px;
-  border: none;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-}
-.questions__title {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 130%;
-  text-align: center;
-  margin: 0 auto 8px auto;
-}
-.questions__subtitle {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 120%;
-  text-align: center;
-  margin: 0 auto 48px auto;
-}
+@import url('../vendor/slider/slider.css');
+@import url('./styleValera.css');
+@import url('./styleSrgpage2.css');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@media screen and (max-width: 767px) {
-  .questions {
-    max-width: 375px;
-  }
-  .questions__title {
-    font-size: 30px;
-    line-height: 130%;
-    text-align: center;
-  }
-  .questions__subtitle {
-    font-size: 16px;
-    line-height: 120%;
-    text-align: center;
-    color: #202d3d;
-  }
-  .questions__form {
-    gap: 16px;
-  }
-  .questions__form__wrapper {
-    gap: 16px;
-  }
-  .questions .questions__input__message {
-    max-width: 327px;
-  }
-  .questions .questions__input__checkbox {
-    align-self: start;
-  }
-  .questions .questions__input__checkbox-label {
-    align-self: center;
-    max-width: 334px;
-  }
-}/*# sourceMappingURL=index.css.map */
+@import url('../vendor/fonts/font.css');
+
+@import url('../blocks/digits/digits.css');
+@import url('../blocks/digits/__frame/digits__frame.css');
+@import url('../blocks/digits/__list/digits__list.css');
+@import url('../blocks/digits/__paragraph/digits__paragraph.css');
+@import url('../blocks/digits/__span-accent/digits__span-accent.css');
+@import url('../blocks/digits/__title/digits__title.css');
+@import url('../');
+
+@import url(../vendor/slider/slider.css);
+@import url(../vendor/slider/styles.css);
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__defaults/page__defaults.css);
+@import url(../blocks/subscribe/subscribe.css);
+@import url(../blocks/subscribe/__wrapper/subscribe__wrapper.css);
+@import url(../blocks/subscribe/__title/subscribe__title.css);
+@import url(../blocks/subscribe/__subtitle/subscribe__subtitle.css);
+@import url(../blocks/subscribe/__email/subscribe__email.css);
+@import url(../blocks/subscribe/__btn/subscribe__btn.css);
+
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__title/contacts__title.css);
+@import url(../blocks/contacts/__info/contacts__info.css);
+
+@import url(../blocks/foundation/foundation.css);
+@import url(../blocks/foundation/__link/foundation__link.css);
+@import url(../blocks/foundation/__program-button/foundation__program-button.css);
+@import url(../blocks/foundation/__subtitle/foundation__subtitle.css);
+@import url(../blocks/foundation/__subtitle/__subtitle_span/foundation__subtitle_span.css);
+@import url(../blocks/foundation/__title/foundation__title.css);
+@import url(../blocks/foundation/__title/__title_span/foundation__title_span.css);
+
+@import url(../blocks/useful/useful.css);
+@import url(../blocks/useful/__title/useful__title.css);
+@import url(../blocks/useful/__elements/useful__elements.css);
+@import url(../blocks/useful/__element/useful__element.css);
+@import url(../blocks/useful/__wrapper/useful__wrapper.css);
+@import url(../blocks/useful/__element-title/useful__element-title.css);
+@import url(../blocks/useful/__element-link/useful__element-link.css);
+@import url(../blocks/useful/__element-image/useful__element-image.css);
+@import url(../blocks/useful/__element-image/_shifted/useful__element-image_shifted.css);
+
+

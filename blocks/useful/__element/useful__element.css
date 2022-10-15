@@ -1,0 +1,27 @@
+.useful__element {
+  max-width: 504px;
+  background: #F8F8F8;
+  display: flex;
+  justify-content: space-between;
+  z-index: -2;
+}
+
+@media screen and (max-width: 1040px){
+  .useful__element {
+    max-width: 767px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .useful__element {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .useful__element {
+    max-width: 340px;
+  }
+}
+
+

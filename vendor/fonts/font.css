@@ -57,6 +57,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url('playfair-display-italic.ttf') format('ttf'),
-    url('playfair-display-italic.woff') format('woff');
+  src: url('roboto-regular.ttf') format('ttf');
 }
+
+

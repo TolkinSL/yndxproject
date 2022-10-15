@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Место</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body class="body">
+    <div class="page">
+      <main class="content">
+        <section class="help">
+          <h2 class="help__title">
+            Как еще <span class="help__title-span">вы можете помочь</span>
+          </h2>
+          <div class="help__section">
+            <div class="help__section__text">
+              <h3 class="help__section__text__title">
+                Стать интеллектуальным волонтером
+              </h3>
+              <p class="help__section__text__subtitle">
+                Помогая фондам своими профессиональными навыками, Вы сохраняете
+                средства в бюджете организаций и позволяете им помочь еще
+                большему количеству людей.
+              </p>
+              <button class="help__section__text__button">
+                Перейти на сайт ProCharity
+                <img
+                  src="./images/arrowup.svg"
+                  alt="arrowup"
+                  class="help__section__text__button__arrow"
+                />
+              </button>
+            </div>
+            <img
+              src="./images/help__section__firstimg.png"
+              alt="fond druzya"
+              class="help__section__image"
+            />
+          </div>
+          <div class="help__section">
+            <img
+              src="./images/help__section__secondimg.svg"
+              alt="fond druzya"
+              class="help__section__image"
+            />
+            <div class="help__section__text">
+              <h3 class="help__section__text__title">Стать попечителем</h3>
+              <p class="help__section__text__subtitle">
+                Инвестируя в одну из программ фонда “Друзья”, вы можете стать
+                попечителем Московской школы профессиональной филантропии,
+                платформы ProCharity или фонда «Друзья», а также наших
+                благополучателей – НКО, социальной организации/проекта или
+                конкретного профессионала.
+              </p>
+              <a
+                class="help__section__text__link"
+                href="mailto:e.gosteva@friends-foundation.com"
+                >e.gosteva@friends-foundation.com
+              </a>
+            </div>
+          </div>
+          <div class="help__social">
+            <h2 class="help__social__title">Рассказать о нас друзьям</h2>
+            <div class="help__social__icons">
+              <img
+                src="./images/logo__social__vk.svg"
+                alt="vk"
+                class="help__social__logo"
+              />
+              <img
+                src="./images/logo__social__tg.svg"
+                alt="tg"
+                class="help__social__logo"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="questions">
+          <h2 class="questions__title">Связаться с нами</h2>
+          <p class="questions__subtitle">
+            Если у вас есть вопросы или предложения, напишите нам. Мы ответим в
+            течение дня
+          </p>
+          <form class="questions__form">
+            <div class="questions__form__wrapper">
+              <input
+                type="text"
+                class="questions__input__text"
+                required
+                placeholder="Имя"
+              />
+              <input
+                type="email"
+                class="questions__input__text"
+                required
+                placeholder="E-mail"
+              />
+            </div>
+            <textarea
+              name="questions__input__message"
+              id=""
+              cols="30"
+              rows="10"
+              class="questions__input__message"
+              placeholder="Сообщение"
+            ></textarea>
+            <label class="questions__input__checkbox-label"
+              ><input
+                type="checkbox"
+                class="questions__input__checkbox"
+                required
+              /><span
+                >Я согласен c
+                <a href="/#" class="questions__input__checkbox__link"
+                  >пользовательским соглашением</a
+                ></span
+              ></label
+            >
+            <button type="submit" class="questions__input__button">
+              Отправить
+            </button>
+          </form>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
