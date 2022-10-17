@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./pages/index.css">
   <script src="./pages/index.js" defer></script>
   <script src="./vendor/slider/slider.js" defer></script>
-
+  <script src="./vendor/validation/validation.js" defer></script>
 </head>
 
 <body class="body">
@@ -252,7 +252,7 @@
           <p class="subscribe__subtitle">и получайте первыми наши новости и приглашения на семинары/вебинары</p>
         </div>
         <label>
-          <input type="email" class="subscribe__email">
+          <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="subscribe__email" placeholder="Введите ваш e-mail">
         </label>
         <button type="submit" class="subscribe__btn">Подписаться</button>
       </section>
@@ -260,8 +260,8 @@
       <!--      Ars      -->
       <section class="contacts">
         <h2 class="contacts__title">Остались вопросы? Пишите&nbsp;и&nbsp;звоните нам</h2>
-        <a href="#" class="contacts__info">foundation @foundation -foundation.com</a>
-        <a href="#" class="contacts__info">+7 977 277-07-17</a>
+        <a href="mailto:friends@friends-foundation.com" class="contacts__info">friends@friends-foundation.com</a>
+        <a href="tel:+79772770717" class="contacts__info">+7 977 277-07-17</a>
       </section>
       <!--      Ars-->
 

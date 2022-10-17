@@ -6,7 +6,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #999999;
-  padding: 18px 22px 18px 62px;
+  padding: 18px 22px 18px 55px;
   margin-top: 80px;
   margin-left: 28px;
   margin-right: 16px;
@@ -19,23 +19,20 @@
 
 @media screen and (max-width: 1279px) {
   .subscribe__email {
-    max-width: 150px;
+    max-width: 250px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .subscribe__email {
-    padding: 18px 22px 18px 190px;
+    max-width: 362px;
+    padding: 18px 65px 18px 55px;
     margin: 0 0 16px 0;
   }
 }
 
 @media screen and (max-width: 400px) {
   .subscribe__email {
-    padding: 18px 22px 18px 155px;
+    padding: 18px 22px 18px 55px;
   }
-}
-
-.subscribe__email:focus{
-  background-image:none;
 }

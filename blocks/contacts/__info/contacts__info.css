@@ -2,7 +2,7 @@
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 46px;
+  font-size: 44px;
   line-height: 130%;
   text-align: center;
   color: #71BBCA;
@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 767px) {
   .contacts__info {
-    font-size: 32px;
+    font-size: 30px;
   }
 }
 
