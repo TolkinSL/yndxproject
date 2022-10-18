@@ -1,5 +1,7 @@
 @import url('../vendor/normalize.css');
 
+@import url(../styleGoar.css);
+
 @import url('../vendor/slider/slider.css');
 @import url('./styleValera.css');
 @import url('./styleSrgpage2.css');
@@ -48,5 +50,4 @@
 @import url(../blocks/useful/__element-link/useful__element-link.css);
 @import url(../blocks/useful/__element-image/useful__element-image.css);
 @import url(../blocks/useful/__element-image/_shifted/useful__element-image_shifted.css);
-
 
