@@ -1,6 +1,7 @@
 @import url('../vendor/normalize.css');
 
 @import url(../styleGoar.css);
+@import url(../style.css);
 
 @import url('../vendor/slider/slider.css');
 @import url('./styleValera.css');
