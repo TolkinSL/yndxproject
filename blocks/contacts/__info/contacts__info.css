@@ -1,0 +1,32 @@
+.contacts__info {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 130%;
+  text-align: center;
+  color: #71BBCA;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+
+.contacts__info:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .contacts__info {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contacts__info {
+    font-size: 30px;
+  }
+}
+
+.contacts__info:hover {
+  cursor: pointer;
+}
