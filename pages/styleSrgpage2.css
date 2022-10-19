@@ -245,4 +245,135 @@
     align-self: center;
     max-width: 334px;
   }
-}/*# sourceMappingURL=index.css.map */
+}
+
+.font {
+  font-family: 'Inter', sans-serif;
+}
+
+.quote__span {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 400;
+}
+
+.span__bold {
+  font-weight: bold;
+}
+
+.friends {
+  position: relative;
+  max-height: 652px;
+}
+
+.friends__title {
+  margin: 0 auto 56px auto;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.friends__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends__quote {
+  margin: 142px auto 0 125px;
+  height: 100%;
+}
+
+.quote__img {
+  position: relative;
+  bottom: -58px;
+  max-width: 685px;
+  max-height: 493px;
+  object-fit: contain;
+}
+
+.quote__text {
+  margin: 0 auto 16px auto;
+  max-width: 770px;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 66px;
+}
+
+.quote__author {
+  margin: 0;
+  max-width: 509px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.friends__slider-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 18px auto 32px auto;
+}
+
+.friends__slider-button {
+  background: #999999;
+  opacity: 0.4;
+  border: none;
+  border-radius: 6px;
+  width: 10px;
+  height: 10px;
+}
+
+.friends__slider-button:nth-of-type(1) {
+  opacity: 1;
+  width: 29px;
+  background: #71BBCA;
+}
+
+@media screen and (max-width: 768px) {
+  .friends {
+    max-height: 510px;
+  }
+
+  .quote__text {
+    font-size: 27px;
+    line-height: 38px;
+  }
+
+  .quote__author {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .quote__img {
+    max-width: 325px;
+    max-height: 331px;
+    position: absolute;
+    bottom: -50px;
+    right: -100px;
+  }
+
+  .friends__title {
+    margin: 0 auto 24px auto;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .friends__quote {
+    margin: 46px auto 0 36px;
+  }
+
+  .quote__text {
+    max-width: 326px;
+  }
+
+  .quote__author {
+    max-width: 210px;
+  }
+
+  .friends__wrapper {
+    position: relative;
+    height: 408px;
+    overflow: hidden;
+  }
+}
