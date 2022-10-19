@@ -245,6 +245,7 @@
     align-self: center;
     max-width: 334px;
   }
+
 }/*# sourceMappingURL=index.css.map */
 @import url(/vendor/normalize.css);
 @import url(/vendor/fonts/font.css);
@@ -423,3 +424,340 @@
     opacity: 1;
   }
 }/*# sourceMappingURL=index.css.map */
+
+
+}/*# sourceMappingURL=index.css.map */
+
+
+.span__bold {
+  font-weight: bold;
+}
+
+.work {
+  margin: 0 auto;
+  max-width: 1032px;
+}
+
+.work__uppertext {
+  display: flex;
+  justify-content: space-between;
+}
+
+.uppertext__title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  margin: 0;
+}
+
+.uppertext__text {
+  max-width: 504px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.uppertext__text:last-of-type {
+  margin-top: 32px;
+}
+
+.work__underelements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/boop.svg) no-repeat 145px 63px;
+}
+
+.underelement__element {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 416px;
+  height: 163px;
+  border-radius: 136px;
+}
+
+.underelement__element:nth-of-type(1) {
+  background: url(../images/img__1.svg) #77C5D5 no-repeat 38px bottom;
+  align-self: start;
+}
+
+.underelement__element:nth-of-type(1) .element__text {
+  max-width: 160px;
+  right: 64px;
+  top: 49px;
+}
+
+.underelement__element:nth-of-type(2) {
+  margin-top: -42px;
+  margin-right: 190px;
+  background: url(../images/img__2.svg) #528CBE no-repeat left bottom;
+}
+
+.underelement__element:nth-of-type(2) .element__text {
+  max-width: 121px;
+  top: 49px;
+  right: 105px;
+}
+
+.underelement__element:nth-of-type(3) {
+  margin-top: -52px;
+  margin-left: 280px;
+  background: url(../images/img__3.svg) #DE6F7E no-repeat left 26px;
+}
+
+.underelement__element:nth-of-type(3) .element__text {
+  max-width: 225px;
+  top: 43px;
+  right: 42px;
+}
+
+.underelement__element:nth-of-type(4) {
+  margin-top: -43px;
+  background: url(../images/img__4.svg) #EEB250 no-repeat left 22px;
+  align-self: end;
+}
+
+.underelement__element:nth-of-type(4) .element__text {
+  max-width: 225px;
+  top: 43px;
+  right: 54px;
+}
+
+.element__text {
+  position: absolute;
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 767px) {
+  .work__uppertext {
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 50px;
+  }
+
+  .uppertext__text {
+    font-size: 16px;
+    line-height: 23px;
+    max-width: 327px;
+    margin: 0 auto;
+  }
+
+  .uppertext__title {
+    max-width: 327px;
+    margin: 0 auto;
+    font-size: 30px;
+    line-height: 44px;
+  }
+
+.work__underelements {
+  background: url(../images/boopmobile.svg) no-repeat;
+}
+
+
+  .underelement__element {
+    width: 299.92px;
+    height: 102.23px;
+    border-radius: 136px;
+  }
+
+  .element__text {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .underelement__element:nth-of-type(1) {
+    margin: 0;
+    margin-left: 8px;
+    background: url(../images/img__1.svg) #77C5D5 no-repeat 19px bottom;
+    background-size: 79px;
+  }
+
+  .underelement__element:nth-of-type(1) .element__text {
+    top: 23px;
+    right: 30px;
+    max-width: 155px;
+  }
+
+  .underelement__element:nth-of-type(2) {
+    background: url(../images/img__2.svg) #528CBE no-repeat left 18px;
+    background-size: 104px;
+    align-self: start;
+    margin: 0;
+    margin-left: 29px;
+  }
+
+  .underelement__element:nth-of-type(2) .element__text {
+    top: 33px;
+    right: 65px;
+    max-width: 103px;
+  }
+
+  .underelement__element:nth-of-type(3) {
+    background: url(../images/img__3.svg) #DE6F7E no-repeat left 23px;
+    background-size: 82px;
+    align-self: end;
+    margin: 0;
+    margin-right: 28px;
+  }
+
+  .underelement__element:nth-of-type(3) .element__text {
+    top: 29px;
+    right: 23px;
+    max-width: 190px;
+  }
+
+  .underelement__element:nth-of-type(4) {
+    background: url(../images/img__4.svg) #EEB250 no-repeat left center;
+    background-size: 68px;
+    margin: 0;
+    margin-right: 8px;
+  }
+
+  .underelement__element:nth-of-type(4) .element__text {
+    top: 25px;
+    right: 20px;
+    max-width: 200px;
+  }
+}
+}
+
+.font {
+  font-family: 'Inter', sans-serif;
+}
+
+.quote__span {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 400;
+}
+
+.span__bold {
+  font-weight: bold;
+}
+
+.friends {
+  position: relative;
+  max-height: 652px;
+}
+
+.friends__title {
+  margin: 0 auto 56px auto;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.friends__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends__quote {
+  margin: 142px auto 0 125px;
+  height: 100%;
+}
+
+.quote__img {
+  position: relative;
+  bottom: -58px;
+  max-width: 685px;
+  max-height: 493px;
+  object-fit: contain;
+}
+
+.quote__text {
+  margin: 0 auto 16px auto;
+  max-width: 770px;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 66px;
+}
+
+.quote__author {
+  margin: 0;
+  max-width: 509px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.friends__slider-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 18px auto 32px auto;
+}
+
+.friends__slider-button {
+  background: #999999;
+  opacity: 0.4;
+  border: none;
+  border-radius: 6px;
+  width: 10px;
+  height: 10px;
+}
+
+.friends__slider-button:nth-of-type(1) {
+  opacity: 1;
+  width: 29px;
+  background: #71BBCA;
+}
+
+@media screen and (max-width: 768px) {
+  .friends {
+    max-height: 510px;
+  }
+
+  .quote__text {
+    font-size: 27px;
+    line-height: 38px;
+  }
+
+  .quote__author {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .quote__img {
+    max-width: 325px;
+    max-height: 331px;
+    position: absolute;
+    bottom: -50px;
+    right: -100px;
+  }
+
+  .friends__title {
+    margin: 0 auto 24px auto;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .friends__quote {
+    margin: 46px auto 0 36px;
+  }
+
+  .quote__text {
+    max-width: 326px;
+  }
+
+  .quote__author {
+    max-width: 210px;
+  }
+
+  .friends__wrapper {
+    position: relative;
+    height: 408px;
+    overflow: hidden;
+  }
+}
+
