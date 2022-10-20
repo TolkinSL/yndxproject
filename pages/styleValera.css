@@ -27,8 +27,9 @@
 }
 
 .partners__title {
+  font-family: 'Inter';
   font-weight: 700;
-  font-size: 44px;
+  font-size: 42px;
   line-height: 50px;
   text-align: center;
   padding-bottom: 23px;
@@ -36,20 +37,24 @@
 
 @media (max-width: 767px) {
   .partners__title {
-    font-size: 32px;
+    font-size: 30px;
     line-height: 44px;
     padding-bottom: 26px;
   }
 }
 
 .partners__logo {
-  width: 100%;
-  mix-blend-mode: multiply;
+  max-width: 100%;
+  filter: grayscale(1);
+}
+
+.partners__logo:hover {
+  filter: grayscale(0);
 }
 
 .partners__slider-container {
-  box-sizing: border-box;
-  padding: 0 100px;
+  max-width: 1028px;
+  padding: 0 25px;
 }
 
 @media (max-width: 767px) {
@@ -66,10 +71,17 @@
   flex-basis: 20%;
 }
 
-
-.partners__slider-item {
-  /*padding-left: 86px;*/
+.partners__logo-box {
+  padding-left: 32px;
+  padding-right: 32px;
 }
+
+.partners__slider-item_more {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
 
 @media (max-width: 767px) {
   .partners__slider-item {
@@ -80,6 +92,35 @@
   }
 }
 
+.partners__more-link {
+  font-family: 'Inter';
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.25;
+  border-radius: 56px;
+  padding: 18px 24px;
+  background-color: #F8F8F8;
+  text-decoration: none;
+  color: #000000;
+}
+
+.partners__more-link:hover {
+  color: #54A8B6;
+}
+
+@media (max-width: 767px)  {
+  .partners__more-link {
+    font-size: 0.48em;
+    padding: 13px 11px;
+  }
+}
+
+
+
+
+
+
 
 
 .programs {
@@ -87,17 +128,18 @@
 }
 
 .programs__title {
+  font-family: 'Inter';
   margin-top: 0;
   margin-bottom: 56px;
   font-weight: 700;
-  font-size: 44px;
+  font-size: 42px;
   line-height: 50px;
   text-align: center;
 }
 
 @media (max-width: 767px) {
   .programs__title {
-    font-size: 32px;
+    font-size: 30px;
     line-height: 44px;
   }
 }
@@ -134,7 +176,7 @@
 }
 
 .programs__item_procharity {
-  background-image: url('../images/programs_img_1.png');
+  background-image: url('./images/programs_img_1.png');
   background-color: #77C5D5;
 }
 
@@ -145,7 +187,7 @@
 }
 
 .programs__item_school {
-  background-image: url('../images/programs_img_2.png');
+  background-image: url('./images/programs_img_2.png');
   background-color: #528CBE;
 }
 
@@ -156,7 +198,7 @@
 }
 
 .programs__item_team {
-  background-image: url('../images/programs_img_3.png');
+  background-image: url('./images/programs_img_3.png');
   background-color: #DE6F7E;
 }
 
@@ -171,8 +213,9 @@
 }
 
 .programs__logo-box {
+  font-family: 'Inter';
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 700;
   line-height: 1.2;
   display: grid;
@@ -185,39 +228,41 @@
 
 @media (max-width: 767px) {
   .programs__logo-box {
-    font-size: 8px;
+    font-size: 6px;
     padding-left: 24px;
   }
 }
 
 .programs__item-title {
+  font-family: 'Inter';
   margin-top: 16px;
   margin-bottom: 24px;
-  font-size: 34px;
+  font-size: 32px;
   font-weight: 700;
   line-height: 40px;
 }
 
 @media (max-width: 767px) {
   .programs__item-title {
-    font-size: 32px;
+    font-size: 30px;
     line-height: 29px;
     padding-left: 24px;
   }
 }
 
 .programs__item-text {
+  font-family: 'Inter';
   max-width: 465px;
   margin-bottom: 56px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 26px;
 
 }
 
 @media (max-width: 767px) {
   .programs__item-text {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
     padding-left: 24px;
   }
@@ -230,6 +275,11 @@
   border-radius: 56px;
   padding: 18px 52px;
 }
+
+.programs__about-link:hover {
+
+}
+
 
 @media (max-width: 767px) {
   .programs__about-link {
