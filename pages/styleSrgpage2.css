@@ -277,7 +277,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: url(/images/blog__lead__background.png) no-repeat;
+  background: url(../images/blog__lead__background.png) no-repeat;
   background-size: cover;
   max-width: 680px;
   width: 100%;
