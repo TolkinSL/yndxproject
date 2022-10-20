@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba253b45-8b59-41db-8738-cd10a284504b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/styleValera.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yndxproject.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/styleValera.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/styleValera.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +29,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Валера/Desktop/repos/yndxproject",
+    "last_opened_file_path": "C:/Users/Валера/Desktop/study/yndxprojec",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -56,6 +55,7 @@
       <workItem from="1665696233685" duration="313000" />
       <workItem from="1665743166867" duration="632000" />
       <workItem from="1665763298448" duration="3697000" />
+      <workItem from="1666211881673" duration="2360000" />
     </task>
     <servers />
   </component>
