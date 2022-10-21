@@ -1,5 +1,6 @@
 .useful {
-  max-width: 1032px;
-  margin-right: auto;
-  margin-left: auto;
+  box-sizing: border-box;
+  width: 81%;
+  margin: 0;
+  padding: 0;
 }

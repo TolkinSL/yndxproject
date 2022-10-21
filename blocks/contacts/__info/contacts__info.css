@@ -1,11 +1,11 @@
 .contacts__info {
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 44px;
-  line-height: 130%;
+  line-height: 1.3;
   text-align: center;
-  color: #71BBCA;
+  color: #71bbca;
   text-decoration: none;
   margin-bottom: 16px;
 }
