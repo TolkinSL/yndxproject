@@ -1,12 +1,5 @@
 .slider {
   position: relative;
-  padding-top: 56px;
-}
-
-@media screen and (max-width: 1080px) {
-  .slider {
-    padding-top: 48px;
-  }
 }
 
 .slider__foundation{

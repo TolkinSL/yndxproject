@@ -1,6 +1,7 @@
 .digits {
   margin: 0 auto;
   width: 100%;
+  /* padding 96+39 */
   padding-top: 39px;
   padding-bottom: 39px;
   /* height: 249px; */
