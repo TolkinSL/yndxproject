@@ -1,10 +1,6 @@
 /*------- header by Gohar ------*/
 .page {
   box-sizing: border-box;
-
-  align-items: center;
-  justify-content: center;
-  width: 100%;
   max-width: 1280px;
   margin: 0 auto;
   font-family: "Inter", Arial, sans-serif;
@@ -20,9 +16,6 @@
 
 .header {
   position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 10;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -30,6 +23,7 @@
   align-items: center;
   background-color: #54a8b6;
   width: 100%;
+  max-width: 1280px;
   margin: 0;
   padding: 0;
   z-index: 50;
