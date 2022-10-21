@@ -1536,12 +1536,12 @@
   position: relative;
   max-height: 652px;
   width: 100%;
-  padding-top: 96px;
+  margin-top: 96px;
 }
 
 @media screen and (max-width: 1080px) {
   .friends {
-    padding-top: 56px;
+    margin-top: 56px;
   }
 }
 
@@ -1560,6 +1560,7 @@
 
 .friends__quote {
   margin: 142px auto 0 125px;
+  max-width: 770px;
   height: 100%;
 }
 
@@ -1575,8 +1576,8 @@
   margin: 0 auto 16px auto;
   max-width: 770px;
   font-weight: 700;
-  font-size: 62px;
-  line-height: 66px;
+  font-size: 42px;
+  line-height: 58px;
 }
 
 .quote__author {
@@ -1607,6 +1608,10 @@
   opacity: 1;
   width: 29px;
   background: #71bbca;
+}
+
+.none {
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
