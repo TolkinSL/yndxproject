@@ -1594,13 +1594,18 @@
   height: 56px;
   text-align: center;
   border: none;
-  background: transparent;
+  background: #f8f8f8;
+  border-radius: 56px;
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
   font-family: "Inter", sans-serif;
   margin: 56px 0 0 0;
   cursor: pointer;
+}
+
+.blog__button:hover {
+  background: #f1f5f9;
 }
 
 .button-row {
