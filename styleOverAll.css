@@ -849,7 +849,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url(../images/boop.svg) no-repeat 145px 63px;
+  background: url(./images/boop.svg) no-repeat 145px 63px;
 }
 
 .underelement__daltonic {
@@ -887,7 +887,7 @@
 }
 
 .underelement__element:nth-of-type(1) {
-  background: url(../images/img__1.svg) #77c5d5 no-repeat 38px bottom;
+  background: url(./images/img__1.svg) #77c5d5 no-repeat 38px bottom;
   align-self: start;
 }
 
@@ -900,7 +900,7 @@
 .underelement__element:nth-of-type(2) {
   margin-top: -42px;
   margin-right: 190px;
-  background: url(../images/img__2.svg) #528cbe no-repeat left bottom;
+  background: url(./images/img__2.svg) #528cbe no-repeat left bottom;
 }
 
 .underelement__element:nth-of-type(2) .element__text {
@@ -912,7 +912,7 @@
 .underelement__element:nth-of-type(3) {
   margin-top: -52px;
   margin-left: 280px;
-  background: url(../images/img__3.svg) #de6f7e no-repeat left 26px;
+  background: url(./images/img__3.svg) #de6f7e no-repeat left 26px;
 }
 
 .underelement__element:nth-of-type(3) .element__text {
@@ -923,7 +923,7 @@
 
 .underelement__element:nth-of-type(4) {
   margin-top: -43px;
-  background: url(../images/img__4.svg) #eeb250 no-repeat left 22px;
+  background: url(./images/img__4.svg) #eeb250 no-repeat left 22px;
   align-self: end;
 }
 
@@ -965,7 +965,7 @@
   }
 
   .work__underelements {
-    background: url(/images/boopmobile.svg) no-repeat left center;
+    background: url(./images/boopmobile.svg) no-repeat left center;
   }
 
   .underelement__element {
@@ -982,7 +982,7 @@
   .underelement__element:nth-of-type(1) {
     margin: 0;
     margin-left: 8px;
-    background: url(../images/img__1.svg) #77c5d5 no-repeat 19px bottom;
+    background: url(./images/img__1.svg) #77c5d5 no-repeat 19px bottom;
     background-size: 79px;
   }
 
@@ -993,7 +993,7 @@
   }
 
   .underelement__element:nth-of-type(2) {
-    background: url(../images/img__2.svg) #528cbe no-repeat left 18px;
+    background: url(./images/img__2.svg) #528cbe no-repeat left 18px;
     background-size: 104px;
     align-self: start;
     margin: 0;
@@ -1007,7 +1007,7 @@
   }
 
   .underelement__element:nth-of-type(3) {
-    background: url(../images/img__3.svg) #de6f7e no-repeat left 23px;
+    background: url(./images/img__3.svg) #de6f7e no-repeat left 23px;
     background-size: 82px;
     align-self: end;
     margin: 0;
@@ -1021,7 +1021,7 @@
   }
 
   .underelement__element:nth-of-type(4) {
-    background: url(../images/img__4.svg) #eeb250 no-repeat left center;
+    background: url(./images/img__4.svg) #eeb250 no-repeat left center;
     background-size: 68px;
     margin: 0;
     margin-right: 8px;
