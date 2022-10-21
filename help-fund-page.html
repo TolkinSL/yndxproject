@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Фонд Друзья</title>
     <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="./bank.css" />
     <script src="./pages/index.js" defer></script>
     <script src="./vendor/slider/slider.js" defer></script>
   </head>
@@ -261,6 +262,138 @@
       </nav>
     </header>
       <main class="content">
+<!-- ASPL >> -->
+        <section class="supportExtendedPaymentForm">
+          <div class="supportExtended">
+            <h1 class="supportExtended__title">Поддерживая «Друзей»,
+              вы помогаете <span class="supportExtended__title-span">развитию всей индустрии</span></h1>
+          </div>
+          <form class="bankCards" name="bankCards">
+            <div class="bankCard">
+              <p class="bankCard__subtitle">Выберите тип и сумму пожертвования</p>
+              <form class="supportForm__Form" name="supportForm">
+                <div class="switch">
+                  <input class="switch__input switch__inputOne" name="switch" id="one" type="radio">
+                  <label for="one" class="switch__label switch__label1">Разовое</label>
+                  <input class="switch__input switch__inputTwo" name="switch" id="two" type="radio" checked>
+                  <label for="two" class="switch__label switch__label2">Ежемесячное</label>
+                  <div class="switch__indicator"></div>
+                </div>
+                <p class="bankCard__subtitle">Сумма поддержки</p>
+
+                <div class="grid">
+
+                  <input class="grid__money-input grid__money-input1" name="money" type="radio" id="money_radio_1">
+                  <label class="grid__money-label grid__money-label1" for="money_radio_1">5 000</label>
+
+                  <input class="grid__money-input grid__money-input2" name="money" type="radio" id="money_radio_2">
+                  <label class="grid__money-label grid__money-label2" for="money_radio_2">10 000</label>
+
+
+                  <input class="grid__money-input grid__money-input3" name="money" type="radio" id="money_radio_3">
+                  <label class="grid__money-label grid__money-label3" for="money_radio_3">50 000</label>
+
+                  <input class="grid__input grid__input_title" type="number" name="name" placeholder="Другая сумма"
+                    minlength="1" maxlength="12">
+                </div>
+              </form>
+
+
+              <div class="PayOptions">
+                <p class="bankCard__subtitle">Способ оплаты</p>
+                <div class="grid-Payments">
+
+                  <input class="grid-Payments__Input" name="payments" type="radio" id="payments_radio_1">
+                  <label class="grid-Payments__label grid-Payments__visa-mir-label " for="payments_radio_1"></label>
+
+                  <input class="grid-Payments__Input" name="payments" type="radio" id="payments_radio_2">
+                  <label class="grid-Payments__label grid-Payments__googlePay-label" for="payments_radio_2"></label>
+
+                  <input class="grid-Payments__Input" name="payments" type="radio" id="payments_radio_3">
+                  <label class="grid-Payments__label grid-Payments__ApplePay-label" for="payments_radio_3"></label>
+
+                </div>
+              </div>
+
+              <p class="bankCard__subtitle">Банковская карта</p>
+              <div class="bankCard__Form">
+                <div class="bankCard-Front">
+                  <div class="bankCard-Front__placeholders">
+                    <input class="bankCard-Front__placeholders_number" type="text" name="name" placeholder="Номер карты"
+                      minlength="2" maxlength="20" required>
+                    <input class="bankCard-Front__placeholders_name" type="text" name="about" placeholder="Держатель карты"
+                      minlength="2" required>
+                  </div>
+
+                  <div class="bankCard-Front__BottomLine">
+
+                    <div class="bankCard-Front__bestBefore">
+                      <p class="bankCard-Front__bestBefore-title">Действует до</p>
+                      <input class="bankCard-Front__bestBeforeInput" type="text" name="expDate" placeholder="ММ/ГГ"
+                        minlength="4" maxlength="4" required>
+                    </div>
+
+                    <div class="bankCard-Front__finalSum">
+                      <p class="bankCard-Front__finalSum-title">Итого к оплате</p>
+                      <input class="bankCard-Front__finalSum-Input" type="number" name="Sum" placeholder="" minlength="1"
+                        required>
+                    </div>
+
+                  </div>
+
+
+                  <div class="bankCard-Front__CVV-CVC">
+                    <p class="bankCard-Front__CVV-CVC-title">CVV/CVC</p>
+                    <input class="bankCard-Front__inputCVC bankCard-Front__inputCVC_enable" type="password" name="CVV/CVC"
+                      placeholder="***" minlength="3" maxlength="3" required>
+                  </div>
+
+                </div>
+
+                <div class="bankCard-Back">
+                  <div class="bankCard-Back__emboss-Line"></div>
+                  <div class="bankCard-Back__CVV-CVC">
+                    <p class="bankCard-Back__CVV-CVC-title">CVV/CVC</p>
+                    <input class="bankCard-Back__inputCVC" type="password" name="CVV/CVC"
+                      placeholder="***" minlength="3" maxlength="3" required>
+                    <p class="bankCard-Back__subtitle">Последние 3 цифры на белой полосе с обратной стороны карты</p>
+                  </div>
+
+
+                </div>
+
+              </div>
+
+              <div class="bankCard__requisites">
+                <div class="bankCard__requisites__wrapper">
+                  <input type="text" placeholder="Имя" required class="bankCard__requisites__wrapper__text" />
+                  <input type="text" placeholder="Фамилия" required class="bankCard__requisites__wrapper__text" />
+                  <input type="tel" placeholder="Телефон" required class="bankCard__requisites__wrapper__text" />
+                  <input type="email" placeholder="Email" required class="bankCard__requisites__wrapper__text" />
+                </div>
+                <div class="bankCard__requisites__checkbox-wrapper">
+                  <label class="bankCard__requisites__checkbox-wrapper__checkbox-label"><input type="checkbox"
+                      class="bankCard__requisites__checkbox-wrapper__checkbox-label__checkbox" /><span>Согласен с
+                      <a href="#"
+                        class="bankCard__requisites__checkbox-wrapper__checkbox-label__link">офертой</a></span></label>
+                </div>
+                <div class="bankCard__requisites__checkbox-wrapper">
+                  <label class="bankCard__requisites__checkbox-wrapper__checkbox-label"><input type="checkbox"
+                      class="bankCard__requisites__checkbox-wrapper__checkbox-label__checkbox" /><span>Ознакомился и согласен
+                      с
+                      <a href="#" class="bankCard__requisites__checkbox-wrapper__checkbox-label__link">политикой обработки
+                        персональных данных</a></span></label>
+                </div>
+                <button type="submit" class="bankCard__Submitbutton">
+                  Поддержать фонд
+                </button>
+              </div>
+            </div>
+
+          </form>
+        </section>
+        <!-- ASPL << -->
+        
           <!--      Ars-->
       <section class="subscribe" aria-label="subscription">
         <div class="subscribe__wrapper">
