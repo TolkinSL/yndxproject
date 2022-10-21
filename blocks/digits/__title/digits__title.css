@@ -2,8 +2,8 @@
   margin: 0;
   font-weight: 700;
   font-size: 90px;
-  line-height: 96px;
-  color: #FFFFFF;
+  line-height: 1.04;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -11,6 +11,6 @@
   .digits__title {
     font-weight: 700;
     font-size: 54px;
-    line-height: 78px;
+    line-height: 1.39;
   }
 }

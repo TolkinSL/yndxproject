@@ -361,8 +361,10 @@
   top: -500%;
   left: 0;
   background-color: white;
-  padding: 0;
+  padding-top: 0;
   padding-left: 61px;
+  padding-right: 0;
+  padding-bottom: 42px;
   margin: 0;
   z-index: 20;
   transition: ease;
@@ -518,172 +520,6 @@
   }
 }
 
-.programs__title {
-  font-family: "Inter";
-  margin-top: 0;
-  margin-bottom: 56px;
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 50px;
-  text-align: center;
-}
-@media (max-width: 767px) {
-  .header__programs_positioning {
-    width: 100%;
-    padding: 32px 0 39px;
-  }
-}
-
-@media (max-width: 767px) {
-  .header__programs_padding {
-    padding-top: 20px;
-  }
-}
-
-@media (max-width: 767px) {
-  .programs__title {
-    font-size: 30px;
-    line-height: 44px;
-  }
-}
-
-.programs__item {
-  padding-top: 88px;
-  padding-bottom: 126px;
-  color: #fff;
-  background-position: bottom right;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: #ef9100;
-}
-
-.programs__item-content {
-  max-width: 465px;
-  width: 100%;
-}
-
-.programs__item-inner {
-  display: flex;
-  max-width: 1134px;
-  margin: 0 auto;
-}
-
-.programs__item-inner_align_end {
-  justify-content: flex-end;
-}
-
-@media (max-width: 767px) {
-  .programs__item-inner_align_end {
-    justify-content: flex-start;
-  }
-}
-
-.programs__item_procharity {
-  background-image: url("./images/programs_img_1.png");
-  background-color: #77c5d5;
-}
-
-@media (max-width: 767px) {
-  .programs__item_procharity {
-    background-image: none;
-  }
-}
-
-.programs__item_school {
-  background-image: url("./images/programs_img_2.png");
-  background-color: #528cbe;
-}
-
-@media (max-width: 767px) {
-  .programs__item_school {
-    background-image: none;
-  }
-}
-
-.programs__item_team {
-  background-image: url("./images/programs_img_3.png");
-  background-color: #de6f7e;
-}
-
-@media (max-width: 767px) {
-  .programs__item_team {
-    background-image: none;
-  }
-}
-
-.programs__item_align_right {
-  background-position: bottom left;
-}
-
-.programs__logo-box {
-  font-family: "Inter";
-  text-transform: uppercase;
-  font-size: 10px;
-  font-weight: 700;
-  line-height: 1.2;
-  display: grid;
-  grid-auto-flow: column;
-  justify-content: start;
-  align-items: center;
-  gap: 12px;
-  opacity: 0.6;
-}
-
-@media (max-width: 767px) {
-  .programs__logo-box {
-    font-size: 6px;
-    padding-left: 24px;
-  }
-}
-
-.programs__item-title {
-  font-family: "Inter";
-  margin-top: 16px;
-  margin-bottom: 24px;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 40px;
-}
-
-@media (max-width: 767px) {
-  .programs__item-title {
-    font-size: 30px;
-    line-height: 29px;
-    padding-left: 24px;
-  }
-}
-
-.programs__item-text {
-  font-family: "Inter";
-  max-width: 465px;
-  margin-bottom: 56px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-}
-
-@media (max-width: 767px) {
-  .programs__item-text {
-    font-size: 16px;
-    line-height: 24px;
-    padding-left: 24px;
-  }
-}
-
-.programs__about-link {
-  text-decoration: none;
-  background: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
-  border-radius: 56px;
-  padding: 18px 52px;
-}
-
-@media (max-width: 767px) {
-  .programs__about-link {
-    margin-left: 24px;
-  }
-}
-
 /*----------------- desktop program menue---------------------*/
 
 .menue-program {
@@ -794,10 +630,10 @@
 
 .content {
   box-sizing: border-box;
-  justify-content: center;
-  align-items: center;
   width: 100%;
-  margin: 0;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 /*------- Sergey -work ------*/
@@ -805,6 +641,7 @@
 .work {
   position: relative;
   margin: 0 auto;
+  max-width: 1032px;
   padding-top: 96px;
 }
 
@@ -822,7 +659,7 @@
 .uppertext__title {
   font-weight: 700;
   font-size: 42px;
-  line-height: 50px;
+  line-height: 1.14;
   margin: 0;
 }
 
@@ -831,7 +668,7 @@
   margin: 0;
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.44;
 }
 
 .uppertext__text:last-of-type {
@@ -932,7 +769,7 @@
   margin: 0;
   font-weight: 700;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: #ffffff;
 }
 
@@ -946,7 +783,7 @@
 
   .uppertext__text {
     font-size: 16px;
-    line-height: 23px;
+    line-height: 1.28;
     max-width: 327px;
     margin: 0 auto;
   }
@@ -955,7 +792,7 @@
     max-width: 327px;
     margin: 0 auto;
     font-size: 30px;
-    line-height: 44px;
+    line-height: 1.38;
   }
 
   .work__underelements {
@@ -970,7 +807,7 @@
 
   .element__text {
     font-size: 16px;
-    line-height: 18px;
+    line-height: 1;
   }
 
   .underelement__element:nth-of-type(1) {
@@ -1091,14 +928,14 @@
   margin-bottom: 56px;
   font-weight: 700;
   font-size: 42px;
-  line-height: 50px;
+  line-height: 1.14;
   text-align: center;
 }
 
 @media (max-width: 767px) {
   .programs__title {
     font-size: 30px;
-    line-height: 44px;
+    line-height: 1.38;
   }
 }
 
@@ -1115,6 +952,19 @@
 .programs__item-content {
   max-width: 465px;
   width: 100%;
+}
+
+@media (max-width: 767px) {
+  .header__programs_padding {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__programs_positioning {
+    width: 100%;
+    padding: 32px 0 39px;
+  }
 }
 
 .programs__item-inner {
@@ -1197,13 +1047,13 @@
   margin-bottom: 24px;
   font-size: 32px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.18;
 }
 
 @media (max-width: 767px) {
   .programs__item-title {
     font-size: 30px;
-    line-height: 29px;
+    line-height: 0.91;
     padding-left: 24px;
   }
 }
@@ -1214,13 +1064,13 @@
   margin-bottom: 56px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.44;
 }
 
 @media (max-width: 767px) {
   .programs__item-text {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.33;
     padding-left: 24px;
   }
 }
@@ -1376,7 +1226,7 @@
 .friends {
   position: relative;
   max-height: 652px;
-  width: 100%;
+  max-width: 1032px;
   padding-top: 96px;
 }
 
@@ -1390,7 +1240,7 @@
   margin: 0 auto 56px auto;
   font-weight: 700;
   font-size: 44px;
-  line-height: 50px;
+  line-height: 1.09;
   text-align: center;
 }
 
@@ -1417,14 +1267,14 @@
   max-width: 770px;
   font-weight: 700;
   font-size: 62px;
-  line-height: 66px;
+  line-height: 1.03;
 }
 
 .quote__author {
   margin: 0;
   max-width: 509px;
   font-size: 18px;
-  line-height: 26px;
+  line-height: 1.3;
 }
 
 .friends__slider-buttons {
@@ -1457,12 +1307,12 @@
 
   .quote__text {
     font-size: 27px;
-    line-height: 38px;
+    line-height: 1.31;
   }
 
   .quote__author {
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.44;
   }
 
   .quote__img {
@@ -1476,7 +1326,7 @@
   .friends__title {
     margin: 0 auto 24px auto;
     font-size: 32px;
-    line-height: 44px;
+    line-height: 1.3;
   }
 
   .friends__quote {
@@ -1522,7 +1372,7 @@
 .blog__title {
   font-weight: 700;
   font-size: 42px;
-  line-height: 50px;
+  line-height: 1.14;
   text-align: center;
   font-family: "Inter", sans-serif;
   margin: 0 auto 56px auto;
@@ -1556,7 +1406,7 @@
   height: 24px;
   font-weight: 700;
   font-size: 8px;
-  line-height: 20px;
+  line-height: 2;
   color: #000000;
   font-family: "Inter", sans-serif;
   border: none;
@@ -1571,7 +1421,7 @@
   margin: 0 0 16px 0;
   font-weight: 700;
   font-size: 8px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.24em;
   text-transform: uppercase;
 }
@@ -1579,13 +1429,13 @@
   margin: 0 0 16px 0;
   font-weight: 700;
   font-size: 24px;
-  line-height: 30px;
+  line-height: 1.15;
 }
 .blog__wrapper__lead__subtitle {
   margin: 0;
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.44;
 }
 
 .blog__element {
@@ -1606,7 +1456,7 @@
 .blog__element__text-wrapper__date {
   margin: 0 auto 16px auto;
   font-size: 8px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.24em;
   text-transform: uppercase;
   color: #775872;
@@ -1615,12 +1465,12 @@
   margin: 0 auto 16px auto;
   font-weight: 700;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.44;
 }
 .blog__element__text-wrapper__text {
   margin: 0;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.44;
 }
 
 .blog__button {
@@ -1632,7 +1482,7 @@
   border-radius: 56px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.11;
   font-family: "Inter", sans-serif;
   margin: 56px 0 0 0;
   cursor: pointer;
@@ -1653,7 +1503,7 @@
   .blog__title {
     margin: 0 0 24px 0;
     font-size: 30px;
-    line-height: 44px;
+    line-height: 1.38;
   }
   .blog__element {
     max-width: 343px;
@@ -1733,7 +1583,7 @@
   font-family: "Inter";
   font-weight: 700;
   font-size: 42px;
-  line-height: 50px;
+  line-height: 1.14;
   text-align: center;
   padding-bottom: 23px;
 }
@@ -1741,7 +1591,7 @@
 @media (max-width: 767px) {
   .partners__title {
     font-size: 30px;
-    line-height: 44px;
+    line-height: 1.38;
     padding-bottom: 26px;
   }
 }
@@ -1838,7 +1688,7 @@
     /* padding-bottom: 40px; */
 
     font-size: 27px;
-    line-height: 38px;
+    line-height: 1.31;
     /* display: flex; */
   }
 }
@@ -1863,7 +1713,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 58px;
-  line-height: 66px;
+  line-height: 1.1;
 
   color: #ffffff;
 }
@@ -1881,14 +1731,14 @@
     padding-bottom: 40px;
 
     font-size: 38px;
-    line-height: 48px;
+    line-height: 1.2;
   }
 }
 
 @media screen and (max-width: 967px) {
   .support__title {
     font-size: 25px;
-    line-height: 38px;
+    line-height: 1.41;
   }
 }
 
@@ -1900,20 +1750,20 @@
   font-style: italic;
   font-weight: 700;
   font-size: 60px;
-  line-height: 66px;
+  line-height: 1.06;
 }
 
 @media screen and (max-width: 1125px) {
   .support__title_span {
     font-size: 38px;
-    line-height: 48px;
+    line-height: 1.2;
   }
 }
 
 @media screen and (max-width: 967px) {
   .support__title_span {
     font-size: 27px;
-    line-height: 37px;
+    line-height: 1.28;
   }
 }
 
@@ -1921,7 +1771,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.44;
 
   color: #000000;
   padding-left: 64px;
@@ -1969,7 +1819,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 10px;
-  line-height: 20px;
+  line-height: 1.7;
 
   display: flex;
   align-items: center;
@@ -2199,7 +2049,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
-  line-height: 44px;
+  line-height: 1.38;
   text-align: center;
   color: #000000;
 }
@@ -2554,7 +2404,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 42px;
-  line-height: 58px;
+  line-height: 1.32;
   text-align: center;
 }
 .help__title-span {
@@ -2584,18 +2434,18 @@
 .help__section__text__title {
   font-weight: 700;
   font-size: 20px;
-  line-height: 150%;
+  line-height: 1.5;
   margin: 0 auto 16px auto;
 }
 .help__section__text__subtitle {
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.44;
   margin: 0 auto 32px auto;
 }
 .help__section__text__button {
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.11;
   margin: 0;
   width: 287px;
   height: 56px;
@@ -2617,7 +2467,7 @@
 .help__section__text__link {
   font-weight: 700;
   font-size: 22px;
-  line-height: 150%;
+  line-height: 1.5;
   color: #54a8b6;
   text-decoration: none;
 }
@@ -2636,7 +2486,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 150%;
+  line-height: 1.5;
 }
 .help__social__logo {
   max-width: 40px;
@@ -2657,7 +2507,7 @@
   .help__title {
     max-width: 375px;
     font-size: 30px;
-    line-height: 40px;
+    line-height: 1.25;
     margin: 0 auto 40px auto;
   }
   .help__section {
@@ -2738,19 +2588,19 @@
   border: none;
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.11;
 }
 .questions__title {
   font-weight: 700;
   font-size: 42px;
-  line-height: 130%;
+  line-height: 1.3;
   text-align: center;
   margin: 0 auto 8px auto;
 }
 .questions__subtitle {
   font-weight: 400;
   font-size: 16px;
-  line-height: 120%;
+  line-height: 1.2;
   text-align: center;
   margin: 0 auto 48px auto;
 }
@@ -2761,12 +2611,12 @@
   }
   .questions__title {
     font-size: 30px;
-    line-height: 130%;
+    line-height: 1.3;
     text-align: center;
   }
   .questions__subtitle {
     font-size: 16px;
-    line-height: 120%;
+    line-height: 1.2;
     text-align: center;
     color: #202d3d;
   }
