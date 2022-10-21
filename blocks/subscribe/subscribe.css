@@ -1,6 +1,6 @@
 .subscribe {
   display: flex;
-  max-width: 100%;
+  width: 100%;
   background: #f8f8f8;
   margin: 0;
   padding: 0;
@@ -10,6 +10,7 @@
 @media screen and (max-width: 1279px) {
   .subscribe {
     max-width: 1024px;
+    margin: auto;
   }
 }
 
