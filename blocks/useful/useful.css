@@ -5,4 +5,11 @@
   width: 100%;
   margin: 0;
   padding: 0;
+  padding-top: 96px;
+}
+
+@media screen and (max-width: 1080px) {
+  .useful {
+    padding-top: 56px;
+  }
 }

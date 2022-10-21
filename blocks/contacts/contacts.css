@@ -5,6 +5,15 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+@media screen and (max-width: 1080px) {
+  .contacts {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
