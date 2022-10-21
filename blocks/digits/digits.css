@@ -1,10 +1,10 @@
 .digits {
   margin: 0 auto;
-  font-family: 'Inter', serif;
+  width: 100%;
   padding-top: 39px;
   padding-bottom: 39px;
   /* height: 249px; */
-  background-color: #77C5D5;
+  background-color: #77c5d5;
 }
 
 @media screen and (max-width: 767px) {
