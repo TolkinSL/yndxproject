@@ -3,9 +3,9 @@
   margin-top: 16px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.25;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 868px) {
@@ -14,6 +14,6 @@
     margin-top: 4px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.11;
   }
 }

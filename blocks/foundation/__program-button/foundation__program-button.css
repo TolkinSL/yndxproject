@@ -3,14 +3,14 @@
   margin-left: 123px;
   width: 231px;
   height: 56px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 48px;
   border: none;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.11;
   text-align: center;
   color: #000000;
 }
@@ -39,5 +39,5 @@
 
 .foundation__program-button:hover {
   cursor: pointer;
-  opacity: .6;
+  opacity: 0.6;
 }

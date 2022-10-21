@@ -20,7 +20,7 @@
 @media screen and (max-width: 767px) {
   .contacts__title {
     font-size: 30px;
-    line-height: 44px;
+    line-height: 1.38;
     margin-bottom: 16px;
   }
 }

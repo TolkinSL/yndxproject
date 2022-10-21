@@ -1,17 +1,17 @@
 .useful__title {
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 42px;
-  line-height: 48px;
+  line-height: 1.09;
   text-align: center;
   color: #000000;
   margin: 0 0 56px 0;
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 550px) {
   .useful__title {
     font-size: 30px;
-    line-height: 42px;
+    line-height: 1.31;
   }
 }

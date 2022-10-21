@@ -6,12 +6,12 @@
   padding-left: 123px;
 
   max-width: 970px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
-  line-height: 66px;
-  color: #FFFFFF;
+  line-height: 1.06;
+  color: #ffffff;
   margin-bottom: 16px;
 }
 
@@ -19,7 +19,7 @@
   .foundation__title {
     padding-left: 88px;
     font-size: 40px;
-    line-height: 47px;
+    line-height: 1.12;
   }
 }
 

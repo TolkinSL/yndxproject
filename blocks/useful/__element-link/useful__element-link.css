@@ -1,9 +1,9 @@
 .useful__element-link {
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 19px;
+  line-height: 1.19;
   color: #000000;
   text-decoration: none;
   z-index: 2;

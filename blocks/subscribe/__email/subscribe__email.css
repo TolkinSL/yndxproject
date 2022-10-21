@@ -1,10 +1,10 @@
 .subscribe__email {
   max-width: 328px;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.11;
   color: #999999;
   padding: 18px 22px 18px 55px;
   margin-top: 80px;
