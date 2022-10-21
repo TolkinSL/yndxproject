@@ -809,8 +809,8 @@
 /*------- Sergey -work ------*/
 
 .work {
+  position: relative;
   margin: 0 auto;
-  width: 81%;
 }
 
 .work__uppertext {
@@ -843,6 +843,30 @@
   justify-content: center;
   align-items: center;
   background: url(../images/boop.svg) no-repeat 145px 63px;
+}
+
+.underelement__daltonic {
+  width: 151px;
+  height: 63px;
+  background: #f8f8f8;
+  border-radius: 136px;
+  position: absolute;
+  top: 570px;
+  left: 290px;
+}
+
+.underelement__daltonic:nth-of-type(2) {
+  left: unset;
+  top: 406px;
+  right: 0;
+}
+
+.underelement__daltonic:nth-of-type(3) {
+  top: 305px;
+  right: unset;
+  left: 90px;
+  width: 576px;
+  height: 233px;
 }
 
 .underelement__element {
@@ -934,7 +958,7 @@
   }
 
   .work__underelements {
-    background: url(../images/boopmobile.svg) no-repeat;
+    background: url(/images/boopmobile.svg) no-repeat left center;
   }
 
   .underelement__element {
@@ -1000,6 +1024,32 @@
     top: 25px;
     right: 20px;
     max-width: 200px;
+  }
+  .underelement__daltonic {
+    width: 151px;
+    height: 63px;
+    background: #f8f8f8;
+    border-radius: 136px;
+    position: absolute;
+    top: 570px;
+    left: 290px;
+    display: none;
+  }
+
+  .underelement__daltonic:nth-of-type(2) {
+    left: unset;
+    top: 406px;
+    right: 0;
+    display: none;
+  }
+
+  .underelement__daltonic:nth-of-type(3) {
+    top: 305px;
+    right: unset;
+    left: 90px;
+    width: 576px;
+    height: 233px;
+    display: none;
   }
 }
 
