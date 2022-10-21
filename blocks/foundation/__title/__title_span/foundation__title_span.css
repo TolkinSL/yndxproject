@@ -5,13 +5,13 @@
   font-family: 'Playfair Display';
   font-style: italic;
   font-weight: 400;
-  font-size: 62px;
+  font-size: 60px;
   line-height: 66px;
 }
 
 @media screen and (max-width: 1023px) {
   .foundation__title_span {
-    font-size: 42px;
+    font-size: 40px;
     line-height: 47px;
   }
 }

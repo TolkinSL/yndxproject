@@ -8,17 +8,14 @@
 
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 26px;
   color: #FFFFFF;
 }
 
 @media screen and (max-width: 1023px) {
   .foundation__subtitle {
-
     padding-left: 88px;
-    font-size: 18px;
-    line-height: 26px;
   }
 }
 
@@ -32,8 +29,6 @@
 @media screen and (max-width: 376px) {
   .foundation__subtitle {
     padding-left: 24px;
-    font-size: 18px;
-    line-height: 26px;
     max-width: 327px;
   }
 }

@@ -9,7 +9,7 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 62px;
+  font-size: 60px;
   line-height: 66px;
   color: #FFFFFF;
   margin-bottom: 16px;
@@ -18,7 +18,7 @@
 @media screen and (max-width: 1023px) {
   .foundation__title {
     padding-left: 88px;
-    font-size: 42px;
+    font-size: 40px;
     line-height: 47px;
   }
 }
@@ -27,15 +27,11 @@
   .foundation__title {
     padding-left: 24px;
     padding-top: 42px;
-    font-size: 42px;
-    line-height: 47px;
   }
 }
 
 @media screen and (max-width: 397px) {
   .foundation__title {
-    font-size: 42px;
-    line-height: 47px;
     max-width: 370px;
   }
 }
