@@ -1,15 +1,14 @@
-const radioContainer = document.querySelector('.grid');
-const radioButtons = radioContainer.querySelectorAll('.grid__money-input');
+const radioContainer = document.querySelector('.grid-support');
+const radioButtonsSwitch = radioContainer.querySelectorAll('.grid__money-input');
+const radioLabelsSwitch = radioContainer.querySelectorAll('.grid__money-label');
 
-const radioLabels = radioContainer.querySelectorAll('.grid__money-label');
+const radioButtonSwitch1 = radioContainer.querySelector('.grid__money-input1');
+const radioButtonSwitch2 = radioContainer.querySelector('.grid__money-input2');
+const radioButtonSwitch3 = radioContainer.querySelector('.grid__money-input3');
 
-const radioButton1 = radioContainer.querySelector('.grid__money-input1');
-const radioButton2 = radioContainer.querySelector('.grid__money-input2');
-const radioButton3 = radioContainer.querySelector('.grid__money-input3');
-
-const radioLabel1 = radioContainer.querySelector('.grid__money-label1');
-const radioLabel2 = radioContainer.querySelector('.grid__money-label2');
-const radioLabel3 = radioContainer.querySelector('.grid__money-label3');
+const radioLabelSwitch1 = radioContainer.querySelector('.grid__money-label1');
+const radioLabelSwitch2 = radioContainer.querySelector('.grid__money-label2');
+const radioLabelSwitch3 = radioContainer.querySelector('.grid__money-label3');
 
 
 const switchContainer = document.querySelector('.switch');
@@ -23,6 +22,9 @@ const switchLabel1 = switchContainer.querySelector('.switch__label1');
 const switchLabel2 = switchContainer.querySelector('.switch__label2');
 
 const switchIndicator = switchContainer.querySelector('.switch__indicator');
+
+
+con
 
 // function def(item) {
 //   if (item.checked) {
@@ -75,10 +77,10 @@ const switchIndicator = switchContainer.querySelector('.switch__indicator');
 
 
 function ResetRadioButtons(rdBtn) {
-  radioLabels.forEach(function (item) {
+  radioLabelsSwitch.forEach(function (item) {
     item.style.backgroundColor = "#F8F8F8";
   });
-  radioButtons.forEach(function (item) {
+  radioButtonsSwitch.forEach(function (item) {
     if (item != rdBtn) {
       item.checked = false;
     }
@@ -86,24 +88,34 @@ function ResetRadioButtons(rdBtn) {
 }
 
 
-radioButton1.addEventListener("click", () => {
-  ResetRadioButtons(radioButton1);
-  if (radioButton1.checked) {
-    radioButton1.checked = true
-    radioLabel1.style.backgroundColor = "#82607D";
+radioButtonSwitch1.addEventListener("click", () => {
+  ResetRadioButtons(radioButtonSwitch1);
+  if (radioButtonSwitch1.checked) {
+    radioButtonSwitch1.checked = true
+    radioLabelSwitch1.style.backgroundColor = "#82607D";
+    radioLabelSwitch1.style.color = "white";
+    radioLabelSwitch2.style.color = "#000000";
+    radioLabelSwitch3.style.color = "#000000";
+
   }
 });
 
-radioButton2.addEventListener("click", () => {
-  ResetRadioButtons(radioButton2);
-  if (radioButton2.checked) {
-    radioLabel2.style.backgroundColor = "#82607D";
+radioButtonSwitch2.addEventListener("click", () => {
+  ResetRadioButtons(radioButtonSwitch2);
+  if (radioButtonSwitch2.checked) {
+    radioLabelSwitch2.style.backgroundColor = "#82607D";
+    radioLabelSwitch1.style.color = "#000000";
+    radioLabelSwitch2.style.color = "white";
+    radioLabelSwitch3.style.color = "#000000";
   }
 });
 
-radioButton3.addEventListener("click", () => {
-  ResetRadioButtons(radioButton3);
-  if (radioButton3.checked) {
-    radioLabel3.style.backgroundColor = "#82607D";
+radioButtonSwitch3.addEventListener("click", () => {
+  ResetRadioButtons(radioButtonSwitch3);
+  if (radioButtonSwitch3.checked) {
+    radioLabelSwitch3.style.backgroundColor = "#82607D";
+    radioLabelSwitch1.style.color = "#000000";
+    radioLabelSwitch2.style.color = "#000000";
+    radioLabelSwitch3.style.color = "white";
   }
 });
