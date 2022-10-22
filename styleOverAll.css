@@ -1818,6 +1818,7 @@
 
 .partners__slider-item {
   flex-basis: 20%;
+  height: ;
 }
 
 .partners__logo-box {
@@ -1829,6 +1830,13 @@
   flex-shrink: 0;
   display: flex;
   align-items: center;
+  height: 124px;
+}
+
+@media (max-width: 767px) {
+  .partners__slider-item_more{
+    height: 60px;
+  }
 }
 
 @media (max-width: 767px) {
