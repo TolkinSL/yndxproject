@@ -18,7 +18,7 @@
 @media screen and (max-width: 1023px) {
   .foundation__title {
     padding-left: 88px;
-    font-size: 32px;
+    font-size: 45px;
     line-height: 1.12;
   }
 }
@@ -27,6 +27,7 @@
   .foundation__title {
     padding-left: 22px;
     padding-top: 42px;
+    font-size: 30px;
   }
 }
 
