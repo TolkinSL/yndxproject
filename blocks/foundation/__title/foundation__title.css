@@ -18,20 +18,20 @@
 @media screen and (max-width: 1023px) {
   .foundation__title {
     padding-left: 88px;
-    font-size: 40px;
+    font-size: 32px;
     line-height: 1.12;
   }
 }
 
 @media screen and (max-width: 569px) {
   .foundation__title {
-    padding-left: 24px;
+    padding-left: 22px;
     padding-top: 42px;
   }
 }
 
 @media screen and (max-width: 397px) {
   .foundation__title {
-    max-width: 370px;
+    max-width: 300px;
   }
 }
