@@ -18,7 +18,7 @@
   font-weight: 700;
   font-size: 42px;
   line-height: 1.32;
-  max-width: 855px;
+  /* max-width: 855px; */
   text-align: center;
 
   color: #ffffff;
@@ -27,9 +27,9 @@
 @media screen and (max-width: 1023px) {
   .supportExtended__title {
     text-align: left;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-left: 16px;
-    min-width: 327px;
+    min-width: 400px;
 
     font-style: normal;
     font-weight: 700;
