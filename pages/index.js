@@ -12,7 +12,9 @@ const textLinkPrograms = document.querySelector(".header__link_fund_programs");
 const desktopProgramMenue = document.querySelector(".menue-program");
 const width = screen.width;
 const work = document.querySelector(".work");
-const boopTemplate = document.querySelector(".booptemplate").content;
+
+if ( document.URL.includes("index.html") ) {
+  const boopTemplate = document.querySelector(".booptemplate").content;
 
 for (let i = 0; i < 12; i++) {
   const boop = boopTemplate
@@ -20,6 +22,8 @@ for (let i = 0; i < 12; i++) {
     .cloneNode(true);
   work.prepend(boop);
 }
+}
+
 
 function openDesktopProgramsMenue(fundPrograms) {
   if (width > 767) desktopProgramMenue.classList.toggle("header__menue_active");
