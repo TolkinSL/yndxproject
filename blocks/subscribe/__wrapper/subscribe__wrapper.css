@@ -1,9 +1,9 @@
 .subscribe__wrapper {
   flex-direction: column;
-  margin: 43px 0  43px 5vw;
+  margin: 43px 0 43px 5vw;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1080px) {
   .subscribe__wrapper {
     margin: 43px 0 36.5px 0;
   }
