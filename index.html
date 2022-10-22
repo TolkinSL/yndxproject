@@ -575,36 +575,142 @@
       <!--      Ars-->
       <!--      Ars-->
       <section class="friends">
-        <h2 class="friends__title font">Наши друзья</h2>
-        <div class="friends__wrapper">
-          <div class="friends__quote">
-            <p class="quote__text font">
-              Благотворительность — это
-              <span class="quote__span">состояние души</span>
-            </p>
-            <p class="quote__author font">
-              <span class="span__bold">Константин Хабенский</span>, актер,
-              режиссер, основатель Фонда Константина Хабенского
-            </p>
+        <div
+          class="slider slider__foundation"
+          data-slider
+          data-autoplay="true"
+          data-interval="10000"
+        >
+          <h2 class="friends__title font">Наши друзья</h2>
+          <div class="slider__container">
+            <div class="slider__items">
+              <div class="slider__item">
+                <!-- <h2 class="friends__title font">Наши друзья</h2> -->
+                <div class="friends__wrapper">
+                  <div class="friends__quote">
+                    <p class="quote__text font">
+                      Мы пытаемся изменить «ландшафт», чтобы проблемы в сфере
+                      детской онкологии решались
+                      <span class="quote__span">системно</span>
+                    </p>
+                    <p class="quote__author font">
+                      <span class="span__bold">Чулпан Хаматова</span>, актриса,
+                      учредитель фонда «Подари жизнь»
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__item">
+                <!-- <h2 class="friends__title font">Наши друзья</h2> -->
+                <div class="friends__wrapper">
+                  <div class="friends__quote none">
+                    <p class="quote__text font">
+                      Смысл нашей работы в том, чтобы человеку в конце жизни
+                      было не больно, не стыдно и не одиноко —
+                      <span class="quote__span">а значит, не страшно</span>
+                    </p>
+                    <p class="quote__author font">
+                      <span class="span__bold">Ингеборга Дапкунайте</span>,
+                      актриса, сопредседатель попечительского совета Фонда
+                      помощи хосписам “Вера”
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__item">
+                <!-- <h2 class="friends__title font">Наши друзья</h2> -->
+                <div class="friends__wrapper">
+                  <div class="friends__quote none">
+                    <p class="quote__text font">
+                      Я фанат своего дела, но главным предназначением считаю
+                      помощь
+                      <span class="quote__span">людям</span>
+                    </p>
+                    <p class="quote__author font">
+                      <span class="span__bold">Александр Петров</span>, актер,
+                      попечитель фонда “Дом с маяком”
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="friends__wrapper">
+                  <div class="friends__quote none">
+                    <p class="quote__text font">
+                      Даже самые небольшие пожертвования делают очень большое
+                      дело и оказывают действительно
+                      <span class="quote__span">огромную помощь</span>
+                    </p>
+                    <p class="quote__author font">
+                      <span class="span__bold">Данила Козловский</span>, актер,
+                      попечитель фонда “Дети-бабочки”
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="friends__wrapper">
+                  <div class="friends__quote none">
+                    <p class="quote__text font">
+                      Меняя отношение к пожилым сейчас, мы создаем будущее, где
+                      будет
+                      <span class="quote__span">комфортно всем</span>
+                    </p>
+                    <p class="quote__author font">
+                      <span class="span__bold">Лиза Арзамасова</span>, актриса,
+                      член попечительского совета фонда “Старость в радость”
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="friends__wrapper">
+                  <div class="friends__quote none">
+                    <p class="quote__text font">
+                      Трудные подростки — это не трудные дети,это дети,
+                      <span class="quote__span">которым трудно</span>
+                    </p>
+                    <p class="quote__author font">
+                      <span class="span__bold">Саша Бортич</span>, Актриса,
+                      попечительница фонда “Шалаш”
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="friends__wrapper">
+                  <div class="friends__quote none">
+                    <p class="quote__text font">
+                      Причин оказаться без крыши над головой — сотни. Если
+                      кто-то думает, что он застрахован от этого,
+                      <span class="quote__span">то ошибается</span>
+                    </p>
+                    <p class="quote__author font">
+                      <span class="span__bold">Юрий Шевчук</span>, музыкант,
+                      друг благотворительной организации «Ночлежка»
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <img src="./images/quote__img.svg" alt="" class="quote__img" />
-        </div>
-        <div class="friends__slider-buttons">
-          <button
-            type="button"
-            name="button"
-            class="friends__slider-button"
-          ></button>
-          <button
-            type="button"
-            name="button"
-            class="friends__slider-button"
-          ></button>
-          <button
-            type="button"
-            name="button"
-            class="friends__slider-button"
-          ></button>
+
+          <button class="slider__control" data-slide="prev">
+            <span class="sr-only">Go Left</span>
+          </button>
+          <button class="slider__control" data-slide="next">
+            <span class="sr-only">Go Right</span>
+          </button>
+
+          <ol class="slider__indicators">
+            <li class="slider__indicator" data-slide-to="0"></li>
+            <li class="slider__indicator" data-slide-to="1"></li>
+            <li class="slider__indicator" data-slide-to="2"></li>
+            <li class="slider__indicator" data-slide-to="3"></li>
+            <li class="slider__indicator" data-slide-to="4"></li>
+            <li class="slider__indicator" data-slide-to="5"></li>
+            <li class="slider__indicator" data-slide-to="6"></li>
+          </ol>
         </div>
       </section>
       <!--      Ars-->
