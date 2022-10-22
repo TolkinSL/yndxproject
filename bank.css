@@ -27,7 +27,7 @@
 @media screen and (max-width: 1023px) {
   .supportExtended__title {
     text-align: left;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 16px;
     min-width: 327px;
 
@@ -366,6 +366,13 @@
   padding-bottom: 16px;
 }
 
+@media screen and (max-width: 767px) {
+  .bankCard__subtitle {
+    padding-left: 32px;
+  }
+}
+
+
 .bankCard-Front__BottomLine {
   margin: 0;
   padding: 0;
@@ -414,7 +421,7 @@
   background-repeat: no-repeat;
 
   width: 170px;
-   height: 57px;
+  height: 57px;
 
   background-position: center;
 
@@ -448,8 +455,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .grid-Payments__visa-mir-label {
-  }
+  .grid-Payments__visa-mir-label {}
 
   .grid-Payments__googlePay-label {
     background-size: 30%;
