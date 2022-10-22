@@ -17,13 +17,13 @@
   background-position: left 32px center;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1080px) {
   .subscribe__email {
     max-width: 250px;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 767px) {
   .subscribe__email {
     max-width: 362px;
     padding: 18px 65px 18px 55px;

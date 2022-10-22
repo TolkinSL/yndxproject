@@ -9,6 +9,12 @@
   margin: 0;
 }
 
+@media screen and (max-width: 1080px) {
+  .subscribe__subtitle {
+    font-size: 14px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .subscribe__subtitle {
     max-width: 400px;

@@ -20,13 +20,13 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1080px) {
   .subscribe__btn {
     margin-right: 5vw;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 767px) {
   .subscribe__btn {
     margin: 0 0 52px 0;
     padding: 18px 181px;

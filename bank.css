@@ -2,14 +2,13 @@
   font-family: "Inter", "Arial", sans-serif;
 }
 
-
 .supportExtended {
-  padding-top:56px;
+  padding-top: 56px;
   max-width: 1280px;
   min-height: 448px;
   position: relative;
   z-index: -10;
-  background: #82607D;
+  background: #82607d;
 }
 
 .supportExtended__title {
@@ -18,11 +17,11 @@
   font-style: normal;
   font-weight: 700;
   font-size: 42px;
-  line-height: 58px;
+  line-height: 1.32;
   max-width: 855px;
   text-align: center;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 1023px) {
@@ -35,16 +34,16 @@
     font-style: normal;
     font-weight: 700;
     font-size: 38px;
-    line-height: 44px;
+    line-height: 1.1;
   }
 }
 
 .supportExtended__title-span {
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-size: 44px;
   font-style: italic;
   font-weight: 400;
-  line-height: 58px;
+  line-height: 1.26;
   letter-spacing: 0em;
   text-align: center;
 }
@@ -55,7 +54,7 @@
     font-size: 40px;
     font-style: italic;
     font-weight: 400;
-    line-height: 44px;
+    line-height: 1.04;
     letter-spacing: 0em;
   }
 }
@@ -72,7 +71,7 @@
   z-index: 10;
   max-width: 680px;
   min-width: 359px;
-  background: #FFFFFF;
+  background: #ffffff;
   margin: 0 auto;
   margin-bottom: -211px;
 }
@@ -91,8 +90,6 @@
   }
 }
 
-
-
 .bankCard {
   padding-top: 56px;
   margin: 0 auto;
@@ -100,15 +97,12 @@
   max-width: 558px;
 }
 
-
 @media screen and (max-width: 767px) {
   .bankCard {
     max-width: 359px;
     padding-top: 24px;
   }
-
 }
-
 
 .bankCard__Form {
   position: relative;
@@ -119,8 +113,6 @@
   display: flex;
 }
 
-
-
 .bankCard-Front {
   margin: 0;
   padding: 0;
@@ -129,7 +121,7 @@
   width: 364px;
   height: 267px;
 
-  background: #F8F8F8;
+  background: #f8f8f8;
   border-radius: 8px;
   position: relative;
   z-index: 10;
@@ -142,9 +134,7 @@
     /* ///////////////// */
     margin: 0 auto;
   }
-
 }
-
 
 .bankCard-Front__placeholders {
   display: flex;
@@ -154,13 +144,11 @@
   padding-right: 32px;
 }
 
-
 @media screen and (max-width: 767px) {
   .bankCard-Front__placeholders {
     padding-left: 16px;
   }
 }
-
 
 .bankCard-Front__placeholders_number {
   margin-bottom: 8px;
@@ -176,7 +164,6 @@
   }
 }
 
-
 .bankCard-Front__placeholders_name {
   margin-bottom: 16px;
   height: 56px;
@@ -188,7 +175,6 @@
   .bankCard-Front__placeholders_name {
     width: 279px;
   }
-
 }
 
 .bankCard-Front__bestBefore-title {
@@ -197,7 +183,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 23px;
+  line-height: 1.44;
 
   color: #000000;
   padding-left: 24px;
@@ -212,10 +198,9 @@
   margin-bottom: 24px;
   height: 56px;
   width: 96px;
-  background: #FFFFFF;
+  background: #ffffff;
   border: none;
 }
-
 
 .bankCard-Front__finalSum {
   margin: 0;
@@ -232,9 +217,9 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 19px;
+  line-height: 1.19;
 
-  color: #8E8E8E;
+  color: #8e8e8e;
   padding-bottom: 2px;
   min-width: 150px;
   margin-left: 16px;
@@ -245,16 +230,14 @@
   height: 56px;
   width: 92px;
   border: none;
-  background: #F8F8F8;
+  background: #f8f8f8;
 }
-
 
 @media screen and (max-width: 767px) {
   .bankCard-Front__finalSum-Input {
     height: 26px;
   }
 }
-
 
 .bankCard-Back {
   margin: 0;
@@ -263,7 +246,7 @@
   width: 369px;
   height: 244px;
   position: absolute;
-  background: #E5E5E5;
+  background: #e5e5e5;
   border-radius: 8px;
   margin-top: 50px;
   z-index: -10;
@@ -285,7 +268,7 @@
   padding-top: 25px;
   width: 100%;
   height: 52px;
-  background: #D0CFCC;
+  background: #d0cfcc;
 }
 
 .bankCard-Back__CVV-CVC {
@@ -303,7 +286,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.44;
 
   color: #000000;
 }
@@ -326,12 +309,10 @@
   border: none;
 }
 
-
 .bankCard-Back__inputCVC_enable {
   width: 104px;
   height: 56px;
 }
-
 
 .bankCard-Front__CVV-CVC {
   max-height: 83px;
@@ -349,7 +330,6 @@
   }
 }
 
-
 .bankCard-Front__CVV-CVC-title {
   margin: 0;
   padding: 0;
@@ -363,7 +343,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 19px;
+  line-height: 1.19;
   color: #000000;
   width: 126px;
 }
@@ -374,19 +354,17 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.44;
 
   color: #000000;
   padding-bottom: 16px;
 }
-
 
 .bankCard-Front__BottomLine {
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: row;
-
 }
 
 @media screen and (max-width: 767px) {
@@ -394,7 +372,6 @@
     flex-direction: column;
   }
 }
-
 
 .grid-Payments {
   padding: 0;
@@ -407,27 +384,23 @@
   gap: 16px;
 }
 
-
-
 .grid-Payments__visa-mir-label {
-  background-image: url('./images/visa_mir-small.svg');
+  background-image: url("./images/visa_mir-small.svg");
 }
 
 .grid-Payments__googlePay-label {
-  background-image: url('./images/Gpay-small.svg');
+  background-image: url("./images/Gpay-small.svg");
 }
 
 .grid-Payments__ApplePay-label {
-  background-image: url('./images/ApplePay-small.svg');
+  background-image: url("./images/ApplePay-small.svg");
 }
-
 
 .grid-Payments__Input {
   max-width: 311px;
 
   display: none;
 }
-
 
 .grid-Payments__label {
   cursor: pointer;
@@ -455,22 +428,19 @@
   }
 }
 
-
-
 @media screen and (max-width: 767px) {
   .grid-Payments__visa-mir-label {
-    background-image: url('./images/visa_mir.svg');
+    background-image: url("./images/visa_mir.svg");
   }
 
   .grid-Payments__googlePay-label {
-    background-image: url('./images/Gpay.svg');
+    background-image: url("./images/Gpay.svg");
   }
 
   .grid-Payments__ApplePay-label {
-    background-image: url('./images/ApplePay.svg');
+    background-image: url("./images/ApplePay.svg");
   }
 }
-
 
 .PayOptions__title {
   margin: 0;
@@ -481,14 +451,11 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 26px;
+  line-height: 1.3;
   color: #000000;
-
 }
 
-
 /* Сергей */
-
 
 .bankCard__requisites {
   max-width: 680px;
@@ -525,7 +492,6 @@
   }
 }
 
-
 .bankCard__requisites__checkbox-wrapper {
   margin-bottom: 16px;
 }
@@ -540,7 +506,7 @@
   align-items: center;
   justify-content: start;
   font-size: 16px;
-  line-height: 120%;
+  line-height: 1.2;
   max-width: 430px;
 }
 
@@ -574,7 +540,7 @@
   color: white;
   font-weight: 700;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.25;
   text-align: center;
   min-height: 56px;
   width: 100%;
