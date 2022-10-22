@@ -647,7 +647,7 @@
 
 @media screen and (max-width: 1080px) {
   .work {
-    margin-top: 56px;
+    padding-top: 56px;
   }
 }
 
@@ -688,7 +688,7 @@
   background: #f8f8f8;
   border-radius: 136px;
   position: absolute;
-  top: 570px;
+  top: calc(570px + 96px);
   left: 290px;
 }
 
@@ -701,7 +701,7 @@
   width: 17px;
   height: 17px;
   background: #77c5d5;
-  top: 273px;
+  top: calc(96px + 273px);
   right: 384px;
 }
 
@@ -710,7 +710,7 @@
   width: 23px;
   height: 23px;
   right: 338px;
-  top: 393px;
+  top: calc(393px + 96px);
 }
 
 .underelement__boop:nth-of-type(3) {
@@ -763,7 +763,7 @@
 }
 
 .underelement__boop:nth-of-type(9) {
-  top: 266px;
+  top: calc(266px + 96px);
   right: 449px;
   width: 7px;
   height: 7px;
@@ -771,7 +771,7 @@
 }
 
 .underelement__boop:nth-of-type(10) {
-  top: 318px;
+  top: calc(318px + 96px);
   right: 332px;
   width: 7px;
   height: 7px;
@@ -779,7 +779,7 @@
 }
 
 .underelement__boop:nth-of-type(11) {
-  top: 568px;
+  top: calc(568px + 96px);
   left: 228px;
   width: 23px;
   height: 23px;
@@ -788,12 +788,12 @@
 
 .underelement__daltonic:nth-of-type(2) {
   left: unset;
-  top: 406px;
+  top: calc(406px + 96px);
   right: 0;
 }
 
 .underelement__daltonic:nth-of-type(3) {
-  top: 305px;
+  top: calc(305px + 96px);
   right: unset;
   left: 90px;
   width: 576px;
@@ -962,14 +962,14 @@
     background: #f8f8f8;
     border-radius: 136px;
     position: absolute;
-    top: 570px;
+    top: calc(570px + 56px);
     left: 290px;
     display: none;
   }
 
   .underelement__daltonic:nth-of-type(2) {
     left: unset;
-    top: 406px;
+    top: calc(406px + 56px);
     right: 0;
     display: none;
   }
@@ -993,7 +993,7 @@
     display: block;
     width: 4px;
     height: 4px;
-    top: 407px;
+    top: calc(407px + 56px);
     right: 30px;
     background: #77c5d5;
   }
@@ -1002,7 +1002,7 @@
     width: 14px;
     height: 14px;
     background: #528cbe;
-    top: 536px;
+    top: calc(536px + 56px);
     right: 34px;
   }
   .underelement__boop:nth-of-type(3) {
