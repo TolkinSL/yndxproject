@@ -1,14 +1,14 @@
 const radioContainer = document.querySelector('.grid-support');
-const radioButtonsSwitch = radioContainer.querySelectorAll('.grid__money-input');
-const radioLabelsSwitch = radioContainer.querySelectorAll('.grid__money-label');
+const radioButtons_moneyInput = radioContainer.querySelectorAll('.grid-support__money-input');
+const radioLabels_moneyInput = radioContainer.querySelectorAll('.grid-support__money-label');
 
-const radioButtonSwitch1 = radioContainer.querySelector('.grid__money-input1');
-const radioButtonSwitch2 = radioContainer.querySelector('.grid__money-input2');
-const radioButtonSwitch3 = radioContainer.querySelector('.grid__money-input3');
+const radioButton_moneyInput1 = radioContainer.querySelector('.grid-support__money-input1');
+const radioButton_moneyInput2 = radioContainer.querySelector('.grid-support__money-input2');
+const radioButton_moneyInput3 = radioContainer.querySelector('.grid-support__money-input3');
 
-const radioLabelSwitch1 = radioContainer.querySelector('.grid__money-label1');
-const radioLabelSwitch2 = radioContainer.querySelector('.grid__money-label2');
-const radioLabelSwitch3 = radioContainer.querySelector('.grid__money-label3');
+const radioLabel_moneyInput1 = radioContainer.querySelector('.grid-support__money-label1');
+const radioLabel_moneyInput2 = radioContainer.querySelector('.grid-support__money-label2');
+const radioLabel_moneyInput3 = radioContainer.querySelector('.grid-support__money-label3');
 
 
 const switchContainer = document.querySelector('.switch');
@@ -24,7 +24,7 @@ const switchLabel2 = switchContainer.querySelector('.switch__label2');
 const switchIndicator = switchContainer.querySelector('.switch__indicator');
 
 
-con
+
 
 // function def(item) {
 //   if (item.checked) {
@@ -77,10 +77,10 @@ con
 
 
 function ResetRadioButtons(rdBtn) {
-  radioLabelsSwitch.forEach(function (item) {
+  radioLabels_moneyInput.forEach(function (item) {
     item.style.backgroundColor = "#F8F8F8";
   });
-  radioButtonsSwitch.forEach(function (item) {
+  radioButtons_moneyInput.forEach(function (item) {
     if (item != rdBtn) {
       item.checked = false;
     }
@@ -88,34 +88,34 @@ function ResetRadioButtons(rdBtn) {
 }
 
 
-radioButtonSwitch1.addEventListener("click", () => {
-  ResetRadioButtons(radioButtonSwitch1);
-  if (radioButtonSwitch1.checked) {
-    radioButtonSwitch1.checked = true
-    radioLabelSwitch1.style.backgroundColor = "#82607D";
-    radioLabelSwitch1.style.color = "white";
-    radioLabelSwitch2.style.color = "#000000";
-    radioLabelSwitch3.style.color = "#000000";
+radioButton_moneyInput1.addEventListener("click", () => {
+  ResetRadioButtons(radioButton_moneyInput1);
+  if (radioButton_moneyInput1.checked) {
+    radioButton_moneyInput1.checked = true
+    radioLabel_moneyInput1.style.backgroundColor = "#82607D";
+    radioLabel_moneyInput1.style.color = "white";
+    radioLabel_moneyInput2.style.color = "#000000";
+    radioLabel_moneyInput3.style.color = "#000000";
 
   }
 });
 
-radioButtonSwitch2.addEventListener("click", () => {
-  ResetRadioButtons(radioButtonSwitch2);
-  if (radioButtonSwitch2.checked) {
-    radioLabelSwitch2.style.backgroundColor = "#82607D";
-    radioLabelSwitch1.style.color = "#000000";
-    radioLabelSwitch2.style.color = "white";
-    radioLabelSwitch3.style.color = "#000000";
+radioButton_moneyInput2.addEventListener("click", () => {
+  ResetRadioButtons(radioButton_moneyInput2);
+  if (radioButton_moneyInput2.checked) {
+    radioLabel_moneyInput2.style.backgroundColor = "#82607D";
+    radioLabel_moneyInput1.style.color = "#000000";
+    radioLabel_moneyInput2.style.color = "white";
+    radioLabel_moneyInput3.style.color = "#000000";
   }
 });
 
-radioButtonSwitch3.addEventListener("click", () => {
-  ResetRadioButtons(radioButtonSwitch3);
-  if (radioButtonSwitch3.checked) {
-    radioLabelSwitch3.style.backgroundColor = "#82607D";
-    radioLabelSwitch1.style.color = "#000000";
-    radioLabelSwitch2.style.color = "#000000";
-    radioLabelSwitch3.style.color = "white";
+radioButton_moneyInput3.addEventListener("click", () => {
+  ResetRadioButtons(radioButton_moneyInput3);
+  if (radioButton_moneyInput3.checked) {
+    radioLabel_moneyInput3.style.backgroundColor = "#82607D";
+    radioLabel_moneyInput1.style.color = "#000000";
+    radioLabel_moneyInput2.style.color = "#000000";
+    radioLabel_moneyInput3.style.color = "white";
   }
 });

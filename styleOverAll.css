@@ -2139,23 +2139,23 @@
   }
 }
 
-.grid__money-input {
+.grid-support__money-input {
   display: none;
 }
 
-.grid__money-label1 {
+.grid-support__money-label1 {
   grid-area: grid__money-input1;
 }
 
-.grid__money-label2 {
+.grid-support__money-label2 {
   grid-area: grid__money-input2;
 }
 
-.grid__money-label3 {
+.grid-support__money-label3 {
   grid-area: grid__money-input3;
 }
 
-.grid__input {
+.grid-support__input {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -2166,7 +2166,7 @@
   border: none;
 }
 
-.grid__money-label {
+.grid-support__money-label {
   /* max-width: 173px; */
   height: 56px;
   display: flex;
@@ -2180,7 +2180,7 @@
   /* opacity: .3; */
 }
 
-.grid__money-label:hover {
+.grid-support__money-label:hover {
   opacity: 0.8;
 }
 
