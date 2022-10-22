@@ -1,14 +1,16 @@
-const radioContainer = document.querySelector('.grid-support');
-const radioButtons_moneyInput = radioContainer.querySelectorAll('.grid-support__money-input');
-const radioLabels_moneyInput = radioContainer.querySelectorAll('.grid-support__money-label');
+// grid-support const
+const radioContainerSupport = document.querySelector('.grid-support');
 
-const radioButton_moneyInput1 = radioContainer.querySelector('.grid-support__money-input1');
-const radioButton_moneyInput2 = radioContainer.querySelector('.grid-support__money-input2');
-const radioButton_moneyInput3 = radioContainer.querySelector('.grid-support__money-input3');
+const radioButtons_moneyInput = radioContainerSupport.querySelectorAll('.grid-support__money-input');
+const radioLabels_moneyInput = radioContainerSupport.querySelectorAll('.grid-support__money-label');
 
-const radioLabel_moneyInput1 = radioContainer.querySelector('.grid-support__money-label1');
-const radioLabel_moneyInput2 = radioContainer.querySelector('.grid-support__money-label2');
-const radioLabel_moneyInput3 = radioContainer.querySelector('.grid-support__money-label3');
+const radioButton_moneyInput1 = radioContainerSupport.querySelector('.grid-support__money-input1');
+const radioButton_moneyInput2 = radioContainerSupport.querySelector('.grid-support__money-input2');
+const radioButton_moneyInput3 = radioContainerSupport.querySelector('.grid-support__money-input3');
+
+const radioLabel_moneyInput1 = radioContainerSupport.querySelector('.grid-support__money-label1');
+const radioLabel_moneyInput2 = radioContainerSupport.querySelector('.grid-support__money-label2');
+const radioLabel_moneyInput3 = radioContainerSupport.querySelector('.grid-support__money-label3');
 
 
 const switchContainer = document.querySelector('.switch');
@@ -23,8 +25,19 @@ const switchLabel2 = switchContainer.querySelector('.switch__label2');
 
 const switchIndicator = switchContainer.querySelector('.switch__indicator');
 
+// grid-Payments const
+const radioContainerPayments = document.querySelector('.grid-Payments');
 
+const radioButtons_Payments = radioContainerPayments.querySelectorAll('.grid-Payments__Input');
+const radioLabels_Payments = radioContainerPayments.querySelectorAll('.grid-Payments__label');
 
+const radioButton_Payment1 = radioContainerPayments.querySelector('.grid-Payments__Input-visa');
+const radioButton_Payment2 = radioContainerPayments.querySelector('.grid-Payments__Input-GPay');
+const radioButton_Payment3 = radioContainerPayments.querySelector('.grid-Payments__Input-ApplePay');
+
+const radioLabel_Payment1 = radioContainerPayments.querySelector('.grid-Payments__visa-mir-label');
+const radioLabel_Payment2 = radioContainerPayments.querySelector('.grid-Payments__googlePay-label');
+const radioLabel_Payment3 = radioContainerPayments.querySelector('.grid-Payments__ApplePay-label');
 
 // function def(item) {
 //   if (item.checked) {
@@ -85,6 +98,15 @@ function ResetRadioButtons(rdBtn) {
       item.checked = false;
     }
   });
+
+  radioLabels_Payments.forEach(function (item) {
+    item.style.backgroundColor = "#F8F8F8";
+  });
+  radioButtons_Payments.forEach(function (item) {
+    if (item != rdBtn) {
+      item.checked = false;
+    }
+  });
 }
 
 
@@ -119,3 +141,42 @@ radioButton_moneyInput3.addEventListener("click", () => {
     radioLabel_moneyInput3.style.color = "white";
   }
 });
+
+
+
+
+
+
+radioButton_Payment1.addEventListener("click", () => {
+  ResetRadioButtons(radioButton_Payment1);
+  if (radioButton_Payment1.checked) {
+    radioButton_Payment1.checked = true
+    radioLabel_Payment1.style.backgroundColor = "#82607D";
+    // radioLabel_moneyInput1.style.color = "white";
+    // radioLabel_moneyInput2.style.color = "#000000";
+    // radioLabel_moneyInput3.style.color = "#000000";
+  }
+});
+
+radioButton_Payment2.addEventListener("click", () => {
+  ResetRadioButtons(radioButton_Payment2);
+  if (radioButton_Payment2.checked) {
+    radioButton_Payment2.checked = true
+    radioLabel_Payment2.style.backgroundColor = "#82607D";
+    // radioLabel_moneyInput1.style.color = "white";
+    // radioLabel_moneyInput2.style.color = "#000000";
+    // radioLabel_moneyInput3.style.color = "#000000";
+  }
+});
+
+radioButton_Payment3.addEventListener("click", () => {
+  ResetRadioButtons(radioButton_Payment3);
+  if (radioButton_Payment3.checked) {
+    radioButton_Payment3.checked = true
+    radioLabel_Payment3.style.backgroundColor = "#82607D";
+    // radioLabel_moneyInput1.style.color = "white";
+    // radioLabel_moneyInput2.style.color = "#000000";
+    // radioLabel_moneyInput3.style.color = "#000000";
+  }
+});
+

@@ -384,39 +384,6 @@
   gap: 16px;
 }
 
-.grid-Payments__visa-mir-label {
-  background-image: url("./images/visa_mir-small.svg");
-}
-
-.grid-Payments__googlePay-label {
-  background-image: url("./images/Gpay-small.svg");
-}
-
-.grid-Payments__ApplePay-label {
-  background-image: url("./images/ApplePay-small.svg");
-}
-
-.grid-Payments__Input {
-  max-width: 311px;
-
-  display: none;
-}
-
-.grid-Payments__label {
-  cursor: pointer;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 170px;
-  height: 57px;
-}
-
-@media screen and (max-width: 767px) {
-  .grid-Payments__label {
-    width: 311px;
-    height: 57px;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .grid-Payments {
     grid-template-columns: 311px;
@@ -428,17 +395,62 @@
   }
 }
 
+
+.grid-Payments__Input {
+  max-width: 311px;
+
+  display: none;
+}
+
+.grid-Payments__label {
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  width: 170px;
+   height: 57px;
+
+  background-position: center;
+
+}
+
+@media screen and (max-width: 767px) {
+  .grid-Payments__label {
+    width: 311px;
+    height: 57px;
+  }
+}
+
+
+
+.grid-Payments__visa-mir-label {
+  /* background-image: url("./images/visa_mir-small.svg"); */
+  background-image: url("./images/visa-mir.svg");
+  background-size: 80%;
+
+}
+
+.grid-Payments__googlePay-label {
+  background-image: url("./images/Gpay.svg");
+  background-size: 40%;
+}
+
+.grid-Payments__ApplePay-label {
+  background-image: url("./images/ApplePay.svg");
+  background-size: 40%;
+
+}
+
 @media screen and (max-width: 767px) {
   .grid-Payments__visa-mir-label {
-    background-image: url("./images/visa_mir.svg");
   }
 
   .grid-Payments__googlePay-label {
-    background-image: url("./images/Gpay.svg");
+    background-size: 30%;
   }
 
   .grid-Payments__ApplePay-label {
-    background-image: url("./images/ApplePay.svg");
+    background-size: 30%;
   }
 }
 
