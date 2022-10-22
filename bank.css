@@ -209,10 +209,7 @@
   color: #000000;
   padding-left: 24px;
   padding-bottom: 4px;
-
 }
-
-
 
 .bankCard-Front__finalSum {
   margin: 0;
@@ -378,7 +375,6 @@
   }
 }
 
-
 .bankCard-Front__BottomLine {
   margin: 0;
   padding: 0;
@@ -414,7 +410,6 @@
   }
 }
 
-
 .grid-Payments__Input {
   max-width: 311px;
 
@@ -430,7 +425,6 @@
   height: 57px;
 
   background-position: center;
-
 }
 
 @media screen and (max-width: 767px) {
@@ -440,13 +434,10 @@
   }
 }
 
-
-
 .grid-Payments__visa-mir-label {
   /* background-image: url("./images/visa_mir-small.svg"); */
   background-image: url("./images/visa-mir.svg");
   background-size: 80%;
-
 }
 
 .grid-Payments__googlePay-label {
@@ -457,11 +448,11 @@
 .grid-Payments__ApplePay-label {
   background-image: url("./images/ApplePay.svg");
   background-size: 40%;
-
 }
 
 @media screen and (max-width: 767px) {
-  .grid-Payments__visa-mir-label {}
+  .grid-Payments__visa-mir-label {
+  }
 
   .grid-Payments__googlePay-label {
     background-size: 30%;
