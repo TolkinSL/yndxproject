@@ -171,11 +171,29 @@
 @import url('../blocks/support-button/support-button.css');
 @import url('../blocks/supportForm/__title/supportForm__title.css');
 /*------- Gohar footer------*/
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__container/footer__container.css');
+@import url('../blocks/footer/__container/_height/footer__container_height.css');
+@import url('../blocks/footer/__logo/footer__logo.css');
+@import url('../blocks/footer/__menue/footer__menue.css');
+@import url('../blocks/footer/__menue-items/footer__menue-items.css');
+@import url('../blocks/footer/__menue-item/footer__menue-item.css');
+@import url('../blocks/footer/__link/footer__link.css');
+@import url('../blocks/footer/__link/_transform/footer__link_transform.css');
+@import url('../blocks/footer/__contact-container/footer__contact-container.css');
+@import url('../blocks/footer/__contact/footer__contact.css');
+@import url('../blocks/footer/__contact-details/footer__contact-details.css');
+@import url('../blocks/footer/__social/footer__social.css');
+@import url('../blocks/footer/__social-link/footer__social-link.css');
+@import url('../blocks/footer/__social-icon/footer__social-icon.css');
+@import url('../blocks/footer/__variety/footer__variety.css');
+@import url('../blocks/footer/__wrapper/footer__wrapper.css');
+@import url('../blocks/footer/__adultsonly/footer__adultsonly.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');
+@import url('../blocks/footer/__otherrights/footer__otherrights.css');
+@import url('../blocks/footer/__registered/footer__registered.css');
+
+/* Second page help-fund-page.html */
 @import url('../');
 @import url('../');
 @import url('../');

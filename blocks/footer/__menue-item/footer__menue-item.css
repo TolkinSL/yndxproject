@@ -1,1 +1,15 @@
-.footer__menue-item {}
+.footer__menue-item {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__menue-item {
+    margin-right: 15px;
+  }
+
+  .footer__menue-item:nth-of-type(7) {
+    margin-right: 70px;
+  }
+}

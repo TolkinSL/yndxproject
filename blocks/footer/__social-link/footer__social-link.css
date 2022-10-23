@@ -1,1 +1,6 @@
-.footer__social-link {}
+.footer__social-link {
+  box-sizing: border-box;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
