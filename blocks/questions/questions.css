@@ -1,1 +1,13 @@
-.questions {}
+.questions {
+  max-width: 680px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+@media screen and (max-width: 767px) {
+  .questions {
+    width: 90%;
+  }
+}

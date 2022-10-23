@@ -1,1 +1,4 @@
-.help__social {}
+.help__social {
+  align-self: start;
+  margin-left: 88px;
+}
