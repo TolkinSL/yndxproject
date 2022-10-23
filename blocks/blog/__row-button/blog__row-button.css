@@ -1,4 +1,5 @@
-.blog__row-button {}
+.blog__row-button {
+}
 
 @media screen and (max-width: 767px) {
   .blog__row-button {
