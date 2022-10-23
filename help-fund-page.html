@@ -243,7 +243,7 @@
                      id="money_radio_3">
               <label class="grid-support__money-label grid-support__money-label3" for="money_radio_3">50 000</label>
 
-              <input class="grid-support__input grid-support__input_title" type="number" name="name"
+              <input class="grid-support__input grid-support__input_title" type="number" name="grid-support"
                      placeholder="Другая сумма" minlength="1" maxlength="12">
             </div>
           </form>
@@ -269,9 +269,9 @@
           <div class="bankCard__Form">
             <div class="bankCard-Front">
               <div class="bankCard-Front__placeholders">
-                <input class="bankCard-Front__placeholders_number" type="text" name="name" placeholder="Номер карты"
+                <input class="bankCard-Front__placeholders_number" type="text" name="cardNumber" placeholder="Номер карты"
                        minlength="2" maxlength="20" required>
-                <input class="bankCard-Front__placeholders_name" type="text" name="about" placeholder="Держатель карты"
+                <input class="bankCard-Front__placeholders_name" type="text" name="belongsTo" placeholder="Держатель карты"
                        minlength="2" required>
               </div>
 
@@ -311,19 +311,19 @@
 
           <div class="bankCard-requisites">
             <div class="bankCard-requisites__wrapper">
-              <input type="text" placeholder="Имя" required class="bankCard-requisites__text">
-              <input type="text" placeholder="Фамилия" required class="bankCard-requisites__text">
-              <input type="tel" placeholder="Телефон" required class="bankCard-requisites__text">
-              <input type="email" placeholder="Email" required class="bankCard-requisites__text">
+              <input type="text" placeholder="Имя" required class="bankCard-requisites__text" name="name">
+              <input type="text" placeholder="Фамилия" required class="bankCard-requisites__text" name="surname">
+              <input type="tel" placeholder="Телефон" required class="bankCard-requisites__text" name="phone">
+              <input type="email" placeholder="Email" required class="bankCard-requisites__text" name="email">
             </div>
             <div class="bankCard-requisites__checkbox-wrapper">
               <label class="bankCard-requisites__checkbox-label"><input type="checkbox"
-                       class="bankCard-requisites__checkbox"><span>Согласен с
+                       class="bankCard-requisites__checkbox" name="checkbox"><span>Согласен с
                   <a href="#" class="bankCard-requisites__link">офертой</a></span></label>
             </div>
             <div class="bankCard-requisites__checkbox-wrapper">
               <label class="bankCard-requisites__checkbox-label"><input type="checkbox"
-                       class="bankCard-requisites__checkbox"><span>Ознакомился и согласен с
+                       class="bankCard-requisites__checkbox" name="checkbox"><span>Ознакомился и согласен с
                   <a href="#" class="bankCard-requisites__link">политикой обработки персональных
                     данных</a></span></label>
             </div>
@@ -429,15 +429,15 @@
         Если у вас есть вопросы или предложения, напишите нам. Мы ответим в
         течение дня
       </p>
-      <form class="questions__form">
+      <form class="questions__form" name="questions">
         <div class="questions__form-wrapper">
-          <input type="text" class="questions__input-text" required placeholder="Имя">
-          <input type="email" class="questions__input-text" required placeholder="E-mail">
+          <input type="text" class="questions__input-text" required placeholder="Имя" name="name">
+          <input type="email" class="questions__input-text" required placeholder="E-mail" name="email">
         </div>
         <textarea name="questions__input-message" id="" cols="30" rows="10" class="questions__input-message"
                   placeholder="Сообщение"></textarea>
         <label class="questions__input-checkbox-label"><input type="checkbox" class="questions__input-checkbox"
-                 required><span>Я согласен c
+                 required name="checkbox"><span>Я согласен c
             <a href="/#" class="questions__input-link">пользовательским соглашением</a></span></label>
         <button type="submit" class="questions__input-button">
           Отправить
