@@ -45,35 +45,6 @@ const switchIndicator = switchContainer.querySelector('.switch__indicator');
 //   }
 // }
 
-// switchButtons.forEach(function (item) {
-//   if (item.checked) {
-//     def(item);
-//   }
-// });
-
-
-// switchInputOne.addEventListener("click", () => {
-//   if (switchInputOne.checked) {
-//     switchIndicator.style.transform = "translate3d(0, 0, 0)";
-//     switchLabel1.style.color = "#F8F8F8";
-//     switchLabel2.style.color = "#999999";
-//   }
-// });
-
-// switchInputTwo.addEventListener("click", () => {
-//   if (switchInputTwo.checked) {
-//     let width = screen.width;
-//     if (width > 1023) {
-//       switchIndicator.style.transform = "translate3d(275px, 0, 0)";
-//     } else {
-//       switchIndicator.style.transform = "translate3d(165px, 0, 0)";
-//     }
-
-//     switchLabel2.style.color = "#F8F8F8";
-//     switchLabel1.style.color = "#999999";
-//   }
-// });
-
 
 function ResetRadioButtons(rdBtn) {
   radioLabels_moneyInput.forEach(function (item) {
@@ -84,22 +55,11 @@ function ResetRadioButtons(rdBtn) {
       item.checked = false;
     }
   });
-
-  if (document.URL.includes("help-fund-page.html")) {
-    radioLabels_Payments.forEach(function (item) {
-      item.style.backgroundColor = "#F8F8F8";
-    });
-    radioButtons_Payments.forEach(function (item) {
-      if (item != rdBtn) {
-        item.checked = false;
-      }
-    });
-  }
 }
 
 
 radioButton_moneyInput1.addEventListener("click", () => {
-  ResetRadioButtons(radioButton_moneyInput1);
+  ResetRadioButtons(radioButton_moneyInput1, radioLabel_moneyInput1);
   if (radioButton_moneyInput1.checked) {
     radioButton_moneyInput1.checked = true
     radioLabel_moneyInput1.style.backgroundColor = "#82607D";
@@ -111,7 +71,7 @@ radioButton_moneyInput1.addEventListener("click", () => {
 });
 
 radioButton_moneyInput2.addEventListener("click", () => {
-  ResetRadioButtons(radioButton_moneyInput2);
+  ResetRadioButtons(radioButton_moneyInput2, radioLabel_moneyInput2);
   if (radioButton_moneyInput2.checked) {
     radioLabel_moneyInput2.style.backgroundColor = "#82607D";
     radioLabel_moneyInput1.style.color = "#000000";
@@ -121,7 +81,7 @@ radioButton_moneyInput2.addEventListener("click", () => {
 });
 
 radioButton_moneyInput3.addEventListener("click", () => {
-  ResetRadioButtons(radioButton_moneyInput3);
+  ResetRadioButtons(radioButton_moneyInput3, radioLabel_moneyInput3);
   if (radioButton_moneyInput3.checked) {
     radioLabel_moneyInput3.style.backgroundColor = "#82607D";
     radioLabel_moneyInput1.style.color = "#000000";
@@ -129,7 +89,6 @@ radioButton_moneyInput3.addEventListener("click", () => {
     radioLabel_moneyInput3.style.color = "white";
   }
 });
-
 
 
 //second page
@@ -148,7 +107,7 @@ if (document.URL.includes("help-fund-page.html")) {
   const radioLabel_Payment2 = radioContainerPayments.querySelector('.grid-Payments__googlePay-label');
   const radioLabel_Payment3 = radioContainerPayments.querySelector('.grid-Payments__ApplePay-label');
 
-  function ResetRadioButtons(rdBtn) {
+  function ResetRadioButtonsPayments(rdBtn) {
 
     radioLabels_Payments.forEach(function (item) {
       item.style.backgroundColor = "#F8F8F8";
@@ -161,7 +120,7 @@ if (document.URL.includes("help-fund-page.html")) {
   }
 
   radioButton_Payment1.addEventListener("click", () => {
-    ResetRadioButtons(radioButton_Payment1);
+    ResetRadioButtonsPayments(radioButton_Payment1, radioLabel_Payment1);
     if (radioButton_Payment1.checked) {
       radioButton_Payment1.checked = true
       radioLabel_Payment1.style.backgroundColor = "#82607D";
@@ -169,7 +128,7 @@ if (document.URL.includes("help-fund-page.html")) {
   });
 
   radioButton_Payment2.addEventListener("click", () => {
-    ResetRadioButtons(radioButton_Payment2);
+    ResetRadioButtonsPayments(radioButton_Payment2, radioLabel_Payment2);
     if (radioButton_Payment2.checked) {
       radioButton_Payment2.checked = true
       radioLabel_Payment2.style.backgroundColor = "#82607D";
@@ -177,7 +136,7 @@ if (document.URL.includes("help-fund-page.html")) {
   });
 
   radioButton_Payment3.addEventListener("click", () => {
-    ResetRadioButtons(radioButton_Payment3);
+    ResetRadioButtonsPayments(radioButton_Payment3, radioLabel_Payment3);
     if (radioButton_Payment3.checked) {
       radioButton_Payment3.checked = true
       radioLabel_Payment3.style.backgroundColor = "#82607D";
