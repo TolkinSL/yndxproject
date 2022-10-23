@@ -1,1 +1,18 @@
-.values__container {}
+.values__container {
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 81%;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .values__container {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 40px;
+  }
+}

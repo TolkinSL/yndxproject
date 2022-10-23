@@ -1,1 +1,9 @@
-.programs__item {}
+.programs__item {
+  padding-top: 88px;
+  padding-bottom: 126px;
+  color: #fff;
+  background-position: bottom right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #ef9100;
+}

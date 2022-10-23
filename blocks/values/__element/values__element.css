@@ -1,1 +1,16 @@
-.values__element {}
+.values__element {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  width: 20%;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .values__element {
+    width: 100%;
+  }
+}

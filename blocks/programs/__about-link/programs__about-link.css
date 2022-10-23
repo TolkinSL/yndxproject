@@ -1,1 +1,13 @@
-.programs__about-link {}
+.programs__about-link {
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border-radius: 56px;
+  padding: 18px 52px;
+}
+
+@media (max-width: 767px) {
+  .programs__about-link {
+    margin-left: 24px;
+  }
+}

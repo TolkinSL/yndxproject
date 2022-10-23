@@ -1,1 +1,10 @@
-.programs__item_school {}
+.programs__item_school {
+  background-image: url("../../../../images/programs_img_2.png");
+  background-color: #528cbe;
+}
+
+@media (max-width: 767px) {
+  .programs__item_school {
+    background-image: none;
+  }
+}

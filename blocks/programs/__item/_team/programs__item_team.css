@@ -1,1 +1,10 @@
-.programs__item_team {}
+.programs__item_team {
+  background-image: url("../../../../images/programs_img_3.png");
+  background-color: #de6f7e;
+}
+
+@media (max-width: 767px) {
+  .programs__item_team {
+    background-image: none;
+  }
+}

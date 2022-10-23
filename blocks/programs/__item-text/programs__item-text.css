@@ -1,1 +1,16 @@
-.programs__item-text {}
+.programs__item-text {
+  font-family: "Inter";
+  max-width: 465px;
+  margin-bottom: 56px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.44;
+}
+
+@media (max-width: 767px) {
+  .programs__item-text {
+    font-size: 16px;
+    line-height: 1.33;
+    padding-left: 24px;
+  }
+}

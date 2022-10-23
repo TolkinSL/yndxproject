@@ -1,1 +1,12 @@
-.values__image {}
+.values_image {
+  display: block;
+  width: 96px;
+  height: 96px;
+}
+
+@media screen and (max-width: 767px) {
+  .values__image {
+    width: 88px;
+    height: 88px;
+  }
+}

@@ -1,1 +1,19 @@
-.values {}
+.values {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+@media screen and (max-width: 1080px) {
+  .values {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+}

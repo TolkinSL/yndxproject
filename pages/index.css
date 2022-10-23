@@ -93,6 +93,33 @@
 @import url('../blocks/underelement/__element/underelement__element.css');
 @import url('../blocks/element/__text/element__text.css');
 /*---Sergey---*/
+/*---Valery all the styles are in header at the moment---*/
+@import url('../blocks/programs/programs.css');
+@import url('../blocks/programs/__section-title/programs__section-title.css');
+@import url('../blocks/programs/__item/programs__item.css');
+@import url('../blocks/programs/__item-content/programs__item-content.css');
+@import url('../blocks/programs/__item-inner/programs__item-inner.css');
+@import url('../blocks/programs/__item-inner/_align/programs__item-inner_align_end.css');
+@import url('../blocks/programs/__item/_procharity/programs__item_procharity.css');
+@import url('../blocks/programs/__item/_school/programs__item_school.css');
+@import url('../blocks/programs/__item/_team/programs__item_team.css');
+@import url('../blocks/programs/__item/_align/programs__item_align_right.css');
+@import url('../blocks/programs/__logo-box/programs__logo-box.css');
+@import url('../blocks/programs/__item-title/programs__item-title.css');
+@import url('../blocks/programs/__item-text/programs__item-text.css');
+@import url('../blocks/programs/__about-link/programs__about-link.css');
+/*----------------------------------Gohar values----------------------------------------*/
+@import url('../blocks/values/values.css');
+@import url('../blocks/section-title/section-title.css');
+@import url('../blocks/values/__container/values__container.css');
+@import url('../blocks/values/__element/values__element.css');
+@import url('../blocks/values/__image-container/values__image-container.css');
+@import url('../blocks/values/__image/values__image.css');
+@import url('../blocks/values/__text-container/values__text-container.css');
+@import url('../blocks/values/__text/values__text.css');
+/*----------------------------------Gohar values----------------------------------------*/
+/*------- Sergey -our friends ------*/
+@import url('../');
 @import url('../');
 @import url('../');
 @import url('../');
