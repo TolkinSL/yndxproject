@@ -9,6 +9,12 @@
   padding-left: 10px;
 }
 
+.header__link:hover {
+  opacity: 0.6;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+}
+
 @media screen and (max-width: 1080px) {
   .header__link {
     font-size: 12px;

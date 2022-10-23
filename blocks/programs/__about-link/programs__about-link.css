@@ -6,6 +6,12 @@
   padding: 18px 52px;
 }
 
+.programs__about-link:hover {
+  background-color: gray;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+}
+
 @media (max-width: 767px) {
   .programs__about-link {
     margin-left: 24px;
