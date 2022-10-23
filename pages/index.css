@@ -97,8 +97,6 @@
 /*---Valery all the styles are in header at the moment---*/
 @import url("../blocks/programs/programs.css");
 
-@import url("../blocks/programs/__section-title/programs__section-title.css");
-
 @import url("../blocks/programs/__item/programs__item.css");
 @import url("../blocks/programs/__item-content/programs__item-content.css");
 @import url("../blocks/programs/__item-inner/programs__item-inner.css");
