@@ -3,3 +3,9 @@
   top: 40px;
   right: 32px;
 }
+
+@media screen and (max-width: 967px) {
+  .supportForm_absolute  {
+    top: 198px;
+  }
+}
