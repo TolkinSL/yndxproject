@@ -4,3 +4,10 @@
   max-width: 770px;
   width: 100%;
 }
+
+@media screen and (max-width: 767px) {
+  .friends__quote {
+    max-width: 311px;
+    margin: 46px auto 0 36px;
+  }
+}

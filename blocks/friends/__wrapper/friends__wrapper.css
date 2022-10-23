@@ -5,6 +5,15 @@
   background: url('../../../images/friends__slide1.svg') no-repeat right center;
 }
 
+@media screen and (max-width: 767px) {
+  .friends__wrapper {
+    position: relative;
+    height: 408px;
+    overflow: hidden;
+    background: none;
+  }
+}
+
 .slider__item:nth-of-type(2) .friends__wrapper {
   background: url('../../../images/friends__slide2.svg') no-repeat right center;
 }

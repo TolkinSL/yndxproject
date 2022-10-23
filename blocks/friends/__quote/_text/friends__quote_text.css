@@ -1,0 +1,21 @@
+.friends__quote_text {
+  margin: 0 auto 16px auto;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.32;
+}
+
+@media screen and (max-width: 767px) {
+  .friends__quote_text {
+    font-size: 27px;
+    line-height: 1.41;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .friends__quote_text {
+    max-width: 326px;
+    font-size: 25px;
+    line-height: 1.41;
+  }
+}

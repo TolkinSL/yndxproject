@@ -36,6 +36,7 @@
 @import url("../blocks/contacts/__title/contacts__title.css");
 @import url("../blocks/contacts/__info/contacts__info.css");
 
+
 /* Import BEM */
 /*------- header by Gohar ------*/
 @import url("../blocks/page/page.css");
@@ -122,10 +123,15 @@
 @import url("../blocks/values/__text/values__text.css");
 /*----------------------------------Gohar values----------------------------------------*/
 /*------- Sergey -our friends ------*/
-@import url("../blocks/friends/friends.css");
-@import url("../blocks/friends/__wrapper/friends__wrapper.css");
-@import url("../blocks/friends/__quote/friends__quote.css");
-@import url("../blocks/friends/__slider-buttons/friends__slider-buttons.css");
+
+@import url('../blocks/friends/friends.css');
+@import url('../blocks/friends/__wrapper/friends__wrapper.css');
+@import url('../blocks/friends/__quote/friends__quote.css');
+@import url('../blocks/friends/__quote/_text/friends__quote_text.css');
+@import url('../blocks/friends/__quote/_author/friends__quote_author.css');
+@import url('../blocks/friends/__quote/_span/friends__quote_span.css');
+@import url('../blocks/friends/__quote/_span-bold/friends__quote_span-bold.css');
+@import url('../blocks/friends/__slider-buttons/friends__slider-buttons.css');
 /*------- Sergey blogs ------*/
 @import url("../blocks/blog/blog.css");
 @import url("../blocks/wrapper/wrapper.css");
