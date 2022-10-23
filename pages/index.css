@@ -196,10 +196,59 @@
 /* Second page help-fund-page.html */
 
 /* Block BankCards Alexander */
+@import url(../blocks/bankCards/bankCards.css);
+@import url(../blocks/bankCard/bankCard.css);
+@import url(../blocks/bankCard/__Form/bankCard__Form.css);
+@import url(../blocks/bankCard/__Submitbutton/bankCard__Submitbutton.css);
+@import url(../blocks/bankCard/__subtitle/bankCard__subtitle.css);
+@import url(../blocks/bankCard-Back/bankCard-Back.css);
+@import url(../blocks/bankCard-Back/__CVV-CVC-title/bankCard-Back__CVV-CVC-title.css);
+@import url(../blocks/bankCard-Back/__CVV-CVC/bankCard-Back__CVV-CVC.css);
+@import url(../blocks/bankCard-Back/__emboss-Line/bankCard-Back__emboss-Line.css);
+@import url(../blocks/bankCard-Back/__inputCVC/bankCard-Back__inputCVC.css);
+@import url(../blocks/bankCard-Back/__subtitle/bankCard-Back__subtitle.css);
+@import url(../blocks/bankCard-Front/bankCard-Front.css);
+@import url(../blocks/bankCard-Front/__bestBefore-title/bankCard-Front__bestBefore-title.css);
+@import url(../blocks/bankCard-Front/__bestBefore/bankCard-Front__bestBefore.css);
+@import url(../blocks/bankCard-Front/__bestBeforeInput/bankCard-Front__bestBeforeInput.css);
+@import url(../blocks/bankCard-Front/__BottomLine/bankCard-Front__BottomLine.css);
+@import url(../blocks/bankCard-Front/__CVV-CVC-title/bankCard-Front__CVV-CVC-title.css);
+@import url(../blocks/bankCard-Front/__CVV-CVC/bankCard-Front__CVV-CVC.css);
+@import url(../blocks/bankCard-Front/__finalSum-Input/bankCard-Front__finalSum-Input.css);
+@import url(../blocks/bankCard-Front/__finalSum-title/bankCard-Front__finalSum-title.css);
+@import url(../blocks/bankCard-Front/__finalSum/bankCard-Front__finalSum.css);
+@import url(../blocks/bankCard-Front/__inputCVC/bankCard-Front__inputCVC.css);
+@import url(../blocks/bankCard-Front/__inputCVC/_enable/bankCard-Front__inputCVC_enable.css);
+@import url(../blocks/bankCard-Front/__placeholders/bankCard-Front__placeholders.css);
+@import url(../blocks/bankCard-Front/__placeholders/_name/bankCard-Front__placeholders_name.css);
+@import url(../blocks/bankCard-Front/__placeholders/_number/bankCard-Front__placeholders_number.css);
+@import url(../blocks/bankCard-requisites/bankCard-requisites.css);
+@import url(../blocks/bankCard-requisites/__checkbox-label/bankCard-requisites__checkbox-label.css);
+@import url(../blocks/bankCard-requisites/__checkbox-wrapper/bankCard-requisites__checkbox-wrapper.css);
+@import url(../blocks/bankCard-requisites/__checkbox/bankCard-requisites__checkbox.css);
+@import url(../blocks/bankCard-requisites/__link/bankCard-requisites__link.css);
+@import url(../blocks/bankCard-requisites/__text/bankCard-requisites__text.css);
+@import url(../blocks/bankCard-requisites/__wrapper/bankCard-requisites__wrapper.css);
 
+@import url(../blocks/grid-Payments/grid-Payments.css);
+@import url(../blocks/grid-Payments/__ApplePay-label/grid-Payments__ApplePay-label.css);
+@import url(../blocks/grid-Payments/__googlePay-label/grid-Payments__googlePay-label.css);
+@import url(../blocks/grid-Payments/__Input-ApplePay/grid-Payments__Input-ApplePay.css);
+@import url(../blocks/grid-Payments/__Input-GPay/grid-Payments__Input-GPay.css);
+@import url(../blocks/grid-Payments/__Input-visa/grid-Payments__Input-visa.css);
+@import url(../blocks/grid-Payments/__Input/grid-Payments__Input.css);
+@import url(../blocks/grid-Payments/__label/grid-Payments__label.css);
+@import url(../blocks/grid-Payments/__visa-mir-label/grid-Payments__visa-mir-label.css);
 
+@import url(../blocks/supportExtended/supportExtended.css);
+@import url(../blocks/supportExtended/__title-span/supportExtended__title-span.css);
+@import url(../blocks/supportExtended/__title/supportExtended__title.css);
 
+@import url(../blocks/supportExtendedPaymentForm/supportExtendedPaymentForm.css);
 
+@import url(../blocks/supportForm/supportForm.css);
+@import url(../blocks/supportForm/__title/supportForm__title.css);
+@import url(../blocks/supportForm/_absolute/supportForm_absolute.css);
 
 
 
