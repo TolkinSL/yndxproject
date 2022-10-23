@@ -1,0 +1,13 @@
+.questions__input-checkbox-label {
+  align-self: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .questions__input-checkbox-label {
+    align-self: center;
+    max-width: 334px;
+  }
+}

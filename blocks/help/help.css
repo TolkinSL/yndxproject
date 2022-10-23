@@ -1,1 +1,10 @@
-.help {}
+.help {
+  margin: 0 auto;
+  max-width: 1038px;
+  font-family: "Inter", "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
