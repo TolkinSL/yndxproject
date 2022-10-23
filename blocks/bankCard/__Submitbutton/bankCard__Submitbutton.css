@@ -1,1 +1,13 @@
-.bankCard__Submitbutton {}
+.bankCard__Submitbutton {
+  border: none;
+  background: #528cbe;
+  border-radius: 56px;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.25;
+  text-align: center;
+  min-height: 56px;
+  width: 100%;
+  margin-bottom: 72px;
+}

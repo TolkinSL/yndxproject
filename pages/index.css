@@ -18,7 +18,6 @@
 @import url("../blocks/digits/__span-accent/digits__span-accent.css");
 @import url("../blocks/digits/__title/digits__title.css");
 @import url("../blocks/useful/useful.css");
-@import url("../blocks/useful/__title/useful__title.css");
 @import url("../blocks/useful/__elements/useful__elements.css");
 @import url("../blocks/useful/__element/useful__element.css");
 @import url("../blocks/useful/__wrapper/useful__wrapper.css");
@@ -97,6 +96,9 @@
 /*---Sergey---*/
 /*---Valery all the styles are in header at the moment---*/
 @import url("../blocks/programs/programs.css");
+
+@import url("../blocks/programs/__section-title/programs__section-title.css");
+
 @import url("../blocks/programs/__item/programs__item.css");
 @import url("../blocks/programs/__item-content/programs__item-content.css");
 @import url("../blocks/programs/__item-inner/programs__item-inner.css");
@@ -109,9 +111,11 @@
 @import url("../blocks/programs/__item-title/programs__item-title.css");
 @import url("../blocks/programs/__item-text/programs__item-text.css");
 @import url("../blocks/programs/__about-link/programs__about-link.css");
+
 /*--------Не переставлять эти импорты в другое место (верстка ломается)--------------------------*/
 @import url("../blocks/header/_programs-positioning/header_programs-positioning.css");
 @import url("../blocks/header/_programs-padding/header_programs-padding.css");
+
 /*----------------------------------Gohar values----------------------------------------*/
 @import url("../blocks/values/values.css");
 @import url("../blocks/section-title/section-title.css");
@@ -124,6 +128,7 @@
 /*----------------------------------Gohar values----------------------------------------*/
 /*------- Sergey -our friends ------*/
 
+
 @import url('../blocks/friends/friends.css');
 @import url('../blocks/friends/__wrapper/friends__wrapper.css');
 @import url('../blocks/friends/__quote/friends__quote.css');
@@ -132,6 +137,7 @@
 @import url('../blocks/friends/__quote/_span/friends__quote_span.css');
 @import url('../blocks/friends/__quote/_span-bold/friends__quote_span-bold.css');
 @import url('../blocks/friends/__slider-buttons/friends__slider-buttons.css');
+
 /*------- Sergey blogs ------*/
 @import url("../blocks/blog/blog.css");
 @import url("../blocks/wrapper/wrapper.css");
@@ -203,6 +209,61 @@
 @import url("../blocks/footer/__registered/footer__registered.css");
 
 /* Second page help-fund-page.html */
+
+
+/* Block BankCards Alexander */
+@import url("../blocks/bankCards/bankCards.css");
+@import url("../blocks/bankCard/bankCard.css");
+@import url("../blocks/bankCard/__Form/bankCard__Form.css");
+@import url("../blocks/bankCard/__Submitbutton/bankCard__Submitbutton.css");
+@import url("../blocks/bankCard/__subtitle/bankCard__subtitle.css");
+@import url("../blocks/bankCard-Back/bankCard-Back.css");
+@import url("../blocks/bankCard-Back/__CVV-CVC-title/bankCard-Back__CVV-CVC-title.css");
+@import url("../blocks/bankCard-Back/__CVV-CVC/bankCard-Back__CVV-CVC.css");
+@import url("../blocks/bankCard-Back/__emboss-Line/bankCard-Back__emboss-Line.css");
+@import url("../blocks/bankCard-Back/__inputCVC/bankCard-Back__inputCVC.css");
+@import url("../blocks/bankCard-Back/__subtitle/bankCard-Back__subtitle.css");
+@import url("../blocks/bankCard-Front/bankCard-Front.css");
+@import url("../blocks/bankCard-Front/__bestBefore-title/bankCard-Front__bestBefore-title.css");
+@import url("../blocks/bankCard-Front/__bestBefore/bankCard-Front__bestBefore.css");
+@import url("../blocks/bankCard-Front/__bestBeforeInput/bankCard-Front__bestBeforeInput.css");
+@import url("../blocks/bankCard-Front/__BottomLine/bankCard-Front__BottomLine.css");
+@import url("../blocks/bankCard-Front/__CVV-CVC-title/bankCard-Front__CVV-CVC-title.css");
+@import url("../blocks/bankCard-Front/__CVV-CVC/bankCard-Front__CVV-CVC.css");
+@import url("../blocks/bankCard-Front/__finalSum-Input/bankCard-Front__finalSum-Input.css");
+@import url("../blocks/bankCard-Front/__finalSum-title/bankCard-Front__finalSum-title.css");
+@import url("../blocks/bankCard-Front/__finalSum/bankCard-Front__finalSum.css");
+@import url("../blocks/bankCard-Front/__inputCVC/bankCard-Front__inputCVC.css");
+@import url("../blocks/bankCard-Front/__inputCVC/_enable/bankCard-Front__inputCVC_enable.css");
+@import url("../blocks/bankCard-Front/__placeholders/bankCard-Front__placeholders.css");
+@import url("../blocks/bankCard-Front/__placeholders/_name/bankCard-Front__placeholders_name.css");
+@import url("../blocks/bankCard-Front/__placeholders/_number/bankCard-Front__placeholders_number.css");
+@import url("../blocks/bankCard-requisites/bankCard-requisites.css");
+@import url("../blocks/bankCard-requisites/__checkbox-label/bankCard-requisites__checkbox-label.css");
+@import url("../blocks/bankCard-requisites/__checkbox-wrapper/bankCard-requisites__checkbox-wrapper.css");
+@import url("../blocks/bankCard-requisites/__checkbox/bankCard-requisites__checkbox.css");
+@import url("../blocks/bankCard-requisites/__link/bankCard-requisites__link.css");
+@import url("../blocks/bankCard-requisites/__text/bankCard-requisites__text.css");
+@import url("../blocks/bankCard-requisites/__wrapper/bankCard-requisites__wrapper.css");
+
+@import url("../blocks/grid-Payments/grid-Payments.css");
+
+@import url("../blocks/grid-Payments/__Input/grid-Payments__Input.css");
+@import url("../blocks/grid-Payments/__label/grid-Payments__label.css");
+@import url("../blocks/grid-Payments/__visa-mir-label/grid-Payments__visa-mir-label.css");
+@import url("../blocks/grid-Payments/__ApplePay-label/grid-Payments__ApplePay-label.css");
+@import url("../blocks/grid-Payments/__googlePay-label/grid-Payments__googlePay-label.css");
+@import url("../blocks/supportExtended/supportExtended.css");
+@import url("../blocks/supportExtended/__title-span/supportExtended__title-span.css");
+@import url("../blocks/supportExtended/__title/supportExtended__title.css");
+
+@import url("../blocks/supportExtendedPaymentForm/supportExtendedPaymentForm.css");
+
+@import url("../blocks/supportForm/supportForm.css");
+@import url("../blocks/supportForm/__title/supportForm__title.css");
+@import url("../blocks/supportForm/_absolute/supportForm_absolute.css");
+
+
 @import url("../blocks/help/help.css");
 @import url("../blocks/help/_padding/help_padding.css");
 @import url("../blocks/help/_span/help_span.css");
@@ -230,6 +291,17 @@
 @import url("../blocks/questions/__input-checkbox-label/questions__input-checkbox-label.css");
 @import url("../blocks/questions/__input-button/questions__input-button.css");
 
+/*
 @import url("../");
 @import url("../");
 @import url("../");
+@import url("../");
+@import url("../");
+@import url("../");
+@import url("../");
+@import url("../");
+@import url("../");
+@import url("../");
+@import url("../styleOverAll.css"); */
+
+

@@ -1,1 +1,20 @@
-.supportExtended__title-span {}
+.supportExtended__title-span {
+  font-family: "Playfair Display";
+  font-size: 44px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.26;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .supportExtended__title-span {
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.04;
+    letter-spacing: 0em;
+  }
+}

@@ -1,1 +1,7 @@
-.bankCard__Form {}
+.bankCard__Form {
+  position: relative;
+  margin: 0 auto;
+  max-height: 521px;
+  max-width: 552px;
+  display: flex;
+}

@@ -2,7 +2,6 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-
   width: 100%;
   max-width: 664px;
   display: flex;
@@ -16,7 +15,6 @@
 
 @media screen and (max-width: 967px) {
   .supportForm {
-    /* position: absolute; */
     width: 100%;
     max-width: 359px;
     max-height: 500px;
@@ -26,5 +24,11 @@
     left: 8px;
     background: #ffffff;
     z-index: 25;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .supportform {
+    max-width: 359px;
   }
 }
