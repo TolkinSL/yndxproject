@@ -18,7 +18,7 @@
 @import url('../blocks/digits/__span-accent/digits__span-accent.css');
 @import url('../blocks/digits/__title/digits__title.css');
 @import url('../blocks/useful/useful.css');
-@import url('../blocks/useful/__title/useful__title.css');
+/*@import url('../blocks/useful/__title/useful__title.css');*/
 @import url('../blocks/useful/__elements/useful__elements.css');
 @import url('../blocks/useful/__element/useful__element.css');
 @import url('../blocks/useful/__wrapper/useful__wrapper.css');
@@ -122,6 +122,10 @@
 @import url('../blocks/friends/friends.css');
 @import url('../blocks/friends/__wrapper/friends__wrapper.css');
 @import url('../blocks/friends/__quote/friends__quote.css');
+@import url('../blocks/friends/__quote/_text/friends__quote_text.css');
+@import url('../blocks/friends/__quote/_author/friends__quote_author.css');
+@import url('../blocks/friends/__quote/_span/friends__quote_span.css');
+@import url('../blocks/friends/__quote/_span-bold/friends__quote_span-bold.css');
 @import url('../blocks/friends/__slider-buttons/friends__slider-buttons.css');
 /*------- Sergey blogs ------*/
 @import url('../blocks/blog/blog.css');
