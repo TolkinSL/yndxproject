@@ -1,1 +1,15 @@
-.bankCard-Front__CVV-CVC {}
+.bankCard-Front__CVV-CVC {
+  max-height: 83px;
+  position: absolute;
+  top: 162px;
+  right: 47px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+  .bankCard-Front__CVV-CVC {
+    display: none;
+  }
+}

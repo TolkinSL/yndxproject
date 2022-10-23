@@ -1,1 +1,13 @@
-.bankCard-Front__placeholders {}
+.bankCard-Front__placeholders {
+  display: flex;
+  flex-direction: column;
+  padding-top: 16px;
+  padding-left: 24px;
+  padding-right: 32px;
+}
+
+@media screen and (max-width: 767px) {
+  .bankCard-Front__placeholders {
+    padding-left: 16px;
+  }
+}

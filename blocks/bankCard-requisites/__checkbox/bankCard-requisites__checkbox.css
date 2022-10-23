@@ -1,0 +1,17 @@
+.bankCard-requisites__checkbox {
+  min-width: 20px;
+  min-height: 20px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  align-self: start;
+}
+
+.bankCard-requisites__checkbox:checked {
+  -webkit-appearance: auto;
+  -moz-appearance: auto;
+  appearance: auto;
+  box-sizing: content-box;
+}

@@ -1,1 +1,10 @@
-.grid-Payments__ApplePay-label {}
+.grid-Payments__ApplePay-label {
+  background-image: url("./images/ApplePay.svg");
+  background-size: 40%;
+}
+
+@media screen and (max-width: 767px) {
+  .grid-Payments__ApplePay-label {
+    background-size: 30%;
+  }
+}

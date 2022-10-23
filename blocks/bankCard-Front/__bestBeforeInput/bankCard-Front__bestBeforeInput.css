@@ -1,1 +1,12 @@
-.bankCard-Front__bestBeforeInput {}
+.bankCard-Front__bestBeforeInput {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-left: 24px;
+  margin-bottom: 24px;
+  height: 56px;
+  width: 96px;
+  background: #ffffff;
+  border: none;
+  padding-left: 18px;
+}
