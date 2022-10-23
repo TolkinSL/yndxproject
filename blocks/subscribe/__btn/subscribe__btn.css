@@ -1,4 +1,4 @@
-.subscribe__button {
+.subscribe__btn {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -21,7 +21,7 @@
 }
 
 @media screen and (max-width: 1080px) {
-  .subscribe__button {
+  .subscribe__btn {
     margin-right: 5vw;
   }
 }
