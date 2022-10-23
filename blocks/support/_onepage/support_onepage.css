@@ -1,1 +1,9 @@
-.support_onepage {}
+.support_onepage {
+  margin-bottom: -63px;
+}
+
+@media screen and (max-width: 1080px) {
+  .support_onepage {
+    margin-bottom: 0;
+  }
+}

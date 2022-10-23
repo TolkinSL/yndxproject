@@ -1,1 +1,5 @@
-.supportForm_absolute {}
+.supportForm_absolute {
+  position: absolute;
+  top: 40px;
+  right: 32px;
+}

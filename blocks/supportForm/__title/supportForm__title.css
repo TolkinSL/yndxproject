@@ -1,1 +1,21 @@
-.supportForm__title {}
+.supportForm__title {
+  margin: 0;
+  padding: 0;
+  padding-top: 56px;
+  margin-bottom: 38px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.38;
+  text-align: center;
+  color: #000000;
+}
+
+@media screen and (max-width: 967px) {
+  .supportForm__title {
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+    margin-bottom: 24px;
+  }
+}

@@ -147,8 +147,30 @@
 @import url('../blocks/partners/__slider-item/_more/partners__slider-item_more.css');
 @import url('../blocks/partners/__logo-box/partners__logo-box.css');
 @import url('../blocks/partners/__more-link/partners__more-link.css');
-@import url('../');
-@import url('../');
+/*------- Alexander - support form ------*/
+@import url('../blocks/support/support.css');
+@import url('../blocks/support/_onepage/support_onepage.css');
+@import url('../blocks/support/__title/support__title.css');
+@import url('../blocks/support/__title/_span/support__title_span.css');
+@import url('../blocks/support/__subtitle/support__subtitle.css');
+@import url('../blocks/switch/switch.css');
+@import url('../blocks/switch/__label/switch__label.css');
+@import url('../blocks/switch/__inputOne/switch__inputOne.css');
+@import url('../blocks/switch/__inputTwo/switch__inputTwo.css');
+@import url('../blocks/switch/__indicator/switch__indicator.css');
+@import url('../blocks/switch/__input/switch__input.css');
+@import url('../blocks/grid-support/grid-support.css');
+@import url('../blocks/grid-support/__money-input/grid-support__money-input.css');
+@import url('../blocks/grid-support/__money-label1/grid-support__money-label1.css');
+@import url('../blocks/grid-support/__money-label2/grid-support__money-label2.css');
+@import url('../blocks/grid-support/__money-label3/grid-support__money-label3.css');
+@import url('../blocks/grid-support/__input/grid-support__input.css');
+@import url('../blocks/grid-support/__money-label/grid-support__money-label.css');
+@import url('../blocks/supportForm/supportForm.css');
+@import url('../blocks/supportForm/_absolute/supportForm_absolute.css');
+@import url('../blocks/support-button/support-button.css');
+@import url('../blocks/supportForm/__title/supportForm__title.css');
+/*------- Gohar footer------*/
 @import url('../');
 @import url('../');
 @import url('../');

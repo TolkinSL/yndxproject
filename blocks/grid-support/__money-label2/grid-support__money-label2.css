@@ -1,1 +1,3 @@
-.grid-support__money-label2 {}
+.grid-support__money-label2 {
+  grid-area: grid__money-input2;
+}

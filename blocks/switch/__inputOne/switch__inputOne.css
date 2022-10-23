@@ -1,1 +1,7 @@
-.switch__inputOne {}
+.switch__inputOne:checked ~ .switch__indicator {
+  transform: translate3d(0, 0, 0);
+}
+
+.switch__inputOne:checked ~ .switch__label1 {
+  color: #f8f8f8;
+}

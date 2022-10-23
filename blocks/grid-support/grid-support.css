@@ -1,1 +1,45 @@
-.grid-support {}
+.grid__money-input:checked ~ .grid__money-label {
+  background: #82607d;
+}
+
+.grid-support {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(148px, 173px)); */
+  grid-template-columns: repeat(3, minmax(148px, 173px));
+  grid-template-rows: repeat(2, 56px);
+  grid-template-areas:
+    "grid__money-input1 grid__money-input2 grid__money-input3"
+    "sumMoney sumMoney sumMoney";
+
+  column-gap: 16px;
+  row-gap: 16px;
+  align-items: center;
+  justify-content: center;
+  max-width: 664px;
+
+  /* margin: 0 auto; */
+  padding-bottom: 50px;
+}
+
+/* @media screen and (max-width: 967px) {
+  .grid {
+    padding-bottom: 32px;
+  }
+} */
+
+@media screen and (max-width: 967px) {
+  .grid-support {
+    grid-template-columns: repeat(2, 147px);
+    grid-template-rows: repeat(3, 56px);
+    grid-template-areas:
+      "grid__money-input1 grid__money-input2"
+      "grid__money-input3 grid__money-input3"
+      "sumMoney sumMoney";
+
+    padding-bottom: 32px;
+  }
+}

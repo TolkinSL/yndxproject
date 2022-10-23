@@ -1,1 +1,15 @@
-.grid-support__input {}
+.grid-support__input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  grid-area: sumMoney;
+  max-width: 100%;
+  height: 100%;
+  background: #f8f8f8;
+  border: none;
+  padding-left: 18px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}

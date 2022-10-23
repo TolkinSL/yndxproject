@@ -1,1 +1,20 @@
-.grid-support__money-label {}
+.grid-support__money-label {
+  /* max-width: 173px; */
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f8f8;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  color: black;
+  /* opacity: .3; */
+}
+
+.grid-support__money-label:hover {
+  opacity: 0.8;
+}

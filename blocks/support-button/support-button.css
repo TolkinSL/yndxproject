@@ -1,1 +1,26 @@
-.support-button {}
+.support-button {
+  width: 100%;
+  max-width: 551px;
+  height: 56px;
+  /* margin: 0 auto; */
+  background: #eeb250;
+  border-radius: 56px;
+  margin-bottom: 64px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+@media screen and (max-width: 967px) {
+  .support-button {
+    max-width: 311px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}

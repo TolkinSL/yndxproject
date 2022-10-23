@@ -1,1 +1,30 @@
-.supportForm {}
+.supportForm {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+
+  width: 100%;
+  max-width: 664px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 15;
+  background: #ffffff;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 967px) {
+  .supportForm {
+    /* position: absolute; */
+    width: 100%;
+    max-width: 359px;
+    max-height: 500px;
+    top: 198px;
+    /* top:550px; */
+    bottom: 8px;
+    left: 8px;
+    background: #ffffff;
+    z-index: 25;
+  }
+}
