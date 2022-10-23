@@ -1,0 +1,16 @@
+.wrapper__stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 83px;
+  background: #00fffa;
+  height: 24px;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 2;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  border: none;
+  margin: 16px 0 0 16px;
+  text-transform: uppercase;
+}

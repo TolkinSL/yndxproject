@@ -1,1 +1,6 @@
-.friends__quote {}
+.friends__quote {
+  margin: 142px auto 122px 125px;
+  height: 100%;
+  max-width: 770px;
+  width: 100%;
+}

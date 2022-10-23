@@ -1,1 +1,8 @@
-.partners__logo {}
+.partners__logo {
+  max-width: 100%;
+  filter: grayscale(1);
+}
+
+.partners__logo:hover {
+  filter: grayscale(0);
+}

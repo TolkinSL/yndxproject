@@ -1,1 +1,12 @@
-.partners__slider-container {}
+.partners__slider-container {
+  max-width: 1028px;
+  padding: 0 25px;
+  /* Tolkin fix */
+  height: 124px;
+}
+
+@media (max-width: 767px) {
+  .partners__slider-container {
+    padding: 0;
+  }
+}

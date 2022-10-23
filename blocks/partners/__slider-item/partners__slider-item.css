@@ -1,1 +1,14 @@
-.partners__slider-item {}
+.partners__slider-item {
+  flex-basis: 20%;
+  /* height: ; */
+}
+
+@media (max-width: 767px) {
+  .partners__slider-item {
+    flex-basis: 33.3%;
+  }
+
+  .slider__control {
+    display: none;
+  }
+}

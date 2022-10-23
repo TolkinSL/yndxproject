@@ -1,1 +1,23 @@
-.partners__more-link {}
+.partners__more-link {
+  font-family: "Inter";
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.25;
+  border-radius: 56px;
+  padding: 18px 24px;
+  background-color: #f8f8f8;
+  text-decoration: none;
+  color: #000000;
+}
+
+.partners__more-link:hover {
+  color: #54a8b6;
+}
+
+@media (max-width: 767px) {
+  .partners__more-link {
+    font-size: 0.48em;
+    padding: 13px 11px;
+  }
+}

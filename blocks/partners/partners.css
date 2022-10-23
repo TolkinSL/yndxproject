@@ -1,1 +1,28 @@
-.partners {}
+.partners {
+  max-width: 1031px;
+  margin: 0 auto;
+  padding-top: 96px;
+}
+
+@media screen and (max-width: 1080px) {
+  .partners {
+    padding-top: 56px;
+  }
+}
+
+/* show only to screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/*.slider__item {*/
+/*  height: 700px;*/
+/*}*/

@@ -1,1 +1,4 @@
-.partners__logo-box {}
+.partners__logo-box {
+  padding-left: 32px;
+  padding-right: 32px;
+}

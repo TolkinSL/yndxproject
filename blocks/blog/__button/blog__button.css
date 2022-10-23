@@ -1,1 +1,36 @@
-.blog__button {}
+.blog__button {
+  width: 328px;
+  height: 56px;
+  text-align: center;
+  border: none;
+  background: #f8f8f8;
+  border-radius: 56px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.11;
+  font-family: "Inter", sans-serif;
+  margin: 56px 0 0 0;
+  cursor: pointer;
+}
+
+.blog__button:hover {
+  background: #f1f5f9;
+}
+
+.button-row {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .blog__button {
+    margin: 24px 0 0 0;
+  }
+
+  .button-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 24px 0 0 0;
+  }
+}

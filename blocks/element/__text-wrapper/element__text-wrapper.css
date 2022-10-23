@@ -1,1 +1,5 @@
-.element__text-wrapper {}
+.element__text-wrapper {
+  max-width: 280px;
+  margin: 27px auto 26px auto;
+  font-family: "Inter", sans-serif;
+}
