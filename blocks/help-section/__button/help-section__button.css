@@ -1,1 +1,19 @@
-.help-section__button {}
+.help-section__button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.11;
+  margin: 0;
+  width: 287px;
+  height: 56px;
+  border: none;
+  background: #f8f8f8;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.help-section__button:hover {
+  background: #f1f5f9;
+}

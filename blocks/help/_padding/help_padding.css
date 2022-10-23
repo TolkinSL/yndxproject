@@ -1,1 +1,9 @@
-.help_padding {}
+.help_padding {
+  padding: 96px 0 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .help_padding {
+    padding: 56px 0 40px;
+  }
+}

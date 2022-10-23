@@ -1,1 +1,24 @@
-.bankCards {}
+.bankCards {
+  position: relative;
+  transform: translate(0, -211px);
+  z-index: 10;
+  max-width: 680px;
+  min-width: 359px;
+  background: #ffffff;
+  margin: 0 auto;
+  margin-bottom: -211px;
+}
+
+@media screen and (max-width: 1023px) {
+  .bankCards {
+    transform: translate(0, -178px);
+    margin-bottom: -178px;
+    max-width: 560px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bankCards {
+    max-width: 359px;
+  }
+}

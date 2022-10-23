@@ -1,1 +1,10 @@
-.grid-Payments__googlePay-label {}
+.grid-Payments__googlePay-label {
+  background-image: url("../../../images/Gpay.svg") ;
+  background-size: 40% ;
+}
+
+@media screen and (max-width: 767px) {
+  .grid-Payments__googlePay-label {
+    background-size: 30%;
+  }
+}

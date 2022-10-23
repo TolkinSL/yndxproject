@@ -1,1 +1,21 @@
-.grid-Payments {}
+.grid-Payments {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: grid;
+  justify-items: center;
+
+  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+  gap: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .grid-Payments {
+    grid-template-columns: 311px;
+    grid-template-rows: 57px;
+    padding-bottom: 16px;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 32px;
+  }
+}

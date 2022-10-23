@@ -1,1 +1,13 @@
-.bankCard {}
+.bankCard {
+  padding-top: 56px;
+  margin: 0 auto;
+  /* max-height: 521px; */
+  max-width: 558px;
+}
+
+@media screen and (max-width: 767px) {
+  .bankCard {
+    max-width: 359px;
+    padding-top: 24px;
+  }
+}

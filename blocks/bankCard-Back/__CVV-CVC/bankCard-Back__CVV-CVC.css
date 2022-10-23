@@ -1,1 +1,7 @@
-.bankCard-Back__CVV-CVC {}
+.bankCard-Back__CVV-CVC {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transform: translate(0, -50px);
+  margin-left: 205px;
+}

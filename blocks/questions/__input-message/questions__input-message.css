@@ -1,0 +1,16 @@
+.questions__input-message {
+  padding-top: 18px;
+  padding-left: 32px;
+  max-width: 646px;
+  width: 100%;
+  border: none;
+  background: #f8f8f8;
+  border-radius: 56px;
+  height: 143px;
+}
+
+@media screen and (max-width: 767px) {
+  .questions__input-message {
+    width: 100%;
+  }
+}

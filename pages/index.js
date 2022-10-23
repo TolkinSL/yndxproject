@@ -13,15 +13,15 @@ const desktopProgramMenue = document.querySelector(".menue-program");
 const width = screen.width;
 const work = document.querySelector(".work");
 
-if ( document.URL.includes("index.html") ) {
+if (document.URL.includes("index.html")) {
   const boopTemplate = document.querySelector(".booptemplate").content;
 
-for (let i = 0; i < 12; i++) {
-  const boop = boopTemplate
-    .querySelector(".underelement__boop")
-    .cloneNode(true);
-  work.prepend(boop);
-}
+  for (let i = 0; i < 12; i++) {
+    const boop = boopTemplate
+      .querySelector(".underelement__boop")
+      .cloneNode(true);
+    work.prepend(boop);
+  }
 }
 
 
