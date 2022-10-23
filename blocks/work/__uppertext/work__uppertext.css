@@ -1,1 +1,13 @@
-.work__uppertext {}
+.work__uppertext {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .work__uppertext {
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 50px;
+  }
+}

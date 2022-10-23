@@ -1,0 +1,20 @@
+.uppertext__text {
+  max-width: 504px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.44;
+}
+
+.uppertext__text:last-of-type {
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 767px) {
+  .uppertext__text {
+    font-size: 16px;
+    line-height: 1.28;
+    max-width: 327px;
+    margin: 0 auto;
+  }
+}

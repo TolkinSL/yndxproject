@@ -1,0 +1,52 @@
+.underelement__daltonic {
+  width: 151px;
+  height: 63px;
+  background: #f8f8f8;
+  border-radius: 136px;
+  position: absolute;
+  top: calc(570px + 96px);
+  left: 290px;
+}
+
+.underelement__daltonic:nth-of-type(2) {
+  left: unset;
+  top: calc(406px + 96px);
+  right: 0;
+}
+
+.underelement__daltonic:nth-of-type(3) {
+  top: calc(305px + 96px);
+  right: unset;
+  left: 90px;
+  width: 576px;
+  height: 233px;
+}
+
+@media screen and (max-width: 767px) {
+  .underelement__daltonic {
+    width: 151px;
+    height: 63px;
+    background: #f8f8f8;
+    border-radius: 136px;
+    position: absolute;
+    top: calc(570px + 56px);
+    left: 290px;
+    display: none;
+  }
+
+  .underelement__daltonic:nth-of-type(2) {
+    left: unset;
+    top: calc(406px + 56px);
+    right: 0;
+    display: none;
+  }
+
+  .underelement__daltonic:nth-of-type(3) {
+    top: 305px;
+    right: unset;
+    left: 90px;
+    width: 576px;
+    height: 233px;
+    display: none;
+  }
+}

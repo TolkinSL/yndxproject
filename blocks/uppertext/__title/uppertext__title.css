@@ -1,0 +1,15 @@
+.uppertext__title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.14;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .uppertext__title {
+    max-width: 327px;
+    margin: 0 auto;
+    font-size: 30px;
+    line-height: 1.38;
+  }
+}

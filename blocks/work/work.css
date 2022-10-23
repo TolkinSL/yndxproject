@@ -1,1 +1,33 @@
-.work {}
+.work {
+  position: relative;
+  margin: 0 auto;
+  width: 81%;
+  padding-top: 96px;
+}
+
+@media screen and (max-width: 1080px) {
+  .work {
+    padding-top: 56px;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .work {
+    max-width: 375px;
+  }
+}
+
+.font {
+  font-family: "Inter", sans-serif;
+}
+
+.quote__span {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 400;
+}
+
+.span__bold {
+  font-weight: bold;
+}
