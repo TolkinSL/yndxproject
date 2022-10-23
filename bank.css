@@ -478,25 +478,25 @@
 
 /* Сергей */
 
-.bankCard__requisites {
+.bankCard-requisites {
   max-width: 680px;
   /* margin: 0 auto; */
 }
 
-.bankCard__requisites {
+.bankCard-requisites {
   padding-top: 32px;
   max-width: 552px;
   margin: 0 auto;
 }
 
-.bankCard__requisites__wrapper {
+.bankCard-requisites__wrapper {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
   margin-bottom: 32px;
 }
 
-.bankCard__requisites__wrapper__text {
+.bankCard-requisites__text {
   padding-left: 18px;
   padding-top: 18px;
   padding-bottom: 18px;
@@ -508,20 +508,20 @@
 }
 
 @media screen and (max-width: 767px) {
-  .bankCard__requisites__wrapper__text {
+  .bankCard-requisites__text {
     max-width: 311px;
   }
 }
 
-.bankCard__requisites__checkbox-wrapper {
+.bankCard-requisites__checkbox-wrapper {
   margin-bottom: 16px;
 }
 
-.bankCard__requisites__checkbox-wrapper:last-of-type {
+.bankCard-requisites__checkbox-wrapper:last-of-type {
   margin-bottom: 27px;
 }
 
-.bankCard__requisites__checkbox-wrapper__checkbox-label {
+.bankCard-requisites__checkbox-label {
   display: flex;
   gap: 12px;
   align-items: center;
@@ -531,12 +531,12 @@
   max-width: 430px;
 }
 
-.bankCard__requisites__checkbox-wrapper__checkbox-label__link {
+.bankCard-requisites__link {
   text-decoration: none;
   color: rgb(84, 168, 182);
 }
 
-.bankCard__requisites__checkbox-wrapper__checkbox-label__checkbox {
+.bankCard-requisites__checkbox {
   min-width: 20px;
   min-height: 20px;
   border: 1px solid #000000;
@@ -547,7 +547,7 @@
   align-self: start;
 }
 
-.bankCard__requisites__checkbox-wrapper__checkbox-label__checkbox:checked {
+.bankCard-requisites__checkbox:checked {
   -webkit-appearance: auto;
   -moz-appearance: auto;
   appearance: auto;
@@ -573,11 +573,16 @@
     max-width: 359px;
   }
 
-  .bankCard__requisites {
+  .bankCard-requisites {
     max-width: 311px;
   }
 
-  .bankCard__requisites__checkbox-wrapper {
+  .bankCard-requisites__checkbox-wrapper {
     max-width: 311px;
   }
+}
+
+
+* {
+  box-shadow: 0 0 1px red;
 }
