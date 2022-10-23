@@ -18,7 +18,7 @@
 @import url('../blocks/digits/__span-accent/digits__span-accent.css');
 @import url('../blocks/digits/__title/digits__title.css');
 @import url('../blocks/useful/useful.css');
-@import url('../blocks/useful/__title/useful__title.css');
+/* @import url('../blocks/useful/__title/useful__title.css'); */
 @import url('../blocks/useful/__elements/useful__elements.css');
 @import url('../blocks/useful/__element/useful__element.css');
 @import url('../blocks/useful/__wrapper/useful__wrapper.css');
@@ -233,9 +233,9 @@
 @import url(../blocks/grid-Payments/grid-Payments.css);
 @import url(../blocks/grid-Payments/__ApplePay-label/grid-Payments__ApplePay-label.css);
 @import url(../blocks/grid-Payments/__googlePay-label/grid-Payments__googlePay-label.css);
-@import url(../blocks/grid-Payments/__Input-ApplePay/grid-Payments__Input-ApplePay.css);
-@import url(../blocks/grid-Payments/__Input-GPay/grid-Payments__Input-GPay.css);
-@import url(../blocks/grid-Payments/__Input-visa/grid-Payments__Input-visa.css);
+/* @import url(../blocks/grid-Payments/__Input-ApplePay/grid-Payments__Input-ApplePay.css); */
+/* @import url(../blocks/grid-Payments/__Input-GPay/grid-Payments__Input-GPay.css); */
+/* @import url(../blocks/grid-Payments/__Input-visa/grid-Payments__Input-visa.css); */
 @import url(../blocks/grid-Payments/__Input/grid-Payments__Input.css);
 @import url(../blocks/grid-Payments/__label/grid-Payments__label.css);
 @import url(../blocks/grid-Payments/__visa-mir-label/grid-Payments__visa-mir-label.css);
