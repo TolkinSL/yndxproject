@@ -8,3 +8,9 @@
   margin: 0;
   padding: 0;
 }
+
+.footer__link:hover {
+  opacity: 0.6;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+}

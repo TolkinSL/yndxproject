@@ -5,3 +5,9 @@
   object-fit: contain;
   cursor: pointer;
 }
+
+.help__social-logo:hover {
+  opacity: 0.6;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+}

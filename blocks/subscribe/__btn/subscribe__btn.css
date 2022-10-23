@@ -20,6 +20,12 @@
   color: #ffffff;
 }
 
+.subscribe__btn:hover {
+  opacity: 0.8;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+}
+
 @media screen and (max-width: 1080px) {
   .subscribe__btn {
     margin-right: 5vw;

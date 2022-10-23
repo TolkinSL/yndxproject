@@ -5,3 +5,9 @@
   color: #54a8b6;
   text-decoration: none;
 }
+
+.help-section__link:hover {
+  opacity: 0.6;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+}

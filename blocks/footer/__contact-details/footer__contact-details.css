@@ -9,6 +9,12 @@
   margin-left: 22px;
 }
 
+.footer__contact-details:hover {
+  opacity: 0.6;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+}
+
 @media screen and (max-width: 1080px) {
   .footer__contact-details {
     font-size: 10px;
