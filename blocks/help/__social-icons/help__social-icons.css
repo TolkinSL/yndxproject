@@ -1,0 +1,7 @@
+.help__social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 96px;
+  gap: 21px;
+}

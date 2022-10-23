@@ -18,7 +18,6 @@
 @import url("../blocks/digits/__span-accent/digits__span-accent.css");
 @import url("../blocks/digits/__title/digits__title.css");
 @import url("../blocks/useful/useful.css");
-/* @import url("../blocks/useful/__title/useful__title.css"); */
 @import url("../blocks/useful/__elements/useful__elements.css");
 @import url("../blocks/useful/__element/useful__element.css");
 @import url("../blocks/useful/__wrapper/useful__wrapper.css");
@@ -35,6 +34,7 @@
 @import url("../blocks/contacts/contacts.css");
 @import url("../blocks/contacts/__title/contacts__title.css");
 @import url("../blocks/contacts/__info/contacts__info.css");
+
 
 /* Import BEM */
 /*------- header by Gohar ------*/
@@ -66,6 +66,7 @@
 @import url("../blocks/header/__sublink-sub/header__sublink-sub.css");
 /*----------------------------- третий экран--------------------*/
 @import url("../blocks/header/_programs/header_programs.css");
+
 /*----------------- desktop program menue---------------------*/
 @import url("../blocks/menue-program/menue-program.css");
 @import url("../blocks/menue-program/__item/menue-program__item.css");
@@ -95,7 +96,9 @@
 /*---Sergey---*/
 /*---Valery all the styles are in header at the moment---*/
 @import url("../blocks/programs/programs.css");
+
 @import url("../blocks/programs/__section-title/programs__section-title.css");
+
 @import url("../blocks/programs/__item/programs__item.css");
 @import url("../blocks/programs/__item-content/programs__item-content.css");
 @import url("../blocks/programs/__item-inner/programs__item-inner.css");
@@ -108,6 +111,11 @@
 @import url("../blocks/programs/__item-title/programs__item-title.css");
 @import url("../blocks/programs/__item-text/programs__item-text.css");
 @import url("../blocks/programs/__about-link/programs__about-link.css");
+
+/*--------Не переставлять эти импорты в другое место (верстка ломается)--------------------------*/
+@import url("../blocks/header/_programs-positioning/header_programs-positioning.css");
+@import url("../blocks/header/_programs-padding/header_programs-padding.css");
+
 /*----------------------------------Gohar values----------------------------------------*/
 @import url("../blocks/values/values.css");
 @import url("../blocks/section-title/section-title.css");
@@ -119,10 +127,17 @@
 @import url("../blocks/values/__text/values__text.css");
 /*----------------------------------Gohar values----------------------------------------*/
 /*------- Sergey -our friends ------*/
-@import url("../blocks/friends/friends.css");
-@import url("../blocks/friends/__wrapper/friends__wrapper.css");
-@import url("../blocks/friends/__quote/friends__quote.css");
-@import url("../blocks/friends/__slider-buttons/friends__slider-buttons.css");
+
+
+@import url('../blocks/friends/friends.css');
+@import url('../blocks/friends/__wrapper/friends__wrapper.css');
+@import url('../blocks/friends/__quote/friends__quote.css');
+@import url('../blocks/friends/__quote/_text/friends__quote_text.css');
+@import url('../blocks/friends/__quote/_author/friends__quote_author.css');
+@import url('../blocks/friends/__quote/_span/friends__quote_span.css');
+@import url('../blocks/friends/__quote/_span-bold/friends__quote_span-bold.css');
+@import url('../blocks/friends/__slider-buttons/friends__slider-buttons.css');
+
 /*------- Sergey blogs ------*/
 @import url("../blocks/blog/blog.css");
 @import url("../blocks/wrapper/wrapper.css");
@@ -195,6 +210,7 @@
 
 /* Second page help-fund-page.html */
 
+
 /* Block BankCards Alexander */
 @import url("../blocks/bankCards/bankCards.css");
 @import url("../blocks/bankCard/bankCard.css");
@@ -248,8 +264,32 @@
 @import url("../blocks/supportForm/_absolute/supportForm_absolute.css");
 
 
+@import url("../blocks/help/help.css");
+@import url("../blocks/help/_padding/help_padding.css");
+@import url("../blocks/help/_span/help_span.css");
+@import url("../blocks/help-section/help-section.css");
+@import url("../blocks/help-section/__text/help-section__text.css");
+@import url("../blocks/help-section/__title/help-section__title.css");
+@import url("../blocks/help-section/__subtitle/help-section__subtitle.css");
+@import url("../blocks/help-section/__button/help-section__button.css");
+@import url("../blocks/help-section/__button-arrow/help-section__button-arrow.css");
+@import url("../blocks/help-section/__link/help-section__link.css");
+@import url("../blocks/help-section/__image/help-section__image.css");
+@import url("../blocks/help/__social/help__social.css");
+@import url("../blocks/help/__social-title/help__social-title.css");
+@import url("../blocks/help/__social-logo/help__social-logo.css");
+@import url("../blocks/help/__social-icons/help__social-icons.css");
 
-
+@import url("../blocks/questions/questions.css");
+@import url("../blocks/questions/__subtitle/questions__subtitle.css");
+@import url("../blocks/questions/__form/questions__form.css");
+@import url("../blocks/questions/__form-wrapper/questions__form-wrapper.css");
+@import url("../blocks/questions/__input-text/questions__input-text.css");
+@import url("../blocks/questions/__input-message/questions__input-message.css");
+@import url("../blocks/questions/__input-link/questions__input-link.css");
+@import url("../blocks/questions/__input-checkbox/questions__input-checkbox.css");
+@import url("../blocks/questions/__input-checkbox-label/questions__input-checkbox-label.css");
+@import url("../blocks/questions/__input-button/questions__input-button.css");
 
 /*
 @import url("../");
@@ -263,3 +303,5 @@
 @import url("../");
 @import url("../");
 @import url("../styleOverAll.css"); */
+
+

@@ -1,0 +1,7 @@
+.help__social-logo {
+  max-width: 40px;
+  max-height: 40px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  cursor: pointer;
+}
