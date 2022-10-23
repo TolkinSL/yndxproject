@@ -25,20 +25,6 @@ const switchLabel2 = switchContainer.querySelector('.switch__label2');
 
 const switchIndicator = switchContainer.querySelector('.switch__indicator');
 
-// grid-Payments const
-const radioContainerPayments = document.querySelector('.grid-Payments');
-
-const radioButtons_Payments = radioContainerPayments.querySelectorAll('.grid-Payments__Input');
-const radioLabels_Payments = radioContainerPayments.querySelectorAll('.grid-Payments__label');
-
-const radioButton_Payment1 = radioContainerPayments.querySelector('.grid-Payments__Input-visa');
-const radioButton_Payment2 = radioContainerPayments.querySelector('.grid-Payments__Input-GPay');
-const radioButton_Payment3 = radioContainerPayments.querySelector('.grid-Payments__Input-ApplePay');
-
-const radioLabel_Payment1 = radioContainerPayments.querySelector('.grid-Payments__visa-mir-label');
-const radioLabel_Payment2 = radioContainerPayments.querySelector('.grid-Payments__googlePay-label');
-const radioLabel_Payment3 = radioContainerPayments.querySelector('.grid-Payments__ApplePay-label');
-
 // function def(item) {
 //   if (item.checked) {
 //     switchIndicator.style.visibility = "visible";
@@ -99,14 +85,16 @@ function ResetRadioButtons(rdBtn) {
     }
   });
 
-  radioLabels_Payments.forEach(function (item) {
-    item.style.backgroundColor = "#F8F8F8";
-  });
-  radioButtons_Payments.forEach(function (item) {
-    if (item != rdBtn) {
-      item.checked = false;
-    }
-  });
+  if (document.URL.includes("help-fund-page.html")) {
+    radioLabels_Payments.forEach(function (item) {
+      item.style.backgroundColor = "#F8F8F8";
+    });
+    radioButtons_Payments.forEach(function (item) {
+      if (item != rdBtn) {
+        item.checked = false;
+      }
+    });
+  }
 }
 
 
@@ -144,39 +132,55 @@ radioButton_moneyInput3.addEventListener("click", () => {
 
 
 
+//second page
+if (document.URL.includes("help-fund-page.html")) {
+  // grid-Payments const
+  const radioContainerPayments = document.querySelector('.grid-Payments');
 
+  const radioButtons_Payments = radioContainerPayments.querySelectorAll('.grid-Payments__Input');
+  const radioLabels_Payments = radioContainerPayments.querySelectorAll('.grid-Payments__label');
 
+  const radioButton_Payment1 = radioContainerPayments.querySelector('.grid-Payments__Input-visa');
+  const radioButton_Payment2 = radioContainerPayments.querySelector('.grid-Payments__Input-GPay');
+  const radioButton_Payment3 = radioContainerPayments.querySelector('.grid-Payments__Input-ApplePay');
 
-radioButton_Payment1.addEventListener("click", () => {
-  ResetRadioButtons(radioButton_Payment1);
-  if (radioButton_Payment1.checked) {
-    radioButton_Payment1.checked = true
-    radioLabel_Payment1.style.backgroundColor = "#82607D";
-    // radioLabel_moneyInput1.style.color = "white";
-    // radioLabel_moneyInput2.style.color = "#000000";
-    // radioLabel_moneyInput3.style.color = "#000000";
+  const radioLabel_Payment1 = radioContainerPayments.querySelector('.grid-Payments__visa-mir-label');
+  const radioLabel_Payment2 = radioContainerPayments.querySelector('.grid-Payments__googlePay-label');
+  const radioLabel_Payment3 = radioContainerPayments.querySelector('.grid-Payments__ApplePay-label');
+
+  function ResetRadioButtons(rdBtn) {
+
+    radioLabels_Payments.forEach(function (item) {
+      item.style.backgroundColor = "#F8F8F8";
+    });
+    radioButtons_Payments.forEach(function (item) {
+      if (item != rdBtn) {
+        item.checked = false;
+      }
+    });
   }
-});
 
-radioButton_Payment2.addEventListener("click", () => {
-  ResetRadioButtons(radioButton_Payment2);
-  if (radioButton_Payment2.checked) {
-    radioButton_Payment2.checked = true
-    radioLabel_Payment2.style.backgroundColor = "#82607D";
-    // radioLabel_moneyInput1.style.color = "white";
-    // radioLabel_moneyInput2.style.color = "#000000";
-    // radioLabel_moneyInput3.style.color = "#000000";
-  }
-});
+  radioButton_Payment1.addEventListener("click", () => {
+    ResetRadioButtons(radioButton_Payment1);
+    if (radioButton_Payment1.checked) {
+      radioButton_Payment1.checked = true
+      radioLabel_Payment1.style.backgroundColor = "#82607D";
+    }
+  });
 
-radioButton_Payment3.addEventListener("click", () => {
-  ResetRadioButtons(radioButton_Payment3);
-  if (radioButton_Payment3.checked) {
-    radioButton_Payment3.checked = true
-    radioLabel_Payment3.style.backgroundColor = "#82607D";
-    // radioLabel_moneyInput1.style.color = "white";
-    // radioLabel_moneyInput2.style.color = "#000000";
-    // radioLabel_moneyInput3.style.color = "#000000";
-  }
-});
+  radioButton_Payment2.addEventListener("click", () => {
+    ResetRadioButtons(radioButton_Payment2);
+    if (radioButton_Payment2.checked) {
+      radioButton_Payment2.checked = true
+      radioLabel_Payment2.style.backgroundColor = "#82607D";
+    }
+  });
 
+  radioButton_Payment3.addEventListener("click", () => {
+    ResetRadioButtons(radioButton_Payment3);
+    if (radioButton_Payment3.checked) {
+      radioButton_Payment3.checked = true
+      radioLabel_Payment3.style.backgroundColor = "#82607D";
+    }
+  });
+}
