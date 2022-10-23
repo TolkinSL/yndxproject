@@ -1,1 +1,19 @@
-.header__button-close {}
+.header__button-close {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .header__button-close {
+    box-sizing: border-box;
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    border: none;
+    background-color: transparent;
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    z-index: 20;
+  }
+}

@@ -1,1 +1,23 @@
-.social {}
+.social {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 9%;
+  margin: 0;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 1080px) {
+  .social {
+    width: 12%;
+    max-width: 66px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .social {
+    width: 26%;
+    max-width: 96px;
+  }
+}

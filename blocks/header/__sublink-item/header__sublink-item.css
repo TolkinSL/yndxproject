@@ -1,1 +1,23 @@
-.header__sublink-item {}
+.header__sublink-item {
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  color: black;
+  text-decoration: none;
+  margin: 0;
+  padding: 0 0 10px;
+}
+
+.header__sublink-item:hover {
+  transition: ease;
+  transition-duration: 0.3s;
+  color: #54a8b6;
+}
+
+@media screen and (max-width: 767px) {
+  .header__sublink-item {
+    font-size: 22px;
+    line-height: 0.67;
+  }
+}

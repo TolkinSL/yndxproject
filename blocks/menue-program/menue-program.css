@@ -1,1 +1,18 @@
-.menue-program {}
+.menue-program {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: -500%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .menue-program {
+    display: none;
+  }
+}

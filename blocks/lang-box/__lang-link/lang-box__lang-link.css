@@ -1,1 +1,20 @@
-.lang-box__lang-link {}
+.lang-box__lang-link {
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #fff;
+  opacity: 40%;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .lang-box__lang-link {
+    color: black;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.58;
+  }
+}

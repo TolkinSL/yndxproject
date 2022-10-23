@@ -1,1 +1,4 @@
-.header__sublinks-title {}
+.header__sublinks-title {
+  padding: 0;
+  margin: 0;
+}

@@ -1,1 +1,27 @@
-.header__button {}
+.header__button {
+  width: 17%;
+  background-color: #eeb250;
+  border: none;
+  min-height: 56px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1080px) {
+  .header__button {
+    font-size: 10px;
+    width: 15%;
+    min-height: 48px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__button {
+    width: 36%;
+    font-size: 14px;
+  }
+}

@@ -1,1 +1,11 @@
-.header__burger-line {}
+@media screen and (max-width: 767px) {
+  .header__burger-line {
+    position: absolute;
+    left: 0;
+    width: 24px;
+    height: 2px;
+    background-color: #fff;
+    top: 50%;
+    transform: scale(1) translate(0px, -50%);
+  }
+}

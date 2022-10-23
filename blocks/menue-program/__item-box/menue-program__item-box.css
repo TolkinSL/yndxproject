@@ -1,1 +1,8 @@
-.menue-program__item-box {}
+.menue-program__item-box {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  width: 27%;
+  padding: 0;
+  margin: 0;
+}

@@ -1,1 +1,22 @@
-.social__icon {}
+.social__icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin-left: 18px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1080px) {
+  .social__icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .social__icon {
+    filter: invert(100%);
+    width: 40px;
+    height: 40px;
+  }
+}

@@ -37,46 +37,52 @@
 @import url('../blocks/contacts/__info/contacts__info.css');
 
 /* Import BEM */
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
-@import url('../');
+/*------- header by Gohar ------*/
+@import url('../blocks/page/page.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/header/__menue-сontainer/header__menue-сontainer.css');
+@import url('../blocks/header/__menue/header__menue.css');
+@import url('../blocks/header/__link/header__link.css');
+@import url('../blocks/header/__link/_active/header__link_active.css');
+@import url('../blocks/social/social.css');
+@import url('../blocks/social/__link/social__link.css');
+@import url('../blocks/social/__icon/social__icon.css');
+@import url('../blocks/lang-box/lang-box.css');
+@import url('../blocks/lang-box/__link/lang-box__link.css');
+@import url('../blocks/lang-box/__lang-link/lang-box__lang-link.css');
+@import url('../blocks/lang-box/__lang-link/_active/lang-box__lang-link_active.css');
+@import url('../blocks/header/__button/header__button.css');
+@import url('../blocks/header/__burger-menue/header__burger-menue.css');
+@import url('../blocks/header/__burger-line/header__burger-line.css');
+@import url('../blocks/header/__button-close/header__button-close.css');
+@import url('../blocks/header/__button-arrow/header__button-arrow.css');
+/*----------------------------- второй экран--------------------*/
+@import url('../blocks/header/__fund-about/header__fund-about.css');
+@import url('../blocks/header/__desctop-menue-item/header__desctop-menue-item.css');
+@import url('../blocks/header/__sublinks-title/header__sublinks-title.css');
+@import url('../blocks/header/__sublink-item/header__sublink-item.css');
+@import url('../blocks/header/__sublinks/header__sublinks.css');
+@import url('../blocks/header/__sublink-sub/header__sublink-sub.css');
+/*----------------------------- третий экран--------------------*/
+@import url('../blocks/header/_programs/header_programs.css');
+/*----------------- desktop program menue---------------------*/
+@import url('../blocks/menue-program/menue-program.css');
+@import url('../blocks/menue-program/__item/menue-program__item.css');
+@import url('../blocks/menue-program/__item-box/menue-program__item-box.css');
+@import url('../blocks/menue-program/__logo/menue-program__logo.css');
+@import url('../blocks/menue-program/__text-container/menue-program__text-container.css');
+@import url('../blocks/menue-program/__link/menue-program__link.css');
+@import url('../blocks/menue-program/__item-title/menue-program__item-title.css');
+@import url('../blocks/menue-program/__positioning/menue-program__positioning.css');
+@import url('../blocks/menue-program/__item-text/menue-program__item-text.css');
+@import url('../blocks/menue-program/__item-title/_margin/menue-program__item-title_margin.css');
+@import url('../blocks/header/__burger-menue/_active/header__burger-menue_active.css');
+@import url('../blocks/header/__buttons/_active/header__buttons_active.css');
+@import url('../blocks/header/__menue/_active/header__menue_active.css');
+/*------- header by Gohar ------*/
+@import url('../blocks/content/content.css');
+/*------- Sergey -work ------*/
 @import url('../');
 @import url('../');
 @import url('../');

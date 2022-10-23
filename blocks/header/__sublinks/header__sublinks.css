@@ -1,1 +1,16 @@
-.header__sublinks {}
+.header__sublinks {
+  box-sizing: border-box;
+  display: inline;
+  width: 100%;
+  margin: 0;
+  padding: 10px 0 0;
+}
+
+@media screen and (max-width: 767px) {
+  .header__sublinks {
+    box-sizing: border-box;
+    text-align: center;
+    width: 90%;
+    margin: 0;
+  }
+}
