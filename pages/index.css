@@ -236,11 +236,13 @@
 @import url("../blocks/bankCard-Front/__placeholders/bankCard-Front__placeholders.css");
 @import url("../blocks/bankCard-Front/__placeholders/_name/bankCard-Front__placeholders_name.css");
 @import url("../blocks/bankCard-Front/__placeholders/_number/bankCard-Front__placeholders_number.css");
+
+@import url("../blocks/bankCard/__checkbox-label/bankCard__checkbox-label.css");
+@import url("../blocks/bankCard/__checkbox-wrapper/bankCard__checkbox-wrapper.css");
+@import url("../blocks/bankCard/__checkbox/bankCard__checkbox.css");
+@import url("../blocks/bankCard/__link/bankCard__link.css");
+
 @import url("../blocks/bankCard-requisites/bankCard-requisites.css");
-@import url("../blocks/bankCard-requisites/__checkbox-label/bankCard-requisites__checkbox-label.css");
-@import url("../blocks/bankCard-requisites/__checkbox-wrapper/bankCard-requisites__checkbox-wrapper.css");
-@import url("../blocks/bankCard-requisites/__checkbox/bankCard-requisites__checkbox.css");
-@import url("../blocks/bankCard-requisites/__link/bankCard-requisites__link.css");
 @import url("../blocks/bankCard-requisites/__text/bankCard-requisites__text.css");
 @import url("../blocks/bankCard-requisites/__wrapper/bankCard-requisites__wrapper.css");
 
@@ -303,3 +305,15 @@
 @import url("../styleOverAll.css"); */
 
 
+.bankCard__wrapper_disable
+ {
+  display: none;
+ }
+
+ .bankCard__checkboxes
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding-top: 32px;
+ }
