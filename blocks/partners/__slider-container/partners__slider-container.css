@@ -8,5 +8,6 @@
 @media (max-width: 767px) {
   .partners__slider-container {
     padding: 0;
+    height: 80px;
   }
 }
