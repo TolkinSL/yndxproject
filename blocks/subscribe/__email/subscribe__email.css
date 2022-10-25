@@ -6,6 +6,7 @@
   font-size: 16px;
   line-height: 1.11;
   color: #999999;
+  min-height: 56px;
   padding: 18px 22px 18px 55px;
   margin-top: 80px;
   margin-left: 28px;
@@ -25,14 +26,24 @@
 
 @media screen and (max-width: 767px) {
   .subscribe__email {
-    max-width: 362px;
-    padding: 18px 65px 18px 55px;
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 18px 93px 18px 80px;
     margin: 0 0 16px 0;
+    text-align: left;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 470px) {
   .subscribe__email {
-    padding: 18px 22px 18px 55px;
+    padding: 18px 70px 18px 57px;
+
+
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .subscribe__email {
+    padding: 18px 10px 18px 57px;
   }
 }

@@ -10,8 +10,9 @@
 
 @media screen and (max-width: 868px) {
   .digits__paragraph {
-    max-width: 326px;
-    margin-top: 4px;
+    width: 100%;
+    max-width: 370px;
+    margin-top: 8px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.11;

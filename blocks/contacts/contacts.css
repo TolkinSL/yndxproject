@@ -11,13 +11,14 @@
 
 @media screen and (max-width: 1080px) {
   .contacts {
-    padding-top: 56px;
-    padding-bottom: 56px;
+    width: 85%;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 767px) {
   .contacts {
-    max-width: 100%;
+    width: 95%;
+    padding-top: 56px;
+    padding-bottom: 56px;
   }
 }

@@ -21,7 +21,7 @@
 }
 
 .subscribe__btn:hover {
-  opacity: 0.8;
+  opacity: 0.6;
   transition: ease-in-out;
   transition-duration: 0.5s;
 }
@@ -35,16 +35,22 @@
 @media screen and (max-width: 767px) {
   .subscribe__btn {
     margin: 0 0 52px 0;
-    padding: 18px 181px;
+    padding: 18px 195px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 470px) {
   .subscribe__btn {
-    padding: 18px 163.5px;
+    padding: 18px 172px;
   }
 }
 
 .subscribe__btn:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 374px) {
+  .subscribe__btn {
+    padding: 18px 137px;
+  }
 }
