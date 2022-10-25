@@ -17,3 +17,9 @@
     padding: 0 5px 0;
   }
 }
+
+.header__sublink-sub:hover {
+  color: black;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+}
