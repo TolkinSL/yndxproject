@@ -1,8 +1,15 @@
 .partners__logo {
   max-width: 100%;
   filter: grayscale(1);
+  height: 124px;
 }
 
 .partners__logo:hover {
   filter: grayscale(0);
+}
+
+@media (max-width: 767px) {
+  .partners__logo {
+    height: 80px;
+  }
 }
