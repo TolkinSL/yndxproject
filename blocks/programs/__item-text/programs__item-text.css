@@ -9,7 +9,6 @@
 
 @media (max-width: 767px) {
   .programs__item-text {
-    font-size: 16px;
     line-height: 1.33;
     padding-left: 24px;
   }

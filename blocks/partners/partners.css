@@ -7,6 +7,7 @@
 @media screen and (max-width: 1080px) {
   .partners {
     padding-top: 56px;
+    background-color: #E5E5E5;
   }
 }
 
@@ -21,6 +22,7 @@
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+  height: 124px;
 }
 
 /*.slider__item {*/
