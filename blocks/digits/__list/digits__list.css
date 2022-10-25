@@ -1,6 +1,7 @@
 .digits__list {
   box-sizing: border-box;
   margin: 0 auto;
+  width: 81%;
   max-width: 1032px;
   /* height: 172px; */
   display: grid;
@@ -36,7 +37,7 @@
 
 @media screen and (max-width: 767px) {
   .digits__list {
-    max-width: 375px;
+    max-width: 315px;
     grid-template-columns: 326px;
     /* grid-template-columns: repeat(2, 1fr); */
     /* grid-template-rows: 172px 172px; */

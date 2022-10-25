@@ -1,4 +1,5 @@
 .subscribe__wrapper {
+  width: 100%;
   flex-direction: column;
   margin: 43px 0 43px 5vw;
 }
