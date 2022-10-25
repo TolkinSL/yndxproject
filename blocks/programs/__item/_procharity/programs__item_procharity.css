@@ -1,10 +1,13 @@
 .programs__item_procharity {
   background-image: url("../../../../images/programs_img_1.png");
   background-color: #77c5d5;
+  padding-left: 124px;
 }
 
 @media (max-width: 767px) {
   .programs__item_procharity {
     background-image: none;
+    padding-left: 24px;
+    padding-right: 2px;
   }
 }

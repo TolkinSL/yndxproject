@@ -6,5 +6,6 @@
 @media (max-width: 767px) {
   .programs__item_school {
     background-image: none;
+    padding-left: 24px;
   }
 }

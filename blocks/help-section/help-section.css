@@ -10,7 +10,7 @@
 
 .help-section:nth-of-type(2) {
   width: 100%;
-  gap: 130px;
+  gap: 127px;
 }
 
 @media screen and (max-width: 1080px) {
@@ -25,15 +25,16 @@
 
 @media screen and (max-width: 767px) {
   .help-section {
-    width: 90%;
+    width: 100%;
     justify-content: flex-start;
     margin-bottom: 32px;
+    gap: 10px;
   }
 
   .help-section:nth-of-type(2) {
     flex-direction: column-reverse;
     align-items: flex-start;
-    width: 90%;
+    width: 100%;
     gap: 10px;
   }
 }

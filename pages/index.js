@@ -11,7 +11,7 @@ const textLinkFund = document.querySelector(".header__link_fund");
 const textLinkPrograms = document.querySelector(".header__link_fund_programs");
 const desktopProgramMenue = document.querySelector(".menue-program");
 const width = screen.width;
-  
+
 
 function openDesktopProgramsMenue(fundPrograms) {
   if (width > 767) desktopProgramMenue.classList.toggle("header__menue_active");

@@ -3,6 +3,7 @@
   margin: 0 auto;
   width: 81%;
   padding-top: 96px;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 1080px) {

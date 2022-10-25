@@ -18,3 +18,9 @@
 .help-section__button:hover {
   background: #f1f5f9;
 }
+
+@media screen and (max-width: 767px) {
+  .help-section__button {
+    width: 100%;
+  }
+}

@@ -10,6 +10,7 @@
   padding: 0;
   margin: 0;
 }
+
 @media (max-width: 1080px) {
   .menue-program {
     margin-top: -10px;
