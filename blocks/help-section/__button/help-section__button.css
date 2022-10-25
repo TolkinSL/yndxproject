@@ -6,6 +6,7 @@
   width: 287px;
   height: 56px;
   border: none;
+  border-radius: 48px;
   background: #f8f8f8;
   display: flex;
   cursor: pointer;

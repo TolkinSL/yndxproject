@@ -10,6 +10,8 @@
   margin-bottom: 16px;
 }
 
+
+
 .contacts__info:last-child {
   margin-bottom: 0;
 }
@@ -23,10 +25,14 @@
 
 @media screen and (max-width: 767px) {
   .contacts__info {
+    width: 100%;
     font-size: 30px;
   }
 }
 
 .contacts__info:hover {
+  color: orange;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
   cursor: pointer;
 }
