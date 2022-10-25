@@ -14,6 +14,7 @@
 @media screen and (max-width: 767px) {
   .friends {
     max-height: 510px;
+    background-color: #F8F8F8;
   }
 
   /*.quote__img {*/
