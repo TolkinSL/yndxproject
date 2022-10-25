@@ -1,11 +1,7 @@
 .subscribe__btn {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 18px 52px;
   margin-top: 80px;
   margin-right: 128px;
-  max-width: 152px;
+  width: 152px;
   height: 56px;
   background: #528cbe;
   border-radius: 56px;
@@ -24,6 +20,7 @@
   opacity: 0.6;
   transition: ease-in-out;
   transition-duration: 0.5s;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1080px) {
@@ -43,10 +40,6 @@
   .subscribe__btn {
     padding: 18px 172px;
   }
-}
-
-.subscribe__btn:hover {
-  cursor: pointer;
 }
 
 @media screen and (max-width: 374px) {

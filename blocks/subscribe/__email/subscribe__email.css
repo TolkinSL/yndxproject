@@ -1,5 +1,4 @@
 .subscribe__email {
-  max-width: 328px;
   font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
@@ -18,12 +17,6 @@
   background-position: left 32px center;
 }
 
-@media screen and (max-width: 1080px) {
-  .subscribe__email {
-    max-width: 250px;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .subscribe__email {
     box-sizing: border-box;
@@ -37,8 +30,6 @@
 @media screen and (max-width: 470px) {
   .subscribe__email {
     padding: 18px 70px 18px 57px;
-
-
   }
 }
 
@@ -47,3 +38,4 @@
     padding: 18px 10px 18px 57px;
   }
 }
+
