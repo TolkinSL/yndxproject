@@ -1,12 +1,13 @@
 .subscribe__email {
-  max-width: 328px;
   font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.11;
   color: #999999;
-  padding: 18px 22px 18px 55px;
+  width: 328px;
+  height: 56px;
+  padding-left: 65px;
   margin-top: 80px;
   margin-left: 28px;
   margin-right: 16px;
@@ -17,22 +18,9 @@
   background-position: left 32px center;
 }
 
-@media screen and (max-width: 1080px) {
-  .subscribe__email {
-    max-width: 250px;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .subscribe__email {
-    max-width: 362px;
-    padding: 18px 65px 18px 55px;
+    width: 362px;
     margin: 0 0 16px 0;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .subscribe__email {
-    padding: 18px 22px 18px 55px;
   }
 }
