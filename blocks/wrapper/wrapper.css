@@ -5,3 +5,9 @@
   flex-wrap: wrap;
   gap: 24px;
 }
+
+@media screen and (max-width: 767px) {
+  .wrapper  {
+    display: inline-block;
+  }
+}
