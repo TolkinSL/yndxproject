@@ -13,3 +13,13 @@
     margin-right: 70px;
   }
 }
+
+@media screen and (max-width: 374px) {
+  .footer__menue-item {
+    margin-right: 23px;
+  }
+
+  .footer__menue-item:nth-of-type(7) {
+    margin-right: 20px;
+  }
+}
