@@ -9,5 +9,7 @@
 @media screen and (max-width: 767px) {
   .questions {
     width: 90%;
+    padding-top: 56px;
+    padding-bottom: 56px;
   }
 }

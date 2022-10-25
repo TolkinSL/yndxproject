@@ -1,0 +1,9 @@
+.section-title_partners {
+  padding-bottom: 23px;
+}
+
+@media (max-width: 767px) {
+  .section-title_partners {
+    padding-bottom: 16px;
+  }
+}
