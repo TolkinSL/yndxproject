@@ -1,14 +1,16 @@
 .help-section__text {
   max-width: 47%;
 }
+
 @media screen and (max-width: 1080px) {
   .help-section__text {
     max-width: 80%;
+
   }
 }
 
 @media screen and (max-width: 767px) {
   .help-section__text {
-    width: 90%;
+    max-width: 95%;
   }
 }

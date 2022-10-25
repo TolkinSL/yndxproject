@@ -9,9 +9,9 @@
   margin: 0 0 32px 0;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1080px) {
   .contacts__title {
-    max-width: 500px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }

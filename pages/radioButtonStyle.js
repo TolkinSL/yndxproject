@@ -107,6 +107,8 @@ if (document.URL.includes("help-fund-page.html")) {
   const radioLabel_Payment2 = radioContainerPayments.querySelector('.grid-Payments__googlePay-label');
   const radioLabel_Payment3 = radioContainerPayments.querySelector('.grid-Payments__ApplePay-label');
 
+  const bankCard__wrapper = document.querySelector('.bankCard__wrapper');
+
   function ResetRadioButtonsPayments(rdBtn) {
 
     radioLabels_Payments.forEach(function (item) {
@@ -124,6 +126,7 @@ if (document.URL.includes("help-fund-page.html")) {
     if (radioButton_Payment1.checked) {
       radioButton_Payment1.checked = true
       radioLabel_Payment1.style.backgroundColor = "#82607D";
+      bankCard__wrapper.classList.remove('bankCard__wrapper_disable');
     }
   });
 
@@ -132,6 +135,7 @@ if (document.URL.includes("help-fund-page.html")) {
     if (radioButton_Payment2.checked) {
       radioButton_Payment2.checked = true
       radioLabel_Payment2.style.backgroundColor = "#82607D";
+      bankCard__wrapper.classList.add('bankCard__wrapper_disable');
     }
   });
 
@@ -140,6 +144,7 @@ if (document.URL.includes("help-fund-page.html")) {
     if (radioButton_Payment3.checked) {
       radioButton_Payment3.checked = true
       radioLabel_Payment3.style.backgroundColor = "#82607D";
+      bankCard__wrapper.classList.add('bankCard__wrapper_disable');
     }
   });
 }

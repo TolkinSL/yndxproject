@@ -1,11 +1,11 @@
 .questions__input-message {
   padding-top: 18px;
   padding-left: 32px;
-  max-width: 646px;
+  max-width: 680px;
   width: 100%;
   border: none;
   background: #f8f8f8;
-  border-radius: 56px;
+  border-radius: 26px;
   height: 143px;
 }
 

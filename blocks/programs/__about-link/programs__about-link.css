@@ -8,6 +8,9 @@
 
 .programs__about-link:hover {
   opacity: 0.6;
+  background-color: gray;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
 }
 
 @media (max-width: 767px) {

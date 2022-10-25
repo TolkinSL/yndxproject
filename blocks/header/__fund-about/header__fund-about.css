@@ -22,6 +22,7 @@
 @media screen and (max-width: 1080px) {
   .header__fund-about {
     padding-left: 0;
+    margin-top: -10px;
   }
 }
 

@@ -10,6 +10,12 @@
   padding: 0;
 }
 
+.lang-box__lang-link:hover {
+  opacity: 0.6;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+}
+
 @media screen and (max-width: 767px) {
   .lang-box__lang-link {
     color: black;

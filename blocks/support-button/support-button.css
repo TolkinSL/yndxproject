@@ -18,6 +18,13 @@
   border: none;
 }
 
+.support-button:hover {
+  opacity: 0.6;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 967px) {
   .support-button {
     max-width: 311px;

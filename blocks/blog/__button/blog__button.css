@@ -14,7 +14,9 @@
 }
 
 .blog__button:hover {
-  background: #f1f5f9;
+  background-color: gray;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
 }
 
 .button-row {
