@@ -169,12 +169,14 @@
 @import url("../blocks/support/__title/_span/support__title_span.css");
 @import url("../blocks/support/__subtitle/support__subtitle.css");
 @import url("../blocks/switch/switch.css");
+@import url("../blocks/switch/_pageOne/switch_pageOne.css");
 @import url("../blocks/switch/__label/switch__label.css");
 @import url("../blocks/switch/__inputOne/switch__inputOne.css");
 @import url("../blocks/switch/__inputTwo/switch__inputTwo.css");
 @import url("../blocks/switch/__indicator/switch__indicator.css");
 @import url("../blocks/switch/__input/switch__input.css");
 @import url("../blocks/grid-support/grid-support.css");
+@import url("../blocks/grid-support/_onePage/grid-support_onePage.css");
 @import url("../blocks/grid-support/__money-input/grid-support__money-input.css");
 @import url("../blocks/grid-support/__money-label1/grid-support__money-label1.css");
 @import url("../blocks/grid-support/__money-label2/grid-support__money-label2.css");
@@ -213,6 +215,8 @@
 
 /* Block BankCards Alexander */
 @import url("../blocks/bankCards/bankCards.css");
+@import url("../blocks/bankCard/__checkboxes/bankCard__checkboxes.css");
+@import url("../blocks/bankCard/__wrapper/_disable/bankCard__wrapper_disable.css");
 @import url("../blocks/bankCard/bankCard.css");
 @import url("../blocks/bankCard/__Form/bankCard__Form.css");
 @import url("../blocks/bankCard/__Submitbutton/bankCard__Submitbutton.css");
@@ -238,6 +242,8 @@
 @import url("../blocks/bankCard-Front/__placeholders/bankCard-Front__placeholders.css");
 @import url("../blocks/bankCard-Front/__placeholders/_name/bankCard-Front__placeholders_name.css");
 @import url("../blocks/bankCard-Front/__placeholders/_number/bankCard-Front__placeholders_number.css");
+
+
 
 @import url("../blocks/bankCard/__checkbox-label/bankCard__checkbox-label.css");
 @import url("../blocks/bankCard/__checkbox-wrapper/bankCard__checkbox-wrapper.css");
@@ -292,30 +298,3 @@
 @import url("../blocks/questions/__input-checkbox/questions__input-checkbox.css");
 @import url("../blocks/questions/__input-checkbox-label/questions__input-checkbox-label.css");
 @import url("../blocks/questions/__input-button/questions__input-button.css");
-
-/*
-@import url("../");
-@import url("../");
-@import url("../");
-@import url("../");
-@import url("../");
-@import url("../");
-@import url("../");
-@import url("../");
-@import url("../");
-@import url("../");
-@import url("../styleOverAll.css"); */
-
-
-.bankCard__wrapper_disable
- {
-  display: none;
- }
-
- .bankCard__checkboxes
- {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  padding-top: 32px;
- }
