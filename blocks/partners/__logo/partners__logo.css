@@ -1,8 +1,10 @@
 .partners__logo {
   max-width: 100%;
   filter: grayscale(1);
+  opacity: 0.5;
 }
 
 .partners__logo:hover {
   filter: grayscale(0);
+  opacity: 1;
 }

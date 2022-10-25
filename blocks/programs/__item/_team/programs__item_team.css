@@ -1,10 +1,13 @@
 .programs__item_team {
   background-image: url("../../../../images/programs_img_3.png");
   background-color: #de6f7e;
+  padding-left: 124px;
 }
 
 @media (max-width: 767px) {
   .programs__item_team {
     background-image: none;
+    padding-left: 24px;
+    padding-right: 2px;
   }
 }

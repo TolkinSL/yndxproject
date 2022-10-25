@@ -6,6 +6,10 @@
   padding: 18px 52px;
 }
 
+.programs__about-link:hover {
+  opacity: 0.6;
+}
+
 @media (max-width: 767px) {
   .programs__about-link {
     margin-left: 24px;
