@@ -1,0 +1,18 @@
+.help__title {
+  margin: 0;
+  padding-top: 96px;
+  padding-bottom: 80px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.38;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .help__title {
+    padding-top: 56px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    line-height: 1.33;
+  }
+}

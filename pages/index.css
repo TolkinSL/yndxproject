@@ -117,6 +117,8 @@
 /*----------------------------------Gohar values----------------------------------------*/
 @import url("../blocks/values/values.css");
 @import url("../blocks/section-title/section-title.css");
+@import url("../blocks/section-title/_partners/section-title_partners.css");
+@import url("../blocks/section-title/_questions/section-title_questions.css");
 @import url("../blocks/values/__container/values__container.css");
 @import url("../blocks/values/__element/values__element.css");
 @import url("../blocks/values/__image-container/values__image-container.css");
@@ -265,8 +267,8 @@
 
 
 @import url("../blocks/help/help.css");
-@import url("../blocks/help/_padding/help_padding.css");
-@import url("../blocks/help/_span/help_span.css");
+@import url("../blocks/help/__title/help__title.css");
+@import url("../blocks/help/__title/_span/help__title_span.css");
 @import url("../blocks/help-section/help-section.css");
 @import url("../blocks/help-section/__text/help-section__text.css");
 @import url("../blocks/help-section/__title/help-section__title.css");
