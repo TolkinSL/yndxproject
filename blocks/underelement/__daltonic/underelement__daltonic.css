@@ -7,14 +7,13 @@
   top: calc(570px + 96px);
   left: 290px;
 }
-
-.underelement__daltonic:nth-of-type(2) {
+.underelement__daltonic:nth-of-type(13) {
   left: unset;
   top: calc(406px + 96px);
   right: 0;
 }
 
-.underelement__daltonic:nth-of-type(3) {
+.underelement__daltonic:nth-of-type(14) {
   top: calc(305px + 96px);
   right: unset;
   left: 90px;
@@ -34,14 +33,14 @@
     display: none;
   }
 
-  .underelement__daltonic:nth-of-type(2) {
+  .underelement__daltonic:nth-of-type(13) {
     left: unset;
     top: calc(406px + 56px);
     right: 0;
     display: none;
   }
 
-  .underelement__daltonic:nth-of-type(3) {
+  .underelement__daltonic:nth-of-type(14) {
     top: 305px;
     right: unset;
     left: 90px;
