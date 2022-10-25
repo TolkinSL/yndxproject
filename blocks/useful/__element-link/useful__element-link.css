@@ -10,5 +10,8 @@
 }
 
 .useful__element-link:hover {
+  color: turquoise;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
   cursor: pointer;
 }
