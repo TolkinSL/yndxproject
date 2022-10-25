@@ -23,29 +23,28 @@
 
 @media screen and (max-width: 767px) {
   .underelement__daltonic {
-    width: 151px;
-    height: 63px;
+    width: 94px;
+    height: 40px;
     background: #f8f8f8;
     border-radius: 136px;
     position: absolute;
-    top: calc(570px + 56px);
-    left: 290px;
-    display: none;
+    top: unset;
+    left: -41px;
+    bottom: 101px;
   }
 
   .underelement__daltonic:nth-of-type(13) {
     left: unset;
-    top: calc(406px + 56px);
-    right: 0;
-    display: none;
+    top: unset;
+    bottom: 181px;
+    right: -40px;
   }
 
   .underelement__daltonic:nth-of-type(14) {
-    top: 305px;
+    top: calc(497px + 56px);
     right: unset;
-    left: 90px;
-    width: 576px;
-    height: 233px;
-    display: none;
+    left: 9px;
+    width: 254px;
+    height: 125px;
   }
 }
