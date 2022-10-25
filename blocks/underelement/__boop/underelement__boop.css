@@ -1,6 +1,7 @@
 .underelement__boop {
   border-radius: 136px;
   position: absolute;
+  z-index: 2;
 }
 
 .underelement__boop:nth-of-type(1) {
