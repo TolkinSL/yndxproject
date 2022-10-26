@@ -9,10 +9,10 @@
   margin-bottom: -211px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1080px) {
   .bankCards {
-    transform: translate(0, -178px);
-    margin-bottom: -178px;
+    transform: translate(0, -240px);
+    margin-bottom: -240px;
     max-width: 560px;
   }
 }
@@ -20,5 +20,14 @@
 @media screen and (max-width: 767px) {
   .bankCards {
     max-width: 359px;
+  }
+}
+
+
+@media screen and (max-width: 570px) {
+  .bankCards {
+    transform: translate(0, -178px);
+    max-width: 330px;
+    margin-bottom: -178px;
   }
 }

@@ -15,16 +15,24 @@
     /* text-align: left; */
     padding-top: 50px;
     padding-left: 16px;
+    width: 90%;
     max-width: 648px;
     font-size: 38px;
     line-height: 1.1;
   }
 }
 
-@media screen and (max-width: 497px) {
+@media screen and (max-width: 570px) {
   .supportExtended__title {
+    width: 80%;
     min-width: 320px;
     padding-top: 40px;
     text-align: left;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .supportExtended__title {
+    width: 100%;
   }
 }
