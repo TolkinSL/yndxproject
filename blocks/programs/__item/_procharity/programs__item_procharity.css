@@ -8,6 +8,13 @@
   .programs__item_procharity {
     background-image: none;
     padding-left: 24px;
-    padding-right: 2px;
+    
+  }
+}
+
+@media (max-width:374px) {
+  .programs__item_procharity {
+    padding-left: 18px;
+    
   }
 }

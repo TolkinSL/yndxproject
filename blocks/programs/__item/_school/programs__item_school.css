@@ -9,3 +9,10 @@
     padding-left: 24px;
   }
 }
+
+@media (max-width:374px) {
+  .programs__item_school {
+    padding-left: 18px;
+    
+  }
+}

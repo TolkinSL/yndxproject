@@ -11,3 +11,10 @@
     padding-right: 2px;
   }
 }
+
+@media (max-width:374px) {
+  .programs__item_team {
+    padding-left: 18px;
+    
+  }
+}

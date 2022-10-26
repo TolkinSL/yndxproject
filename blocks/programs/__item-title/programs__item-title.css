@@ -14,3 +14,9 @@
     padding-left: 24px;
   }
 }
+
+@media (max-width: 374px) {
+  .programs__item-title {
+    font-size: 24px;
+  }
+}
