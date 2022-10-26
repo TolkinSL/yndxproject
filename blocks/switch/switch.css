@@ -20,6 +20,12 @@
   }
 }
 
+@media screen and (max-width: 374px) {
+  .switch {
+    width: 260px;
+  }
+}
+
 .switch:before {
   content: "";
   position: absolute;

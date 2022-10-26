@@ -20,3 +20,11 @@
     width: 164px;
   }
 }
+
+@media screen and (max-width: 374px) {
+  .switch__indicator {
+    top: 0;
+    left: 0;
+    width: 130px;
+  }
+}
