@@ -87,12 +87,13 @@
 @import url("../blocks/work/work.css");
 @import url("../blocks/work/__uppertext/work__uppertext.css");
 @import url("../blocks/work/__underelements/work__underelements.css");
-@import url("../blocks/uppertext/__text/uppertext__text.css");
-@import url("../blocks/uppertext/__title/uppertext__title.css");
-@import url("../blocks/underelement/__boop/underelement__boop.css");
-@import url("../blocks/underelement/__daltonic/underelement__daltonic.css");
-@import url("../blocks/underelement/__element/underelement__element.css");
-@import url("../blocks/element/__text/element__text.css");
+@import url("../blocks/work/__text/work__text.css");
+@import url("../blocks/work/__text/_bold/work__text_bold.css");
+@import url("../blocks/work/__title/work__title.css");
+@import url("../blocks/work/__boop/work__boop.css");
+@import url("../blocks/work/__daltonic/work__daltonic.css");
+@import url("../blocks/work/__element/work__underelement-element.css");
+@import url("../blocks/work/__element-text/work__element-text.css");
 /*---Sergey---*/
 /*---Valery all the styles are in header at the moment---*/
 @import url("../blocks/programs/programs.css");

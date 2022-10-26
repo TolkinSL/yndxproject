@@ -1,4 +1,4 @@
-.underelement__daltonic {
+.work__daltonic {
   width: 151px;
   height: 63px;
   background: #f8f8f8;
@@ -7,13 +7,13 @@
   top: calc(570px + 96px);
   left: 290px;
 }
-.underelement__daltonic:nth-of-type(13) {
+.work__daltonic:nth-of-type(13) {
   left: unset;
   top: calc(406px + 96px);
   right: 0;
 }
 
-.underelement__daltonic:nth-of-type(14) {
+.work__daltonic:nth-of-type(14) {
   top: calc(305px + 96px);
   right: unset;
   left: 90px;
@@ -22,7 +22,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .underelement__daltonic {
+  .work__daltonic {
     width: 94px;
     height: 40px;
     background: #f8f8f8;
@@ -33,14 +33,14 @@
     bottom: 101px;
   }
 
-  .underelement__daltonic:nth-of-type(13) {
+  .work__daltonic:nth-of-type(13) {
     left: unset;
     top: unset;
     bottom: 181px;
     right: -40px;
   }
 
-  .underelement__daltonic:nth-of-type(14) {
+  .work__daltonic:nth-of-type(14) {
     top: calc(497px + 56px);
     right: unset;
     left: 9px;

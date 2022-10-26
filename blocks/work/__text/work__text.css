@@ -1,4 +1,4 @@
-.uppertext__text {
+.work__text {
   max-width: 504px;
   margin: 0;
   font-weight: 400;
@@ -6,12 +6,12 @@
   line-height: 1.44;
 }
 
-.uppertext__text:last-of-type {
+.work__text:last-of-type {
   margin-top: 32px;
 }
 
 @media screen and (max-width: 767px) {
-  .uppertext__text {
+  .work__text {
     font-size: 16px;
     line-height: 1.28;
     max-width: 327px;
