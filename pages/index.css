@@ -178,9 +178,9 @@
 @import url("../blocks/grid-support/grid-support.css");
 @import url("../blocks/grid-support/_onePage/grid-support_onePage.css");
 @import url("../blocks/grid-support/__money-input/grid-support__money-input.css");
-@import url("../blocks/grid-support/__money-label1/grid-support__money-label1.css");
-@import url("../blocks/grid-support/__money-label2/grid-support__money-label2.css");
-@import url("../blocks/grid-support/__money-label3/grid-support__money-label3.css");
+@import url("../blocks/grid-support/__money-labelOne/grid-support__money-labelOne.css");
+@import url("../blocks/grid-support/__money-labelTwo/grid-support__money-labelTwo.css");
+@import url("../blocks/grid-support/__money-labelThree/grid-support__money-labelThree.css");
 @import url("../blocks/grid-support/__input/grid-support__input.css");
 @import url("../blocks/grid-support/__money-label/grid-support__money-label.css");
 @import url("../blocks/supportForm/supportForm.css");
