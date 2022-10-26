@@ -10,3 +10,9 @@
     margin: 0 10px -75px -200px;
   }
 }
+
+@media screen and (max-width: 374px) {
+  .useful__element-image {
+    display: none;
+  }
+}
