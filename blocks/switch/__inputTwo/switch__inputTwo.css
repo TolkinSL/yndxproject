@@ -15,6 +15,6 @@
 
 @media screen and (max-width: 374px) {
   .switch__inputTwo:checked~.switch__indicator {
-    transform: translate3d(125px, 0, 0);
+    transform: translate3d(130px, 0, 0);
   }
 }

@@ -8,3 +8,9 @@
     margin: 0 0 -75px -200px;
   }
 }
+
+@media screen and (max-width: 374px) {
+  .useful__element-image_shifted {
+    display: none;
+  }
+}
