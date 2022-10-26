@@ -32,3 +32,11 @@
     margin-bottom: 40px;
   }
 }
+
+@media screen and (max-width: 374px) {
+  .support-button {
+    max-width: 280px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}

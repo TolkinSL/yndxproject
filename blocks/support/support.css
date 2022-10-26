@@ -22,3 +22,11 @@
     /* display: flex; */
   }
 }
+
+@media screen and (max-width: 374px) {
+  .support {
+    width: 100%;
+    max-width: 320px;
+  }
+
+}

@@ -22,3 +22,10 @@
     line-height: 1.28;
   }
 }
+
+@media screen and (max-width: 374px) {
+  .support__title_span {
+    font-size: 22px;
+  }
+
+}

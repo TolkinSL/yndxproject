@@ -34,5 +34,16 @@
   .support__title {
     font-size: 25px;
     line-height: 1.41;
+    padding-left: 0;
   }
+}
+
+@media screen and (max-width: 374px) {
+  .support__title {
+    padding-top: 55px;
+    padding-left: 0;
+    max-width: 100%;
+    font-size: 22px;
+  }
+
 }

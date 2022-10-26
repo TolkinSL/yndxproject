@@ -22,13 +22,13 @@
     /* top:550px; */
     bottom: 8px;
     left: 8px;
-    background: #ffffff;
     z-index: 25;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   .supportform {
-    max-width: 359px;
+    width: 80%;
+    max-width: 320px;
   }
 }

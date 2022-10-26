@@ -19,3 +19,10 @@
     margin-bottom: 24px;
   }
 }
+
+@media screen and (max-width: 374px) {
+  .supportForm__title {
+    font-size: 24px;
+
+  }
+}
