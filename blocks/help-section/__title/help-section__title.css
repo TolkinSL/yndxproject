@@ -2,5 +2,11 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 1.5;
-  margin: 0 auto 16px auto;
+  margin: 43px auto 16px auto;
+}
+
+@media screen and (max-width: 767px) {
+  .help-section__title {
+   margin-top: 0;
+  }
 }
