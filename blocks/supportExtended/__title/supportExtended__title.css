@@ -12,10 +12,10 @@
 
 @media screen and (max-width: 1023px) {
   .supportExtended__title {
-    text-align: left;
+    /* text-align: left; */
     padding-top: 50px;
     padding-left: 16px;
-    min-width: 400px;
+    min-width: 320px;
     font-size: 38px;
     line-height: 1.1;
   }
