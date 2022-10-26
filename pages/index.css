@@ -80,8 +80,16 @@
 @import url("../blocks/menue-program/__item-title/_margin/menue-program__item-title_margin.css");
 @import url("../blocks/header/__burger-menue/_active/header__burger-menue_active.css");
 @import url("../blocks/header/__buttons/_active/header__buttons_active.css");
+@import url("../blocks/header/__link-container/header__link-container.css");
+@import url("../blocks/header/__link-item/header__link-item.css");
+@import url("../blocks/header/__sublinks/_width/header__sublinks_width.css");
+@import url("../blocks/menue-program/__link/_procharity/menue-program__link_procharity.css");
+@import url("../blocks/menue-program/__link/_school/menue-program__link_school.css");
+@import url("../blocks/menue-program/__link/_proffi/menue-program__link_proffi.css");
+
 /*------- header by Gohar ------*/
 @import url("../blocks/content/content.css");
+@import url("../blocks/content/_none/content_none.css");
 /*------- Sergey -work ------*/
 @import url("../blocks/work/work.css");
 @import url("../blocks/work/__uppertext/work__uppertext.css");
@@ -297,55 +305,3 @@
 @import url("../blocks/questions/__input-checkbox/questions__input-checkbox.css");
 @import url("../blocks/questions/__input-checkbox-label/questions__input-checkbox-label.css");
 @import url("../blocks/questions/__input-button/questions__input-button.css");
-
-
-.header__link-container {
-  list-style-type: none;
-  display: flex;
-  width: 100%;
-  box-sizing: border-box;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-}
-
-@media screen and (max-width: 767px) {
-  .header__link-container {
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 15px;
-    margin-top: 30px;
-    z-index: -10;
-  }
-}
-
-.header__link-item:hover .header__fund-about {
-  visibility: visible;
-  transition: linear;
-  transition-duration: 0.5s;
-}
-
-.header__sublinks_width {
-  width: 90%;
-}
-
-.menue-program__link_procharity:hover {
-  background-color: #77c5d5;
-  transition: ease;
-  transition-duration: 0.3s;
-}
-
-.menue-program__link_school:hover {
-  background-color: #528cbe;
-  transition: ease;
-  transition-duration: 0.3s;
-}
-
-.menue-program__link_proffi:hover {
-  background-color: #de6f7e;
-  transition: ease;
-  transition-duration: 0.3s;
-}
-
-.header__link_fund {}
