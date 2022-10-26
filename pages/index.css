@@ -184,7 +184,6 @@
 @import url("../blocks/grid-support/__input/grid-support__input.css");
 @import url("../blocks/grid-support/__money-label/grid-support__money-label.css");
 @import url("../blocks/supportForm/supportForm.css");
-@import url("../blocks/supportForm/_absolute/supportForm_absolute.css");
 @import url("../blocks/support-button/support-button.css");
 @import url("../blocks/supportForm/__title/supportForm__title.css");
 /*------- Gohar footer------*/
@@ -269,7 +268,6 @@
 
 @import url("../blocks/supportForm/supportForm.css");
 @import url("../blocks/supportForm/__title/supportForm__title.css");
-@import url("../blocks/supportForm/_absolute/supportForm_absolute.css");
 
 
 @import url("../blocks/help/help.css");

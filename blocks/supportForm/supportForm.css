@@ -11,6 +11,10 @@
   z-index: 15;
   background: #ffffff;
   margin: 0 auto;
+
+  position: absolute;
+  top: 40px;
+  right: 32px;
 }
 
 @media screen and (max-width: 967px) {
@@ -19,16 +23,20 @@
     max-width: 359px;
     max-height: 500px;
     top: 198px;
-    /* top:550px; */
     bottom: 8px;
     left: 8px;
     z-index: 25;
+    top: 198px;
   }
 }
 
 @media screen and (max-width: 374px) {
-  .supportform {
-    width: 80%;
-    max-width: 320px;
+  .supportForm {
+    max-width: 300px;
+    left: 10px;
   }
 }
+
+
+
+
