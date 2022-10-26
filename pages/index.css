@@ -80,16 +80,9 @@
 @import url("../blocks/menue-program/__item-title/_margin/menue-program__item-title_margin.css");
 @import url("../blocks/header/__burger-menue/_active/header__burger-menue_active.css");
 @import url("../blocks/header/__buttons/_active/header__buttons_active.css");
-@import url("../blocks/header/__link-container/header__link-container.css");
-@import url("../blocks/header/__link-item/header__link-item.css");
-@import url("../blocks/header/__sublinks/_width/header__sublinks_width.css");
-@import url("../blocks/menue-program/__link/_procharity/menue-program__link_procharity.css");
-@import url("../blocks/menue-program/__link/_school/menue-program__link_school.css");
-@import url("../blocks/menue-program/__link/_proffi/menue-program__link_proffi.css");
-
+@import url("../blocks/header/__menue/_active/header__menue_active.css");
 /*------- header by Gohar ------*/
 @import url("../blocks/content/content.css");
-@import url("../blocks/content/_none/content_none.css");
 /*------- Sergey -work ------*/
 @import url("../blocks/work/work.css");
 @import url("../blocks/work/__uppertext/work__uppertext.css");
