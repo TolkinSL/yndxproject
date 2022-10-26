@@ -126,7 +126,7 @@
 
 
 .slider__friends {
-max-height: 630px;
+  max-height: 630px;
 }
 
 
@@ -139,4 +139,10 @@ max-height: 630px;
 .blog-slider__container {
   max-width: 328px;
   min-height: 450px;
+}
+
+@media screen and (min-width: 767px) {
+  .blog-slider__indicators {
+    display: none;
+  }
 }
