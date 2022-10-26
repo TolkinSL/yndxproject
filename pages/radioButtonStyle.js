@@ -4,13 +4,13 @@ const radioContainerSupport = document.querySelector('.grid-support');
 const radioButtons_moneyInput = radioContainerSupport.querySelectorAll('.grid-support__money-input');
 const radioLabels_moneyInput = radioContainerSupport.querySelectorAll('.grid-support__money-label');
 
-const radioButton_moneyInput1 = radioContainerSupport.querySelector('.grid-support__money-input1');
-const radioButton_moneyInput2 = radioContainerSupport.querySelector('.grid-support__money-input2');
-const radioButton_moneyInput3 = radioContainerSupport.querySelector('.grid-support__money-input3');
+const radioButton_moneyInput1 = radioContainerSupport.querySelector('.grid-support__money-inputOne');
+const radioButton_moneyInput2 = radioContainerSupport.querySelector('.grid-support__money-inputTwo');
+const radioButton_moneyInput3 = radioContainerSupport.querySelector('.grid-support__money-inputThree');
 
-const radioLabel_moneyInput1 = radioContainerSupport.querySelector('.grid-support__money-label1');
-const radioLabel_moneyInput2 = radioContainerSupport.querySelector('.grid-support__money-label2');
-const radioLabel_moneyInput3 = radioContainerSupport.querySelector('.grid-support__money-label3');
+const radioLabel_moneyInput1 = radioContainerSupport.querySelector('.grid-support__money-labelOne');
+const radioLabel_moneyInput2 = radioContainerSupport.querySelector('.grid-support__money-labelTwo');
+const radioLabel_moneyInput3 = radioContainerSupport.querySelector('.grid-support__money-labelThree');
 
 
 const switchContainer = document.querySelector('.switch');
@@ -20,8 +20,8 @@ const switchLabels = switchContainer.querySelectorAll('.switch__label');
 
 const switchInputOne = switchContainer.querySelector('.switch__inputOne');
 const switchInputTwo = switchContainer.querySelector('.switch__inputTwo');
-const switchLabel1 = switchContainer.querySelector('.switch__label1');
-const switchLabel2 = switchContainer.querySelector('.switch__label2');
+const switchLabel1 = switchContainer.querySelector('.switch__labelOne');
+const switchLabel2 = switchContainer.querySelector('.switch__labelTwo');
 
 const switchIndicator = switchContainer.querySelector('.switch__indicator');
 
