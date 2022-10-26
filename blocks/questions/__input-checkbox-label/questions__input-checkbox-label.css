@@ -1,4 +1,5 @@
 .questions__input-checkbox-label {
+  margin-top: 17px;
   align-self: start;
   display: flex;
   align-items: center;
@@ -7,6 +8,7 @@
 
 @media screen and (max-width: 767px) {
   .questions__input-checkbox-label {
+    margin-top: 5px;
     align-self: center;
     max-width: 334px;
   }
