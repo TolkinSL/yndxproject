@@ -22,13 +22,123 @@
         <button class="header__button-close" type="button">
           <img class="header__close-icon" src="./images/close_dialogue_icon.svg" alt="х">
         </button>
-        <a id="fund" class="header__link header__link_fund" href="#">Фонд</a>
-        <a id="programs" class="header__link header__link_fund_programs" href="#">Программы</a>
-        <a class="header__link" href="#">Для НКО</a>
-        <a class="header__link" href="#">Для бизнеса</a>
-        <a class="header__link" href="#">Блог</a>
-        <a class="header__link" href="#">Партнеры</a>
-        <a class="header__link" href="#">Контакты</a>
+        <ul class="header__link-container">
+          <li id="fund" class="header__link-item"><a class="header__link" href="#">Фонд</a>
+
+            <!--                                        2 burger screen                        -->
+            <ul id="fundAbout" class="header__fund-about">
+              <li class="header__desctop-menue-item">
+                <h2 class="header__sublinks-title">
+                  <a class="header__sublink-item" href="#">О фонде "Друзья"</a>
+                </h2>
+                <div class="header__sublinks">
+                  <a class="header__sublink-sub" href="#">История фонда,</a>
+                  <a class="header__sublink-sub" href="#">Миссия</a>
+                </div>
+              </li>
+              <li class="header__desctop-menue-item">
+                <h2 class="header__sublinks-title">
+                  <a class="header__sublink-item" href="#">Структура фонда</a>
+                </h2>
+                <div class="header__sublinks">
+                  <a class="header__sublink-sub" href="#">Экспертный совет,</a>
+                  <a class="header__sublink-sub" href="#">Попечительский совет,</a>
+                  <a class="header__sublink-sub" href="#">Правление,</a>
+                  <a class="header__sublink-sub" href="#">Команда</a>
+                </div>
+              </li>
+              <li class="header__desctop-menue-item">
+                <h2 class="header__sublinks-title">
+                  <a class="header__sublink-item" href="#">Документы</a>
+                </h2>
+                <div class="header__sublinks">
+                  <a class="header__sublink-sub" href="#">Оферта,</a>
+                  <a class="header__sublink-sub" href="#">Реквизиты,</a>
+                  <a class="header__sublink-sub" href="#">Устав,</a>
+                  <a class="header__sublink-sub" href="#">Договор пожертвования</a>
+                </div>
+              </li>
+              <li class="header__desctop-menue-item">
+                <h2 class="header__sublinks-title">
+                  <a class="header__sublink-item" href="#">Отчеты</a>
+                </h2>
+                <div class="header__sublinks">
+                  <a class="header__sublink-sub" href="#">Аудит,</a>
+                  <a class="header__sublink-sub" href="#">Годовой отчёт</a>
+                </div>
+              </li>
+              <li class="header__desctop-menue-item">
+                <h2 class="header__sublinks-title">
+                  <a class="header__sublink-item" href="#">FAQ</a>
+                </h2>
+                <div class="header__sublinks header__sublinks_width">
+                  <a class="header__sublink-sub" href="#">Ответы на часто задаваемые вопросы</a>
+                </div>
+              </li>
+              <li class="header__desctop-menue-item">
+                <h2 class="header__sublinks-title">
+                  <a class="header__sublink-item" href="#">СМИ о нас</a>
+                </h2>
+                <div class="header__sublinks">
+                  <a class="header__sublink-sub" href="#">Что пишут о нас в сети интернет</a>
+                </div>
+              </li>
+            </ul>
+          </li>
+
+          <li id="programsMenue" class="header__link-item"><a class="header__link"
+               href="#">Программы</a>
+            <ul class="menue-program header__fund-about">
+              <li class="menue-program__item ">
+                <a class="menue-program__link menue-program__link_procharity" href="#">
+                  <div class="menue-program__item-box">
+                    <img class="menue-program__logo" src="./images/menue_logo_procharity.svg" alt="procharity">
+                    <div class="menue-program__text-container">
+                      <h3 class="menue-program__item-title menue-program__item-title_margin">
+                        ProCharity
+                      </h3>
+                      <p class="menue-program__item-text">
+                        Скорая интеллектуальная помощь для благотворительных фондов
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a class="menue-program__link menue-program__link_school" href="#">
+                  <div class="menue-program__item-box">
+                    <img class="menue-program__logo" src="./images/moscowlogo.svg" alt="школа филантропии">
+                    <div class="menue-program__text-container">
+                      <h3 class="menue-program__item-title">
+                        Московская школа профессиональной филантропии
+                      </h3>
+                      <p class="menue-program__item-text">
+                        Повышение квалификации и профессионализма сотрудников НКО
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a class="menue-program__link menue-program__link_proffi" href="#">
+                  <div class="menue-program__item-box">
+                    <img class="menue-program__logo" src="./images/professionallogo.svg" alt="команда профессионалов">
+                    <div class="menue-program__text-container">
+                      <h3 class="menue-program__item-title menue-program__positioning">
+                        Команда профессионалов
+                      </h3>
+                      <p class="menue-program__item-text">
+                        Стратегическое развитие и менторская поддержка социальных
+                        проектов и НКО
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="header__link-item"><a class="header__link" href="#">Для НКО</a></li>
+          <li class="header__link-item"><a class="header__link" href="#">Для бизнеса</a></li>
+          <li class="header__link-item"><a class="header__link" href="#">Блог</a></li>
+          <li class="header__link-item"><a class="header__link" href="#">Партнеры</a></li>
+          <li class="header__link-item"><a class="header__link" href="#">Контакты</a></li>
+        </ul>
       </nav>
       <div class="social">
         <a class="social__link" href="#"><img class="social__icon" src="./images/vk.svg" alt="vk"></a>
@@ -45,73 +155,11 @@
     </div>
     <button class="header__button" type="button">Помочь фонду</button>
 
-    <!--                                        2 burger screen                        -->
 
-    <nav class="header__fund-about">
-      <button id="buttonAbout" class="header__button-arrow" type="button">
-        <img class="header__arrow" src="./images/Arrow_left.svg" alt="arrow">
-      </button>
-      <article class="header__desctop-menue-item">
-        <h2 class="header__sublinks-title">
-          <a class="header__sublink-item" href="#">О фонде "Друзья"</a>
-        </h2>
-        <div class="header__sublinks">
-          <a class="header__sublink-sub" href="#">История фонда,</a>
-          <a class="header__sublink-sub" href="#">Миссия</a>
-        </div>
-      </article>
-      <article class="header__desctop-menue-item">
-        <h2 class="header__sublinks-title">
-          <a class="header__sublink-item" href="#">Структура фонда</a>
-        </h2>
-        <div class="header__sublinks">
-          <a class="header__sublink-sub" href="#">Экспертный совет,</a>
-          <a class="header__sublink-sub" href="#">Попечительский совет,</a>
-          <a class="header__sublink-sub" href="#">Правление,</a>
-          <a class="header__sublink-sub" href="#">Команда</a>
-        </div>
-      </article>
-      <article class="header__desctop-menue-item">
-        <h2 class="header__sublinks-title">
-          <a class="header__sublink-item" href="#">Документы</a>
-        </h2>
-        <div class="header__sublinks">
-          <a class="header__sublink-sub" href="#">Оферта,</a>
-          <a class="header__sublink-sub" href="#">Реквизиты,</a>
-          <a class="header__sublink-sub" href="#">Устав,</a>
-          <a class="header__sublink-sub" href="#">Договор пожертвования</a>
-        </div>
-      </article>
-      <article class="header__desctop-menue-item">
-        <h2 class="header__sublinks-title">
-          <a class="header__sublink-item" href="#">Отчеты</a>
-        </h2>
-        <div class="header__sublinks">
-          <a class="header__sublink-sub" href="#">Аудит,</a>
-          <a class="header__sublink-sub" href="#">Годовой отчёт</a>
-        </div>
-      </article>
-      <article class="header__desctop-menue-item">
-        <h2 class="header__sublinks-title">
-          <a class="header__sublink-item" href="#">FAQ</a>
-        </h2>
-        <div class="header__sublinks">
-          <a class="header__sublink-sub" href="#">Ответы на часто задаваемые вопросы</a>
-        </div>
-      </article>
-      <article class="header__desctop-menue-item">
-        <h2 class="header__sublinks-title">
-          <a class="header__sublink-item" href="#">СМИ о нас</a>
-        </h2>
-        <div class="header__sublinks">
-          <a class="header__sublink-sub" href="#">Что пишут о нас в сети интернет</a>
-        </div>
-      </article>
-    </nav>
 
     <!--                          3 burger screen                                         -->
     <div class="programs header header_programs">
-      <button id="buttonPrograms" class="header__button-arrow" type="button">
+      <button class="header__button-arrow" type="button">
         <img class="header__arrow" src="./images/Arrow_left.svg" alt="arrow">
       </button>
       <div class="programs__item programs__item_procharity header_programs-positioning">
@@ -163,50 +211,6 @@
         </div>
       </div>
     </div>
-    <nav class="menue-program">
-      <article class="menue-program__item">
-        <div class="menue-program__item-box">
-          <img class="menue-program__logo" src="./images/menue_logo_procharity.svg" alt="procharity">
-          <div class="menue-program__text-container">
-            <a class="menue-program__link" href="#">
-              <h3 class="menue-program__item-title menue-program__item-title_margin">
-                ProCharity
-              </h3>
-            </a>
-            <p class="menue-program__item-text">
-              Скорая интеллектуальная помощь для благотворительных фондов
-            </p>
-          </div>
-        </div>
-        <div class="menue-program__item-box">
-          <img class="menue-program__logo" src="./images/moscowlogo.svg" alt="школа филантропии">
-          <div class="menue-program__text-container">
-            <a class="menue-program__link" href="#">
-              <h3 class="menue-program__item-title">
-                Московская школа профессиональной филантропии
-              </h3>
-            </a>
-            <p class="menue-program__item-text">
-              Повышение квалификации и профессионализма сотрудников НКО
-            </p>
-          </div>
-        </div>
-        <div class="menue-program__item-box">
-          <img class="menue-program__logo" src="./images/professionallogo.svg" alt="команда профессионалов">
-          <div class="menue-program__text-container">
-            <a class="menue-program__link" href="#">
-              <h3 class="menue-program__item-title menue-program__positioning">
-                Команда профессионалов
-              </h3>
-            </a>
-            <p class="menue-program__item-text">
-              Стратегическое развитие и менторская поддержка социальных
-              проектов и НКО
-            </p>
-          </div>
-        </div>
-      </article>
-    </nav>
   </header>
   <main class="content">
     <!-- ASPL >> -->
