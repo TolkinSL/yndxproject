@@ -21,3 +21,10 @@
     padding: 13px 11px;
   }
 }
+
+@media (max-width: 375px) {
+  .partners__more-link {
+    font-size: 0.35em;
+    padding: 13px 11px;
+  }
+}

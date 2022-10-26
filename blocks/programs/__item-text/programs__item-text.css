@@ -13,3 +13,10 @@
     padding-left: 24px;
   }
 }
+
+@media (max-width: 375px) {
+  .programs__item-text {
+    line-height: 1.33;
+    font-size: 12px;
+  }
+}
