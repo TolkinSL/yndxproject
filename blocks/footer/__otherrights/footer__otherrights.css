@@ -14,3 +14,10 @@
     font-size: 9px;
   }
 }
+
+@media screen and (max-width: 374px) {
+  .footer__otherrights {
+    width: 75%;
+
+  }
+}
