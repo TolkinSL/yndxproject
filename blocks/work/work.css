@@ -26,3 +26,12 @@
 .span__bold {
   font-weight: bold;
 }
+
+@media screen and (max-width: 374px) {
+  .work {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+
+  }
+}
