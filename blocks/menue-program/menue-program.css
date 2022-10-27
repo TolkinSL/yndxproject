@@ -2,7 +2,7 @@
   box-sizing: border-box;
   position: absolute;
   left: 0;
-  top: -500%;
+  top: 56px;
   width: 100%;
   display: flex;
   justify-content: center;
