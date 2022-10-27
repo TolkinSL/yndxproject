@@ -1,0 +1,10 @@
+.menue-program__item {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0;
+  /*
+  padding: 37px 0 45px;*/
+}

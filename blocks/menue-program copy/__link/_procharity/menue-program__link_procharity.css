@@ -1,0 +1,5 @@
+.menue-program__link_procharity:hover {
+  background-color: #77c5d5;
+  transition: ease;
+  transition-duration: 0.3s;
+}

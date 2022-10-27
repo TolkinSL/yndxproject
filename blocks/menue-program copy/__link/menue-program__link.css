@@ -1,0 +1,11 @@
+.menue-program__link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 33.3%;
+  height: 100%;
+  margin: 0;
+  padding: 37px 0 45px;
+  background-color: white;
+}

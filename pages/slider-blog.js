@@ -3,10 +3,10 @@ const blogSlider = blogContainer.querySelector('.blog__slider');
 const blogSliderContainer = blogContainer.querySelector('.blog__slider-container');
 const blogWrapper = blogContainer.querySelector('.blog__wrapper');
 const elementsSlides = blogContainer.querySelectorAll('.element');
-// const widthSlide = screen.width;
+const widthSlide = screen.width;
 
 
-if (width < 767) {
+if (widthSlide < 767) {
   blogSlider.classList.add('slider','blog-slider');
   blogSlider.setAttribute('data-slider', true);
   blogSliderContainer.classList.add('slider__container', 'blog-slider__container');
