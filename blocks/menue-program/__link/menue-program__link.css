@@ -1,13 +1,11 @@
 .menue-program__link {
   text-decoration: none;
-  color: black;
-  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 33.3%;
+  height: 100%;
   margin: 0;
-  padding: 0;
-}
-
-.menue-program__link:hover {
-  transition: ease;
-  transition-duration: 0.3s;
-  color: #54a8b6;
+  padding: 37px 0 45px;
+  background-color: white;
 }
