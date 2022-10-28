@@ -228,6 +228,7 @@
 @import url("../blocks/bankCard/__Form/bankCard__Form.css");
 @import url("../blocks/bankCard/__Submitbutton/bankCard__Submitbutton.css");
 @import url("../blocks/bankCard/__subtitle/bankCard__subtitle.css");
+@import url("../blocks/bankCard/__subtitle/_fix/bankCard__subtitle_fix.css");
 @import url("../blocks/bankCard-Back/bankCard-Back.css");
 @import url("../blocks/bankCard-Back/__CVV-CVC-title/bankCard-Back__CVV-CVC-title.css");
 @import url("../blocks/bankCard-Back/__CVV-CVC/bankCard-Back__CVV-CVC.css");

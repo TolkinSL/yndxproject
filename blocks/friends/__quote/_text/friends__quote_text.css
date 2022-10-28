@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   .friends__quote_text {
     max-width: 326px;
     font-size: 23px;
