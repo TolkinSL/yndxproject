@@ -2,13 +2,14 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  /*width: 16.6%;*/
+  width: 16.6%;
   justify-content: flex-start;
   padding: 36px 0 0;
   margin: 0;
 
   max-width: 170px;
 }
+
 
 .header__desctop-menue-item:nth-child(6) {
   width: 13%;
@@ -18,13 +19,16 @@
   width: 13%;
 }
 
+
 @media screen and (max-width: 767px) {
   .header__desctop-menue-item {
     justify-content: center;
     align-items: center;
     padding: 32px 0 0;
     width: 100%;
+    max-width: 760px;
   }
+
 
   .header__desctop-menue-item:nth-child(6) {
     width: 100%;
@@ -34,3 +38,4 @@
     width: 100%;
   }
 }
+

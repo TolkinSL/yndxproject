@@ -3,3 +3,13 @@
     transition: linear;
     transition-duration: 0.3s;
   }
+
+
+
+
+
+  /*добавлено Александром*/
+  .header__link-item {
+    display: inline-block;
+    font-size: 0;
+  }
