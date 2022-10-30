@@ -9,6 +9,7 @@
   background-color: #f8f8f8;
   text-decoration: none;
   color: #000;
+  transition: ease-in-out;
   transition-duration: 0.3s;
 }
 

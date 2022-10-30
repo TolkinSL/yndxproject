@@ -16,6 +16,7 @@
 
   color: #ffffff;
   border: none;
+  transition: ease-in-out;
   transition-duration: 0.3s;
 }
 

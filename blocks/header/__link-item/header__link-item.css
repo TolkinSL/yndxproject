@@ -2,6 +2,6 @@
   .header__link-item:hover .header__fund-about {
     visibility: visible;
     transition: linear;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
   }
 }

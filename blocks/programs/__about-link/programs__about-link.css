@@ -4,7 +4,8 @@
   color: #fff;
   border-radius: 56px;
   padding: 18px 52px;
-  transition-duration: 0.6s;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
 }
 
 .programs__about-link:hover {

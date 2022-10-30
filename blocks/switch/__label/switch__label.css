@@ -18,6 +18,8 @@
   text-transform: uppercase;
 
   color: #999999;
+
+  transition: ease-in-out;
   transition-duration: 0.3s;
 }
 

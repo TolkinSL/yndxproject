@@ -18,6 +18,7 @@
   line-height: 1.25;
   text-align: center;
   color: #fff;
+  transition: ease-in-out;
   transition-duration: 0.3s;
 }
 

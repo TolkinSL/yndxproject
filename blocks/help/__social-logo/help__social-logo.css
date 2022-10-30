@@ -5,6 +5,7 @@
   object-fit: contain;
   cursor: pointer;
   text-decoration: none;
+  transition: ease-in-out;
   transition-duration: 0.5s;
 }
 
