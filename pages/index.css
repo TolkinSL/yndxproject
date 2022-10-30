@@ -57,6 +57,7 @@
 @import url("../blocks/header/__burger-line/header__burger-line.css");
 @import url("../blocks/header/__button-close/header__button-close.css");
 @import url("../blocks/header/__button-arrow/header__button-arrow.css");
+@import url("../blocks/header/__logo-link/header__logo-link.css");
 /*----------------------------- второй экран--------------------*/
 @import url("../blocks/header/__fund-about/header__fund-about.css");
 @import url("../blocks/header/__desctop-menue-item/header__desctop-menue-item.css");
