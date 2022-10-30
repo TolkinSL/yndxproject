@@ -14,21 +14,22 @@
   align-items: center;
   justify-content: center;
 
-  letter-spacing: 0.06em;
+  letter-spacing: 0.96px;
   text-transform: uppercase;
 
   color: #999999;
+  transition-duration: 0.3s;
+}
+
+.switch__label:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 967px) {
   .switch__label {
     width: 165px;
   }
-}
-
-.switch__label:hover {
-  cursor: pointer;
-  opacity: 0.5;
 }
 
 @media screen and (max-width: 374px) {

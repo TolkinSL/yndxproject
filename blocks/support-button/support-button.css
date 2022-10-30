@@ -16,12 +16,11 @@
 
   color: #ffffff;
   border: none;
+  transition-duration: 0.3s;
 }
 
 .support-button:hover {
   opacity: 0.6;
-  transition: ease-in-out;
-  transition-duration: 0.5s;
   cursor: pointer;
 }
 

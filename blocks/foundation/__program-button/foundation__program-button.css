@@ -13,6 +13,7 @@
   line-height: 1.11;
   text-align: center;
   color: #000000;
+  transition-duration: 0.3s;
 }
 
 @media screen and (max-width: 1023px) {
