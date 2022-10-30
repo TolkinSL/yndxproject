@@ -3,7 +3,6 @@
   padding-top: 94px;
   padding-left: 51px;
   padding-bottom: 169px;
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -15,7 +14,6 @@
 
 @media screen and (max-width: 1125px) {
   .support__title {
-    /* text-align: center; */
     align-self: center;
     margin: 0;
     padding: 0;
@@ -32,18 +30,16 @@
 
 @media screen and (max-width: 967px) {
   .support__title {
+    max-width: 100%;
     font-size: 25px;
     line-height: 1.41;
-    padding-left: 0;
   }
 }
 
 @media screen and (max-width: 374px) {
   .support__title {
     padding-top: 55px;
-    padding-left: 0;
-    max-width: 100%;
-    font-size: 22px;
+    max-width: 320px;
   }
 
 }
