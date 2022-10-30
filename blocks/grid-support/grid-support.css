@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 967px) {
   .grid-support {
-    grid-template-columns: repeat(2, 147px);
+    grid-template-columns: repeat(2, minmax(173px, 300px));
     grid-template-rows: repeat(3, 56px);
     grid-template-areas:
       "grid__money-input1 grid__money-input2"
@@ -35,7 +35,20 @@
   }
 }
 
-@media screen and (max-width: 374px) {
+
+@media screen and (max-width: 767px) {
+  .grid-support {
+    grid-template-columns: repeat(2, 147px);
+    grid-template-rows: repeat(3, 56px);
+    grid-template-areas:
+      "grid__money-input1 grid__money-input2"
+      "grid__money-input3 grid__money-input3"
+      "sumMoney sumMoney";
+    margin-bottom: 32px;
+  }
+}
+
+ @media screen and (max-width: 374px) {
   .grid-support {
     grid-template-columns: repeat(2, 120px);
   }

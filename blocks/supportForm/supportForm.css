@@ -10,8 +10,6 @@
   flex-direction: column;
   z-index: 15;
   background: #ffffff;
-  margin: 0 auto;
-
   position: absolute;
   top: 40px;
   right: 32px;
@@ -19,24 +17,24 @@
 
 @media screen and (max-width: 967px) {
   .supportForm {
-    width: 100%;
-    max-width: 359px;
+    max-width: 85%;
     max-height: 500px;
-    top: 198px;
+    top: 158px;
     bottom: 8px;
-    left: 8px;
     z-index: 25;
-    top: 198px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
   }
 }
 
-@media screen and (max-width: 374px) {
+
+
+@media screen and (max-width: 375px) {
   .supportForm {
-    max-width: 300px;
-    left: 10px;
+    top: 198px;
+    max-width: 90%;
   }
 }
-
-
-
-

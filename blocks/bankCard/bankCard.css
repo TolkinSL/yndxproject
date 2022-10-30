@@ -11,3 +11,9 @@
     padding-top: 24px;
   }
 }
+
+
+.BankCard__switch {
+max-width: 680px;
+/* width: 100%; */
+}

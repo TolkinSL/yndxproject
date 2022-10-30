@@ -32,18 +32,19 @@
 
 @media screen and (max-width: 967px) {
   .support__title {
+    max-width: 100%;
     font-size: 25px;
     line-height: 1.41;
-    padding-left: 0;
+    /* padding-left: 80px; */
   }
 }
 
 @media screen and (max-width: 374px) {
   .support__title {
     padding-top: 55px;
-    padding-left: 0;
-    max-width: 100%;
-    font-size: 22px;
+    /* padding-left: 0; */
+    max-width: 320px;
+    /* font-size: 22px; */
   }
 
 }
