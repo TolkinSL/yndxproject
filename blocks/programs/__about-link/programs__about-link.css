@@ -1,16 +1,16 @@
 .programs__about-link {
   text-decoration: none;
   background: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
+  color: #fff;
   border-radius: 56px;
   padding: 18px 52px;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
 }
 
 .programs__about-link:hover {
-  opacity: 0.6;
-  background-color: gray;
-  transition: ease-in-out;
-  transition-duration: 0.5s;
+  background-color: #fff;
+  color: #000;
 }
 
 @media (max-width: 767px) {

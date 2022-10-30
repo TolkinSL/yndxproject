@@ -3,7 +3,7 @@
   max-width: 551px;
   height: 56px;
   /* margin: 0 auto; */
-  background: #eeb250;
+  background: #EEB250;
   border-radius: 56px;
   margin-bottom: 64px;
 
@@ -16,22 +16,28 @@
 
   color: #ffffff;
   border: none;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
 }
 
 .support-button:hover {
-  opacity: 0.6;
-  transition: ease-in-out;
-  transition-duration: 0.5s;
+  background: #E8AD4D;
   cursor: pointer;
 }
 
 @media screen and (max-width: 967px) {
   .support-button {
-    max-width: 311px;
-    width: 100%;
+    max-width: 616px;
     margin-bottom: 40px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .support-button {
+    max-width: 310px;
+  }
+}
+
 
 @media screen and (max-width: 374px) {
   .support-button {

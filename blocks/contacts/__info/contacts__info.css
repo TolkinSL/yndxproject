@@ -8,6 +8,8 @@
   color: #71bbca;
   text-decoration: none;
   margin-bottom: 16px;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
 }
 
 
@@ -32,7 +34,5 @@
 
 .contacts__info:hover {
   color: orange;
-  transition: ease-in-out;
-  transition-duration: 0.5s;
   cursor: pointer;
 }

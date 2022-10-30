@@ -6,16 +6,13 @@
   color: white;
   text-decoration: none;
   margin: 0;
-  /*padding-left: 10px;*/
-
-  /* Header Edition by Alexander Morugin */
   padding: 0;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
 }
 
 .header__link:hover {
   font-weight: 700;
-  transition: ease;
-  transition-duration: 0.5s;
 }
 
 @media screen and (max-width: 1080px) {
