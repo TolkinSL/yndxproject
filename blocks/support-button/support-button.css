@@ -3,7 +3,7 @@
   max-width: 551px;
   height: 56px;
   /* margin: 0 auto; */
-  background: #eeb250;
+  background: #EEB250;
   border-radius: 56px;
   margin-bottom: 64px;
 
@@ -21,7 +21,7 @@
 }
 
 .support-button:hover {
-  opacity: 0.6;
+  background: #E8AD4D;
   cursor: pointer;
 }
 

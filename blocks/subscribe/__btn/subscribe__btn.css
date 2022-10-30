@@ -7,7 +7,7 @@
   margin-right: 128px;
   width: 152px;
   height: 56px;
-  background: #528cbe;
+  background: #528CBE;
   border-radius: 56px;
   flex: none;
   border: 0;
@@ -23,7 +23,7 @@
 }
 
 .subscribe__btn:hover {
-  opacity: 0.6;
+  background: #487FAE;;
   cursor: pointer;
 }
 
