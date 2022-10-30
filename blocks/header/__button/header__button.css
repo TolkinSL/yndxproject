@@ -7,14 +7,15 @@
   font-size: 14px;
   line-height: 1.25;
   color: #fff;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
   margin: 0;
   padding: 0;
 }
 
 .header__button:hover {
-  opacity: 0.9;
-  transition: ease-in-out;
-  transition-duration: 0.5s;
+  background-color: #E8AD4D;
+  cursor: pointer;
 }
 
 
