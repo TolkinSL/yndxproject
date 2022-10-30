@@ -10,13 +10,10 @@
   position: absolute;
   top: 56px;
   left: 0;
-  background-color: white;
-  padding-top: 0;
-  padding-left: 40px;
-  padding-right: 23px;
-  padding-bottom: 42px;
+  background-color: #ffffff;
+  padding: 0 0 40px;
   margin: 0;
-  z-index: 20;
+  z-index: 50;
   transition: ease;
   transition-duration: 0.3s;
   overflow-y: hidden;
@@ -32,7 +29,6 @@
 @media screen and (max-width: 767px) {
   .header__fund-about {
     position: fixed;
-    visibility: visible;
     top: 0;
     left: -100%;
     height: 100%;
