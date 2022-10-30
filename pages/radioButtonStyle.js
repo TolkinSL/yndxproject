@@ -25,25 +25,33 @@ const switchLabel2 = switchContainer.querySelector('.switch__labelTwo');
 
 const switchIndicator = switchContainer.querySelector('.switch__indicator');
 
-// function def(item) {
-//   if (item.checked) {
-//     switchIndicator.style.visibility = "visible";
-//     if (item == switchInputOne) {
-//       switchLabel2.style.color = "#F8F8F8";
-//       switchLabel1.style.color = "#999999";
-//       switchIndicator.style.transform = "translate3d(0, 0, 0)";
-//     } else {
-//       switchLabel2.style.color = "#999999";
-//       switchLabel1.style.color = "#F8F8F8";
-//       let width = screen.width;
-//       if (width > 1023) {
-//         switchIndicator.style.transform = "translate3d(275px, 0, 0)";
-//       } else {
-//         switchIndicator.style.transform = "translate3d(165px, 0, 0)";
-//       }
-//     }
-//   }
-// }
+
+
+if (switchInputOne.checked){
+  radioLabel_moneyInput1.textContent = '5 000';
+  radioLabel_moneyInput2.textContent = '10 000';
+  radioLabel_moneyInput3.textContent = '50 000';
+} else {
+  radioLabel_moneyInput1.textContent = '1 000';
+  radioLabel_moneyInput2.textContent = '5 000';
+  radioLabel_moneyInput3.textContent = '10 000';
+}
+
+switchInputOne.addEventListener("click", () => {
+  if (switchInputOne.checked) {
+    radioLabel_moneyInput1.textContent = '5 000';
+    radioLabel_moneyInput2.textContent = '10 000';
+    radioLabel_moneyInput3.textContent = '50 000';
+  }
+});
+
+switchInputTwo.addEventListener("click", () => {
+  if (switchInputTwo.checked) {
+    radioLabel_moneyInput1.textContent = '1 000';
+  radioLabel_moneyInput2.textContent = '5 000';
+  radioLabel_moneyInput3.textContent = '10 000';
+  }
+});
 
 
 function ResetRadioButtons(rdBtn) {
