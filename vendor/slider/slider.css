@@ -88,6 +88,10 @@
   list-style: none;
 }
 
+.slider__indicators_friends{
+  margin: -54px 15%;
+}
+
 .slider__indicator {
   flex: 0 1 auto;
   box-sizing: content-box;
