@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   background-size: contain;
-  background: url("../../../images/friends__slide1.png") no-repeat right center;
+  background: url("../../../images/friends_slide-1.png") no-repeat right center;
 }
 
 @media screen and (max-width: 767px) {
@@ -15,27 +15,27 @@
 }
 
 .slider__item:nth-of-type(2) .friends__wrapper {
-  background: url("../../../images/friends__slide2.png") no-repeat right center;
+  background: url("../../../images/friends_slide-2.png") no-repeat right center;
 }
 
 .slider__item:nth-of-type(3) .friends__wrapper {
-  background: url("../../../images/friends__slide3.png") no-repeat right center;
+  background: url("../../../images/friends_slide-3.png") no-repeat right center;
 }
 
 .slider__item:nth-of-type(4) .friends__wrapper {
-  background: url("../../../images/friends__slide4.png") no-repeat right center;
+  background: url("../../../images/friends_slide-4.png") no-repeat right center;
 }
 
 .slider__item:nth-of-type(5) .friends__wrapper {
-  background: url("../../../images/friends__slide5.png") no-repeat right center;
+  background: url("../../../images/friends_slide-5.png") no-repeat right center;
 }
 
 .slider__item:nth-of-type(6) .friends__wrapper {
-  background: url("../../../images/friends__slide6.png") no-repeat right center;
+  background: url("../../../images/friends_slide-6.png") no-repeat right center;
 }
 
 .slider__item:nth-of-type(7) .friends__wrapper {
-  background: url("../../../images/friends__slide7.png") no-repeat right center;
+  background: url("../../../images/friends_slide-7.png") no-repeat right center;
 }
 
 @media screen and (max-width: 767px) {
