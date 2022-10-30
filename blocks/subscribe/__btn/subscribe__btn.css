@@ -17,13 +17,13 @@
   font-size: 14px;
   line-height: 1.25;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
 }
 
 .subscribe__btn:hover {
   opacity: 0.6;
-  transition: ease-in-out;
-  transition-duration: 0.5s;
   cursor: pointer;
 }
 

@@ -7,12 +7,12 @@
   color: #77c5d5;
   padding-right: 50px;
   margin-left: 22px;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
 }
 
 .footer__contact-details:hover {
   opacity: 0.6;
-  transition: ease-in-out;
-  transition-duration: 0.5s;
 }
 
 @media screen and (max-width: 1080px) {

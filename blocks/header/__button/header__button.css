@@ -9,12 +9,12 @@
   color: #fff;
   margin: 0;
   padding: 0;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
 }
 
 .header__button:hover {
   opacity: 0.9;
-  transition: ease-in-out;
-  transition-duration: 0.5s;
 }
 
 

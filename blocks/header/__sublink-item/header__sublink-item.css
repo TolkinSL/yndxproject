@@ -7,11 +7,11 @@
   text-decoration: none;
   margin: 0;
   padding: 0 0 10px;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
 }
 
 .header__sublink-item:hover {
-  transition: ease;
-  transition-duration: 0.3s;
   color: #54a8b6;
 }
 

@@ -12,6 +12,8 @@
   line-height: 20px;
   cursor: pointer;
   color: black;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
   /* opacity: .3; */
 }
 

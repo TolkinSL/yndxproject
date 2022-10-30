@@ -8,12 +8,12 @@
   text-decoration: none;
   margin: 0;
   padding: 0;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
 }
 
 .lang-box__lang-link:hover {
   opacity: 0.6;
-  transition: ease-in-out;
-  transition-duration: 0.5s;
 }
 
 @media screen and (max-width: 767px) {

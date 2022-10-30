@@ -10,12 +10,12 @@
   min-height: 56px;
   width: 100%;
   margin-bottom: 72px;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
 }
 
 .bankCard__Submitbutton:hover {
   opacity: 0.6;
-  transition: ease-in-out;
-  transition-duration: 0.5s;
   cursor: pointer;
 }
 

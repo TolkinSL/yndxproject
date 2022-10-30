@@ -5,12 +5,12 @@
   object-fit: contain;
   cursor: pointer;
   text-decoration: none;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
 }
 
 .help__social-logo:hover {
   opacity: 0.6;
-  transition: ease-in-out;
-  transition-duration: 0.5s;
 }
 
 .help__social-logo:nth-of-type(1) {
