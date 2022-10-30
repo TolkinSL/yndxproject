@@ -1,1 +1,5 @@
-.grid-support__money-inputTwo {}
+.grid-support__money-inputTwo:checked ~.grid-support__money-labelTwo {
+  background: #82607D;
+  color: #FFFFFF;
+}
+
