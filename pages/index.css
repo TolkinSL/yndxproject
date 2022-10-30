@@ -312,5 +312,4 @@
 @import url("../blocks/questions/__input-button/questions__input-button.css");
 
 /*------- Header Edition by Alexander Morugin------*/
-@import url(../blocks/header/__container/header__container.css);
-
+@import url("../blocks/header/__container/header__container.css");

@@ -1,7 +1,5 @@
-@media screen and (min-width: 768px) {
   .header__link-item:hover .header__fund-about {
     visibility: visible;
     transition: linear;
     transition-duration: 0.3s;
   }
-}
