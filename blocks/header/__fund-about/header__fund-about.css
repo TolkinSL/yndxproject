@@ -6,6 +6,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
+  min-height: 153px;
   position: absolute;
   top: 56px;
   left: 0;
