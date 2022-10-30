@@ -71,7 +71,7 @@ radioButton_moneyInput1.addEventListener("click", () => {
   if (radioButton_moneyInput1.checked) {
     radioButton_moneyInput1.checked = true
     radioLabel_moneyInput1.style.backgroundColor = "#82607D";
-    radioLabel_moneyInput1.style.color = "white";
+    radioLabel_moneyInput1.style.color = "#FFFFFF";
     radioLabel_moneyInput2.style.color = "#000000";
     radioLabel_moneyInput3.style.color = "#000000";
 
@@ -83,7 +83,7 @@ radioButton_moneyInput2.addEventListener("click", () => {
   if (radioButton_moneyInput2.checked) {
     radioLabel_moneyInput2.style.backgroundColor = "#82607D";
     radioLabel_moneyInput1.style.color = "#000000";
-    radioLabel_moneyInput2.style.color = "white";
+    radioLabel_moneyInput2.style.color = "#FFFFFF";
     radioLabel_moneyInput3.style.color = "#000000";
   }
 });
@@ -94,7 +94,7 @@ radioButton_moneyInput3.addEventListener("click", () => {
     radioLabel_moneyInput3.style.backgroundColor = "#82607D";
     radioLabel_moneyInput1.style.color = "#000000";
     radioLabel_moneyInput2.style.color = "#000000";
-    radioLabel_moneyInput3.style.color = "white";
+    radioLabel_moneyInput3.style.color = "#FFFFFF";
   }
 });
 

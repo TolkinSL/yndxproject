@@ -266,6 +266,8 @@
 @import url("../blocks/grid-Payments/grid-Payments.css");
 
 @import url("../blocks/grid-Payments/__Input/grid-Payments__Input.css");
+@import url("../blocks/grid-Payments/__Input-GPay/grid-Payments__Input-GPay.css");
+@import url("../blocks/grid-Payments/__Input-ApplePay/grid-Payments__Input-ApplePay.css");
 @import url("../blocks/grid-Payments/__label/grid-Payments__label.css");
 @import url("../blocks/grid-Payments/__visa-mir-label/grid-Payments__visa-mir-label.css");
 @import url("../blocks/grid-Payments/__ApplePay-label/grid-Payments__ApplePay-label.css");
