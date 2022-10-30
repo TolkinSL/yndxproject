@@ -6,7 +6,10 @@
   color: white;
   text-decoration: none;
   margin: 0;
-  padding-left: 10px;
+  /*padding-left: 10px;*/
+
+  /* Header Edition by Alexander Morugin */
+  padding: 0;
 }
 
 .header__link:hover {
