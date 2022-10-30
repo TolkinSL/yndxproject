@@ -1,14 +1,15 @@
 .header {
   position: fixed;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   background-color: #54a8b6;
   width: 100%;
-  max-width: 1280px;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  z-index: 50;
+  z-index: 10;
+
+  /*max-width: 1280px;*/
+  /*display: flex;*/
+  /*flex-direction: row;*/
+  /*justify-content: space-between;*/
+  /*align-items: center;*/
 }
