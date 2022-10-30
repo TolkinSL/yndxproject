@@ -1,14 +1,17 @@
 .header {
   position: fixed;
+  background-color: #54a8b6;
+  width: 100%;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+
+  /* убрать эти значения при viewport 100% */
+
+  max-width: 1280px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #54a8b6;
-  width: 100%;
-  max-width: 1280px;
-  margin: 0;
-  padding: 0;
-  z-index: 50;
 }

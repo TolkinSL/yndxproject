@@ -57,6 +57,7 @@
 @import url("../blocks/header/__burger-line/header__burger-line.css");
 @import url("../blocks/header/__button-close/header__button-close.css");
 @import url("../blocks/header/__button-arrow/header__button-arrow.css");
+@import url("../blocks/header/__logo-link/header__logo-link.css");
 /*----------------------------- второй экран--------------------*/
 @import url("../blocks/header/__fund-about/header__fund-about.css");
 @import url("../blocks/header/__desctop-menue-item/header__desctop-menue-item.css");
@@ -86,6 +87,7 @@
 @import url("../blocks/menue-program/__link/_procharity/menue-program__link_procharity.css");
 @import url("../blocks/menue-program/__link/_school/menue-program__link_school.css");
 @import url("../blocks/menue-program/__link/_proffi/menue-program__link_proffi.css");
+@import url("../blocks/menue-program/_spacing/menue-program_spacing.css");
 
 /*------- header by Gohar ------*/
 @import url("../blocks/content/content.css");
@@ -309,6 +311,6 @@
 @import url("../blocks/questions/__input-checkbox-label/questions__input-checkbox-label.css");
 @import url("../blocks/questions/__input-button/questions__input-button.css");
 
-
-
+/*------- Header Edition by Alexander Morugin------*/
+@import url(../blocks/header/__container/header__container.css);
 
