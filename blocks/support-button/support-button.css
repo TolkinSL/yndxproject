@@ -27,11 +27,17 @@
 
 @media screen and (max-width: 967px) {
   .support-button {
-    max-width: 311px;
-    width: 100%;
+    max-width: 616px;
     margin-bottom: 40px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .support-button {
+    max-width: 310px;
+  }
+}
+
 
 @media screen and (max-width: 374px) {
   .support-button {
