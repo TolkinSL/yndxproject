@@ -4,17 +4,17 @@
   background: #f8f8f8;
   border-radius: 136px;
   position: absolute;
-  top: calc(570px + 96px);
+  top: 570px;
   left: 290px;
 }
 .work__daltonic:nth-of-type(13) {
   left: unset;
-  top: calc(406px + 96px);
+  top: 406px;
   right: 0;
 }
 
 .work__daltonic:nth-of-type(14) {
-  top: calc(305px + 96px);
+  top: 305px;
   right: unset;
   left: 90px;
   width: 576px;
@@ -41,7 +41,7 @@
   }
 
   .work__daltonic:nth-of-type(14) {
-    top: calc(497px + 56px);
+    top: 497px;
     right: unset;
     left: 9px;
     width: 254px;

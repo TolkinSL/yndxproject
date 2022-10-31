@@ -8,7 +8,7 @@
   width: 17px;
   height: 17px;
   background: #77c5d5;
-  top: calc(96px + 273px);
+  top: 273px;
   right: 384px;
 }
 
@@ -17,7 +17,7 @@
   width: 23px;
   height: 23px;
   right: 338px;
-  top: calc(393px + 96px);
+  top: 393px;
 }
 
 .work__boop:nth-of-type(3) {
@@ -70,7 +70,7 @@
 }
 
 .work__boop:nth-of-type(9) {
-  top: calc(266px + 96px);
+  top: 266px;
   right: 449px;
   width: 7px;
   height: 7px;
@@ -78,7 +78,7 @@
 }
 
 .work__boop:nth-of-type(10) {
-  top: calc(318px + 96px);
+  top: 318px;
   right: 332px;
   width: 7px;
   height: 7px;
@@ -86,7 +86,7 @@
 }
 
 .work__boop:nth-of-type(11) {
-  top: calc(568px + 96px);
+  top: 568px;
   left: 228px;
   width: 23px;
   height: 23px;
@@ -106,7 +106,7 @@
     display: block;
     width: 4px;
     height: 4px;
-    top: calc(407px + 56px);
+    top: 407px;
     right: 30px;
     background: #77c5d5;
   }
@@ -116,7 +116,7 @@
     width: 14px;
     height: 14px;
     background: #528cbe;
-    top: calc(536px + 56px);
+    top: 536px;
     right: 34px;
   }
 

@@ -2,22 +2,17 @@
   position: relative;
   margin: 0 auto;
   width: 81%;
-  padding-top: 96px;
+  margin-top: 96px;
   overflow-x: hidden;
 }
 
 @media screen and (max-width: 1080px) {
   .work {
-    padding-top: 56px;
+    margin-top: 56px;
     width: 95%;
   }
 }
 
-@media screen and (max-width: 767px) {
-  .work {
-    max-width: 375px;
-  }
-}
 
 .font {
   font-family: "Inter", sans-serif;
@@ -27,11 +22,8 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 767px) {
   .work {
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-
+    width: 100%;  
   }
 }
