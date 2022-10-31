@@ -19,13 +19,13 @@
 @media screen and (max-width: 375px) {
   .useful__list-elem {
     padding: 32px 0 0 24px;
+    min-width: 100%;
   }
 }
 
 @media screen and (max-width: 350px) {
   .useful__list-elem {
     padding: 28px 0 0 12px;
-    min-width: 100%;
   }
 }
 

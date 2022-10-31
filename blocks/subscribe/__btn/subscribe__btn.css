@@ -3,8 +3,6 @@
   flex-direction: row;
   justify-content: center;
   padding: 18px 52px;
-  margin-top: 80px;
-  margin-right: 128px;
   width: 152px;
   height: 56px;
   background: #528CBE;
@@ -27,17 +25,9 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1080px) {
-  .subscribe__btn {
-    margin-right: 5vw;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .subscribe__btn {
-    margin: 0 0 52px 0;
     padding: 18px 195px;
-
   }
 }
 
@@ -49,6 +39,7 @@
 
 @media screen and (max-width: 374px) {
   .subscribe__btn {
-    padding: 18px 137px;
+    width: 100%;
+    padding: 18px 0px;
   }
 }

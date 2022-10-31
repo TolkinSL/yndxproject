@@ -1,11 +1,18 @@
 .subscribe__wrapper {
-  width: 100%;
+  max-width: 460px;
+  display: flex;
   flex-direction: column;
-  margin: 43px 0 43px 5vw;
+  gap: 16px;
 }
 
 @media screen and (max-width: 1080px) {
   .subscribe__wrapper {
-    margin: 43px 0 36.5px 0;
+    max-width: 428px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .subscribe__wrapper {
+    max-width: 373px;
   }
 }
