@@ -45,3 +45,9 @@
     row-gap: 24px;
   }
 }
+
+@media screen and (max-width: 355px) {
+  .digits__list {
+    grid-template-columns: 315px;
+  }
+}
