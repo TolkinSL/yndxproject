@@ -3,9 +3,15 @@
   z-index: -1;
 }
 
+@media screen and (max-width: 1040px) {
+  .useful__element-image_shifted {
+    margin: 0 0 0 -200px;
+  }
+}
+
 @media screen and (max-width: 550px) {
   .useful__element-image_shifted {
-    margin: 0 0 -75px -200px;
+    margin: 0 0 -55px -200px;
   }
 }
 

@@ -8,7 +8,8 @@
 
 @media screen and (max-width: 1040px){
   .useful__element {
-    max-width: 767px;
+    /*max-width: 767px;*/
+    max-width: calc((100vw - 32px)/2);
   }
 }
 
