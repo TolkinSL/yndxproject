@@ -7,15 +7,15 @@
   text-decoration: none;
   margin: 0;
   padding: 0;
-  transition: ease-in-out;
-  transition-duration: 0.3s;
 
-/*добавлено Александром*/
+  /*добавлено Александром*/
   display: inline-block;
 }
 
 .header__link:hover {
   font-weight: 700;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
 }
 
 /*добавлено Александром*/
