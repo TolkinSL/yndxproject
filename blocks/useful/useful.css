@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  align-items: center;
   width: 100%;
   margin: 0;
-  padding: 0;
-  padding-top: 96px;
+  padding: 96px 0 0;
 }
 
 @media screen and (max-width: 1080px) {
