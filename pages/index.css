@@ -175,21 +175,29 @@
 @import url('../blocks/friends/__slider-indicators/friends__slider-indicators.css');
 
 /*------- Sergey blogs ------*/
-@import url("../blocks/blog/blog.css");
-@import url("../blocks/wrapper/wrapper.css");
-@import url("../blocks/wrapper/__lead/wrapper__lead.css");
-@import url("../blocks/wrapper/__stats/wrapper__stats.css");
-@import url("../blocks/wrapper/__date/wrapper__date.css");
-@import url("../blocks/wrapper/__title/wrapper__title.css");
-@import url("../blocks/wrapper/__subtitle/wrapper__subtitle.css");
-@import url("../blocks/element/element.css");
-@import url("../blocks/element/__img/element__img.css");
-@import url("../blocks/element/__text-wrapper/element__text-wrapper.css");
-@import url("../blocks/element/__date/element__date.css");
-@import url("../blocks/element/__title/element__title.css");
-@import url("../blocks/element/__text-blog/element__text-blog.css");
-@import url("../blocks/blog/__button/blog__button.css");
-@import url("../blocks/blog/__row-button/blog__row-button.css");
+@import url(../blocks/blog/blog.css);
+@import url(../blocks/blog/__title/blog__title.css);
+@import url(../blocks/blog/__main-card/blog__main-card.css);
+@import url(../blocks/blog/__main-card-title/blog__main-card-title.css);
+@import url(../blocks/blog/__main-card-text/blog__main-card-text.css);
+@import url(../blocks/blog/__main-card-date/blog__main-card-date.css);
+@import url(../blocks/blog/__container/blog__container.css);
+@import url(../blocks/blog/__card/blog__card.css);
+@import url(../blocks/blog/__card-title/blog__card-title.css);
+@import url(../blocks/blog/__card-text/blog__card-text.css);
+@import url(../blocks/blog/__card-img/blog__card-img.css);
+@import url(../blocks/blog/__card-date/blog__card-date.css);
+@import url(../blocks/blog/__button/blog__button.css);
+@import url(../blocks/blog/__slider-control/blog__slider-control.css);
+@import url(../blocks/blog/__slider-indicator/bolg__slider-indicator.css);
+@import url(../blocks/blog/__slider-indicators/blog__slider-indicators.css);
+@import url(../blocks/blog/__main-card/_visible/blog__main-card_visible.css);
+@import url(../blocks/blog/__cards/blog__cards.css);
+@import url(../blocks/blog/__slider_disable-transition/blog__slider_disable-transition.css);
+@import url(../blocks/blog/__slider-control/_hidden/blog__slider-control_hidden.css);
+@import url(../blocks/blog/__slider-indicator/_active/blog__slider-indicator_active.css);
+@import url(../blocks/blog/__link/blog__link.css);
+@import url(../blocks/blog/__link/_color/blog__link_color.css);
 /*------- Valera partners ------*/
 @import url("../blocks/partners/partners.css");
 @import url("../blocks/partners/__logo/partners__logo.css");

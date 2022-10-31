@@ -1,0 +1,9 @@
+.blog__card-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0 24px 26px 24px;
+}
