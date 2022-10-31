@@ -26,7 +26,7 @@
 @media screen and (max-width: 767px) {
   .blog__button {
     margin: 24px 0 0 0;
-    max-width: 328px;
+    max-width: 315px;
   }
 
   .button-row {
@@ -35,12 +35,5 @@
     align-items: center;
     gap: 12px;
     margin: 24px 0 0 0;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .blog__button {
-    margin: 24px 0 0 0;
-    max-width: 315px;
   }
 }
