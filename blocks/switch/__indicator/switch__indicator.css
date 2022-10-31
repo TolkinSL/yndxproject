@@ -10,7 +10,7 @@
   border-radius: 30px;
   transition: transform 200ms cubic-bezier(0.02, 0.94, 0.09, 0.97),
     background 200ms cubic-bezier(0.17, 0.97, 0.14, 1.03);
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 
 @media screen and (max-width: 967px) {

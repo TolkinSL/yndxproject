@@ -1,8 +1,8 @@
 .switch__label {
-  width: 275px;
+  width: 300px;
   height: 32px;
   transition: color 2s ease-out;
-  z-index: 15;
+  /* z-index: 15; */
 
   font-style: normal;
   font-weight: 700;
@@ -24,12 +24,15 @@
 
 @media screen and (max-width: 967px) {
   .switch__label {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .switch__label {
     width: 165px;
   }
 }
 
-@media screen and (max-width: 374px) {
-  .switch__label {
-    width: 290px;
-  }
-}
+
+

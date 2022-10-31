@@ -316,3 +316,8 @@
 
 /*------- Header Edition by Alexander Morugin------*/
 @import url("../blocks/header/__container/header__container.css");
+
+@import url("../blocks/switch/__visible-radio/switch__visible-radio.css");
+@import url("../blocks/switch/__visible-radio/_el/switch__visible-radio_el_time.css");
+@import url("../blocks/switch/__visible-radio/_el/switch__visible-radio_el_single.css");
+@import url("../blocks/switch/__visible-radio/_el/switch__visible-radio_el_monthly.css");
