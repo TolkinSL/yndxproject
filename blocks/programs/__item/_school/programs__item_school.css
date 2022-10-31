@@ -3,6 +3,7 @@
   background-color: #528cbe;
 }
 
+
 @media (max-width: 767px) {
   .programs__item_school {
     background-image: none;
@@ -13,6 +14,6 @@
 @media (max-width:374px) {
   .programs__item_school {
     padding-left: 18px;
-    
+
   }
 }
