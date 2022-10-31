@@ -1,4 +1,4 @@
-.support__title_span {
+.support__title_span-accent {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -10,21 +10,21 @@
 }
 
 @media screen and (max-width: 1125px) {
-  .support__title_span {
+  .support__title_span-accent {
     font-size: 38px;
     line-height: 1.2;
   }
 }
 
 @media screen and (max-width: 967px) {
-  .support__title_span {
+  .support__title_span-accent {
     font-size: 27px;
     line-height: 1.28;
   }
 }
 
 @media screen and (max-width: 374px) {
-  .support__title_span {
+  .support__title_span-accent {
     font-size: 22px;
   }
 

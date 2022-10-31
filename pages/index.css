@@ -6,9 +6,9 @@
 @import url("../blocks/foundation/__link/foundation__link.css");
 @import url("../blocks/foundation/__program-button/foundation__program-button.css");
 @import url("../blocks/foundation/__subtitle/foundation__subtitle.css");
-@import url("../blocks/foundation/__subtitle/__subtitle_span/foundation__subtitle_span.css");
+@import url("../blocks/foundation/__subtitle/_span-accent/foundation__subtitle_span-accent.css");
 @import url("../blocks/foundation/__title/foundation__title.css");
-@import url("../blocks/foundation/__title/__title_span/foundation__title_span.css");
+@import url("../blocks/foundation/__title/_span-accent/foundation__title_span-accent.css");
 @import url("../vendor/slider/slider.css");
 @import url("../vendor/slider/styles.css");
 @import url("../blocks/digits/digits.css");
@@ -178,7 +178,7 @@
 @import url("../blocks/support/support.css");
 @import url("../blocks/support/_onepage/support_onepage.css");
 @import url("../blocks/support/__title/support__title.css");
-@import url("../blocks/support/__title/_span/support__title_span.css");
+@import url("../blocks/support/__title/_span-accent/support__title_span-accent.css");
 @import url("../blocks/support/__subtitle/support__subtitle.css");
 @import url("../blocks/switch/switch.css");
 @import url("../blocks/switch/_pageOne/switch_pageOne.css");
@@ -288,7 +288,7 @@
 
 @import url("../blocks/help/help.css");
 @import url("../blocks/help/__title/help__title.css");
-@import url("../blocks/help/__title/_span/help__title_span.css");
+@import url("../blocks/help/__title/_span-accent/help__title_span-accent.css");
 @import url("../blocks/help-section/help-section.css");
 @import url("../blocks/help-section/__text/help-section__text.css");
 @import url("../blocks/help-section/__title/help-section__title.css");
