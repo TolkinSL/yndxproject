@@ -1,4 +1,4 @@
-.useful__elements {
+.useful__list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -8,11 +8,12 @@
   gap: 24px;
   max-width: 1032px;
   margin: auto;
+  list-style: none;
 }
 
 @media screen and (max-width: 767px){
-  .useful__elements {
-    max-width: 500px;
+  .useful__list {
+    max-width: calc(100vw - 32px);
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr);
     margin-left: auto;
@@ -20,8 +21,8 @@
   }
 }
 
-@media screen and (max-width: 550px){
-  .useful__elements {
-    max-width: 340px;
+@media screen and (max-width: 375px){
+  .useful__list {
+    max-width: 100%;
   }
 }
