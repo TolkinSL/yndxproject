@@ -6,6 +6,3 @@
   color: #f8f8f8;
 }
 
-.switch__inputTwo:checked ~ .switch__labelTwo {
-  color: #f8f8f8;
-}
