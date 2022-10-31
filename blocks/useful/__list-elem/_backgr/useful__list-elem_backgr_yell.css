@@ -10,7 +10,7 @@
   background-size: 134px 134px;
 }
 
-@media screen and (max-width: 515px) {
+@media screen and (max-width: 705px) {
   .useful__list-elem_backgr_yell {
     background-position: right 44px top 107px;
     background-size: 86px 86px;

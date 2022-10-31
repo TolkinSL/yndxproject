@@ -5,11 +5,19 @@
   align-items: center;
   width: 100%;
   margin: 0;
-  padding: 96px 0 0;
+  padding: 96px 124px 0;
 }
 
 @media screen and (max-width: 1080px) {
   .useful {
     padding-top: 56px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .useful {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: auto;
   }
 }
