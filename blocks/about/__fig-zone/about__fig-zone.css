@@ -11,7 +11,7 @@
   background-position: right 30%;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1234px) {
   .about__fig-zone {
     background-size: contain;
   }
