@@ -15,6 +15,11 @@
   background-image: url(../../../images/letter.svg);
   background-repeat: no-repeat;
   background-position: left 32px center;
+  outline:none;
+}
+
+.subscribe__email:focus {
+  outline: 1px solid #528CBE;
 }
 
 @media screen and (max-width: 767px) {
