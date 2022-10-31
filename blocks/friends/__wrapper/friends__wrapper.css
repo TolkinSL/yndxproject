@@ -3,7 +3,13 @@
   justify-content: space-between;
   background-size: contain;
   background: url("../../../images/friends_slide-1.png") no-repeat right center;
-  max-height: 510px;
+  height: 510px;
+}
+
+@media screen and (min-width:768px) and (max-width: 1024px){
+  .friends__wrapper{
+    height: 400px;
+  }
 }
 
 @media screen and (max-width: 767px) {

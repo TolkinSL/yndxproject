@@ -147,6 +147,8 @@
 @import url('../blocks/friends/__quote/_span/friends__quote_span.css');
 @import url('../blocks/friends/__quote/_span-bold/friends__quote_span-bold.css');
 @import url('../blocks/friends/__slider-buttons/friends__slider-buttons.css');
+@import url('../blocks/friends/__slider-item/friends__slider-item.css');
+@import url('../blocks/friends/__slider-indicators/friends__slider-indicators.css');
 
 /*------- Sergey blogs ------*/
 @import url("../blocks/blog/blog.css");
