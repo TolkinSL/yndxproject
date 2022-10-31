@@ -1,5 +1,6 @@
 .useful__list-elem {
-  width: 504px;
+  width: 100%;
+  min-width: 343px;
   height: 208px;
   display: inline-block;
   box-sizing: border-box;
@@ -7,18 +8,11 @@
   background-color: #F8F8F8;
   text-decoration: none;
   transition: all 0.6s;
-
 }
 
 @media screen and (max-width: 1040px) {
   .useful__list-elem {
-    width: calc((100vw - 32px) / 2);
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .useful__list-elem {
-    width: calc((100vw - 32px));
+    width: 100%;
   }
 }
 
@@ -28,9 +22,10 @@
   }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 350px) {
   .useful__list-elem {
     padding: 28px 0 0 12px;
+    min-width: 100%;
   }
 }
 

@@ -11,7 +11,7 @@
   background-size: 204px 217px;
 }
 
-@media screen and (max-width: 515px) {
+@media screen and (max-width: 705px) {
   .useful__list-elem_backgr_blue {
     background-position: right 28px top 72px;
     background-size: 134px 142px;
