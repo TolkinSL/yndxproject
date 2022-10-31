@@ -95,7 +95,7 @@
 @import url("../blocks/content/content.css");
 @import url("../blocks/content/_none/content_none.css");
 /*------- Sergey -work ------*/
-@import url("../blocks/work/work.css");
+/* @import url("../blocks/work/work.css");
 @import url("../blocks/work/__uppertext/work__uppertext.css");
 @import url("../blocks/work/__underelements/work__underelements.css");
 @import url("../blocks/work/__text/work__text.css");
@@ -104,8 +104,30 @@
 @import url("../blocks/work/__boop/work__boop.css");
 @import url("../blocks/work/__daltonic/work__daltonic.css");
 @import url("../blocks/work/__element/work__underelement-element.css");
-@import url("../blocks/work/__element-text/work__element-text.css");
+@import url("../blocks/work/__element-text/work__element-text.css"); */
 /*---Sergey---*/
+
+/*Никита*/
+@import url('../blocks/about/about.css');
+@import url('../blocks/about/__text-zone/about__text-zone.css');
+@import url('../blocks/about/__question/about__question.css');
+@import url('../blocks/about/__answer-zone/about__answer-zone.css');
+@import url('../blocks/about/__answer/about__answer.css');
+@import url('../blocks/about/__answer/_bold/about__answer_bold.css');
+@import url('../blocks/about/__fig-zone/about__fig-zone.css');
+@import url('../blocks/about/__content-fig/about__content-fig.css');
+@import url('../blocks/about/__fig-item/about__fig-item.css');
+@import url('../blocks/about/__cont-item-bulb/about__cont-item-bulb.css');
+@import url('../blocks/about/__cont-item-book/about__cont-item-book.css');
+@import url('../blocks/about/__cont-item-curve/about__cont-item-curve.css');
+@import url('../blocks/about/__cont-item-briefcase/about__cont-item-briefcase.css');
+@import url('../blocks/about/__bulb/about__bulb.css');
+@import url('../blocks/about/__book/about__book.css');
+@import url('../blocks/about/__curve/about__curve.css');
+@import url('../blocks/about/__briefcase/about__briefcase.css');
+@import url('../blocks/about/__activity/about__activity.css');
+/*Никита*/
+
 /*---Valery all the styles are in header at the moment---*/
 @import url("../blocks/programs/programs.css");
 
