@@ -7,9 +7,6 @@
   color: #999999;
   min-height: 56px;
   padding: 18px 22px 18px 55px;
-  margin-top: 80px;
-  margin-left: 28px;
-  margin-right: 16px;
   border: 0;
   border-radius: 56px;
   background-image: url(../../../images/letter.svg);
@@ -27,7 +24,6 @@
     box-sizing: border-box;
     max-width: 100%;
     padding: 18px 93px 18px 80px;
-    margin: 0 0 16px 0;
     text-align: left;
   }
 }

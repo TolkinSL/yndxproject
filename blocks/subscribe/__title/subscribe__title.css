@@ -2,31 +2,17 @@
   font-family: "Inter", serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
-  line-height: 1.09;
+  font-size: 32px;
+  line-height: 1.02;
   color: #000000;
   max-width: 485px;
-  padding-bottom: 16px;
   margin: 0;
-}
-
-@media screen and (max-width: 1080px) {
-  .subscribe__title {
-    font-size: 27px;
-  }
 }
 
 @media screen and (max-width: 767px) {
   .subscribe__title {
     width: 100%;
     max-width: 400px;
-    line-height: 1.25;
-    margin: auto;
-  }
-}
-
-@media screen and (max-width: 460px) {
-  .subscribe__title {
-    max-width: 355px;
+    line-height: 1.17;
   }
 }
