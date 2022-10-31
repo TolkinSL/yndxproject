@@ -18,14 +18,9 @@
   text-transform: uppercase;
 
   color: #999999;
-
+  cursor: pointer;
   transition: ease-in-out;
   transition-duration: 0.3s;
-}
-
-.switch__label:hover {
-  cursor: pointer;
-  opacity: 0.5;
 }
 
 @media screen and (max-width: 967px) {
