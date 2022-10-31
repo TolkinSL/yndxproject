@@ -7,11 +7,20 @@
   line-height: 1.18;
 }
 
+@media (max-width: 1080px) {
+
+  .programs__item-title {
+    max-width: 400px;
+  }
+
+}
+
 @media (max-width: 767px) {
   .programs__item-title {
     font-size: 30px;
     line-height: 0.91;
     padding-left: 24px;
+    max-width: 100%;
   }
 }
 

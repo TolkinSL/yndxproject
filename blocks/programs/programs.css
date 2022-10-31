@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   padding-top: 96px;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 1080px) {
