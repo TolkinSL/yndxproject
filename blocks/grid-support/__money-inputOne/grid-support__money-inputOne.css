@@ -1,1 +1,5 @@
-.grid-support__money-inputOne {}
+.grid-support__money-inputOne:checked ~.grid-support__money-labelOne {
+  background: #82607D;
+  color: #FFFFFF;
+}
+

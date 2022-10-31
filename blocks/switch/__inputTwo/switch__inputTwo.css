@@ -9,12 +9,12 @@
 }
 
 
-.switch__inputTwo:checked~.switch__label2 {
-  color: #f8f8f8;
-}
-
 @media screen and (max-width: 374px) {
   .switch__inputTwo:checked~.switch__indicator {
     transform: translate3d(130px, 0, 0);
   }
+}
+
+.switch__inputTwo:checked ~ .switch__labelTwo {
+  color: #f8f8f8;
 }
