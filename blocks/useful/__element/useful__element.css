@@ -3,12 +3,10 @@
   background: #F8F8F8;
   display: flex;
   justify-content: space-between;
-  z-index: 0;
 }
 
 @media screen and (max-width: 1040px){
   .useful__element {
-    /*max-width: 767px;*/
     max-width: calc((100vw - 32px)/2);
   }
 }
