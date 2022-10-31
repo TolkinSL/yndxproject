@@ -870,10 +870,14 @@
         <h3 class="supportForm__title">Поддержать Друзей:</h3>
 
         <div class="switch switch_pageOne">
-          <input class="switch__input switch__inputOne" name="switch" id="one" type="radio" checked>
-          <label for="one" class="switch__label switch__labelOne">Разовое</label>
-          <input class="switch__input switch__inputTwo" name="switch" id="two" type="radio">
-          <label for="two" class="switch__label switch__labelTwo">Ежемесячное</label>
+          <label for="one" class="switch__label switch__labelOne">
+            <input class="switch__input switch__inputOne switch__item switch__item_el_switch-time" name="switch" id="one" type="radio" checked>
+            <span class="switch__visible-radio switch__visible-radio_el_time switch__visible-radio_el_single">разовое</span>
+          </label>
+          <label for="two" class="switch__label switch__labelTwo">
+            <input class="switch__input switch__inputTwo switch__item switch__item_el_switch-time" name="switch" id="two" type="radio">
+            <span class="switch__visible-radio switch__visible-radio_el_time switch__visible-radio_el_monthly">ежемесячное</span>
+          </label>
           <div class="switch__indicator"></div>
         </div>
 
