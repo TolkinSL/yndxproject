@@ -12,4 +12,9 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
+  outline:none;
+}
+
+.grid-support__input {
+  outline: 1px solid #528CBE;
 }

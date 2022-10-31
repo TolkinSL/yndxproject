@@ -7,6 +7,11 @@
   background: #f8f8f8;
   border-radius: 26px;
   height: 143px;
+  outline:none;
+}
+
+.questions__input-message {
+  outline: 1px solid #528CBE;
 }
 
 @media screen and (max-width: 767px) {
