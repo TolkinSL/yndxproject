@@ -9,7 +9,7 @@
 }
 
 .work__underelement-element_first {
-  background: url("../../../images/img__1.svg") #77c5d5 no-repeat 38px bottom;
+  background: url("../../../images/work_img-1.svg") #77c5d5 no-repeat 38px bottom;
   align-self: start;
 }
 
@@ -22,7 +22,7 @@
 .work__underelement-element_second {
   margin-top: -42px;
   margin-right: 190px;
-  background: url("../../../images/img__2.svg") #528cbe no-repeat left bottom;
+  background: url("../../../images/work_img-2.svg") #528cbe no-repeat left bottom;
 }
 
 .work__underelement_second .work__element-text {
@@ -34,7 +34,7 @@
 .work__underelement-element_third {
   margin-top: -52px;
   margin-left: 280px;
-  background: url("../../../images/img__3.svg") #de6f7e no-repeat left 26px;
+  background: url("../../../images/work_img-3.svg") #de6f7e no-repeat left 26px;
 }
 
 .work__underelement-element_third .work__element-text {
@@ -45,7 +45,7 @@
 
 .work__underelement-element_fourth {
   margin-top: -43px;
-  background: url("../../../images/img__4.svg") #eeb250 no-repeat left 22px;
+  background: url("../../../images/work_img-4.svg") #eeb250 no-repeat left 22px;
   align-self: end;
 }
 
@@ -65,7 +65,7 @@
   .work__underelement-element_first {
     margin: 0;
     margin-left: 8px;
-    background: url(../../../images/img__1.svg) #77c5d5 no-repeat 19px bottom;
+    background: url('../../../images/work_img-1.svg') #77c5d5 no-repeat 19px bottom;
     background-size: 79px;
   }
 
@@ -76,7 +76,7 @@
   }
 
   .work__underelement-element_second {
-    background: url(../../../images/img__2.svg) #528cbe no-repeat left 18px;
+    background: url('../../../images/work_img-2.svg') #528cbe no-repeat left 18px;
     background-size: 104px;
     align-self: start;
     margin: 0;
@@ -90,7 +90,7 @@
   }
 
   .work__underelement-element_third {
-    background: url(../../../images/img__3.svg) #de6f7e no-repeat left 23px;
+    background: url('../../../images/work_img-3.svg') #de6f7e no-repeat left 23px;
     background-size: 82px;
     align-self: end;
     margin: 0;
@@ -104,7 +104,7 @@
   }
 
   .work__underelement-element_fourth {
-    background: url(../../../images/img__4.svg) #eeb250 no-repeat left center;
+    background: url('../../../images/work_img-4.svg') #eeb250 no-repeat left center;
     background-size: 68px;
     margin: 0;
     margin-right: 8px;
@@ -126,26 +126,26 @@
 
   .work__underelement-element_first {
     margin: 0;
-    background: url(../../../images/img__1.svg) #77c5d5 no-repeat 19px bottom;
+    background: url('../../../images/work_img-1.svg') #77c5d5 no-repeat 19px bottom;
     background-size: 79px;
   }
 
   .work__underelement-element_second {
-    background: url(../../../images/img__2.svg) #528cbe no-repeat left 18px;
+    background: url('../../../images/work_img-2.svg') #528cbe no-repeat left 18px;
     background-size: 104px;
     align-self: center;
     margin: 0;
   }
 
   .work__underelement-element_third {
-    background: url(../../../images/img__3.svg) #de6f7e no-repeat left 23px;
+    background: url('../../../images/work_img-3.svg') #de6f7e no-repeat left 23px;
     background-size: 82px;
     align-self: end;
     margin: 0;
   }
 
   .work__underelement-element_fourth {
-    background: url(../../../images/img__4.svg) #eeb250 no-repeat left center;
+    background: url('../../../images/work_img-4.svg') #eeb250 no-repeat left center;
     background-size: 68px;
     margin: 0;
   }
