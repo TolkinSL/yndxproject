@@ -25,7 +25,10 @@ const switchLabel2 = switchContainer.querySelector('.switch__labelTwo');
 
 const switchIndicator = switchContainer.querySelector('.switch__indicator');
 
-
+const bankCardContainer = document.querySelector('.bankCard');
+const switchTimeMonthly = bankCardContainer.querySelector('#two');
+const bankCardMessage = bankCardContainer.querySelector('.bankCard__description');
+const anotherSum = bankCardContainer.querySelector('#field-sum');
 
 if (switchInputOne.checked){
   radioLabel_moneyInput1.textContent = '5 000';
@@ -42,14 +45,16 @@ switchInputOne.addEventListener("click", () => {
     radioLabel_moneyInput1.textContent = '5 000';
     radioLabel_moneyInput2.textContent = '10 000';
     radioLabel_moneyInput3.textContent = '50 000';
+    bankCardMessage.classList.remove('bankCard__description_visibility');
   }
 });
 
 switchInputTwo.addEventListener("click", () => {
   if (switchInputTwo.checked) {
     radioLabel_moneyInput1.textContent = '1 000';
-  radioLabel_moneyInput2.textContent = '5 000';
-  radioLabel_moneyInput3.textContent = '10 000';
+    radioLabel_moneyInput2.textContent = '5 000';
+    radioLabel_moneyInput3.textContent = '10 000';
+    bankCardMessage.classList.add('bankCard__description_visibility');
   }
 });
 
@@ -156,3 +161,15 @@ if (document.URL.includes("help-fund-page.html")) {
     }
   });
 }
+
+anotherSum.addEventListener('click',function() {
+  radioButton_moneyInput1.checked = false;
+  radioLabel_moneyInput1.style.backgroundColor = "#F8F8F8";
+  radioButton_moneyInput2.checked = false;
+  radioLabel_moneyInput2.style.backgroundColor = "#F8F8F8";
+  radioButton_moneyInput3.checked = false;
+  radioLabel_moneyInput3.style.backgroundColor = "#F8F8F8";
+  radioLabel_moneyInput1.style.color = "#000000";
+  radioLabel_moneyInput2.style.color = "#000000";
+  radioLabel_moneyInput3.style.color = "#000000";
+});
