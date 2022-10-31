@@ -1,0 +1,12 @@
+.blog__main-card-date{
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 120%;
+    margin: 0;
+    padding: 276px 376px 16px 24px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+}

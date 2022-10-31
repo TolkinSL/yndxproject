@@ -1,0 +1,11 @@
+.blog__card-date{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 120%;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 27px 0 16px 24px;
+}

@@ -1,3 +1,11 @@
 .element {
   max-width: 328px;
+  box-sizing: border-box;
+  gap: 2px;
+}
+
+@media screen  and (max-width: 750px) {
+  .element {
+    max-width: 306px;
+  }
 }
