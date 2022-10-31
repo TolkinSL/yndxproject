@@ -15,6 +15,6 @@
   outline:none;
 }
 
-.grid-support__input {
+.grid-support__input:focus {
   outline: 1px solid #528CBE;
 }

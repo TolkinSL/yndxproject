@@ -10,7 +10,7 @@
   outline:none;
 }
 
-.questions__input-message {
+.questions__input-message:focus {
   outline: 1px solid #528CBE;
 }
 
