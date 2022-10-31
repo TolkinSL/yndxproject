@@ -1,0 +1,29 @@
+.switch__visible-radio_el_time {
+  position: relative;
+  width: 288px;
+  height: 38px;
+  border-radius: 56px;
+  font-size: 12px;
+  color: #999999;
+  z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .switch__visible-radio_el_time {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .switch__visible-radio_el_time {
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .switch__visible-radio_el_time {
+    width: 120px;
+  }
+}

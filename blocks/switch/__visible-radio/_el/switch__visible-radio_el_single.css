@@ -1,0 +1,16 @@
+.switch__visible-radio_el_single {
+  margin-right: -30px;
+}
+
+@media screen and (max-width: 769px) {
+  .switch__visible-radio_el_single {
+    margin-right: -25px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .switch__visible-radio_el_single {
+    margin-right: -15px;
+  }
+}
+
