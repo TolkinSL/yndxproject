@@ -88,6 +88,16 @@
   list-style: none;
 }
 
+.slider__indicators_friends{
+  margin: -54px 15%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .slider__indicators_friends{
+    margin: 20px 15%;
+  }
+}
+
 .slider__indicator {
   flex: 0 1 auto;
   box-sizing: content-box;
