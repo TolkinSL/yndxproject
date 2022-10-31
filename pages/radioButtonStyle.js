@@ -26,9 +26,10 @@ const switchLabel2 = switchContainer.querySelector('.switch__labelTwo');
 const switchIndicator = switchContainer.querySelector('.switch__indicator');
 
 const bankCardContainer = document.querySelector('.bankCard');
-const switchTimeMonthly = bankCardContainer.querySelector('#two');
-const bankCardMessage = bankCardContainer.querySelector('.bankCard__description');
-const anotherSum = bankCardContainer.querySelector('#field-sum');
+const switchTimeMonthly = switchContainer.querySelector('#two2');
+const bankCardMessage = document.querySelector('.bankCard__description');
+const anotherSum = document.querySelector('#field-sum');
+
 
 if (switchInputOne.checked){
   radioLabel_moneyInput1.textContent = '5 000';

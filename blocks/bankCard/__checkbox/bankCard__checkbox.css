@@ -15,3 +15,9 @@
   appearance: auto;
   box-sizing: content-box;
 }
+
+@media screen and (max-width: 320px) {
+  .bankCard__checkbox {
+    margin-left: 10px;
+  }
+}
