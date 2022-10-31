@@ -24,3 +24,9 @@
     margin-bottom: 16px;
   }
 }
+
+@media screen and (max-width: 370px) {
+  .contacts__title {
+    font-size: 28px;
+  }
+}
