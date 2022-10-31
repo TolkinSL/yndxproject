@@ -33,5 +33,6 @@
   .header__button {
     width: 36%;
     font-size: 14px;
+    margin-left: auto;
   }
 }
