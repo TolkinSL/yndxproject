@@ -1,3 +1,11 @@
 .programs__item_align_right {
   background-position: bottom left;
 }
+
+@media (max-width: 1080px) {
+
+  .programs__item_align_right {
+    background-position: -230px bottom;
+  }
+
+}

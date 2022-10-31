@@ -7,6 +7,14 @@
   line-height: 1.44;
 }
 
+@media (max-width: 1080px) {
+
+  .programs__item-text {
+    max-width: 257px;
+  }
+
+}
+
 @media (max-width: 767px) {
   .programs__item-text {
     line-height: 1.33;
@@ -16,6 +24,7 @@
 
 @media (max-width: 375px) {
   .programs__item-text {
+    max-width: 465px;
     line-height: 1.33;
     font-size: 12px;
   }
