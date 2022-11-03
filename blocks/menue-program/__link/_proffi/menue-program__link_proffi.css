@@ -1,8 +1,0 @@
-.menue-program__link_proffi{
-  transition: ease-in-out;
-  transition-duration: 0.3s;
-}
-
-.menue-program__link_proffi:hover {
-  background-color: #de6f7e;
-}
