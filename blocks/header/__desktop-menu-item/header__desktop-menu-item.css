@@ -1,0 +1,40 @@
+.header__desktop-menu-item {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 16.6%;
+  justify-content: flex-start;
+  padding: 36px 0 0;
+  margin: 0;
+
+  max-width: 170px;
+}
+
+
+.header__desktop-menu-item:nth-child(6) {
+  width: 13%;
+}
+
+.header__desktop-menu-item:last-child {
+  width: 13%;
+}
+
+
+@media screen and (max-width: 767px) {
+  .header__desktop-menu-item {
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0 0;
+    width: 100%;
+    max-width: 760px;
+  }
+
+
+  .header__desktop-menu-item:nth-child(6) {
+    width: 100%;
+  }
+
+  .header__desktop-menu-item:last-child {
+    width: 100%;
+  }
+}
