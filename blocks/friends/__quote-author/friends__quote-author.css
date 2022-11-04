@@ -1,4 +1,4 @@
-.friends__quote_author {
+.friends__quote-author {
   margin: 0;
   max-width: 509px;
   font-size: 18px;
@@ -6,13 +6,13 @@
 }
 
 @media screen and (min-width:768px) and (max-width: 1024px){
-  .friends__quote_author{
+  .friends__quote-author{
     font-size: 14px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .friends__quote_author {
+  .friends__quote-author {
     font-size: 16px;
     line-height: 1.44;
 
@@ -20,7 +20,7 @@
 }
 
 @media screen and (max-width: 375px) {
-  .friends__quote_author {
+  .friends__quote-author {
       max-width: 210px;
       font-size: 14px;
       line-height: 1.44;

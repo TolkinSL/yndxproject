@@ -1,4 +1,4 @@
-.friends__quote_text {
+.friends__quote-text {
   margin: 0 auto 16px auto;
   font-weight: 700;
   font-size: 42px;
@@ -6,26 +6,26 @@
 }
 
 @media screen and (min-width:1025px) and (max-width: 1279px){
-  .friends__quote_text{
+  .friends__quote-text{
     font-size: 30px;
   }
 }
 
 @media screen and (min-width:768px) and (max-width: 1024px){
-  .friends__quote_text{
+  .friends__quote-text{
     font-size: 20px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .friends__quote_text {
+  .friends__quote-text {
     font-size: 27px;
     line-height: 1.41;
   }
 }
 
 @media screen and (max-width: 376px) {
-  .friends__quote_text {
+  .friends__quote-text {
     max-width: 326px;
     font-size: 23px;
     line-height: 1.41;
