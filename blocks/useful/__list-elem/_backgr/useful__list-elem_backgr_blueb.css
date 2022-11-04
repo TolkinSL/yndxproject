@@ -1,7 +1,7 @@
 .useful__list-elem_backgr_blueb {
   background-image: url(../../../../images/useful_blueb.svg);
   background-repeat: no-repeat;
-  background-position: 327px 51px;
+  /* background-position: 327px 51px; */
   background-position: right 68px top 51px;
   background-size: 109px 109px;
 }
@@ -9,6 +9,26 @@
 .useful__list-elem_backgr_blueb:hover {
   background-position: right 56px top 44px;
   background-size: 125px 125px;
+}
+
+@media screen and (max-width: 1205px) {
+  .useful__list-elem_backgr_blueb {
+    background-position: right 39px top 58px;
+    background-size: 94px 94px;
+  }
+}
+
+@media screen and (max-width: 1135px) {
+  .useful__list-elem_backgr_blueb {
+    background-position: right 39px top 88px;
+  }
+}
+
+@media screen and (max-width: 958px) {
+  .useful__list-elem_backgr_blueb {
+    background-size: 109px 109px;
+    background-position: right 58px top 51px;
+  }
 }
 
 @media screen and (max-width: 705px) {
