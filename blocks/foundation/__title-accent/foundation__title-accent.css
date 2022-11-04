@@ -1,4 +1,4 @@
-.foundation__title_span-accent {
+.foundation__title-accent {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .foundation__title_span-accent {
+  .foundation__title-accent {
     font-size: 40px;
     line-height: 1.12;
   }
