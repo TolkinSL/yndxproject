@@ -246,47 +246,47 @@
 /* Second page help-fund-page.html */
 
 
-/* Block bankcards Alexander */
-@import url("../blocks/bankcards/bankcards.css");
-@import url("../blocks/bankcard/__checkboxes/bankcard__checkboxes.css");
-@import url("../blocks/bankcard/__wrapper/_disable/bankcard__wrapper_disable.css");
-@import url("../blocks/bankcard/bankcard.css");
-@import url("../blocks/bankcard/__Form/bankcard__Form.css");
-@import url("../blocks/bankcard/__Submitbutton/bankcard__Submitbutton.css");
-@import url("../blocks/bankcard/__subtitle/bankcard__subtitle.css");
-@import url("../blocks/bankcard/__subtitle/_fix/bankcard__subtitle_fix.css");
-@import url("../blocks/bankcard-Back/bankcard-Back.css");
-@import url("../blocks/bankcard-Back/__CVV-CVC-title/bankcard-Back__CVV-CVC-title.css");
-@import url("../blocks/bankcard-Back/__CVV-CVC/bankcard-Back__CVV-CVC.css");
-@import url("../blocks/bankcard-Back/__emboss-Line/bankcard-Back__emboss-Line.css");
-@import url("../blocks/bankcard-Back/__inputCVC/bankcard-Back__inputCVC.css");
-@import url("../blocks/bankcard-Back/__subtitle/bankcard-Back__subtitle.css");
-@import url("../blocks/bankcard-Front/bankcard-Front.css");
-@import url("../blocks/bankcard-Front/__bestBefore-title/bankcard-Front__bestBefore-title.css");
-@import url("../blocks/bankcard-Front/__bestBefore/bankcard-Front__bestBefore.css");
-@import url("../blocks/bankcard-Front/__bestBeforeInput/bankcard-Front__bestBeforeInput.css");
-@import url("../blocks/bankcard-Front/__BottomLine/bankcard-Front__BottomLine.css");
-@import url("../blocks/bankcard-Front/__CVV-CVC-title/bankcard-Front__CVV-CVC-title.css");
-@import url("../blocks/bankcard-Front/__CVV-CVC/bankcard-Front__CVV-CVC.css");
-@import url("../blocks/bankcard-Front/__finalSum-Input/bankcard-Front__finalSum-Input.css");
-@import url("../blocks/bankcard-Front/__finalSum-title/bankcard-Front__finalSum-title.css");
-@import url("../blocks/bankcard-Front/__finalSum/bankcard-Front__finalSum.css");
-@import url("../blocks/bankcard-Front/__inputCVC/bankcard-Front__inputCVC.css");
-@import url("../blocks/bankcard-Front/__inputCVC/_enable/bankcard-Front__inputCVC_enable.css");
-@import url("../blocks/bankcard-Front/__placeholders/bankcard-Front__placeholders.css");
-@import url("../blocks/bankcard-Front/__placeholders-name/bankcard-Front__placeholders-name.css");
-@import url("../blocks/bankcard-Front/__placeholders-number/bankcard-Front__placeholders-number.css");
+/* Block bankСards Alexander */
+@import url("../blocks/bankСards/bankСards.css");
+@import url("../blocks/bankСard/__checkboxes/bankСard__checkboxes.css");
+@import url("../blocks/bankСard/__wrapper/_disable/bankСard__wrapper_disable.css");
+@import url("../blocks/bankСard/bankСard.css");
+@import url("../blocks/bankСard/__Form/bankСard__Form.css");
+@import url("../blocks/bankСard/__Submitbutton/bankСard__Submitbutton.css");
+@import url("../blocks/bankСard/__subtitle/bankСard__subtitle.css");
+@import url("../blocks/bankСard/__subtitle/_fix/bankСard__subtitle_fix.css");
+@import url("../blocks/bankСard-Back/bankСard-Back.css");
+@import url("../blocks/bankСard-Back/__CVV-CVC-title/bankСard-Back__CVV-CVC-title.css");
+@import url("../blocks/bankСard-Back/__CVV-CVC/bankСard-Back__CVV-CVC.css");
+@import url("../blocks/bankСard-Back/__emboss-Line/bankСard-Back__emboss-Line.css");
+@import url("../blocks/bankСard-Back/__inputCVC/bankСard-Back__inputCVC.css");
+@import url("../blocks/bankСard-Back/__subtitle/bankСard-Back__subtitle.css");
+@import url("../blocks/bankСard-Front/bankСard-Front.css");
+@import url("../blocks/bankСard-Front/__bestBefore-title/bankСard-Front__bestBefore-title.css");
+@import url("../blocks/bankСard-Front/__bestBefore/bankСard-Front__bestBefore.css");
+@import url("../blocks/bankСard-Front/__bestBeforeInput/bankСard-Front__bestBeforeInput.css");
+@import url("../blocks/bankСard-Front/__BottomLine/bankСard-Front__BottomLine.css");
+@import url("../blocks/bankСard-Front/__CVV-CVC-title/bankСard-Front__CVV-CVC-title.css");
+@import url("../blocks/bankСard-Front/__CVV-CVC/bankСard-Front__CVV-CVC.css");
+@import url("../blocks/bankСard-Front/__finalSum-Input/bankСard-Front__finalSum-Input.css");
+@import url("../blocks/bankСard-Front/__finalSum-title/bankСard-Front__finalSum-title.css");
+@import url("../blocks/bankСard-Front/__finalSum/bankСard-Front__finalSum.css");
+@import url("../blocks/bankСard-Front/__inputCVC/bankСard-Front__inputCVC.css");
+@import url("../blocks/bankСard-Front/__inputCVC/_enable/bankСard-Front__inputCVC_enable.css");
+@import url("../blocks/bankСard-Front/__placeholders/bankСard-Front__placeholders.css");
+@import url("../blocks/bankСard-Front/__placeholders-name/bankСard-Front__placeholders-name.css");
+@import url("../blocks/bankСard-Front/__placeholders-number/bankСard-Front__placeholders-number.css");
 
 
 
-@import url("../blocks/bankcard/__checkbox-label/bankcard__checkbox-label.css");
-@import url("../blocks/bankcard/__checkbox-wrapper/bankcard__checkbox-wrapper.css");
-@import url("../blocks/bankcard/__checkbox/bankcard__checkbox.css");
-@import url("../blocks/bankcard/__link/bankcard__link.css");
+@import url("../blocks/bankСard/__checkbox-label/bankСard__checkbox-label.css");
+@import url("../blocks/bankСard/__checkbox-wrapper/bankСard__checkbox-wrapper.css");
+@import url("../blocks/bankСard/__checkbox/bankСard__checkbox.css");
+@import url("../blocks/bankСard/__link/bankСard__link.css");
 
-@import url("../blocks/bankcard-requisites/bankcard-requisites.css");
-@import url("../blocks/bankcard-requisites/__text/bankcard-requisites__text.css");
-@import url("../blocks/bankcard-requisites/__wrapper/bankcard-requisites__wrapper.css");
+@import url("../blocks/bankСard-requisites/bankСard-requisites.css");
+@import url("../blocks/bankСard-requisites/__text/bankСard-requisites__text.css");
+@import url("../blocks/bankСard-requisites/__wrapper/bankСard-requisites__wrapper.css");
 
 @import url("../blocks/grid-Payments/grid-Payments.css");
 
@@ -341,5 +341,5 @@
 @import url("../blocks/switch/__visible-radio/_el/switch__visible-radio_el_time.css");
 @import url("../blocks/switch/__visible-radio/_el/switch__visible-radio_el_single.css");
 @import url("../blocks/switch/__visible-radio/_el/switch__visible-radio_el_monthly.css");
-@import url("../blocks/bankcard/__descriprtion/bankcard__description.css");
-@import url("../blocks/bankcard/__descriprtion/_visability/bankcard__description_visibility.css");
+@import url("../blocks/bankСard/__descriprtion/bankСard__description.css");
+@import url("../blocks/bankСard/__descriprtion/_visability/bankСard__description_visibility.css");
