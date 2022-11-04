@@ -1,4 +1,4 @@
-.bankСard-Front {
+.bankCard-Front {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .bankСard-Front {
+  .bankCard-Front {
     height: 338px;
     width: 311px;
     /* ///////////////// */

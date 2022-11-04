@@ -1,4 +1,4 @@
-.bankСard__Submitbutton {
+.bankCard__Submitbutton {
   border: none;
   background: #528CBE;
   border-radius: 56px;
@@ -14,13 +14,13 @@
   transition-duration: 0.3s;
 }
 
-.bankСard__Submitbutton:hover {
+.bankCard__Submitbutton:hover {
   background: #487FAE;
   cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {
-  .bankСard__Submitbutton {
+  .bankCard__Submitbutton {
     margin-bottom: 24px;
   }
 }

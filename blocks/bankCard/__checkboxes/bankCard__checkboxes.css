@@ -1,7 +1,6 @@
-.bankСard__checkboxes
-{
- margin: 0;
- padding: 0;
- box-sizing: border-box;
- padding-top: 32px;
+.bankCard__checkboxes {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding-top: 32px;
 }

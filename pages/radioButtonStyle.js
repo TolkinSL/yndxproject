@@ -25,9 +25,9 @@ const switchLabel2 = switchContainer.querySelector('.switch__labelTwo');
 
 const switchIndicator = switchContainer.querySelector('.switch__indicator');
 
-const bankСardContainer = document.querySelector('.bankСard');
+const bankCardContainer = document.querySelector('.bankCard');
 const switchTimeMonthly = switchContainer.querySelector('#two2');
-const bankСardMessage = document.querySelector('.bankСard__description');
+const bankCardMessage = document.querySelector('.bankCard__description');
 const anotherSum = document.querySelector('#field-sum');
 
 
@@ -46,7 +46,7 @@ switchInputOne.addEventListener("click", () => {
     radioLabel_moneyInput1.textContent = '5 000';
     radioLabel_moneyInput2.textContent = '10 000';
     radioLabel_moneyInput3.textContent = '50 000';
-    bankСardMessage.classList.remove('bankСard__description_visibility');
+    bankCardMessage.classList.remove('bankCard__description_visibility');
   }
 });
 
@@ -55,7 +55,7 @@ switchInputTwo.addEventListener("click", () => {
     radioLabel_moneyInput1.textContent = '1 000';
     radioLabel_moneyInput2.textContent = '5 000';
     radioLabel_moneyInput3.textContent = '10 000';
-    bankСardMessage.classList.add('bankСard__description_visibility');
+    bankCardMessage.classList.add('bankCard__description_visibility');
   }
 });
 
@@ -121,7 +121,7 @@ if (document.URL.includes("help-fund-page.html")) {
   const radioLabel_Payment2 = radioContainerPayments.querySelector('.grid-Payments__googlePay-label');
   const radioLabel_Payment3 = radioContainerPayments.querySelector('.grid-Payments__ApplePay-label');
 
-  const bankСard__wrapper = document.querySelector('.bankСard__wrapper');
+  const bankCard__wrapper = document.querySelector('.bankCard__wrapper');
 
   function ResetRadioButtonsPayments(rdBtn) {
 
@@ -140,7 +140,7 @@ if (document.URL.includes("help-fund-page.html")) {
     if (radioButton_Payment1.checked) {
       radioButton_Payment1.checked = true
       radioLabel_Payment1.style.backgroundColor = "#82607D";
-      bankСard__wrapper.classList.remove('bankСard__wrapper_disable');
+      bankCard__wrapper.classList.remove('bankCard__wrapper_disable');
     }
   });
 
@@ -149,7 +149,7 @@ if (document.URL.includes("help-fund-page.html")) {
     if (radioButton_Payment2.checked) {
       radioButton_Payment2.checked = true
       radioLabel_Payment2.style.backgroundColor = "#82607D";
-      bankСard__wrapper.classList.add('bankСard__wrapper_disable');
+      bankCard__wrapper.classList.add('bankCard__wrapper_disable');
     }
   });
 
@@ -158,7 +158,7 @@ if (document.URL.includes("help-fund-page.html")) {
     if (radioButton_Payment3.checked) {
       radioButton_Payment3.checked = true
       radioLabel_Payment3.style.backgroundColor = "#82607D";
-      bankСard__wrapper.classList.add('bankСard__wrapper_disable');
+      bankCard__wrapper.classList.add('bankCard__wrapper_disable');
     }
   });
 }

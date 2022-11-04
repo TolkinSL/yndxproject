@@ -1,11 +1,11 @@
-.bankСard-requisites {
+.bankCard-requisites {
   padding-top: 32px;
   max-width: 552px;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 767px) {
-  .bankСard-requisites {
+  .bankCard-requisites {
     max-width: 311px;
   }
 }
