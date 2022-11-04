@@ -1,4 +1,4 @@
-.bankcard-Front__finalSum-Input {
+.bankСard-Front__finalSum-Input {
   margin-left: 16px;
   height: 56px;
   width: 92px;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .bankcard-Front__finalSum-Input {
+  .bankСard-Front__finalSum-Input {
     height: 26px;
   }
 }

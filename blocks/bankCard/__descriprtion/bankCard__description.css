@@ -1,4 +1,4 @@
-.bankcard__description {
+.bankСard__description {
   margin: 0;
   display: none;
   font-weight: 400;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .bankcard__description {
+  .bankСard__description {
     margin: 16px 24px;
     max-width: 375px;
   }

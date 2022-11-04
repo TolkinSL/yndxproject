@@ -1,4 +1,4 @@
-.bankcard-Front__placeholders {
+.bankСard-Front__placeholders {
   display: flex;
   flex-direction: column;
   padding-top: 16px;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .bankcard-Front__placeholders {
+  .bankСard-Front__placeholders {
     padding-left: 16px;
   }
 }

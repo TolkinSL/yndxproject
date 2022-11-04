@@ -1,4 +1,4 @@
-.bankcards {
+.bankСards {
   position: relative;
   transform: translate(0, -211px);
   z-index: 10;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 1080px) {
-  .bankcards {
+  .bankСards {
     transform: translate(0, -240px);
     margin-bottom: -240px;
     /* max-width: 560px; */
@@ -18,7 +18,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .bankcards {
+  .bankСards {
     /* max-width: 359px; */
     max-width: 70%;
   }
@@ -26,7 +26,7 @@
 
 
 @media screen and (max-width: 570px) {
-  .bankcards {
+  .bankСards {
     transform: translate(0, -178px);
     max-width: 330px;
     margin-bottom: -178px;
@@ -34,7 +34,7 @@
 }
 
 @media screen and (max-width: 374px) {
-  .bankcards {
+  .bankСards {
     min-width: 300px;
   }
 }
