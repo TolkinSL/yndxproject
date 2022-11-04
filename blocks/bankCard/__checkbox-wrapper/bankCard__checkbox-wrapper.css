@@ -1,13 +1,13 @@
-.bankСard__checkbox-wrapper {
+.bankCard__checkbox-wrapper {
   margin-bottom: 16px;
 }
 
-.bankСard__checkbox-wrapper:last-of-type {
+.bankCard__checkbox-wrapper:last-of-type {
   margin-bottom: 27px;
 }
 
 @media screen and (max-width: 767px) {
-  .bankСard__checkbox-wrapper {
+  .bankCard__checkbox-wrapper {
     max-width: 311px;
   }
 }

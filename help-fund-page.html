@@ -207,10 +207,10 @@
           <span class="support-extended__title-span">развитию всей индустрии</span>
         </h1>
       </div>
-      <form class="bankСards" name="bankСards">
-        <div class="bankСard">
-          <p class="bankСard__subtitle">Выберите тип и сумму пожертвования</p>
-          <div class="bankСard__switch">
+      <form class="bankCards" name="bankCards">
+        <div class="bankCard">
+          <p class="bankCard__subtitle">Выберите тип и сумму пожертвования</p>
+          <div class="bankCard__switch">
             <div class="switch">
               <label for="one" class="switch__label switch__labelOne">
                 <input class="switch__input switch__inputOne switch__item switch__item_el_switch-time" name="switch"
@@ -226,10 +226,10 @@
               </label>
               <div class="switch__indicator"></div>
             </div>
-            <p class="bankСard__description">Ежемесячное пожертвование раз в месяц списывается с банковской карты,
+            <p class="bankCard__description">Ежемесячное пожертвование раз в месяц списывается с банковской карты,
               Google Pay или Apple Pay.
               В любой момент вы сможете отключить его.</p>
-            <p class="bankСard__subtitle">Сумма поддержки</p>
+            <p class="bankCard__subtitle">Сумма поддержки</p>
 
             <div class="grid-support">
               <input class="grid-support__money-input grid-support__money-inputOne" name="money" type="radio"
@@ -250,7 +250,7 @@
           </div>
 
           <div class="Payoptions">
-            <p class="bankСard__subtitle">Способ оплаты</p>
+            <p class="bankCard__subtitle">Способ оплаты</p>
             <div class="grid-Payments">
               <input class="grid-Payments__Input grid-Payments__Input-visa" name="payments" type="radio"
                 id="payments_radio_1">
@@ -267,78 +267,78 @@
           </div>
 
 
-          <div class="bankСard__wrapper bankСard__wrapper_disable">
-            <p class="bankСard__subtitle bankСard__subtitle_fix">Банковская карта</p>
-            <div class="bankСard__Form">
-              <div class="bankСard-Front">
-                <div class="bankСard-Front__placeholders">
-                  <input class="bankСard-Front__placeholders-number" type="text" name="cardNumber"
+          <div class="bankCard__wrapper bankCard__wrapper_disable">
+            <p class="bankCard__subtitle bankCard__subtitle_fix">Банковская карта</p>
+            <div class="bankCard__Form">
+              <div class="bankCard-Front">
+                <div class="bankCard-Front__placeholders">
+                  <input class="bankCard-Front__placeholders-number" type="text" name="cardNumber"
                     placeholder="Номер карты" minlength="2" maxlength="20" required>
-                  <input class="bankСard-Front__placeholders-name" type="text" name="belongsTo"
+                  <input class="bankCard-Front__placeholders-name" type="text" name="belongsTo"
                     placeholder="Держатель карты" minlength="2" required>
                 </div>
 
-                <div class="bankСard-Front__BottomLine">
-                  <div class="bankСard-Front__bestBefore">
-                    <p class="bankСard-Front__bestBefore-title">Действует до</p>
-                    <input class="bankСard-Front__bestBeforeInput" type="text" name="expDate" placeholder="ММ/ГГ"
+                <div class="bankCard-Front__BottomLine">
+                  <div class="bankCard-Front__bestBefore">
+                    <p class="bankCard-Front__bestBefore-title">Действует до</p>
+                    <input class="bankCard-Front__bestBeforeInput" type="text" name="expDate" placeholder="ММ/ГГ"
                       minlength="4" maxlength="4" required>
                   </div>
 
-                  <div class="bankСard-Front__finalSum">
-                    <p class="bankСard-Front__finalSum-title">Итого к оплате</p>
-                    <input class="bankСard-Front__finalSum-Input" type="number" name="Sum" placeholder="" required>
+                  <div class="bankCard-Front__finalSum">
+                    <p class="bankCard-Front__finalSum-title">Итого к оплате</p>
+                    <input class="bankCard-Front__finalSum-Input" type="number" name="Sum" placeholder="" required>
                   </div>
                 </div>
 
-                <div class="bankСard-Front__CVV-CVC">
-                  <p class="bankСard-Front__CVV-CVC-title">CVV/CVC</p>
-                  <input class="bankСard-Front__inputCVC bankСard-Front__inputCVC_enable" type="password" name="CVV/CVC"
+                <div class="bankCard-Front__CVV-CVC">
+                  <p class="bankCard-Front__CVV-CVC-title">CVV/CVC</p>
+                  <input class="bankCard-Front__inputCVC bankCard-Front__inputCVC_enable" type="password" name="CVV/CVC"
                     placeholder="***" minlength="3" maxlength="3" required>
                 </div>
               </div>
 
-              <div class="bankСard-Back">
-                <div class="bankСard-Back__emboss-Line"></div>
-                <div class="bankСard-Back__CVV-CVC">
-                  <p class="bankСard-Back__CVV-CVC-title">CVV/CVC</p>
-                  <input class="bankСard-Back__inputCVC" type="password" name="CVV/CVC" placeholder="***" minlength="3"
+              <div class="bankCard-Back">
+                <div class="bankCard-Back__emboss-Line"></div>
+                <div class="bankCard-Back__CVV-CVC">
+                  <p class="bankCard-Back__CVV-CVC-title">CVV/CVC</p>
+                  <input class="bankCard-Back__inputCVC" type="password" name="CVV/CVC" placeholder="***" minlength="3"
                     maxlength="3" required>
-                  <p class="bankСard-Back__subtitle">
+                  <p class="bankCard-Back__subtitle">
                     Последние 3 цифры на белой полосе с обратной стороны карты
                   </p>
                 </div>
               </div>
             </div>
 
-            <div class="bankСard-requisites">
-              <div class="bankСard-requisites__wrapper">
-                <input type="text" placeholder="Имя" required class="bankСard-requisites__text" name="name">
-                <input type="text" placeholder="Фамилия" required class="bankСard-requisites__text" name="surname">
-                <input type="tel" placeholder="Телефон" required class="bankСard-requisites__text" name="phone">
-                <input type="email" placeholder="Email" required class="bankСard-requisites__text" name="email">
+            <div class="bankCard-requisites">
+              <div class="bankCard-requisites__wrapper">
+                <input type="text" placeholder="Имя" required class="bankCard-requisites__text" name="name">
+                <input type="text" placeholder="Фамилия" required class="bankCard-requisites__text" name="surname">
+                <input type="tel" placeholder="Телефон" required class="bankCard-requisites__text" name="phone">
+                <input type="email" placeholder="Email" required class="bankCard-requisites__text" name="email">
               </div>
             </div>
           </div>
 
 
-          <div class="bankСard__checkboxes">
-            <div class="bankСard__checkbox-wrapper">
-              <label class="bankСard__checkbox-label"><input type="checkbox" class="bankСard__checkbox"
+          <div class="bankCard__checkboxes">
+            <div class="bankCard__checkbox-wrapper">
+              <label class="bankCard__checkbox-label"><input type="checkbox" class="bankCard__checkbox"
                   name="checkbox"><span>Согласен с
-                  <a href="#" class="bankСard__link">офертой</a></span></label>
+                  <a href="#" class="bankCard__link">офертой</a></span></label>
             </div>
 
-            <div class="bankСard__checkbox-wrapper">
-              <label class="bankСard__checkbox-label"><input type="checkbox" class="bankСard__checkbox"
+            <div class="bankCard__checkbox-wrapper">
+              <label class="bankCard__checkbox-label"><input type="checkbox" class="bankCard__checkbox"
                   name="checkbox"><span>Ознакомился и согласен с
-                  <a href="#" class="bankСard__link">политикой обработки персональных
+                  <a href="#" class="bankCard__link">политикой обработки персональных
                     данных</a></span></label>
             </div>
 
           </div>
 
-          <button type="submit" class="bankСard__Submitbutton">
+          <button type="submit" class="bankCard__Submitbutton">
             Поддержать фонд
           </button>
         </div>
@@ -539,3 +539,4 @@
 </body>
 
 </html>
+

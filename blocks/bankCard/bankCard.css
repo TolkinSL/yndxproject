@@ -1,4 +1,4 @@
-.bankСard {
+.bankCard {
   padding-top: 56px;
   margin: 0 auto;
   /* max-height: 521px; */
@@ -6,14 +6,14 @@
 }
 
 @media screen and (max-width: 767px) {
-  .bankСard {
+  .bankCard {
     max-width: 359px;
     padding-top: 24px;
   }
 }
 
 
-.bankСard__switch {
-max-width: 680px;
-/* width: 100%; */
+.bankCard__switch {
+  max-width: 680px;
+  /* width: 100%; */
 }

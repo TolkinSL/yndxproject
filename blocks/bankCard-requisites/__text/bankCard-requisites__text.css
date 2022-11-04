@@ -1,4 +1,4 @@
-.bankСard-requisites__text {
+.bankCard-requisites__text {
   padding-left: 18px;
   padding-top: 18px;
   padding-bottom: 18px;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .bankСard-requisites__text {
+  .bankCard-requisites__text {
     max-width: 311px;
   }
 }
