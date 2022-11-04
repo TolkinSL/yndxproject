@@ -1,4 +1,4 @@
-.bankCard__checkbox {
+.bankcard__checkbox {
   min-width: 20px;
   min-height: 20px;
   border: 1px solid #000000;
@@ -9,7 +9,7 @@
   align-self: start;
 }
 
-.bankCard__checkbox:checked {
+.bankcard__checkbox:checked {
   -webkit-appearance: auto;
   -moz-appearance: auto;
   appearance: auto;
@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .bankCard__checkbox {
+  .bankcard__checkbox {
     margin-left: 10px;
   }
 }
