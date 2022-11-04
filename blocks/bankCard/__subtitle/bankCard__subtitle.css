@@ -1,4 +1,4 @@
-.bankCard__subtitle {
+.bankcard__subtitle {
   margin: 0;
   padding: 0;
   font-style: normal;
@@ -11,12 +11,12 @@
   padding-top: 40px;
 }
 
-.bankCard__subtitle:first-of-type {
+.bankcard__subtitle:first-of-type {
   padding-top: 0;
 }
 
 @media screen and (max-width: 1080px) {
-  .bankCard__subtitle {
+  .bankcard__subtitle {
     padding-left: 32px;
   }
 }

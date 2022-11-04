@@ -1,4 +1,4 @@
-.bankCard-Front__CVV-CVC {
+.bankcard-Front__CVV-CVC {
   max-height: 83px;
   position: absolute;
   top: 162px;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .bankCard-Front__CVV-CVC {
+  .bankcard-Front__CVV-CVC {
     display: none;
   }
 }

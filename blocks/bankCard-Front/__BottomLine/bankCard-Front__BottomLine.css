@@ -1,4 +1,4 @@
-.bankCard-Front__BottomLine {
+.bankcard-Front__BottomLine {
   margin: 0;
   padding: 0;
   display: flex;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .bankCard-Front__BottomLine {
+  .bankcard-Front__BottomLine {
     flex-direction: column;
   }
 }

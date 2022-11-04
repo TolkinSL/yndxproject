@@ -1,4 +1,4 @@
-.supportExtended__title-span {
+.support-extended__title-span {
   font-family: "Playfair Display";
   font-size: 44px;
   font-style: italic;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .supportExtended__title-span {
+  .support-extended__title-span {
     font-family: Playfair Display;
     font-size: 40px;
     font-style: italic;

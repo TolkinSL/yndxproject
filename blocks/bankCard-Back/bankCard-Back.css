@@ -1,4 +1,4 @@
-.bankCard-Back {
+.bankcard-Back {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,7 +14,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .bankCard-Back {
+  .bankcard-Back {
     display: none;
   }
 }
