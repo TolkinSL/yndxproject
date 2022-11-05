@@ -7,7 +7,7 @@
 .blog__main-card:hover .blog__main-card-title{
     color: #54A8B6;
 }
-@media screen and (max-width:680px){
+@media screen and (max-width:767px){
     .blog__main-card{
         display: none;
     }

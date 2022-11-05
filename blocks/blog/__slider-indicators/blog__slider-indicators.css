@@ -1,7 +1,7 @@
 .blog__slider-indicators{
     display: none;
 }
-@media screen and (max-width:680px){
+@media screen and (max-width:767px){
     .blog__slider-indicators{
         position: absolute;
         right: 0;
