@@ -1,0 +1,23 @@
+.wrapper__lead {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url('../../../images/blog_lead-background.jpg') no-repeat;
+  background-size: cover;
+  max-width: 680px;
+  width: 100%;
+  min-height: 432px;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper__lead div {
+  margin: 0 auto 26px 24px;
+  max-width: 361px;
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper__lead {
+    display: none;
+  }
+}

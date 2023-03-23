@@ -1,0 +1,14 @@
+.footer__wrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding-right: 6%;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__wrapper {
+    width: 100%;
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,29 @@
+.work {
+  position: relative;
+  margin: 0 auto;
+  width: 81%;
+  margin-top: 96px;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 1080px) {
+  .work {
+    margin-top: 56px;
+    width: 95%;
+  }
+}
+
+
+.font {
+  font-family: "Inter", sans-serif;
+}
+
+.span__bold {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  .work {
+    width: 100%;  
+  }
+}

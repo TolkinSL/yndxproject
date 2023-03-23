@@ -1,0 +1,15 @@
+.bankCard__description {
+  margin: 0;
+  display: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  max-width: 551px;
+}
+
+@media screen and (max-width: 600px) {
+  .bankCard__description {
+    margin: 16px 24px;
+    max-width: 375px;
+  }
+}

@@ -1,0 +1,16 @@
+.blog__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 auto 56px;
+}
+@media screen and (max-width:680px){
+    .blog__title{
+        font-size: 29px;
+        line-height: 44px;
+        margin: 0 auto 24px;
+    }
+}

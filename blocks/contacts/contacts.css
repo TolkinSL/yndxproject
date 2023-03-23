@@ -1,0 +1,24 @@
+.contacts {
+  width: 74%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+@media screen and (max-width: 1080px) {
+  .contacts {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contacts {
+    width: 95%;
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+}

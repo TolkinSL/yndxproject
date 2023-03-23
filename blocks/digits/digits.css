@@ -1,0 +1,17 @@
+.digits {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;
+  /* padding 96+39 */
+  padding-top: 39px;
+  padding-bottom: 39px;
+  /* height: 249px; */
+  background-color: #77c5d5;
+}
+
+@media screen and (max-width: 767px) {
+  .digits {
+    padding-top: 57px;
+    padding-bottom: 57px;
+  }
+}

@@ -1,0 +1,19 @@
+.help {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 24px 0;
+  max-width: 1038px;
+  font-family: "Inter", "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+  .help {
+    padding: 0 24px 0;
+  }
+}

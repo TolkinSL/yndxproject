@@ -1,0 +1,31 @@
+.support {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1134px;
+  background: #82607d;
+  position: relative;
+  min-height: 590px;
+  z-index: 20;
+}
+
+@media screen and (max-width: 967px) {
+  .support {
+    /* max-width: 375px;*/
+    max-width: 100%;
+    min-height: 706px;
+    /* padding-left: 24px; */
+    font-size: 27px;
+    line-height: 1.31;
+
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .support {
+    width: 100%;
+    max-width: 320px;
+  }
+
+}
+

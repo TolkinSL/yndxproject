@@ -1,0 +1,20 @@
+.work__text {
+  max-width: 504px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.44;
+}
+
+.work__text:last-of-type {
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 767px) {
+  .work__text {
+    font-size: 16px;
+    line-height: 1.28;
+    max-width: 327px;
+    margin: 0 auto;
+  }
+}

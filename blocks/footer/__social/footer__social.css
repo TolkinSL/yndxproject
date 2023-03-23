@@ -1,0 +1,22 @@
+.footer__social {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 17%;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1080px) {
+  .footer__social {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__social {
+    width: 53%;
+    max-width: 180px;
+  }
+}

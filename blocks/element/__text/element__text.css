@@ -1,0 +1,15 @@
+.element__text {
+  position: absolute;
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .element__text {
+    font-size: 16px;
+    line-height: 1;
+  }
+}

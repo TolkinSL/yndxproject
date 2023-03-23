@@ -1,0 +1,48 @@
+.support-button {
+  width: 100%;
+  max-width: 551px;
+  height: 56px;
+  /* margin: 0 auto; */
+  background: #EEB250;
+  border-radius: 56px;
+  margin-bottom: 64px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+
+  text-align: center;
+
+  color: #ffffff;
+  border: none;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+.support-button:hover {
+  background: #E8AD4D;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 967px) {
+  .support-button {
+    max-width: 616px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support-button {
+    max-width: 310px;
+  }
+}
+
+
+@media screen and (max-width: 374px) {
+  .support-button {
+    max-width: 280px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}

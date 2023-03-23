@@ -1,0 +1,15 @@
+.support-extended {
+  padding-top: 56px;
+  max-width: 1280px;
+  min-height: 490px;
+  position: relative;
+  z-index: -10;
+  background: #82607d;
+}
+
+@media screen and (max-width: 1080px) {
+  .support-extended {
+    padding-top: 48px;
+    min-height: 519px;
+  }
+}

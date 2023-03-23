@@ -1,0 +1,9 @@
+.programs__item-inner_align_end {
+  justify-content: flex-end;
+}
+
+@media (max-width: 767px) {
+  .programs__item-inner_align_end {
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,11 @@
+  .header__link-item:hover .header__fund-about {
+    visibility: visible;
+    transition: linear;
+    transition-duration: 0.3s;
+  }
+
+  /*добавлено Александром*/
+  .header__link-item {
+    display: inline-block;
+    font-size: 0;
+  }

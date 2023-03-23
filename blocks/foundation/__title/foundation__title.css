@@ -1,0 +1,38 @@
+.foundation__title {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  padding-top: 165px;
+  padding-left: 123px;
+
+  max-width: 970px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.06;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 1023px) {
+  .foundation__title {
+    padding-left: 88px;
+    font-size: 45px;
+    line-height: 1.12;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .foundation__title {
+    padding-left: 22px;
+    padding-top: 42px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 397px) {
+  .foundation__title {
+    max-width: 300px;
+  }
+}

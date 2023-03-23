@@ -1,0 +1,46 @@
+.header__link {
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.25;
+  color: white;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+
+  /*добавлено Александром*/
+  display: inline-block;
+}
+
+.header__link:hover {
+  font-weight: 700;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+/*добавлено Александром*/
+.header__link::before {
+  font-weight: 700;
+  display: block;
+  content: attr(title);
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+
+
+@media screen and (max-width: 1080px) {
+  .header__link {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__link {
+    color: black;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.58;
+  }
+}

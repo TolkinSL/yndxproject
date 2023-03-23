@@ -1,0 +1,3 @@
+.grid-Payments__Input-ApplePay:checked~.grid-Payments__ApplePay-label {
+  background-image: url("../../../images/ApplePay-active.svg");
+}

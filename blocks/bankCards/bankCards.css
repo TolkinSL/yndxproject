@@ -1,0 +1,40 @@
+.bankCards {
+  position: relative;
+  transform: translate(0, -211px);
+  z-index: 10;
+  max-width: 680px;
+  min-width: 359px;
+  background: #ffffff;
+  margin: 0 auto;
+  margin-bottom: -211px;
+}
+
+@media screen and (max-width: 1080px) {
+  .bankCards {
+    transform: translate(0, -240px);
+    margin-bottom: -240px;
+    /* max-width: 560px; */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bankCards {
+    /* max-width: 359px; */
+    max-width: 70%;
+  }
+}
+
+
+@media screen and (max-width: 570px) {
+  .bankCards {
+    transform: translate(0, -178px);
+    max-width: 330px;
+    margin-bottom: -178px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .bankCards {
+    min-width: 300px;
+  }
+}

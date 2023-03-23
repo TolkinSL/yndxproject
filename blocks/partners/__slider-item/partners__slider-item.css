@@ -1,0 +1,16 @@
+.partners__slider-item {
+  flex-basis: 20%;
+  height: 124px;
+}
+
+@media (max-width: 767px) {
+  .partners__slider-item {
+    flex-basis: 33.3%;
+    height: 80px;
+    /* web/mob */
+  }
+
+  .slider__control {
+    display: none;
+  }
+}

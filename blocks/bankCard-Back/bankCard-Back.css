@@ -1,0 +1,20 @@
+.bankCard-Back {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 369px;
+  height: 244px;
+  position: absolute;
+  background: #e5e5e5;
+  border-radius: 8px;
+  margin-top: 50px;
+  z-index: -10;
+  top: -20px;
+  left: 183px;
+}
+
+@media screen and (max-width: 767px) {
+  .bankCard-Back {
+    display: none;
+  }
+}

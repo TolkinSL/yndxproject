@@ -1,0 +1,13 @@
+.footer__adultsonly {
+  width: 34px;
+  height: 34px;
+  display: block;
+  margin-right: 16px;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__adultsonly {
+    margin-right: 10px;
+  }
+}

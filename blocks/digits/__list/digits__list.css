@@ -1,0 +1,53 @@
+.digits__list {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 81%;
+  max-width: 1032px;
+  /* height: 172px; */
+  display: grid;
+  grid-template-columns: repeat(4, 240px);
+  grid-template-rows: 172px;
+  column-gap: 24px;
+  padding-left: 0;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+}
+
+@media screen and (max-width: 1132px) {
+  .digits__list {
+    max-width: 768px;
+    grid-template-columns: repeat(3, 240px);
+    /* grid-template-rows: 172px 172px; */
+    grid-template-rows: min-content min-content;
+    row-gap: 24px;
+  }
+}
+
+@media screen and (max-width: 868px) {
+  .digits__list {
+    max-width: 676px;
+    grid-template-columns: 326px 326px;
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* grid-template-rows: 172px 172px; */
+    grid-template-rows: min-content min-content;
+    row-gap: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .digits__list {
+    max-width: 315px;
+    grid-template-columns: 326px;
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* grid-template-rows: 172px 172px; */
+    grid-template-rows: repeat(4, 122px);
+    row-gap: 24px;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .digits__list {
+    grid-template-columns: 315px;
+  }
+}

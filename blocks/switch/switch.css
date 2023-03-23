@@ -1,0 +1,32 @@
+.switch {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  width: 551px;
+  height: 32px;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 967px) {
+  .switch {
+    width: 330px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .switch {
+    width: 260px;
+  }
+}
+
+.switch:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  height: 32px;
+  border-radius: 30px;
+  background: #f8f8f8;
+}

@@ -1,0 +1,20 @@
+.programs__about-link {
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-radius: 56px;
+  padding: 18px 52px;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+.programs__about-link:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+@media (max-width: 767px) {
+  .programs__about-link {
+    margin-left: 24px;
+  }
+}

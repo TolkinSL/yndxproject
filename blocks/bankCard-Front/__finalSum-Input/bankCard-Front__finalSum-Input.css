@@ -1,0 +1,13 @@
+.bankCard-Front__finalSum-Input {
+  margin-left: 16px;
+  height: 56px;
+  width: 92px;
+  border: none;
+  background: #f8f8f8;
+}
+
+@media screen and (max-width: 767px) {
+  .bankCard-Front__finalSum-Input {
+    height: 26px;
+  }
+}

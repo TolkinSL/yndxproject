@@ -1,0 +1,22 @@
+.friends__slider-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 18px auto 32px auto;
+}
+
+.friends__slider-button {
+  background: #999999;
+  opacity: 0.4;
+  border: none;
+  border-radius: 6px;
+  width: 10px;
+  height: 10px;
+}
+
+.friends__slider-button:nth-of-type(1) {
+  opacity: 1;
+  width: 29px;
+  background: #71bbca;
+}

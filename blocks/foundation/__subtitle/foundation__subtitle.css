@@ -1,0 +1,33 @@
+.foundation__subtitle {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  padding-left: 123px;
+  max-width: 680px;
+  font-family: "Inter", serif;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.44;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1023px) {
+  .foundation__subtitle {
+    padding-left: 88px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .foundation__subtitle {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .foundation__subtitle {
+    padding-left: 24px;
+    max-width: 327px;
+  }
+}

@@ -1,0 +1,50 @@
+.work__daltonic {
+  width: 151px;
+  height: 63px;
+  background: #f8f8f8;
+  border-radius: 136px;
+  position: absolute;
+  top: 570px;
+  left: 290px;
+}
+.work__daltonic:nth-of-type(13) {
+  left: unset;
+  top: 406px;
+  right: 0;
+}
+
+.work__daltonic:nth-of-type(14) {
+  top: 305px;
+  right: unset;
+  left: 90px;
+  width: 576px;
+  height: 233px;
+}
+
+@media screen and (max-width: 767px) {
+  .work__daltonic {
+    width: 94px;
+    height: 40px;
+    background: #f8f8f8;
+    border-radius: 136px;
+    position: absolute;
+    top: unset;
+    left: -41px;
+    bottom: 101px;
+  }
+
+  .work__daltonic:nth-of-type(13) {
+    left: unset;
+    top: unset;
+    bottom: 181px;
+    right: -40px;
+  }
+
+  .work__daltonic:nth-of-type(14) {
+    top: 497px;
+    right: unset;
+    left: 9px;
+    width: 254px;
+    height: 125px;
+  }
+}

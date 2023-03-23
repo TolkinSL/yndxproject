@@ -1,0 +1,16 @@
+.bankCard-requisites__text {
+  padding-left: 18px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  max-width: 268px;
+  width: 100%;
+  border: none;
+  background: #f8f8f8;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+  .bankCard-requisites__text {
+    max-width: 311px;
+  }
+}

@@ -1,0 +1,17 @@
+.programs__item-content {
+  max-width: 465px;
+  width: 100%;
+}
+
+@media (max-width: 1080px) {
+  .programs__item-content {
+    width: 45%;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .programs__item-content {
+    width: 100%;
+  }
+}

@@ -1,0 +1,26 @@
+.bankCard__Submitbutton {
+  border: none;
+  background: #528CBE;
+  border-radius: 56px;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.25;
+  text-align: center;
+  min-height: 56px;
+  width: 100%;
+  margin-bottom: 72px;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+.bankCard__Submitbutton:hover {
+  background: #487FAE;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .bankCard__Submitbutton {
+    margin-bottom: 24px;
+  }
+}

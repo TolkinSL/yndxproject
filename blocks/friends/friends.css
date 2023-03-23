@@ -1,0 +1,52 @@
+.friends {
+  position: relative;
+  max-height: 652px;
+  width: 100%;
+  margin-top: 96px;
+}
+
+@media screen and (max-width: 1080px) {
+  .friends {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .friends {
+    max-height: 510px;
+    background-color: #F8F8F8;
+  }
+
+  /*.quote__img {*/
+  /*  max-width: 325px;*/
+  /*  max-height: 331px;*/
+  /*  position: absolute;*/
+  /*  bottom: -50px;*/
+  /*  right: -100px;*/
+  /*}*/
+
+
+  .slider__item:nth-of-type(2) .friends__wrapper {
+    background: none;
+  }
+
+  .slider__item:nth-of-type(3) .friends__wrapper {
+    background: none;
+  }
+
+  .slider__item:nth-of-type(4) .friends__wrapper {
+    background: none;
+  }
+
+  .slider__item:nth-of-type(5) .friends__wrapper {
+    background: none;
+  }
+
+  .slider__item:nth-of-type(6) .friends__wrapper {
+    background: none;
+  }
+
+  .slider__item:nth-of-type(7) .friends__wrapper {
+    background: none;
+  }
+}

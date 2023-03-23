@@ -1,26 +1,909 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Место</title>
+  <title>Фонд Друзья</title>
   <link rel="stylesheet" href="./pages/index.css">
-  <script src="./index.js" defer></script>
+  <script src="./pages/index.js" defer></script>
+  <script src="./pages/radioButtonStyle.js" defer></script>
+  <script src="./vendor/slider/slider.js" defer></script>
+  <meta name="description" content="Фонд Друзья">
+  <meta name="keywords" content="помощь людям, НКО, благотворительные организации">
 </head>
-<body class="body">
-  <div class="page">
-    <header class="header">
 
-    </header>
+<body class="page">
+  <header class="header">
+    <div class="header__container">
+      <div class="header__burger-menu">
+        <span class="header__burger-line"></span>
+      </div>
+      <a class="header__logo-link" href="./index.html">
+        <img class="logo" src="./images/logo.svg" alt="логотип"></a>
+      <div class="header__menu-сontainer">
+        <nav class="header__menu">
+          <button class="header__button-close" type="button">
+            <img class="header__close-icon" src="./images/close_dialogue_icon.svg" alt="х">
+          </button>
 
-    <main class="content">
 
-    </main>
+          <ul class="header__link-container">
+            <li id="fund" class="header__link-item"><a class="header__link" href="#" title="Фонд">Фонд</a>
 
-    <footer class="footer">
+              <!--                                        2 burger screen                        -->
+              <ul id="fundAbout" class="header__fund-about">
+                <li class="header__desktop-menu-item">
+                  <a class="header__sublinks" href="#">
+                    <h2 class="header__sublink-item">О фонде "Друзья"</h2>
+                    <p class="header__sublink-sub">История фонда, миссия</p>
+                  </a>
+                </li>
+                <li class="header__desktop-menu-item">
+                  <a class="header__sublinks" href="#">
+                    <h2 class="header__sublink-item">Структура фонда</h2>
+                    <p class="header__sublink-sub">Экспертный совет, Попечительский совет, Правление, Команда</p>
+                  </a>
+                </li>
+                <li class="header__desktop-menu-item">
+                  <a class="header__sublinks" href="#">
+                    <h2 class="header__sublink-item">Документы</h2>
+                    <p class="header__sublink-sub">Оферта, Реквизиты, Устав Договор пожертвования</p>
+                  </a>
+                </li>
+                <li class="header__desktop-menu-item">
+                  <a class="header__sublinks" href="#">
+                    <h2 class="header__sublink-item">Отчеты</h2>
+                    <p class="header__sublink-sub">Аудит, Годовой отчёт</p>
+                  </a>
+                </li>
+                <li class="header__desktop-menu-item">
+                  <a class="header__sublinks" href="#">
+                    <h2 class="header__sublink-item">FAQ</h2>
+                    <p class="header__sublink-sub">Ответы на часто задаваемые вопросы</p>
+                  </a>
+                </li>
+                <li class="header__desktop-menu-item">
+                  <a class="header__sublinks" href="#">
+                    <h2 class="header__sublink-item">СМИ о нас</h2>
+                    <p class="header__sublink-sub">Что пишут о нас в сети интернет</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
 
-    </footer>
+            <li id="programsMenu" class="header__link-item"><a class="header__link" href="#"
+                 title="Программы">Программы</a>
+              <ul class="menu-program header__fund-about">
+                <li class="menu-program__item ">
+                  <a class="menu-program__link menu-program__link_procharity" href="#">
+                    <div class="menu-program__item-box">
+                      <img class="menu-program__logo" src="./images/menu_logo_procharity.svg" alt="procharity">
+                      <div class="menu-program__text-container">
+                        <h3 class="menu-program__item-title menu-program__item-title_margin">
+                          ProCharity
+                        </h3>
+                        <p class="menu-program__item-text">
+                          Скорая интеллектуальная помощь для благотворительных фондов
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="menu-program__link menu-program__link_school" href="#">
+                    <div class="menu-program__item-box menu-program_spacing">
+                      <img class="menu-program__logo" src="./images/moscowlogo.svg" alt="школа филантропии">
+                      <div class="menu-program__text-container">
+                        <h3 class="menu-program__item-title">
+                          Московская школа профессиональной филантропии
+                        </h3>
+                        <p class="menu-program__item-text">
+                          Повышение квалификации и профессионализма сотрудников НКО
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="menu-program__link menu-program__link_proffi" href="#">
+                    <div class="menu-program__item-box">
+                      <img class="menu-program__logo" src="./images/professionallogo.svg" alt="команда профессионалов">
+                      <div class="menu-program__text-container">
+                        <h3 class="menu-program__item-title menu-program__positioning">
+                          Команда профессионалов
+                        </h3>
+                        <p class="menu-program__item-text">
+                          Стратегическое развитие и менторская поддержка социальных
+                          проектов и НКО
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__link-item"><a class="header__link" href="#" title="Для НКО">Для НКО</a></li>
+            <li class="header__link-item"><a class="header__link" href="#" title="Для бизнеса">Для бизнеса</a></li>
+            <li class="header__link-item"><a class="header__link" href="#" title="Блог">Блог</a></li>
+            <li class="header__link-item"><a class="header__link" href="#" title="Партнеры">Партнеры</a></li>
+            <li class="header__link-item"><a class="header__link" href="#" title="Контакты">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <a class="social__link" href="#"><img class="social__icon" src="./images/vk.svg" alt="vk"></a>
+          <a class="social__link" href="#"><img class="social__icon" src="./images/telegram.svg" alt="telegram"></a>
+        </div>
+        <ul class="lang-box">
+          <li class="lang-box__link">
+            <a class="lang-box__lang-link lang-box__lang-link_active" href="#">Ру</a>
+          </li>
+          <li class="lang-box__link">
+            <a class="lang-box__lang-link" href="#">En</a>
+          </li>
+        </ul>
+      </div>
+      <button class="header__button" type="button" onclick="window.open('./help-fund-page.html')">Помочь
+        фонду</button>
 
-  </div>
+
+
+      <!--                          3 burger screen                                         -->
+      <div class=" programs header header_programs">
+        <button class="header__button-arrow" type="button">
+          <img class="header__arrow" src="./images/Arrow_left.svg" alt="arrow">
+        </button>
+        <div class="programs__item programs__item_procharity header_programs-positioning">
+          <div class="programs__item-inner programs__item-inner_padding">
+            <div class="programs__item-content">
+              <div class="programs__logo-box header_programs-padding">
+                <img src="./images/procharitylogo.svg" alt="Лого procharity">
+                Программа
+              </div>
+              <h3 class="programs__item-title">ProCharity</h3>
+              <p class="programs__item-text">
+                Скорая интеллектуальная помощь для благотворительных фондов
+              </p>
+              <a class="programs__about-link" href="#">О программе</a>
+            </div>
+          </div>
+        </div>
+        <div class="programs__item programs__item_school programs__item_align_right header_programs-positioning">
+          <div class="programs__item-inner programs__item-inner_align_end">
+            <div class="programs__item-content">
+              <div class="programs__logo-box">
+                <img src="./images/moscowlogo.svg" alt="Лого Московской переподготовки НКО ">
+                Программа
+              </div>
+              <h3 class="programs__item-title">
+                Московская школа профессиональной филантропии
+              </h3>
+              <p class="programs__item-text">
+                Повышение квалификации и профессионализма сотрудников НКО
+              </p>
+              <a class="programs__about-link" href="#">О программе</a>
+            </div>
+          </div>
+        </div>
+        <div class="programs__item programs__item_team header_programs-positioning">
+          <div class="programs__item-inner">
+            <div class="programs__item-content">
+              <div class="programs__logo-box">
+                <img src="./images/professionallogo.svg" alt="профессионалы">
+                Программа
+              </div>
+              <h3 class="programs__item-title">Команда профессионалов</h3>
+              <p class="programs__item-text">
+                Стратегическое развитие и менторская поддержка социальных
+                проектов и НКО
+              </p>
+              <a class="programs__about-link" href="#">О программе</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="content">
+    <!-- Aspl >>>-->
+    <section class="slides-foundation">
+      <div class="slider slider__foundation" data-slider data-autoplay="true" data-interval="10000">
+        <div class="slider__container">
+          <div class="slider__items">
+            <div class="slider__item slider__item_foundation">
+              <div class="foundation foundation__first-item">
+                <h2 class="foundation__title">
+                  Мы
+                  <span class="foundation__title-accent">помогаем</span> другим,
+                  чтобы они
+                  <span class="foundation__title-accent">помогали</span> другим
+                </h2>
+                <p class="foundation__subtitle">
+                  <span class="foundation__subtitle-accent">Фонд «Друзья»</span>
+                  — это фонд для тех, кто хочет приносить пользу другим людям
+                  ничего за это не беря.
+                </p>
+                <button class="foundation__program-button" onclick="location.href='#OurPrograms'" type="button">
+                  Наши программы
+                </button>
+              </div>
+            </div>
+            <div class="slider__item slider__item_foundation">
+              <div class="foundation foundation__second-item">
+                <h2 class="foundation__title">
+                  Создаем настоящую
+                  <span class="foundation__title-accent">школу, институт</span>
+                  благотворительности
+                </h2>
+                <p class="foundation__subtitle">
+                  <span class="foundation__subtitle-accent">Московская школа профессиональной филантропии</span>
+                  — это фактически акселератор НКО-проектов, который создает
+                  сообщество профессионалов.
+                </p>
+              </div>
+            </div>
+            <div class="slider__item slider__item_foundation">
+              <div class="foundation foundation__third-item">
+                <h2 class="foundation__title">
+                  Профессионализм и опыт
+                  <span class="foundation__title-accent">в дар</span>
+                </h2>
+                <p class="foundation__subtitle">
+                  <span class="foundation__subtitle-accent">Платформа интеллектуального волонтерства
+                    ProCharity</span>
+                  — Платформа интеллектуального волонтерства ProCharity —
+                  cкорая интеллектуальная помощь для благотворительных фондов.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="slider__control" data-slide="prev">
+          <span class="sr-only">Go Left</span>
+        </button>
+        <button class="slider__control" data-slide="next">
+          <span class="sr-only">Go Right</span>
+        </button>
+
+        <ol class="slider__indicators">
+          <li class="slider__indicator slider__indicator_foundation" data-slide-to="0"></li>
+          <li class="slider__indicator slider__indicator_foundation" data-slide-to="1"></li>
+          <li class="slider__indicator slider__indicator_foundation" data-slide-to="2"></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Aspl <<< -->
+
+    <!--Никита-->
+    <section class="about">
+      <div class="about__text-zone">
+        <h2 class="about__question">Чем мы занимаемся?</h2>
+        <div class="about__answer-zone">
+          <p class="about__answer">Мы помогаем некоммерческим организациям
+            становиться лучше, привлекать профессионалов и достигать своей
+            цели -
+            <span class="about__answer-bold">помощь людям.</span>
+          </p>
+          <p class="about__answer">Через свои ключевые программы «Друзья»
+            привлекают лучшие бизнес-практики в работу благотворительных
+            организаций и создают площадки для фандрайзинга и успешного
+            сотрудничества с бизнесом и государством.</p>
+        </div>
+      </div>
+      <div class="about__fig-zone">
+        <ul class="about__content-fig">
+          <li
+              class="about__fig-item about__cont-item-bulb">
+            <div class="about__bulb"></div>
+            <p class="about__activity">Находим интеллектуальных волонтеров</p>
+          </li>
+          <li
+              class="about__fig-item about__cont-item-book">
+            <div class="about__book"></div>
+            <p class="about__activity">Обучаем филантропии</p>
+          </li>
+          <li
+              class="about__fig-item about__cont-item-curve">
+            <div class="about__curve"></div>
+            <p class="about__activity">Помогаем развиваться некоммерческим организациям</p>
+          </li>
+          <li
+              class="about__fig-item about__cont-item-briefcase">
+            <div class="about__briefcase"></div>
+            <p class="about__activity">Помогаем бизнесу становиться социально ответственным</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!--Никита-->
+    <!-- Valera -->
+    <section class="programs" id="OurPrograms">
+      <h2 class="section-title">Наши программы</h2>
+      <div class="programs__item programs__item_procharity">
+        <div class="programs__item-inner">
+          <div class="programs__item-content">
+            <div class="programs__logo-box">
+              <img src="./images/procharitylogo.svg" alt="Лого procharity">
+              Программа
+            </div>
+            <h3 class="programs__item-title">ProCharity</h3>
+            <p class="programs__item-text">
+              Скорая интеллектуальная помощь для благотворительных фондов
+            </p>
+            <a class="programs__about-link" href="#">О программе</a>
+          </div>
+        </div>
+      </div>
+      <div class="programs__item programs__item_school programs__item_align_right">
+        <div class="programs__item-inner programs__item-inner_align_end">
+          <div class="programs__item-content">
+            <div class="programs__logo-box">
+              <img src="./images/moscowlogo.svg" alt="Лого Московской переподготовки НКО ">
+              Программа
+            </div>
+            <h3 class="programs__item-title">
+              Московская школа профессиональной филантропии
+            </h3>
+            <p class="programs__item-text">
+              Повышение квалификации и профессионализма сотрудников НКО
+            </p>
+            <a class="programs__about-link" href="#">О программе</a>
+          </div>
+        </div>
+      </div>
+      <div class="programs__item programs__item_team">
+        <div class="programs__item-inner">
+          <div class="programs__item-content">
+            <div class="programs__logo-box">
+              <img src="./images/professionallogo.svg" alt="Программа">
+              Программа
+            </div>
+            <h3 class="programs__item-title">Команда профессионалов</h3>
+            <p class="programs__item-text">
+              Стратегическое развитие и менторская поддержка социальных
+              проектов и НКО
+            </p>
+            <a class="programs__about-link" href="#">О программе</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gohar -->
+    <section class="values">
+      <h2 class="section-title">Наши ценности</h2>
+      <div class="values__container">
+        <ul class="values__element">
+          <li class="values__image-container">
+            <img class="values__image" src="./images/values_education.svg" alt="образование">
+          </li>
+          <li class="values__text-container">
+            <p class="values__text">Образование и профессионализм</p>
+          </li>
+        </ul>
+        <ul class="values__element">
+          <li class="values__image-container">
+            <img class="values__image" src="./images/values_planning.svg" alt="планирование">
+          </li>
+          <li class="values__text-container">
+            <p class="values__text">Планирование и устойчивость</p>
+          </li>
+        </ul>
+        <ul class="values__element">
+          <li class="values__image-container">
+            <img class="values__image" src="./images/values_approach.svg" alt="подход">
+          </li>
+          <li class="values__text-container">
+            <p class="values__text">Системный подход к решениям</p>
+          </li>
+        </ul>
+        <ul class="values__element">
+          <li class="values__image-container">
+            <img class="values__image" src="./images/values_partnership.svg" alt="партнерство">
+          </li>
+          <li class="values__text-container">
+            <p class="values__text">Объединение и партнерство</p>
+          </li>
+        </ul>
+        <ul class="values__element">
+          <li class="values__image-container">
+            <img class="values__image" src="./images/values_effect.svg" alt="эффект">
+          </li>
+          <li class="values__text-container">
+            <p class="values__text">Измеримый эффект</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Gohar -->
+    <!-- Tolkin -->
+    <section class="digits">
+      <ul class="digits__list">
+        <li class="digits__frame">
+          <h3 class="digits__title">2500</h3>
+          <p class="digits__paragraph">
+            НКО <span class="digits__span-accent">стали</span> участниками
+            наших программ
+          </p>
+        </li>
+        <li class="digits__frame">
+          <h3 class="digits__title">150</h3>
+          <p class="digits__paragraph">
+            <span class="digits__span-accent">Профессионалов</span>
+            благотворительности получили дипломы
+          </p>
+        </li>
+        <li class="digits__frame">
+          <h3 class="digits__title">4000</h3>
+          <p class="digits__paragraph">
+            Волонтеров
+            <span class="digits__span-accent">было привлечено</span> через нас
+            для помощи различным НКО
+          </p>
+        </li>
+        <li class="digits__frame">
+          <h3 class="digits__title">250</h3>
+          <p class="digits__paragraph">
+            Экспертов <span class="digits__span-accent">преподают</span> в
+            наших программах
+          </p>
+        </li>
+      </ul>
+    </section>
+    <!-- Test rules -->
+    <!-- Tolkin -->
+    <!--      Ars-->
+    <section class="useful">
+      <h2 class="section-title">Полезно</h2>
+      <ul class="useful__list">
+        <li class="useful__list-no-marg">
+          <a class="useful__list-elem useful__list-elem_backgr_blue" href="#">
+            <h3 class="useful__list-title">Как научиться быть настоящим филантропом?</h3>
+            <p class="useful__list-subtitle">Читать</p>
+          </a>
+        </li>
+        <li class="useful__list-no-marg">
+          <a class="useful__list-elem useful__list-elem_backgr_red" href="#">
+            <h3 class="useful__list-title">Лучшие книги о&nbsp;благотворительности</h3>
+            <p class="useful__list-subtitle">Читать</p>
+          </a>
+        </li>
+        <li class="useful__list-no-marg">
+          <a class="useful__list-elem useful__list-elem_backgr_yell" href="#">
+            <h3 class="useful__list-title">Как проверить благотворительный фонд?</h3>
+            <p class="useful__list-subtitle">Читать</p>
+          </a>
+        </li>
+        <li class="useful__list-marg">
+          <a class="useful__list-elem useful__list-elem_backgr_blueb" href="#">
+            <h3 class="useful__list-title">Отчетность фонда</h3>
+            <p class="useful__list-subtitle">Смотреть</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <!--      Ars-->
+    <!--      Ars-->
+    <section class="friends">
+      <div class="slider slider__friends" data-slider data-autoplay="true" data-interval="10000">
+        <h2 class="section-title">Наши друзья</h2>
+        <div class="slider__container">
+          <div class="slider__items">
+            <div class="slider__item friends__slider-item">
+              <!-- <h2 class="friends__title font">Наши друзья</h2> -->
+              <div class="friends__wrapper">
+                <div class="friends__quote">
+                  <p class="friends__quote-text font">
+                    Мы пытаемся изменить «ландшафт», чтобы проблемы в сфере
+                    детской онкологии решались
+                    <span class="friends__quote-span">системно</span>
+                  </p>
+                  <p class="friends__quote-author font">
+                    <span class="friends__quote-bold">Чулпан Хаматова</span>, актриса, учредитель фонда «Подари
+                    жизнь»
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="slider__item friends__slider-item">
+              <!-- <h2 class="friends__title font">Наши друзья</h2> -->
+              <div class="friends__wrapper">
+                <div class="friends__quote">
+                  <p class="friends__quote-text font">
+                    Смысл нашей работы в том, чтобы человеку в конце жизни
+                    было не больно, не стыдно и не одиноко —
+                    <span class="friends__quote-span">а значит, не страшно</span>
+                  </p>
+                  <p class="friends__quote-author font">
+                    <span class="friends__quote-bold">Ингеборга Дапкунайте</span>, актриса, сопредседатель
+                    попечительского совета Фонда
+                    помощи хосписам “Вера”
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="slider__item friends__slider-item">
+              <!-- <h2 class="friends__title font">Наши друзья</h2> -->
+              <div class="friends__wrapper">
+                <div class="friends__quote">
+                  <p class="friends__quote-text font">
+                    Я фанат своего дела, но главным предназначением считаю
+                    помощь
+                    <span class="friends__quote-span">людям</span>
+                  </p>
+                  <p class="friends__quote-author font">
+                    <span class="friends__quote-bold">Александр Петров</span>, актер, попечитель фонда “Дом с
+                    маяком”
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="slider__item friends__slider-item">
+              <div class="friends__wrapper">
+                <div class="friends__quote">
+                  <p class="friends__quote-text font">
+                    Даже самые небольшие пожертвования делают очень большое
+                    дело и оказывают действительно
+                    <span class="friends__quote-span">огромную помощь</span>
+                  </p>
+                  <p class="friends__quote-author font">
+                    <span class="friends__quote-bold">Данила Козловский</span>, актер, попечитель фонда
+                    “Дети-бабочки”
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="slider__item friends__slider-item">
+              <div class="friends__wrapper">
+                <div class="friends__quote">
+                  <p class="friends__quote-text font">
+                    Меняя отношение к пожилым сейчас, мы создаем будущее, где
+                    будет
+                    <span class="friends__quote-span">комфортно всем</span>
+                  </p>
+                  <p class="friends__quote-author font">
+                    <span class="friends__quote-bold">Лиза Арзамасова</span>, актриса, член попечительского совета
+                    фонда “Старость в
+                    радость”
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="slider__item friends__slider-item">
+              <div class="friends__wrapper">
+                <div class="friends__quote">
+                  <p class="friends__quote-text font">
+                    Трудные подростки — это не трудные дети,это дети,
+                    <span class="friends__quote-span">которым трудно</span>
+                  </p>
+                  <p class="friends__quote-author font">
+                    <span class="friends__quote-bold">Саша Бортич</span>,
+                    Актриса, попечительница фонда “Шалаш”
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="slider__item friends__slider-item">
+              <div class="friends__wrapper">
+                <div class="friends__quote">
+                  <p class="friends__quote-text font">
+                    Причин оказаться без крыши над головой — сотни. Если
+                    кто-то думает, что он застрахован от этого,
+                    <span class="friends__quote-span">то ошибается</span>
+                  </p>
+                  <p class="friends__quote-author font">
+                    <span class="friends__quote-bold">Юрий Шевчук</span>,
+                    музыкант, друг благотворительной организации «Ночлежка»
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="slider__control" data-slide="prev">
+          <span class="sr-only">Go Left</span>
+        </button>
+        <button class="slider__control" data-slide="next">
+          <span class="sr-only">Go Right</span>
+        </button>
+        <ol class="slider__indicators friends__slider-indicators">
+          <li class="slider__indicator" data-slide-to="0"></li>
+          <li class="slider__indicator" data-slide-to="1"></li>
+          <li class="slider__indicator" data-slide-to="2"></li>
+          <li class="slider__indicator" data-slide-to="3"></li>
+          <li class="slider__indicator" data-slide-to="4"></li>
+          <li class="slider__indicator" data-slide-to="5"></li>
+          <li class="slider__indicator" data-slide-to="6"></li>
+        </ol>
+      </div>
+    </section>
+    <!--      Ars-->
+    <!-- Sergega blocks -->
+    <section class="blog">
+      <h1 class="blog__title">Блог</h1>
+      <div class="slider" data-slider data-autoplay="true" data-interval="10000">
+        <div class="slider__container blog__container">
+          <div class="blog__cards slider__items">
+            <div class="blog__main-card">
+              <a href="" class="blog__link">Статистика</a>
+              <p class="blog__main-card-date">7 Июля 2021</p>
+              <h2 class="blog__main-card-title">Россияне
+                и благотворительность</h2>
+              <p class="blog__main-card-text">Что статистика знает о добрых делах</p>
+            </div>
+            <div class="slider__item blog__card blog__main-card_visible">
+              <img src="./images/blog_lead-background.png" alt="" class="blog__card-img">
+              <p class="blog__card-date">7 Июля 2021</p>
+              <h2 class="blog__card-title">Россияне
+                и благотворительность</h2>
+              <p class="blog__card-text">Что статистика знает о добрых делах</p>
+            </div>
+            <div class="slider__item blog__card">
+              <img src="./images/blog_element-img.png" alt="выпускной МШПФ" class="blog__card-img">
+              <p class="blog__card-date">7 Июля 2021</p>
+              <h2 class="blog__card-title">Выпускной МШПФ 3.0</h2>
+              <p class="blog__card-text">Выпуск уже третьего набора Московской Школы Профессиональной Филантропии</p>
+            </div>
+            <div class="slider__item blog__card">
+              <img src="./images/blog_element-img1.png" alt="благотворительность в России" class="blog__card-img">
+              <a href="" class="blog__link blog__link_color">Разбор</a>
+              <p class="blog__card-date">7 Июля 2021</p>
+              <h2 class="blog__card-title">Благотворительность в России</h2>
+              <p class="blog__card-text">Как работает благотворительность в России: кто, как, почему и сколько жертвует
+                другим</p>
+            </div>
+            <div class="slider__item blog__card">
+              <img src="./images/blog_element-img2.png" alt="пожертвования" class="blog__card-img">
+              <p class="blog__card-date">7 Июля 2021</p>
+              <h2 class="blog__card-title">Кому жертвуют в России?</h2>
+              <p class="blog__card-text">Самые частые случаи благотворительности — поддержка детей, религиозных ..</p>
+            </div>
+            <div class="slider__item blog__card">
+              <img src="./images/blog_element-img3.png" alt="день рождения фонда" class="blog__card-img">
+              <p class="blog__card-date">7 Июля 2021</p>
+              <h2 class="blog__card-title">День рождения фонда «Друзья»</h2>
+              <p class="blog__card-text">День, в который собрались все друзья фонда.</p>
+            </div>
+          </div>
+        </div>
+        <ol class="blog__slider-indicators slider__indicators">
+          <li class="blog__slider-indicator slider__indicator" data-slide-to="0"></li>
+          <li class="blog__slider-indicator slider__indicator" data-slide-to="1"></li>
+          <li class="blog__slider-indicator slider__indicator" data-slide-to="2"></li>
+          <li class="blog__slider-indicator slider__indicator" data-slide-to="3"></li>
+          <li class="blog__slider-indicator slider__indicator" data-slide-to="4"></li>
+        </ol>
+        <button class="blog__button">Перейти в блог</button>
+      </div>
+    </section>
+    <!-- Sergega blocks -->
+    <!--      Ars-->
+    <section class="subscribe" aria-label="subscription">
+      <div class="subscribe__wrapper">
+        <p class="subscribe__title">
+          Подпишитесь на&nbsp;новостную рассылку программы
+        </p>
+        <p class="subscribe__subtitle">
+          и получайте первыми наши новости и приглашения на семинары/вебинары
+        </p>
+      </div>
+      <form class="subscribe__form">
+        <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="subscribe__email"
+               placeholder="Введите ваш e-mail" required>
+        <button type="submit" class="subscribe__btn">Подписаться</button>
+      </form>
+
+
+    </section>
+    <!--      Ars-->
+    <!--      Valera-->
+    <section class="partners">
+      <h2 class="section-title section-title_partners">Нам доверяют</h2>
+      <div class="slider partners__slider-container" data-slider data-loop="false" data-autoplay="true"
+           data-interval="1000">
+        <div class="slider__container">
+          <div class="slider__items partners__slider-items">
+            <div class="slider__item partners__slider-item">
+              <div class="partners__logo-box">
+                <a href="#"><img src="images/partners_ey.svg" class="partners__logo" alt="Ernst & Young"></a>
+              </div>
+            </div>
+            <div class="slider__item partners__slider-item">
+              <div class="partners__logo-box">
+                <a href="#"><img src="./images/partners_roskongress.svg" class="partners__logo" alt="РОСКОНГРЕСС"></a>
+              </div>
+            </div>
+            <div class="slider__item partners__slider-item">
+              <div class="partners__logo-box">
+                <a href="#"><img src="./images/partners_mastercard.svg" class="partners__logo" alt="mastercard"></a>
+              </div>
+            </div>
+            <div class="slider__item partners__slider-item">
+              <div class="partners__logo-box">
+                <a href="#"><img src="./images/partners_hotelindigo.svg" class="partners__logo" alt="Hotel Indigo"></a>
+              </div>
+            </div>
+            <div class="slider__item partners__slider-item">
+              <div class="partners__logo-box">
+                <a href="#"><img src="images/partners_bmw.svg" class="partners__logo" alt="BMW"></a>
+              </div>
+            </div>
+            <div class="slider__item partners__slider-item">
+              <div class="partners__logo-box">
+                <a href="#"><img src="images/partners_kpmg.svg" class="partners__logo" alt="KPMG"></a>
+              </div>
+            </div>
+            <div class="slider__item partners__slider-item">
+              <div class="partners__logo-box">
+                <a href="#"><img src="./images/partners_vshe.svg" class="partners__logo"
+                       alt="Высшая Школа Экономики"></a>
+              </div>
+            </div>
+            <div class="slider__item partners__slider-item">
+              <div class="partners__logo-box">
+                <a href="#"><img src="images/partners_bosco.svg" class="partners__logo" alt="Bosco di Ciliegi"></a>
+              </div>
+            </div>
+            <div class="slider__item partners__slider-item">
+              <div class="partners__logo-box">
+                <a href="#"><img src="images/partners_alfaprivate.svg" class="partners__logo" alt="Альфа банк"></a>
+              </div>
+            </div>
+            <div class="slider__item partners__slider-item">
+              <div class="partners__logo-box">
+                <a href="#"><img src="./images/partners_cadillac.svg" class="partners__logo" alt="Cadillac"></a>
+              </div>
+            </div>
+
+            <div class="slider__item partners__slider-item">
+              <div class="partners__logo-box">
+                <a href="#"><img src="images/partners_philin.svg" class="partners__logo" alt="Phillin"></a>
+              </div>
+            </div>
+            <div class="slider__item partners__slider-item">
+              <div class="partners__logo-box">
+                <a href="#"><img src="images/partners_mamm.svg" class="partners__logo" alt="MAMM"></a>
+              </div>
+            </div>
+            <div class="slider__item partners__slider-item partners__slider-item_more">
+              <div class="partners__logo-box">
+                <!--<a href="#"><img src="./images/Frame 8.svg" class="partners__logo" alt="Посмотреть все"><svg-->
+                <a class="partners__more-link" href="#">Посмотреть&nbsp;все</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="slider__control" data-slide="prev">
+          <span class="sr-only">Go Left</span>
+        </button>
+        <button class="slider__control" data-slide="next">
+          <span class="sr-only">Go Right</span>
+        </button>
+      </div>
+    </section>
+    <!--      Valera-->
+    <!--      Ars      -->
+    <section class="contacts">
+      <h2 class="contacts__title">
+        Остались&nbsp;вопросы? Пишите&nbsp;и&nbsp;звоните нам
+      </h2>
+      <a href="mailto:friends@friends-foundation.com" class="contacts__info">friends@friends-foundation.com</a>
+      <a href="tel:+79772770717" class="contacts__info">+7 977 277-07-17</a>
+    </section>
+    <!--      Ars      -->
+    <!-- ASPL >> -->
+    <section class="support support_onepage">
+
+      <h3 class="support__title">
+        Поддержите «друзей» или станьте
+        <span class="support__title-accent">нашим партнером</span>
+      </h3>
+
+      <div class="supportForm">
+        <h3 class="supportForm__title">Поддержать Друзей:</h3>
+
+        <div class="switch switch_pageOne">
+          <label for="one" class="switch__label switch__labelOne">
+            <input class="switch__input switch__inputOne switch__item switch__item_el_switch-time" name="switch"
+                   id="one" type="radio" checked>
+            <span
+                  class="switch__visible-radio switch__visible-radio_el_time switch__visible-radio_el_single">разовое</span>
+          </label>
+          <label for="two" class="switch__label switch__labelTwo">
+            <input class="switch__input switch__inputTwo switch__item switch__item_el_switch-time" name="switch"
+                   id="two" type="radio">
+            <span
+                  class="switch__visible-radio switch__visible-radio_el_time switch__visible-radio_el_monthly">ежемесячное</span>
+          </label>
+          <div class="switch__indicator"></div>
+        </div>
+
+        <div class="grid-support">
+          <input class="grid-support__money-input grid-support__money-inputOne" name="money" type="radio"
+                 id="money_radio_1" checked>
+          <label class="grid-support__money-label grid-support__money-labelOne" for="money_radio_1"></label>
+
+          <input class="grid-support__money-input grid-support__money-inputTwo" name="money" type="radio"
+                 id="money_radio_2">
+          <label class="grid-support__money-label grid-support__money-labelTwo" for="money_radio_2"></label>
+
+          <input class="grid-support__money-input grid-support__money-inputThree" name="money" type="radio"
+                 id="money_radio_3">
+          <label class="grid-support__money-label grid-support__money-labelThree" for="money_radio_3"></label>
+
+          <input class="grid-support__input grid-support__input_title" type="number" name="name" id="field-sum"
+                 placeholder="Другая сумма">
+        </div>
+        <button class="support-button" type="button">
+          Поддержать фонд
+        </button>
+      </div>
+
+
+    </section>
+    <!-- ASPL << -->
+  </main>
+  <!-- Gohar << -->
+  <footer class="footer">
+    <div class="footer__container">
+      <img class="footer__logo" src="./images/footer_logo.svg" alt="logo">
+      <nav class="footer__menu">
+        <ul class="footer__menu-items">
+          <li class="footer__menu-item">
+            <a class="footer__link" href="#">Фонд</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__link" href="#">Программы</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__link" href="#">Для НКО</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__link" href="#">Для бизнеса</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__link" href="#">Блог</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__link" href="#">Партнеры</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__link" href="#">Контакты</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__link footer__link_transform" href="#">Помочь фонду</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer__contact-container">
+      <p class="footer__contact">
+        Написать нам:&emsp;<a class="footer__contact-details"
+           href="mailto:friends@friends-foundation.com">friends@friends-foundation.com</a>
+      </p>
+      <p class="footer__contact">
+        Позвонить нам:&emsp;<a class="footer__contact-details" href="tel:+79772770717">+7 977 277-07-17</a>
+      </p>
+      <div class="footer__social">
+        <p class="footer__contact">Мы в соцсетях:</p>
+        <a class="footer__social-link" href="#"><img class="footer__social-icon" src="./images/footer_vk.svg"
+               alt="vk"></a>
+        <a class="footer__social-link" href="#"><img class="footer__social-icon" src="./images/footer_telegram.svg"
+               alt="telegram"></a>
+      </div>
+    </div>
+    <div class="footer__variety">
+      <div class="footer__wrapper">
+        <img class="footer__adultsonly" src="./images/footer_adult.svg" alt="adultsonly">
+        <p class="footer__copyright">
+          © 2021 Фонд «Друзья» Все права защищены.
+        </p>
+      </div>
+      <p class="footer__otherrights">
+        Исключительные права на фото- и иные материалы принадлежат авторам.
+        Любое размещение материалов на сторонних ресурсах необходимо
+        согласовывать с правообладателями.
+      </p>
+      <img class="footer__registered" src="./images/footer_registered.svg" alt="duns registered">
+    </div>
+  </footer>
 </body>
+
 </html>

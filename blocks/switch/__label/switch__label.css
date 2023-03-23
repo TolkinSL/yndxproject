@@ -1,0 +1,38 @@
+.switch__label {
+  width: 300px;
+  height: 32px;
+  transition: color 2s ease-out;
+  /* z-index: 15; */
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 1.7;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+
+  color: #999999;
+  cursor: pointer;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+@media screen and (max-width: 967px) {
+  .switch__label {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .switch__label {
+    width: 165px;
+  }
+}
+
+
+

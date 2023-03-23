@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* show only to screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.blog-slider__item {
+  height: 700px;
+}
+
+
+.blog-slider__item {
+  height: 392px;
+}
+
+.slider__item_foundation {
+  height: 626px;
+}
+
+
+
+@media screen and (max-width: 567px) {
+  .slider__item_foundation {
+    min-height: 486px;
+  }
+}

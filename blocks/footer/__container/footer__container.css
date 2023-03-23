@@ -1,0 +1,24 @@
+.footer__container {
+  box-sizing: border-box;
+  width: 81%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
+  margin: 0;
+  padding: 90px 0 52px;
+}
+
+@media screen and (max-width: 1080px) {
+  .footer__container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__container {
+    flex-direction: column;
+    width: 87%;
+    padding: 24px 0 0;
+  }
+}

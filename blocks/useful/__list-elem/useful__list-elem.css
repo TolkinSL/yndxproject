@@ -1,0 +1,35 @@
+.useful__list-elem {
+  width: 100%;
+  min-width: 343px;
+  height: 208px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 44px 0 0 44px;
+  background-color: #F8F8F8;
+  text-decoration: none;
+  transition: all 0.6s;
+}
+
+@media screen and (max-width: 1040px) {
+  .useful__list-elem {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .useful__list-elem {
+    padding: 32px 0 0 24px;
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .useful__list-elem {
+    padding: 28px 0 0 12px;
+  }
+}
+
+.useful__list-elem:hover {
+  background-color: #FFFFFF;
+  box-shadow: 0 20px 52px rgba(95, 97, 113, 0.12);
+}

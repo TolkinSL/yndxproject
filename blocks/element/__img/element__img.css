@@ -1,0 +1,12 @@
+.element__img {
+  max-width: 328px;
+  max-height: 216px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  margin: 0;
+}
+@media screen  and (max-width: 750px) {
+  .element__img {
+    max-width: 320px;
+  }
+}

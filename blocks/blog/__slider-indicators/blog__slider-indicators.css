@@ -1,0 +1,13 @@
+.blog__slider-indicators{
+    display: none;
+}
+@media screen and (max-width:767px){
+    .blog__slider-indicators{
+        position: absolute;
+        right: 0;
+        bottom: 45px;
+        left: 0;
+        z-index: 15;
+        display: flex;
+    }
+}

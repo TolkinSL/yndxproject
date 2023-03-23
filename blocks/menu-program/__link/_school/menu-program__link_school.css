@@ -1,0 +1,8 @@
+.menu-program__link_school {
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+.menu-program__link_school:hover {
+  background-color: #528cbe;
+}

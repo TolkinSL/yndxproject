@@ -1,0 +1,18 @@
+.blog__cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(327px, 1fr));
+    gap: 24px;
+}
+@media screen  and (max-width: 1033px){
+    .blog__cards{
+        gap: 15px;
+    }
+}
+@media screen and (max-width:767px){
+    .blog__cards{
+        display: flex;
+        justify-content:space-around;
+        gap:0;
+
+    }
+}

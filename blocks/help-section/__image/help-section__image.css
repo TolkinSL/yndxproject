@@ -1,0 +1,17 @@
+.help-section__image {
+  width: 40%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1080px) {
+  .help-section__image {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .help-section__image {
+    width: 100%;
+  }
+}

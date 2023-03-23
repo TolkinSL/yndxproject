@@ -1,0 +1,26 @@
+.programs__item_procharity {
+  background-image: url("../../../../images/programs_img_1.png");
+  background-color: #77c5d5;
+  padding-left: 124px;
+}
+
+@media (max-width: 1080px) {
+  .programs__item_procharity {
+    padding-left: 38px;
+  }
+}
+
+@media (max-width: 767px) {
+  .programs__item_procharity {
+    background-image: none;
+    padding-left: 24px;
+
+  }
+}
+
+@media (max-width:374px) {
+  .programs__item_procharity {
+    padding-left: 18px;
+
+  }
+}

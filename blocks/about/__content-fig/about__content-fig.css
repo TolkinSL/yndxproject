@@ -1,0 +1,14 @@
+.about__content-fig {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+  .about__content-fig {
+    padding-top: 34px;
+    margin: 0 8px;
+  }
+}

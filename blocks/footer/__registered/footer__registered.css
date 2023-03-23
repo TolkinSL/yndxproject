@@ -1,0 +1,21 @@
+.footer__registered {
+  display: block;
+  width: 36px;
+  height: 31px;
+  margin-top: 4px;
+  margin-right: 0;
+  margin-left: auto;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__registered {
+    margin-top: 11px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .footer__registered {
+    margin-top: 28px;
+  }
+}

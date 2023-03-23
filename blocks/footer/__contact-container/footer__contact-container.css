@@ -1,0 +1,25 @@
+.footer__contact-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 81%;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
+  margin: 0;
+  padding: 31px 0 21px;
+}
+
+@media screen and (max-width: 1080px) {
+  .footer__contact-container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__contact-container {
+    flex-direction: column;
+    row-gap: 16px;
+    width: 87%;
+    padding: 24px 0 24px;
+  }
+}

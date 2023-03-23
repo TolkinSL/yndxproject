@@ -1,0 +1,20 @@
+.switch__inputTwo:checked~.switch__indicator {
+  transform: translate3d(275px, 0, 0);
+}
+
+@media screen and (max-width: 967px) {
+  .switch__inputTwo:checked~.switch__indicator {
+    transform: translate3d(165px, 0, 0);
+  }
+}
+
+
+@media screen and (max-width: 374px) {
+  .switch__inputTwo:checked~.switch__indicator {
+    transform: translate3d(130px, 0, 0);
+  }
+}
+
+.switch__inputTwo:checked ~ .switch__labelTwo {
+  color: #f8f8f8;
+}

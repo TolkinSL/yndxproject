@@ -1,0 +1,24 @@
+.menu-program {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 56px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 1080px) {
+  .menu-program {
+    margin-top: -10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .menu-program {
+    display: none;
+  }
+}

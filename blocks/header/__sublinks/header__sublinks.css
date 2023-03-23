@@ -1,0 +1,22 @@
+.header__sublinks {
+  /*display: inline;*/
+  /*width: 100%;
+  /*padding: 10px 0 0;*/
+
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+  .header__sublinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*box-sizing: border-box;*/
+    text-align: center;
+    width: 90%;
+    /*margin: 0;*/
+  }
+}

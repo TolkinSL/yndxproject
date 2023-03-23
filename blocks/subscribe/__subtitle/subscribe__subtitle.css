@@ -1,0 +1,23 @@
+.subscribe__subtitle {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #000000;
+  max-width: 450px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1080px) {
+  .subscribe__subtitle {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .subscribe__subtitle {
+    max-width: 400px;
+    line-height: 1.39;
+  }
+}

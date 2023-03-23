@@ -1,0 +1,13 @@
+.help-section__link {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #54a8b6;
+  text-decoration: none;
+}
+
+.help-section__link:hover {
+  opacity: 0.6;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+}

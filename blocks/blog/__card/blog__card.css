@@ -1,0 +1,16 @@
+.blog__card{
+    max-width: 328px;
+    background: #F8F8F8;
+    position: relative;
+    box-sizing: content-box;
+}
+.blog__card:hover .blog__card-title{
+    color: #54A8B6;
+}
+@media screen and (max-width:767px){
+    .blog__card{
+        background: white;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}

@@ -1,0 +1,30 @@
+.switch__indicator {
+  width: 275px;
+  height: 32px;
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  background: #82607d;
+
+  border-radius: 30px;
+  transition: transform 200ms cubic-bezier(0.02, 0.94, 0.09, 0.97),
+    background 200ms cubic-bezier(0.17, 0.97, 0.14, 1.03);
+  visibility: hidden;
+}
+
+@media screen and (max-width: 967px) {
+  .switch__indicator {
+    top: 0;
+    left: 0;
+    width: 164px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .switch__indicator {
+    top: 0;
+    left: 0;
+    width: 130px;
+  }
+}

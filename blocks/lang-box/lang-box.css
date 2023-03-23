@@ -1,0 +1,24 @@
+.lang-box {
+  box-sizing: border-box;
+  display: flex;
+  width: 6%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 1080px) {
+  .lang-box {
+    width: 9%;
+    padding: 4px;
+    max-width: 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lang-box {
+    width: 26%;
+    max-width: 96px;
+  }
+}

@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+  .header__programs_padding {
+    padding-top: 20px;
+  }
+}

@@ -1,0 +1,13 @@
+.bankCard-Front__placeholders-number {
+  margin-bottom: 8px;
+  border: none;
+  height: 56px;
+  width: 308px;
+  padding-left: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .bankCard-Front__placeholders-number {
+    width: 279px;
+  }
+}

@@ -1,0 +1,18 @@
+.blog{
+    margin: 96px auto 96px auto;
+    align-items: center;
+    max-width: 1032px;
+    box-sizing: content-box;
+}
+@media screen  and (max-width: 1033px){
+    .blog{
+        max-width: 688px;
+    }
+}
+@media screen and (max-width:680px){
+    .blog{
+        max-width: 688px;
+        position: relative;
+        margin: 56px auto 56px auto;
+    }
+}

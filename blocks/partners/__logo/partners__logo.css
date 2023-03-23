@@ -1,0 +1,19 @@
+.partners__logo {
+  max-width: 100%;
+  filter: grayscale(1);
+  opacity: 0.5;
+  height: 124px;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+.partners__logo:hover {
+  filter: grayscale(0);
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .partners__logo {
+    height: 80px;
+  }
+}

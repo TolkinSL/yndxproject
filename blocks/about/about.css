@@ -1,0 +1,10 @@
+.about {
+  margin: 0 auto;
+  padding: 96px 124px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    padding: 56px 0 0;
+  }
+}

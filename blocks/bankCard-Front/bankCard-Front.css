@@ -1,0 +1,20 @@
+.bankCard-Front {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 364px;
+  height: 267px;
+  background: #f8f8f8;
+  border-radius: 8px;
+  position: relative;
+  z-index: 10;
+}
+
+@media screen and (max-width: 767px) {
+  .bankCard-Front {
+    height: 338px;
+    width: 311px;
+    /* ///////////////// */
+    margin: 0 auto;
+  }
+}

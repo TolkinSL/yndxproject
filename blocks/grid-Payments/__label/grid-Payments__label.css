@@ -1,0 +1,15 @@
+.grid-Payments__label {
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 170px;
+  height: 57px;
+  background-position: center;
+}
+
+@media screen and (max-width: 767px) {
+  .grid-Payments__label {
+    width: 311px;
+    height: 57px;
+  }
+}

@@ -1,0 +1,38 @@
+.header__button {
+  width: 17%;
+  background-color: #eeb250;
+  border: none;
+  min-height: 56px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #fff;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+  margin: 0;
+  padding: 0;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+.header__button:hover {
+  background-color: #E8AD4D;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 1080px) {
+  .header__button {
+    font-size: 10px;
+    width: 15%;
+    min-height: 48px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__button {
+    width: 36%;
+    font-size: 14px;
+    margin-left: auto;
+  }
+}

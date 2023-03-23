@@ -1,0 +1,30 @@
+.switch__visible-radio {
+  display: inline-block;
+  vertical-align: middle;
+  border: 0;
+  background-color: #F8F8F8;
+  text-align:center;
+  padding-top: 10px;
+  font-weight: 700;
+  line-height: 20px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+
+.switch__item:checked + .switch__visible-radio {
+  background-color: #82607D;
+  z-index: 100;
+  color: #F8F8F8;
+  transition: background-color 2s;
+}
+
+.switch__item_el_switch-time:checked + .switch__visible-radio {
+  background-color: #82607D;
+  color: #F8F8F8;
+  transition: background-color 2s;
+}
+
+
+
+

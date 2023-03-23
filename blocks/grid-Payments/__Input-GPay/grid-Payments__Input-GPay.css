@@ -1,0 +1,3 @@
+.grid-Payments__Input-GPay:checked~.grid-Payments__googlePay-label {
+  background-image: url("../../../images/Gpay-active.svg");
+}

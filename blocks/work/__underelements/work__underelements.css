@@ -1,0 +1,6 @@
+.work__underelements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

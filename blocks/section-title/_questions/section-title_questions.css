@@ -1,0 +1,9 @@
+.section-title_questions {
+  padding-bottom: 8px;
+}
+
+@media (max-width: 767px) {
+  .section-title_questions {
+    padding-bottom: 0px;
+  }
+}

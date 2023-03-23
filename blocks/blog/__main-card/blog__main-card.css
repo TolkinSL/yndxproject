@@ -1,0 +1,14 @@
+.blog__main-card{
+    background-image: url('../../../images/blog_lead-background.png');
+    width: 680px;
+    grid-column: 1/span 2;
+    position: relative;
+}
+.blog__main-card:hover .blog__main-card-title{
+    color: #54A8B6;
+}
+@media screen and (max-width:767px){
+    .blog__main-card{
+        display: none;
+    }
+}

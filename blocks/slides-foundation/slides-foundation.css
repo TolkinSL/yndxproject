@@ -1,0 +1,11 @@
+.slides-foundation {
+  padding-top: 56px;
+}
+
+@media screen and (max-width: 1080px) {
+  .slides-foundation {
+    padding-top: 48px;
+  }
+}
+
+
